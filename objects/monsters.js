@@ -505,11 +505,77 @@ let monsters = {
     drake_slime: {
         name: "Drake Slime",
         number: null,
-        rank: "F"
+        rank: "F",
+        family: "Slime",
+        description: null,
+        growth: null,
+        talents: null,
+        traits: {
+            small: {
+                ace_evader: 1,
+                insta_accel: 20,
+                critical_moment: 40
+            },
+            large: null
+        },
+        resistances: {
+            fire: 50,
+            water: 0,
+            wind: 0,
+            earth: -25,
+            explosions: 50,
+            ice: 0,
+            electricity: 50,
+            light: 25,
+            dark: 0,
+            debilitation: 25,
+            bedazzlement: 50,
+            antimagic: 25,
+            mp_absorption: -25,
+            confusion: 0,
+            sleep: 25,
+            paralysis: 50,
+            stun: 0,
+            poison: 0,
+            instant_death: 0
+        }
     },
     onion_slime: {
         name: "Onion Slime",
         number: null,
-        rank: "F"
+        rank: "F",
+        family: "Slime",
+        description: null,
+        growth: null,
+        talents: null,
+        traits: {
+            small: {
+                cragmeister: 1,
+                ultra_crafty_dazzler: 20,
+                rando_mister: 40
+            },
+            large: null
+        },
+        resistances: {
+            fire: 0,
+            water: 50,
+            wind: 0,
+            earth: 0,
+            explosions: 25,
+            ice: 0,
+            electricity: 50,
+            light: 50,
+            dark: -25,
+            debilitation: 0,
+            bedazzlement: 50,
+            antimagic: 0,
+            mp_absorption: -25,
+            confusion: 50,
+            sleep: 0,
+            paralysis: 50,
+            stun: 25,
+            poison: 0,
+            instant_death: 0
+        }
     }
 };
