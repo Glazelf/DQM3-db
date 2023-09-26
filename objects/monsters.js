@@ -4,6 +4,7 @@ let monsters = {
         rank: "G",
         number: 1,
         family: "Slime",
+        desc: "Adored by all for its flexy physique and funny face, this little monster is something of an icon. Who wouldn't want one for a pal?",
         growth: {
             hp: 1,
             mp: 2,
@@ -52,6 +53,7 @@ let monsters = {
         rank: "G",
         number: 6,
         family: "Slime",
+        desc: "Slimes which sprouted wings after dreaming of soaring through the sky. Their wings double up as a snug sleeping bag at night.",
         growth: {
             hp: 1,
             mp: 3,
@@ -100,6 +102,7 @@ let monsters = {
         rank: "G",
         number: 65,
         family: "Dragon",
+        desc: "Cursed thickets of thorn tangled into draconic shape. Those entwined in their terrifying clutches have no hope of escape.",
         growth: {
             hp: 1,
             mp: 1,
@@ -148,6 +151,7 @@ let monsters = {
         rank: "G",
         number: null,
         family: "Slime",
+        desc: null,
         growth: {
             hp: 1,
             mp: 3,
