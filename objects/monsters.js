@@ -161,17 +161,103 @@ let monsters = {
             instant_death: 0
         }
     },
-
     komodo: {
         name: "Komodo",
         number: 66,
         rank: "G",
-        description: "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down."
+        family: "Dragon",
+        description: "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down.",
+        growth: {
+            hp: 1,
+            mp: 1,
+            atk: 3,
+            def: 2,
+            agi: 3,
+            wis: 1
+        },
+        talents: ["defender"],
+        traits: {
+            small: {
+                insta_accel: 1,
+                strong_starter: 20,
+                ultra_craft_frizzer: 40
+            },
+            large: {
+                tactical_genius: 1,
+                ultra_crafty_dazzler: 1,
+                last_legs: 60
+            }
+        },
+        resistances: {
+            fire: 50,
+            water: -25,
+            wind: 25,
+            earth: 25,
+            explosions: 50,
+            ice: 0,
+            electricity: 0,
+            light: 0,
+            dark: 25,
+            debilitation: 0,
+            bedazzlement: 50,
+            antimagic: 25,
+            mp_absorption: 25,
+            confusion: 0,
+            sleep: 0,
+            paralysis: 0,
+            stun: 50,
+            poison: -25,
+            instant_death: 25
+        }
     },
     vegandragora: {
         name: "Vegandragora",
         number: 69,
-        description: "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days."
+        rank: "G",
+        family: "Dragon",
+        description: "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days.",
+        growth: {
+            hp: 1,
+            mp: 3,
+            atk: 3,
+            def: 1,
+            agi: 2,
+            wis: 1
+        },
+        talents: ["sizz_afficionado"],
+        traits: {
+            small: {
+                close_scraper: 1,
+                metal_beater: 20,
+                ultra_crafty_frizzer: 40
+            },
+            large: {
+                tactical_genius: 1,
+                insta_accel: 1,
+                ultra_crafty_zapper: 60
+            }
+        },
+        resistances: {
+            fire: 50,
+            water: -25,
+            wind: 0,
+            earth: 50,
+            explosions: 50,
+            ice: 0,
+            electricity: 0,
+            light: 25,
+            dark: 0,
+            debilitation: 50,
+            bedazzlement: 50,
+            antimagic: 0,
+            mp_absorption: 0,
+            confusion: 0,
+            sleep: 0,
+            paralysis: 25,
+            stun: 50,
+            poison: -25,
+            instant_death: 0
+        }
     },
     damselfly: {
         name: "Damselfly",
@@ -191,7 +277,51 @@ let monsters = {
     bantamweight: {
         name: "Bantamweight",
         number: 136,
-        description: "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist."
+        rank: "G",
+        family: "Plant",
+        description: "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist.",
+        growth: {
+            hp: 1,
+            mp: 1,
+            atk: 2,
+            def: 2,
+            agi: 4,
+            wis: 3
+        },
+        talents: ["hulk"],
+        traits: {
+            small: {
+                strong_starter: 1,
+                sleepy_touch: 20,
+                ultra_crafty_sleeper: 40
+            },
+            large: {
+                tactical_titan: 1,
+                little_menace: 1,
+                sobering_slap: 60
+            }
+        },
+        resistances: {
+            fire: -25,
+            water: 50,
+            wind: 25,
+            earth: 50,
+            explosions: -25,
+            ice: 0,
+            electricity: 25,
+            light: 50,
+            dark: 0,
+            debilitation: 0,
+            bedazzlement: 25,
+            antimagic: 25,
+            mp_absorption: 25,
+            confusion: 0,
+            sleep: 50,
+            paralysis: 50,
+            stun: -25,
+            poison: 0,
+            instant_death: 0
+        }
     },
     killerpillar: {
         name: "Killerpillar",
