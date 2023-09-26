@@ -97,6 +97,11 @@ let monsters = {
             instant_death: 0
         }
     },
+    bubble_slime: {
+        name: "Bubble Slime",
+        number: 7,
+        description: null
+    },
     dragonthorn: {
         name: "Dragonthorn",
         rank: "G",
@@ -146,6 +151,131 @@ let monsters = {
             instant_death: 0
         }
     },
+
+    komodo: {
+        name: "Komodo",
+        number: 66,
+        description: "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down."
+    },
+    vegandragora: {
+        name: "Vegandragora",
+        number: 69,
+        description: "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days."
+    },
+    damselfly: {
+        name: "Damselfly",
+        number: 70,
+        description: null
+    },
+    lumbering_lizard: {
+        name: "Lumbering Lizard",
+        number: 89,
+        description: null
+    },
+    bantamweight: {
+        name: "Bantamweight",
+        number: 136,
+        description: "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist."
+    },
+    killerpillar: {
+        name: "Killerpillar",
+        number: 138,
+        description: "Though these creepy-crawlies might look like larvae, they are in fact fully grown. They keep themselves warm in cold weather by rolling up into snug little balls."
+    },
+    capsichum: {
+        name: "Capsichum",
+        number: 139,
+        description: "These terrible twins are in fact born already skewered. Always butting heads, they are often witnessed mid-argument."
+    },
+    mad_mollusk: {
+        name: "Mad Mollusk",
+        number: 141,
+        description: null
+    },
+    woebergine: {
+        name: "Woebergine",
+        number: 142,
+        description: "These adorable vegetable-based monsters are proud of their ability to cut some rug. Any traveller straying into their terrain should be prepared to see them strut their stuff."
+    },
+    khalamari_kid: {
+        name: "Khalamari Kid",
+        number: 144,
+        description: "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller."
+    },
+    antguzzler: {
+        name: "Antguzzler",
+        number: 205,
+        description: "These long-snouted monsters resemble spiny anteaters. Their length tongues are well-adapted to slurping army ants up from their nests."
+    },
+    mischievous_mole: {
+        name: "Mischievous Mole",
+        number: 206,
+        description: "These tunnelling tykes traditionally loved to play pranks, but these days tend to keep their heads down and focus on digging."
+    },
+    bunicorn: {
+        name: "Bunicorn",
+        number: 207,
+        description: "These creatures might resemble rabbits, but meet one of their horns head-on and you'll understand the difference rather sharpish. They pass the long nights huddled together in their warrens."
+    },
+    feralball: {
+        name: "Feralball",
+        number: 213,
+        description: "This flufball is covered in green fur from top to toe. Though easily spooked, those with sharp eyes might spot something funny where this beastie's nose should be before it scarpers."
+    },
+    leery_lout: {
+        name: "Leery Lout",
+        number: 354,
+        description: null
+    },
+    dracky: {
+        name: "Dracky",
+        number: 355,
+        description: "These flapping pains in the neck only come out at night. They love nothing more than slurping up human blood, the fresher the better."
+    },
+    lunatick: {
+        name: "Lunatick",
+        number: 359,
+        description: null
+    },
+    teeny_sanguini: {
+        name: "Teeny Sanguini",
+        number: 360,
+        description: "Baby monsters known for their distinctive bovine markings. Considered to be fully-grown once the black fur grows out, replaced entirely with a ravishing shade of rose pink."
+    },
+    lips: {
+        name: "Lips",
+        number: 361,
+        description: null
+    },
+    gigantes: {
+        name: "Gigantes",
+        number: 376,
+        description: null
+    },
+    putrefido: {
+        name: "Putrefido",
+        number: 428,
+        description: null
+    },
+    funghoul: {
+        name: "Funghoul",
+        number: 429,
+        description: null
+    },
+    skeleton: {
+        name: "Skeleton",
+        number: 431,
+        description: "Recycled from the bodies of fallen warriors, these unfortunate cadavers truly get worked to the bone."
+    },
+    stump_chump: {
+        name: "Stump Chump",
+        number: 432,
+        description: "The tragic remains of chopped-down trees whose deep-seated malice has made them morph into monsters. They attack travellers who try to sit on them, sucking out all their nutrients before discarding the husk."
+    },
+    ghost: {
+        name: "Ghost",
+        number: 433,
+    },
     fright_bulb: {
         name: "Fright Bulb",
         rank: "G",
@@ -190,80 +320,5 @@ let monsters = {
             poison: 0,
             instant_death: 0
         }
-    },
-    komodo: {
-        name: "Komodo",
-        number: 66,
-        description: "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down."
-    },
-    vegandragora: {
-        name: "Vegandragora",
-        number: 69,
-        description: "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days."
-    },
-    bantamweight: {
-        name: "Bantamweight",
-        number: 136,
-        description: "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist."
-    },
-    killerpillar: {
-        name: "Killerpillar",
-        number: 138,
-        description: "Though these creepy-crawlies might look like larvae, they are in fact fully grown. They keep themselves warm in cold weather by rolling up into snug little balls."
-    },
-    capsichum: {
-        name: "Capsichum",
-        number: 139,
-        description: "These terrible twins are in fact born already skewered. Always butting heads, they are often witnessed mid-argument."
-    },
-    woebergine: {
-        name: "Woebergine",
-        number: 142,
-        description: "These adorable vegetable-based monsters are proud of their ability to cut some rug. Any traveller straying into their terrain should be prepared to see them strut their stuff."
-    },
-    khalamari_kid: {
-        name: "Khalamari Kid",
-        number: 144,
-        description: "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller."
-    },
-    antguzzler: {
-        name: "Antguzzler",
-        number: 205,
-        description: "These long-snouted monsters resemble spiny anteaters. Their length tongues are well-adapted to slurping army ants up from their nests."
-    },
-    mischievous_mole: {
-        name: "Mischievous Mole",
-        number: 206,
-        description: "These tunnelling tykes traditionally loved to play pranks, but these days tend to keep their heads down and focus on digging."
-    },
-    bunicorn: {
-        name: "Bunicorn",
-        number: 207,
-        description: "These creatures might resemble rabbits, but meet one of their horns head-on and you'll understand the difference rather sharpish. They pass the long nights huddled together in their warrens."
-    },
-    feralball: {
-        name: "Feralball",
-        number: 213,
-        description: "This flufball is covered in green fur from top to toe. Though easily spooked, those with sharp eyes might spot something funny where this beastie's nose should be before it scarpers."
-    },
-    dracky: {
-        name: "Dracky",
-        number: 355,
-        description: "These flapping pains in the neck only come out at night. They love nothing more than slurping up human blood, the fresher the better."
-    },
-    teeny_sanguini: {
-        name: "Teeny Sanguini",
-        number: 360,
-        description: "Baby monsters known for their distinctive bovine markings. Considered to be fully-grown once the black fur grows out, replaced entirely with a ravishing shade of rose pink."
-    },
-    gigantes: {
-        name: "Gigantes",
-        number: 376,
-        description: null
-    },
-    stump_chump: {
-        name: "Stump Chump",
-        number: 432,
-        description: "The tragic remains of chopped-down trees whose deep-seated malice has made them morph into monsters. They attack travellers who try to sit on them, sucking out all their nutrients before discarding the husk."
     }
 };
