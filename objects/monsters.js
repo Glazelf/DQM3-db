@@ -14,8 +14,16 @@ let monsters = {
         },
         talents: ["slimer"],
         traits: {
-            small: { zapmeister: 1, criticaltriumph: 20, bigbully: 40 },
-            large: { tacticalgenius: 1, instaaccel: 1, ultracraftyzapper: 60 }
+            small: {
+                zap_meister: 1,
+                critical_triumph: 20,
+                big_bully: 40
+            },
+            large: {
+                tactical_genius: 1,
+                insta_accel: 1,
+                ultra_crafty_zapper: 60
+            }
         },
         resistances: {
             fire: 0,
@@ -30,16 +38,16 @@ let monsters = {
             debilitation: 25,
             bedazzlement: 50,
             antimagic: 0,
-            mpabsorption: -25,
+            mp_absorption: -25,
             confusion: 25,
             sleep: 0,
             paralysis: 50,
             stun: 0,
             poison: 25,
-            instantdeath: 0
+            instant_death: 0
         }
     },
-    wingslime: {
+    wing_slime: {
         name: "Wing Slime",
         rank: "G",
         number: 6,
@@ -54,8 +62,16 @@ let monsters = {
         },
         talents: ["blusterer"],
         traits: {
-            small: { aceevader: 1, healthprofessional: 20, ultracraftywoosher: 40 },
-            large: { tacticalcommander: 1, wizardlywind: 1, absorbenttouch: 60 }
+            small: {
+                ace_evader: 1,
+                health_professional: 20,
+                ultra_crafty_woosher: 40
+            },
+            large: {
+                tactical_commander: 1,
+                wizardly_wind: 1,
+                absorbent_touch: 60
+            }
         },
         resistances: {
             fire: 0,
@@ -70,13 +86,13 @@ let monsters = {
             debilitation: 0,
             bedazzlement: 50,
             antimagic: 25,
-            mpabsorption: -25,
+            mp_absorption: -25,
             confusion: 0,
             sleep: 0,
             paralysis: 50,
             stun: 50,
             poison: 0,
-            instantdeath: 0
+            instant_death: 0
         }
     },
     dragonthorn: {
@@ -94,8 +110,16 @@ let monsters = {
         },
         talents: ["blowy_slasher"],
         traits: {
-            small: { spikyskin: 1, sleepytouch: 20, ultracraftyparalyser: 40 },
-            large: { tacticalgenius: 1, uberbeastbane: 1, majordowner: 60 }
+            small: {
+                spiky_skin: 1,
+                sleepy_touch: 20,
+                ultra_crafty_paralyser: 40
+            },
+            large: {
+                tactical_genius: 1,
+                uber_beastbane: 1,
+                major_downer: 60
+            }
         },
         resistances: {
             fire: 50,
@@ -110,16 +134,16 @@ let monsters = {
             debilitation: -25,
             bedazzlement: 50,
             antimagic: 25,
-            mpabsorption: 50,
+            mp_absorption: 50,
             confusion: 0,
             sleep: 25,
             paralysis: 0,
             stun: 50,
             poison: -25,
-            instantdeath: 0
+            instant_death: 0
         }
     },
-    frightbulb: {
+    fright_bulb: {
         name: "Fright Bulb",
         rank: "G",
         number: null,
@@ -134,7 +158,11 @@ let monsters = {
         },
         talents: ["soothesayer"],
         traits: {
-            small: { ultracraftystunner: 1, evasiveimpulse: 20, aceevader: 40 },
+            small: {
+                ultra_craftystunner: 1,
+                evasive_impulse: 20,
+                ace_evader: 40
+            },
             large: {}
         },
         resistances: {
@@ -150,13 +178,13 @@ let monsters = {
             debilitation: 25,
             bedazzlement: 50,
             antimagic: 0,
-            mpabsorption: -25,
+            mp_absorption: -25,
             confusion: 50,
             sleep: 0,
             paralysis: 50,
             stun: 0,
             poison: 0,
-            instantdeath: 0
+            instant_death: 0
         }
     }
 };
