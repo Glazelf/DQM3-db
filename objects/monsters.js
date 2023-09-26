@@ -102,6 +102,16 @@ let monsters = {
         number: 7,
         description: null
     },
+    healslime: {
+        name: "Healslime",
+        number: 8,
+        description: null
+    },
+    she_slime: {
+        name: "She-Slime",
+        number: 16,
+        description: null
+    },
     dragonthorn: {
         name: "Dragonthorn",
         rank: "G",
@@ -172,6 +182,11 @@ let monsters = {
         number: 89,
         description: null
     },
+    stark_raven: {
+        name: "Stark Raven",
+        number: 135,
+        description: null
+    },
     bantamweight: {
         name: "Bantamweight",
         number: 136,
@@ -202,6 +217,16 @@ let monsters = {
         number: 144,
         description: "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller."
     },
+    toady: {
+        name: "Toady",
+        number: 145,
+        description: null
+    },
+    cyclown: {
+        name: "Cyclown",
+        number: 148,
+        description: null
+    },
     antguzzler: {
         name: "Antguzzler",
         number: 205,
@@ -222,10 +247,25 @@ let monsters = {
         number: 213,
         description: "This flufball is covered in green fur from top to toe. Though easily spooked, those with sharp eyes might spot something funny where this beastie's nose should be before it scarpers."
     },
+    lampling: {
+        name: "Lampling",
+        number: 288,
+        description: null
+    },
+    foo_dog: {
+        name: "Foo Dog",
+        number: 290,
+        description: null
+    },
+    bongo_drongo: {
+        name: "Bongo Drongo",
+        number: 294,
+        description: null
+    },
     leery_lout: {
         name: "Leery Lout",
         number: 354,
-        description: null
+        description: "These shy scoundrels dish out damage from behind their smirking shields, which are precious family heirlooms, passed down from father to son."
     },
     dracky: {
         name: "Dracky",
@@ -275,6 +315,16 @@ let monsters = {
     ghost: {
         name: "Ghost",
         number: 433,
+    },
+    firespirit: {
+        name: "Firespirit",
+        number: 437,
+        description: null
+    },
+    shadow: {
+        name: "Shadow",
+        number: 441,
+        description: null
     },
     fright_bulb: {
         name: "Fright Bulb",
