@@ -1,8 +1,18 @@
 {
+    "burning_breath": {
+        "name": "Burning Breath",
+        "type": "Status",
+        "description": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
+    },
     "chilly_breath": {
         "name": "Chilly Breath",
         "type": "Attack",
         "description": "Inflicts medium ice-elemental breath damage on all enemies."
+    },
+    "confusion_attack": {
+        "name": "Confusion Attack",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
     },
     "cool_breath": {
         "name": "Cool Breath",
@@ -13,6 +23,11 @@
         "name": "Dazzle",
         "type": "Status",
         "description": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "decelerate": {
+        "name": "Decelerate",
+        "type": "Status",
+        "description": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "deep_breath": {
         "name": "Deep Breath",
@@ -44,10 +59,20 @@
         "type": "Healing",
         "description": "Restores 28 or more HP to a single ally."
     },
+    "kamikazee": {
+        "name": "Kamikazee",
+        "type": "Status",
+        "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed."
+    },
     "miracle_slash": {
         "name": "Miracle Slash",
         "type": "Attack",
         "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+    },
+    "poison_attack": {
+        "name": "Poison Attack",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally poisons it."
     },
     "sandstorm": {
         "name": "Sandstorm",
@@ -68,5 +93,15 @@
         "name": "Squelch",
         "type": "Healing",
         "description": "Cures all allies of poison or severe poison."
+    },
+    "sweet_breath": {
+        "name": "Sweet Breath",
+        "type": "Status",
+        "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+    },
+    "whack": {
+        "name": "Whack",
+        "type": "Status",
+        "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
     }
 }

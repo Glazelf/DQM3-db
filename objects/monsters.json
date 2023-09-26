@@ -1040,7 +1040,7 @@
     },
     "ghost": {
         "name": "Ghost",
-        "number": 433,
+        "number": 433
     },
     "firespirit": {
         "name": "Firespirit",
@@ -1174,6 +1174,54 @@
             "paralysis": 50,
             "stun": 25,
             "poison": 0,
+            "instant_death": 0
+        }
+    },
+    "scarfish": {
+        "name": "Scarfish",
+        "number": null,
+        "rank": "F",
+        "family": "Undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "Graveheart"
+        ],
+        "traits": {
+            "small": {
+                "infected_skin": 1,
+                "tit_for_tat": 20,
+                "strong_starter": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 75,
+            "wind": -25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
             "instant_death": 0
         }
     }

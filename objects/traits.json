@@ -23,6 +23,10 @@
         "name": "Critical Moment",
         "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
     },
+    "infected_skin": {
+        "name": "Infected Skin",
+        "description": "Sometimes poisons enemies that inflict direct attacks."
+    },
     "insta_accel": {
         "name": "Insta-Accel",
         "description": "Monster sometimes casts Accelerate on itself at the start of battle."
@@ -30,6 +34,14 @@
     "rando_mister": {
         "name": "Rando-Mister",
         "description": "Monster sometimes uses Mist Me on itself during battle."
+    },
+    "strong_starter": {
+        "name": "Strong Starter",
+        "description": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards."
+    },
+    "tit_for_tat": {
+        "name": "Tit for Tat",
+        "description": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them."
     },
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",

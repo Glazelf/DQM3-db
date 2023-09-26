@@ -1,4 +1,14 @@
 {
+    "graveheart": {
+        "poison_attack": 3,
+        "decelerate": 10,
+        "sleep_attack": 20,
+        "sweet_breath": 30,
+        "burning_breath": 50,
+        "confusion_attack": 70,
+        "whack": 85,
+        "kamikazee": 100
+    },
     "nature_child": {
         "squelch": 3,
         "heal": 10,
