@@ -1,8 +1,8 @@
 let monsters = {
     slime: {
         name: "Slime",
-        rank: "G",
         number: 1,
+        rank: "G",
         family: "Slime",
         description: "Adored by all for its flexy physique and funny face, this little monster is something of an icon. Who wouldn't want one for a pal?",
         growth: {
@@ -50,8 +50,8 @@ let monsters = {
     },
     wing_slime: {
         name: "Wing Slime",
-        rank: "G",
         number: 6,
+        rank: "G",
         family: "Slime",
         description: "Slimes which sprouted wings after dreaming of soaring through the sky. Their wings double up as a snug sleeping bag at night.",
         growth: {
@@ -114,8 +114,8 @@ let monsters = {
     },
     dragonthorn: {
         name: "Dragonthorn",
-        rank: "G",
         number: 65,
+        rank: "G",
         family: "Dragon",
         description: "Cursed thickets of thorn tangled into draconic shape. Those entwined in their terrifying clutches have no hope of escape.",
         growth: {
@@ -328,8 +328,8 @@ let monsters = {
     },
     fright_bulb: {
         name: "Fright Bulb",
-        rank: "G",
         number: null,
+        rank: "G",
         family: "Slime",
         description: null,
         growth: {
@@ -370,5 +370,15 @@ let monsters = {
             poison: 0,
             instant_death: 0
         }
+    },
+    drake_slime: {
+        name: "Drake Slime",
+        number: null,
+        rank: "F"
+    },
+    onion_slime: {
+        name: "Onion Slime",
+        number: null,
+        rank: "F"
     }
 };
