@@ -284,9 +284,18 @@ let monsters = {
         number: 70,
         description: null
     },
+    green_dragon: {
+        name: "Green Dragon",
+        number: 87,
+        rank: "E",
+        family: "Dragon",
+        description: null
+    },
     lumbering_lizard: {
         name: "Lumbering Lizard",
         number: 89,
+        rank: "E",
+        family: "Dragon",
         description: null
     },
     stark_raven: {
