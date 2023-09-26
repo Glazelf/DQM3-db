@@ -165,6 +165,7 @@ let monsters = {
     komodo: {
         name: "Komodo",
         number: 66,
+        rank: "G",
         description: "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down."
     },
     vegandragora: {
