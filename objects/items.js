@@ -125,18 +125,27 @@ let items = {
         name: "Strength Ring",
         type: "Accessory",
         description: "Very slightly increases attack.",
+        effects: {
+            atk: 10
+        },
         sell: 100
     },
     quick_ring: {
         name: "Quick Ring",
         type: "Accessory",
         description: "Very slightly increases agility.",
+        effects: {
+            agi: 10
+        },
         sell: 100
     },
     ring_of_wisdom: {
         name: "Ring of Wisdom",
         type: "Accessory",
         description: "Very slightly increases wisdom.",
+        effects: {
+            wis: 10
+        },
         sell: 100
     },
     mini_medal: {
