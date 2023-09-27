@@ -31,6 +31,10 @@
         "name": "Deadly Touch",
         "description": "Regular attacks sometimes kill the enemy instantly."
     },
+    "defensive_impulse": {
+        "name": "Defensive Impulse",
+        "description": "Reduces damage received when HP drop to 1/2."
+    },
     "dodge_denier": {
         "name": "Dodge Denier",
         "description": "Ensures the enemy cannot avoid attacks."
@@ -58,6 +62,10 @@
     "max_mp_8": {
         "name": "Max. MP +8",
         "description": "Raises max. MP by 8."
+    },
+    "metal_medley": {
+        "name": "Metal Medley",
+        "description": "Ignores the damage-reducing effect that the Metal Skin trait provides."
     },
     "miraculous_touch": {
         "name": "Miraculous Touch",

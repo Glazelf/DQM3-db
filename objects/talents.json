@@ -60,6 +60,16 @@
         "flame_breath": 85,
         "chilly_breath": 100
     },
+    "splash_afficionado": {
+        "splish": 3,
+        "heal": 10,
+        "slime_squisher": 20,
+        "max_mp_4": 30,
+        "weird_dance": 50,
+        "blunt": 70,
+        "max_mp_8": 85,
+        "splash": 100
+    },
     "zap_afficionado": {
         "zap": 3,
         "lightning_slash": 10,

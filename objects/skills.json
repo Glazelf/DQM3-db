@@ -4,6 +4,11 @@
         "type": "Status",
         "description": "Greatly increases the agility of a single ally for 4 to 7 turns."
     },
+    "blunt": {
+        "name": "Blunt",
+        "type": "Status",
+        "description": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
     "buff": {
         "name": "Buff",
         "type": "Status",
@@ -174,10 +179,20 @@
         "type": "Attack",
         "description": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
     },
+    "slime_squisher": {
+        "name": "Slime Squisher",
+        "type": "Attack",
+        "description": "Inflicts heavy impact damage on monsters in the slime family."
+    },
     "snooze": {
         "name": "Snooze",
         "type": "Status",
         "description": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "splish": {
+        "name": "Splish",
+        "type": "Attack",
+        "description": "Inflicts minor water-elemental spell damage on a single enemy."
     },
     "squelch": {
         "name": "Squelch",
@@ -193,6 +208,11 @@
         "name": "Sweet Breath",
         "type": "Status",
         "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+    },
+    "weird_dance": {
+        "name": "Weird Dance",
+        "type": "Status",
+        "description": "A dance that decreases the MP of a single enemy."
     },
     "whack": {
         "name": "Whack",
