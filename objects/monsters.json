@@ -2732,5 +2732,53 @@
             "poison": 25,
             "instant_death": 0
         }
+    },
+    "ornery_onion": {
+        "name": "Ornery Onion",
+        "number": null,
+        "rank": "G",
+        "family": "nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 4,
+            "atk": 1,
+            "def": 2,
+            "agi": 1,
+            "wis": 3
+        },
+        "talents": [
+            "nature_child"
+        ],
+        "traits": {
+            "small": {
+                "rando_accel": 1,
+                "big_bully": 20,
+                "evasive_impulse": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 25,
+            "light": 50,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        }
     }
 }

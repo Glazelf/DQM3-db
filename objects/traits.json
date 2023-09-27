@@ -19,6 +19,10 @@
         "name": "Benefaction",
         "description": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
     },
+    "big_bully": {
+        "name": "Big Bully",
+        "description": "Increases damage inflicted on L-size monsters."
+    },
     "crackmeister": {
         "name": "Crackmeister",
         "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
@@ -94,6 +98,10 @@
     "miraculous_touch": {
         "name": "Miraculous Touch",
         "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
+    },
+    "rando_accel": {
+        "name": "Rando-Accel",
+        "description": "Monster sometimes casts Accelerate on itself during battle."
     },
     "rando_buff": {
         "name": "Rando-Buff",
