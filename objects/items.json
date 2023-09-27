@@ -126,7 +126,9 @@
         "type": "Accessory",
         "description": "Very slightly increases attack.",
         "effects": {
-            "atk": 10
+            "stats": {
+                "atk": 10
+            }
         },
         "sell": 100
     },
@@ -135,7 +137,9 @@
         "type": "Accessory",
         "description": "Very slightly increases agility.",
         "effects": {
-            "agi": 10
+            "stats": {
+                "agi": 10
+            }
         },
         "sell": 100
     },
@@ -144,7 +148,9 @@
         "type": "Accessory",
         "description": "Very slightly increases wisdom.",
         "effects": {
-            "wis": 10
+            "stats": {
+                "wis": 10
+            }
         },
         "sell": 100
     },
