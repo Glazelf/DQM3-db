@@ -2828,5 +2828,53 @@
             "poison": 0,
             "instant_death": 0
         }
+    },
+    "scornet": {
+        "name": "Scornet",
+        "number": null,
+        "rank": "E",
+        "family": "nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 4,
+            "wis": 2
+        },
+        "talents": [
+            "hive_mind"
+        ],
+        "traits": {
+            "small": {
+                "paralysing_touch": 1,
+                "ace_evader": 20,
+                "agent_of_chaos": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 75,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        }
     }
 }

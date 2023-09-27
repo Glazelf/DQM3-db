@@ -3,6 +3,10 @@
         "name": "Ace Evader",
         "description": "Makes it somewhat easier to avoid enemy attacks."
     },
+    "agent_of_chaos": {
+        "name": "Agent of Chaos",
+        "description": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits."
+    },
     "attack_4": {
         "name": "Attack +4",
         "description": "Raises attack by 4."
@@ -110,6 +114,10 @@
     "miraculous_touch": {
         "name": "Miraculous Touch",
         "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
+    },
+    "paralysing_touch": {
+        "name": "Paralysing Touch",
+        "description": "Regular attacks sometimes paralyse the enemy."
     },
     "rando_accel": {
         "name": "Rando-Accel",
