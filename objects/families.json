@@ -1,0 +1,23 @@
+{
+    "slime": {
+        "name": "Slime"
+    },
+    "dragon": {
+        "name": "Dragon"
+    },
+    "plant": {
+        "name": "Plant"
+    },
+    "beast": {
+        "name": "Beast"
+    },
+    "material": {
+        "name": "Material"
+    },
+    "demon": {
+        "name": "Demon"
+    },
+    "undead": {
+        "name": "Undead"
+    }
+}
