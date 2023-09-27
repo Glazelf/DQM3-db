@@ -15,6 +15,10 @@
         "name": "Auto-Cadabra",
         "description": "Restores a small amount of MP after each action."
     },
+    "benefaction": {
+        "name": "Benefaction",
+        "description": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
+    },
     "crackmeister": {
         "name": "Crackmeister",
         "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
@@ -106,6 +110,10 @@
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",
         "description": "Makes it much easier to prevent spellcasting"
+    },
+    "ultra_crafty_woosher": {
+        "name": "Ultra Crafty Woosher",
+        "description": "Greatly increases the damage inflicted by wind-elemental attacks."
     },
     "zapmeister": {
         "name": "Zapmeister",

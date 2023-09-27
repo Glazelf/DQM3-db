@@ -99,6 +99,11 @@
         "type": "Attack",
         "descriptionn": "Inflicts medium fire-elemental breath damage on all enemies."
     },
+    "gust_slash": {
+        "name": "Gust Slash",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental slashing damage on a single enemy."
+    },
     "heal": {
         "name": "Heal",
         "type": "Healing",
@@ -163,6 +168,11 @@
         "name": "Miracle Slash",
         "type": "Attack",
         "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+    },
+    "nature_nerfer": {
+        "name": "Nature Nerfer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the nature family."
     },
     "numb": {
         "name": "Numb",
@@ -239,6 +249,11 @@
         "type": "Status",
         "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
     },
+    "swoosh": {
+        "name": "Swoosh",
+        "type": "Attack",
+        "description": "Inflicts medium wind-elemental spell damage on all enemies."
+    },
     "tongue_bashing": {
         "name": "Tongue Bashing",
         "type": "Status",
@@ -253,6 +268,16 @@
         "name": "Whack",
         "type": "Status",
         "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "wind_sickles": {
+        "name": "Wind Sickles",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental damage on a single enemy."
+    },
+    "woosh": {
+        "name": "Woosh",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental spell damage on all enemies."
     },
     "zap": {
         "name": "Zap",

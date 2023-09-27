@@ -80,6 +80,16 @@
         "max_mp_8": 85,
         "splash": 100
     },
+    "woosh_afficionado": {
+        "woosh": 3,
+        "gust_slash": 10,
+        "nature_nerfer": 20,
+        "max_mp_4": 30,
+        "wind_sickles": 50,
+        "insulate": 70,
+        "max_mp_8": 85,
+        "swoosh": 100
+    },
     "zap_afficionado": {
         "zap": 3,
         "lightning_slash": 10,
