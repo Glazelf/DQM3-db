@@ -102,7 +102,7 @@
     "flame_breath": {
         "name": "Flame Breath",
         "type": "Attack",
-        "descriptionn": "Inflicts medium fire-elemental breath damage on all enemies."
+        "description": "Inflicts medium fire-elemental breath damage on all enemies."
     },
     "fuddle_dance": {
         "name": "Fuddle Dance",
@@ -293,6 +293,11 @@
         "name": "Swoosh",
         "type": "Attack",
         "description": "Inflicts medium wind-elemental spell damage on all enemies."
+    },
+    "tingle": {
+        "name": "Tingle",
+        "type": "Status",
+        "description": "Cures all allies of paralysis."
     },
     "tongue_bashing": {
         "name": "Tongue Bashing",

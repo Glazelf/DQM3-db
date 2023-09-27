@@ -100,6 +100,18 @@
         "max_mp_8": 85,
         "splash": 100
     },
+    "willing_helper": {
+        "squelch": 3,
+        "heal": 10,
+        "tingle": 20,
+        "buff": 30,
+        "accelerate": 50,
+        "ping": 70,
+        "oomph": 85,
+        "insulate": 100,
+        "midheal": 120,
+        "max_mp_24": 150
+    },
     "woosh_afficionado": {
         "woosh": 3,
         "gust_slash": 10,

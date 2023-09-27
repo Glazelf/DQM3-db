@@ -23,6 +23,10 @@
         "name": "Big Bully",
         "description": "Increases damage inflicted on L-size monsters."
     },
+    "bigger_upper": {
+        "name": "Bigger Upper",
+        "description": "Extends the duration of skills that raise the strength, defence, agility or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
+    },
     "crackmeister": {
         "name": "Crackmeister",
         "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
@@ -83,6 +87,10 @@
         "name": "Little Menace",
         "description": "Increases damage inflicted on S-size monsters."
     },
+    "low_heal": {
+        "name": "Low Heal",
+        "description": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful."
+    },
     "max_mp_4": {
         "name": "Max. MP +4",
         "description": "Raises max. MP by 4."
@@ -90,6 +98,10 @@
     "max_mp_8": {
         "name": "Max. MP +8",
         "description": "Raises max. MP by 8."
+    },
+    "max_mp_24": {
+        "name": "Max. MP +24",
+        "description": "Raises max. MP by 24."
     },
     "metal_medley": {
         "name": "Metal Medley",
@@ -130,6 +142,10 @@
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",
         "description": "Makes it much easier to bedazzle enemies."
+    },
+    "ultra_crafty_paralyser": {
+        "name": "Ultra Crafty Paralyser",
+        "description": "Makes it much easier to paralyse the enemy."
     },
     "ultra_crafty_sleeper": {
         "name": "Ultra Crafty Sleeper",

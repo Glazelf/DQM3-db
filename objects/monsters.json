@@ -2780,5 +2780,53 @@
             "poison": 25,
             "instant_death": 0
         }
+    },
+    "odd_cob": {
+        "name": "Odd Cob",
+        "number": null,
+        "rank": "F",
+        "family": "nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "willing_helper"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_paralyser": 1,
+                "low_heal": 20,
+                "bigger_upper": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 75,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        }
     }
 }
