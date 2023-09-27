@@ -9,6 +9,16 @@
         "max_mp_8": 85,
         "crackle": 100
     },
+    "fortifier": {
+        "heal": 3,
+        "accelerate": 10,
+        "buff": 20,
+        "ping": 30,
+        "oomph": 50,
+        "insulate": 70,
+        "midheal": 85,
+        "oomphle": 100
+    },
     "graveheart": {
         "poison_attack": 3,
         "decelerate": 10,

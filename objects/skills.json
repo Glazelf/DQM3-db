@@ -1,4 +1,14 @@
 {
+    "accelerate": {
+        "name": "Accelerate",
+        "type": "Status",
+        "description": "Greatly increases the agility of a single ally for 4 to 7 turns."
+    },
+    "buff": {
+        "name": "Buff",
+        "type": "Status",
+        "description": "Greatly increases the defence of a single ally for 4 to 7 turns."
+    },
     "burning_breath": {
         "name": "Burning Breath",
         "type": "Status",
@@ -74,6 +84,11 @@
         "type": "Healing",
         "description": "Restores 28 or more HP to a single ally."
     },
+    "insulate": {
+        "name": "Insulate",
+        "type": "Status",
+        "description": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+    },
     "kacrackle_slash": {
         "name": "Kacrackle Slash",
         "type": "Attack",
@@ -84,10 +99,30 @@
         "type": "Status",
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed."
     },
+    "midheal": {
+        "name": "Midheal",
+        "type": "Healing",
+        "description": "Restores 76 or more HP to a single ally."
+    },
     "miracle_slash": {
         "name": "Miracle Slash",
         "type": "Attack",
         "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+    },
+    "oomph": {
+        "name": "Oomph",
+        "type": "Status",
+        "description": "Greatly increases the attack of a single ally for 2 to 5 turns."
+    },
+    "oomphle": {
+        "name": "Oomphle",
+        "type": "Status",
+        "description": "Increases the attack of all allies for 2 to 5 turns."
+    },
+    "ping": {
+        "name": "Ping",
+        "type": "Status",
+        "description": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
     },
     "poison_attack": {
         "name": "Poison Attack",

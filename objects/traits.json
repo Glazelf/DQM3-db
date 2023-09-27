@@ -31,6 +31,10 @@
         "name": "Deadly Touch",
         "description": "Regular attacks sometimes kill the enemy instantly."
     },
+    "evasive_impulse": {
+        "name": "Evasive Impulse",
+        "description": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle."
+    },
     "infected_skin": {
         "name": "Infected Skin",
         "description": "Sometimes poisons enemies that inflict direct attacks."
@@ -47,6 +51,10 @@
         "name": "Max. MP +8",
         "description": "Raises max. MP by 8."
     },
+    "miraculous_touch": {
+        "name": "Miraculous Touch",
+        "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
+    },
     "rando_mister": {
         "name": "Rando-Mister",
         "description": "Monster sometimes uses Mist Me on itself during battle."
@@ -62,5 +70,9 @@
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",
         "description": "Makes it easier to bedazzle enemies."
+    },
+    "ultra_crafty_spellbinder": {
+        "name": "Ultra Crafty Spellbinder",
+        "description": "Makes it much easier to prevent spellcasting"
     }
 }

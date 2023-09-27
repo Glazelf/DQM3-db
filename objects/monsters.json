@@ -2348,5 +2348,53 @@
             "poison": 0,
             "instant_death": 0
         }
+    },
+    "box_slime": {
+        "name": "Box Slime",
+        "number": null,
+        "rank": "F",
+        "family": "slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 4,
+            "atk": 1,
+            "def": 4,
+            "agi": 1,
+            "wis": 3
+        },
+        "talents": [
+            "fortifier"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "miraculous_touch": 20,
+                "evasive_impulse": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        }
     }
 }
