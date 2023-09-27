@@ -19,6 +19,16 @@
         "type": "Attack",
         "description": "Inflicts minor ice-elemental breath damage on all enemies."
     },
+    "crack": {
+        "name": "Crack",
+        "type": "Attack",
+        "description": "Inflicts minor ice-elemental spell damage on a single enemy."
+    },
+    "crackle": {
+        "name": "Crackle",
+        "type": "Attack",
+        "description": "Inflicts medium ice-elemental spell damage on a all enemies."
+    },
     "dazzle": {
         "name": "Dazzle",
         "type": "Status",
@@ -33,6 +43,11 @@
         "name": "Deep Breath",
         "type": "Status",
         "description": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
+    },
+    "demon_demeaner": {
+        "name": "Demon Demeaner",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the demon family."
     },
     "drain_magic": {
         "name": "Drain Magic",
@@ -58,6 +73,11 @@
         "name": "Heal",
         "type": "Healing",
         "description": "Restores 28 or more HP to a single ally."
+    },
+    "kacrackle_slash": {
+        "name": "Kacrackle Slash",
+        "type": "Attack",
+        "description": "Inflicts minor ice-elemental slashing damage on a single enemy."
     },
     "kamikazee": {
         "name": "Kamikazee",

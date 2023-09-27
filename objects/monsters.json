@@ -1106,8 +1106,17 @@
         "family": "Slime",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "shallow_breather"
+        ],
         "traits": {
             "small": {
                 "ace_evader": 1,
@@ -1145,8 +1154,17 @@
         "family": "Slime",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "nature_child"
+        ],
         "traits": {
             "small": {
                 "cragmeister": 1,
@@ -1222,6 +1240,54 @@
             "paralysis": 0,
             "stun": 25,
             "poison": 50,
+            "instant_death": 0
+        }
+    },
+    "snowmangler": {
+        "name": "Snowmangler",
+        "number": null,
+        "rank": "F",
+        "family": "Slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "Crack Afficionado"
+        ],
+        "traits": {
+            "small": {
+                "crackmeister": 1,
+                "insta_accel": 20,
+                "deadly_touch": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 100,
+            "electricity": 50,
+            "light": 0,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
             "instant_death": 0
         }
     }

@@ -15,6 +15,10 @@
         "name": "Auto-Cadabra",
         "description": "Restores a small amount of MP after each action."
     },
+    "crackmeister": {
+        "name": "Crackmeister",
+        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
+    },
     "cragmeister": {
         "name": "Cragmeister",
         "description": "Increases the potency of earth-elemental attacks and decreases their MP consumption."
@@ -23,6 +27,10 @@
         "name": "Critical Moment",
         "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
     },
+    "deadly_touch": {
+        "name": "Deadly Touch",
+        "description": "Regular attacks sometimes kill the enemy instantly."
+    },
     "infected_skin": {
         "name": "Infected Skin",
         "description": "Sometimes poisons enemies that inflict direct attacks."
@@ -30,6 +38,14 @@
     "insta_accel": {
         "name": "Insta-Accel",
         "description": "Monster sometimes casts Accelerate on itself at the start of battle."
+    },
+    "max_mp_4": {
+        "name": "Max. MP +4",
+        "description": "Raises max. MP by 4."
+    },
+    "max_mp_8": {
+        "name": "Max. MP +8",
+        "description": "Raises max. MP by 8."
     },
     "rando_mister": {
         "name": "Rando-Mister",

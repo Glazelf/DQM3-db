@@ -1,4 +1,14 @@
 {
+    "crack_afficionado": {
+        "crack": 3,
+        "kacrackle_slash": 10,
+        "demon_demeaner": 20,
+        "max_mp_4": 30,
+        "cool_breath": 50,
+        "snooze": 70,
+        "max_mp_8": 85,
+        "crackle": 100
+    },
     "graveheart": {
         "poison_attack": 3,
         "decelerate": 10,
