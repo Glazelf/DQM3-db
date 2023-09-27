@@ -567,7 +567,7 @@
         "name": "Stark Raven",
         "number": 135,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These creepy corvids can't resist scooping up skulls from ancient battlefields. Fledgling ravens like to clamber through the eye-holes to hide from predators.",
         "drops": {
             "normal": "pinball",
@@ -622,7 +622,7 @@
         "name": "Bantamweight",
         "number": 136,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist.",
         "drops": {
             "normal": "monster_manure",
@@ -677,7 +677,7 @@
         "name": "Killerpillar",
         "number": 138,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "Though these creepy-crawlies might look like larvae, they are in fact fully grown. They keep themselves warm in cold weather by rolling up into snug little balls.",
         "drops": {
             "normal": "manky_meat",
@@ -732,7 +732,7 @@
         "name": "Capsichum",
         "number": 139,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These terrible twins are in fact born already skewered. Always butting heads, they are often witnessed mid-argument.",
         "drops": {
             "normal": "medicinal_herb",
@@ -787,7 +787,7 @@
         "name": "Mad Mollusk",
         "number": 141,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These monsters have two mouths, one at each end. The one at the front is a strict vegetarian, while the one on the tail is meat mad.",
         "drops": {
             "normal": "mystery_meat",
@@ -842,7 +842,7 @@
         "name": "Woebergine",
         "number": 142,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These adorable vegetable-based monsters are proud of their ability to cut some rug. Any traveller straying into their terrain should be prepared to see them strut their stuff.",
         "drops": {
             "normal": "medicinal_herb",
@@ -897,7 +897,7 @@
         "name": "Khalamari Kid",
         "number": 144,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller.",
         "drops": {
             "normal": "medicinal_herb",
@@ -952,7 +952,7 @@
         "name": "Toady",
         "number": 145,
         "rank": "G",
-        "family": "plant",
+        "family": "nature",
         "description": "These ample amphibians might have mutated into mega-sized monsters, but they retain their original love for croaking out a tune. They like to put on evening concerts just after the rain lets up.",
         "drops": {
             "normal": "mystery_meat",
@@ -1007,7 +1007,7 @@
         "name": "Cyclown",
         "number": 148,
         "rank": "F",
-        "family": "plant",
+        "family": "nature",
         "description": "These wicked wind spirits sport their whirlwinds like work attire. Their greatest desire is to welcome wanderers into their whirling worlds.",
         "drops": {
             "normal": "medicinal_herb",
