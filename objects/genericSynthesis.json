@@ -1,0 +1,212 @@
+{
+    "slime_dragon": {
+        "F": [
+            "drake_slime",
+            "raptile"
+        ],
+        "G": [
+            "wing_slime",
+            "small_fry"
+        ]
+    },
+    "slime_plant": {
+        "F": [
+            "onion_slime",
+            "mitey_oak"
+        ],
+        "G": [
+            "buddy_slime",
+            "khalamari_kid"
+        ]
+    },
+    "slime_beast": {
+        "F": [
+            "feral_slime",
+            "boppin_badger"
+        ],
+        "G": [
+            "shell_slime",
+            "great_sabrecub"
+        ]
+    },
+    "slime_material": {
+        "F": [
+            "slime_stack",
+            "mudraker"
+        ],
+        "G": [
+            "scallop_slime",
+            "bag_o_laughs"
+        ]
+    },
+    "slime_demon": {
+        "F": [
+            "she_slime",
+            "imp"
+        ],
+        "G": [
+            "fright_bulb",
+            "picksy"
+        ]
+    },
+    "slime_undead": {
+        "F": [
+            "snowmangler",
+            "scarfish"
+        ],
+        "G": [
+            "slimeshroom",
+            "soft_serve_spook"
+        ]
+    },
+    "dragon_plant": {
+        "F": [
+            "briny_bronco",
+            "pogoin_penguin"
+        ],
+        "G": [
+            "dragonthorn",
+            "killerpillar"
+        ]
+    },
+    "dragon_beast": {
+        "F": [
+            "jargon",
+            "vampire_cat"
+        ],
+        "G": [
+            "komodo",
+            "sham_hatwitch"
+        ]
+    },
+    "dragon_material": {
+        "F": [
+            "armoured_wartoise",
+            "bongo_drongo"
+        ],
+        "G": [
+            "nardragon",
+            "mecha_mynah"
+        ]
+    },
+    "dragon_demon": {
+        "F": [
+            "drag_racer",
+            "pickayune"
+        ],
+        "G": [
+            "pteranodon",
+            "gremlin"
+        ]
+    },
+    "dragon_undead": {
+        "F": [
+            "flython",
+            "skullrider"
+        ],
+        "G": [
+            "killer_gila",
+            "firespirit"
+        ]
+    },
+    "plant_beast": {
+        "F": [
+            "bagworm",
+            "orc"
+        ],
+        "G": [
+            "bludgerigar",
+            "feralball"
+        ]
+    },
+    "plant_material": {
+        "F": [
+            "scissor_beatle",
+            "avian_android"
+        ],
+        "G": [
+            "capsichum",
+            "cumaulus"
+        ]
+    },
+    "plant_demon": {
+        "F": [
+            "cyclown",
+            "merman"
+        ],
+        "G": [
+            "ornery_onion",
+            "lunatick"
+        ]
+    },
+    "plant_undead": {
+        "F": [
+            "odd_cob",
+            "monolog"
+        ],
+        "G": [
+            "stark_raven",
+            "stump_chump"
+        ]
+    },
+    "beast_material": {
+        "F": [
+            "napir",
+            "foo_dog"
+        ],
+        "G": [
+            "mischievous_mole",
+            "eggsoskeleton"
+        ]
+    },
+    "beast_demon": {
+        "F": [
+            "hawk_man",
+            "succubat"
+        ],
+        "G": [
+            "pan_piper",
+            "teeny_sanguini"
+        ]
+    },
+    "beast_undead": {
+        "F": [
+            "guaardvark",
+            "walking_corpse"
+        ],
+        "G": [
+            "fat_rat",
+            "putrefido"
+        ]
+    },
+    "material_demon": {
+        "F": [
+            "pocus_poppet",
+            "cannonbrawler"
+        ],
+        "G": [
+            "spitnik",
+            "leery_lout"
+        ]
+    },
+    "material_undead": {
+        "F": [
+            "horrifying_saucers",
+            "muddy_hand"
+        ],
+        "G": [
+            "sacksquatch",
+            "wax_murderer"
+        ]
+    },
+    "demon_undead": {
+        "F": [
+            "dancing_devil",
+            "hellbound_horror"
+        ],
+        "G": [
+            "lump_wizard",
+            "drohl_drone"
+        ]
+    }
+}
