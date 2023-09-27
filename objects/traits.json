@@ -63,9 +63,17 @@
         "name": "Miraculous Touch",
         "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
     },
+    "rando_buff": {
+        "name": "Rando-Buff",
+        "description": "Monster sometimes casts Buff on itself during battle."
+    },
     "rando_mister": {
         "name": "Rando-Mister",
         "description": "Monster sometimes uses Mist Me on itself during battle."
+    },
+    "slick_skin": {
+        "name": "Slick Skin",
+        "description": "Sometimes causes incoming direct attacks to miss."
     },
     "strong_starter": {
         "name": "Strong Starter",

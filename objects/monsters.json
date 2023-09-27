@@ -2444,5 +2444,53 @@
             "poison": 0,
             "instant_death": 0
         }
+    },
+    "mudraker": {
+        "name": "Mudraker",
+        "number": null,
+        "rank": "F",
+        "family": "material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 1,
+            "wis": 2
+        },
+        "talents": [
+            "materialist"
+        ],
+        "traits": {
+            "small": {
+                "cragmeister": 1,
+                "rando_buff": 20,
+                "slick_skin": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": -25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": -25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        }
     }
 }

@@ -39,6 +39,11 @@
         "type": "Attack",
         "description": "Inflicts medium ice-elemental spell damage on a all enemies."
     },
+    "crag": {
+        "name": "Crag",
+        "type": "Attack",
+        "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round."
+    },
     "dazzle": {
         "name": "Dazzle",
         "type": "Status",
@@ -84,10 +89,20 @@
         "type": "Healing",
         "description": "Restores 28 or more HP to a single ally."
     },
+    "helm_splitter": {
+        "name": "Helm Splitter",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
+    },
     "insulate": {
         "name": "Insulate",
         "type": "Status",
         "description": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+    },
+    "kabuff": {
+        "name": "Kabuff",
+        "type": "Status",
+        "description": "Greatly increases the defence of all allies for 4 to 7 turns."
     },
     "kacrackle_slash": {
         "name": "Kacrackle Slash",
@@ -108,6 +123,11 @@
         "name": "Lightning Slash",
         "type": "Attack",
         "description": "Inflicts minor electrical slashing damage on a single enemy."
+    },
+    "matter_scatterer": {
+        "name": "Matter Scatterer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the material family."
     },
     "midheal": {
         "name": "Midheal",
@@ -163,6 +183,11 @@
         "name": "Squelch",
         "type": "Healing",
         "description": "Cures all allies of poison or severe poison."
+    },
+    "stones_throw": {
+        "name": "Stone's Throw",
+        "type": "Attack",
+        "description": "Inflicts minor earth-elemental spell damage on a single enemy."
     },
     "sweet_breath": {
         "name": "Sweet Breath",

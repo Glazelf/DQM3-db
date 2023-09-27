@@ -29,6 +29,16 @@
         "whack": 85,
         "kamikazee": 100
     },
+    "materialist": {
+        "crag": 3,
+        "helm_splitter": 10,
+        "matter_scatterer": 20,
+        "stones_throw": 30,
+        "kabuff": 50,
+        "fizzle": 70,
+        "knuckle_sandwich": 85,
+        "kamikazee": 100
+    },
     "nature_child": {
         "squelch": 3,
         "heal": 10,
