@@ -51,6 +51,10 @@
         "name": "Insta-Accel",
         "description": "Monster sometimes casts Accelerate on itself at the start of battle."
     },
+    "insta_ping": {
+        "name": "Insta-Ping",
+        "description": "Monster sometimes casts Ping on itself at the start of battle."
+    },
     "little_menace": {
         "name": "Little Menace",
         "description": "Increases damage inflicted on S-size monsters."
@@ -93,7 +97,11 @@
     },
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",
-        "description": "Makes it easier to bedazzle enemies."
+        "description": "Makes it much easier to bedazzle enemies."
+    },
+    "ultra_crafty_sleeper": {
+        "name": "Ultra Crafty Sleeper",
+        "description": "Makes it much easier to put the enemy to sleep."
     },
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",

@@ -9,6 +9,16 @@
         "max_mp_8": 85,
         "crackle": 100
     },
+    "enfeebler": {
+        "decelerate": 3,
+        "sap": 10,
+        "dim": 20,
+        "blunt": 30,
+        "deceleratle": 50,
+        "kasap": 70,
+        "kadim": 85,
+        "tongue_bashing": 100
+    },
     "fortifier": {
         "heal": 3,
         "accelerate": 10,

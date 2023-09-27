@@ -2540,5 +2540,53 @@
             "poison": 0,
             "instant_death": 0
         }
+    },
+    "bag_o_laughs": {
+        "name": "Bag o' Laughs",
+        "number": null,
+        "rank": "G",
+        "family": "material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "enfeebler"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_sleeper": 1,
+                "insta_ping": 20,
+                "ulrta_crafty_dazzler": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        }
     }
 }

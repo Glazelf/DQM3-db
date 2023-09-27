@@ -59,6 +59,11 @@
         "type": "Status",
         "description": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
+    "deceleratle": {
+        "name": "Deceleratle",
+        "type": "Status",
+        "description": "Greatly decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
     "deep_breath": {
         "name": "Deep Breath",
         "type": "Status",
@@ -68,6 +73,11 @@
         "name": "Demon Demeaner",
         "type": "Attack",
         "description": "Inflicts heavy slashing damage on monsters in the demon family."
+    },
+    "dim": {
+        "name": "Dim",
+        "type": "Status",
+        "description": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "drain_magic": {
         "name": "Drain Magic",
@@ -114,10 +124,20 @@
         "type": "Attack",
         "description": "Inflicts minor ice-elemental slashing damage on a single enemy."
     },
+    "kadim": {
+        "name": "Kadim",
+        "type": "Status",
+        "description": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
     "kamikazee": {
         "name": "Kamikazee",
         "type": "Status",
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed."
+    },
+    "kasap": {
+        "name": "Kasap",
+        "type": "Status",
+        "description": "Greatly decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "knuckle_sandwich": {
         "name": "Knuckle Sandwich",
@@ -174,6 +194,11 @@
         "type": "Status",
         "description": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
     },
+    "sap": {
+        "name": "Sap",
+        "type": "Status",
+        "description": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
     "sleep_attack": {
         "name": "Sleep Attack",
         "type": "Attack",
@@ -188,6 +213,11 @@
         "name": "Snooze",
         "type": "Status",
         "description": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "splash": {
+        "name": "Splash",
+        "type": "Attack",
+        "description": "Inflicts medium water-elemental spell damage on a single enemy."
     },
     "splish": {
         "name": "Splish",
@@ -208,6 +238,11 @@
         "name": "Sweet Breath",
         "type": "Status",
         "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+    },
+    "tongue_bashing": {
+        "name": "Tongue Bashing",
+        "type": "Status",
+        "description": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
     },
     "weird_dance": {
         "name": "Weird Dance",
