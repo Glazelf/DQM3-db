@@ -5,6 +5,7 @@ module.exports = (parent1, parent2, target) => {
     // 3. 1 parent & target --> return options (or path) to get from 1 parent to target
     // 4. target --> return options to synthesize target
     // 5. All 3 --> check if parents synthesize into target
+    let synthesisResults = [];
 
     const monsters = require('../objects/monsters.json');
     const genericSynthesis = require('../objects/genericSynthesis.json');
@@ -14,15 +15,16 @@ module.exports = (parent1, parent2, target) => {
     let parentsSameRank = (parent1data.rank === parent2data.rank);
     // Behaviour 1
     if (parent1 && parent2) {
-        let synthesisResults = [];
         for (let key in genericSynthesis) {
             let keySplit = key.split("_");
-            if (keySplit.includes(parent1data.family) && keySplit.includes(parent2data.family)) {
+            if (keySplit.includes(parent1data.family) && keySplit.includes(parent2data.family) && parent1data.family !== parent2data.family) {
                 synthesisResults = synthesisResults.concat(genericSynthesis[key][parent1data.rank])
                 if (!parentsSameRank) synthesisResults = synthesisResults.concat(genericSynthesis[key][parent2data.rank])
             };
         };
         synthesisResults = synthesisResults.concat([parent1, parent2]);
-        return synthesisResults;
+
     };
+    synthesisResults = [...new Set(synthesisResults)];
+    return synthesisResults;
 };
