@@ -2684,5 +2684,53 @@
             "poison": 50,
             "instant_death": 50
         }
+    },
+    "scissor_beatle": {
+        "name": "Scissor Beatle",
+        "number": null,
+        "rank": "F",
+        "family": "nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "hive_mind"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "rando_oomph": 20,
+                "insta_bounce": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        }
     }
 }

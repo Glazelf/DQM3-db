@@ -49,6 +49,16 @@
         "whack": 85,
         "kamikazee": 100
     },
+    "hive_mind": {
+        "buff": 3,
+        "snooze": 10,
+        "heart_breaker": 20,
+        "sleep_attack": 30,
+        "paralysing_punch": 50,
+        "nature_nerfer": 70,
+        "intense_defence": 85,
+        "fuddle_dance": 100
+    },
     "materialist": {
         "crag": 3,
         "helm_splitter": 10,

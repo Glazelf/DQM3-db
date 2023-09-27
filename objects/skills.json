@@ -104,6 +104,11 @@
         "type": "Attack",
         "descriptionn": "Inflicts medium fire-elemental breath damage on all enemies."
     },
+    "fuddle_dance": {
+        "name": "Fuddle Dance",
+        "type": "Status",
+        "description": "A dance that confuses all enemies for 2 to 5 turns."
+    },
     "gust_slash": {
         "name": "Gust Slash",
         "type": "Attack",
@@ -133,6 +138,11 @@
         "name": "Insulate",
         "type": "Status",
         "description": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+    },
+    "intense_defence": {
+        "name": "Intense Defence",
+        "type": "Status",
+        "description": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle."
     },
     "kabuff": {
         "name": "Kabuff",
@@ -208,6 +218,11 @@
         "name": "Oomphle",
         "type": "Status",
         "description": "Increases the attack of all allies for 2 to 5 turns."
+    },
+    "paralysing_punch": {
+        "name": "Paralysing Punch",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
     },
     "ping": {
         "name": "Ping",

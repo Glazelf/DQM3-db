@@ -63,6 +63,14 @@
         "name": "Insta-Accel",
         "description": "Monster sometimes casts Accelerate on itself at the start of battle."
     },
+    "insta_bounce": {
+        "name": "Insta-Bounce",
+        "description": "Monster sometimes casts Bounce on itself at the start of battle."
+    },
+    "insta_buff": {
+        "name": "Insta-Buff",
+        "description": "Monster sometimes casts Buff on itself at the start of battle."
+    },
     "insta_ping": {
         "name": "Insta-Ping",
         "description": "Monster sometimes casts Ping on itself at the start of battle."
@@ -94,6 +102,10 @@
     "rando_mister": {
         "name": "Rando-Mister",
         "description": "Monster sometimes uses Mist Me on itself during battle."
+    },
+    "rando_oomph": {
+        "name": "Rando-Oomph",
+        "description": "Monster sometimes casts Oomph on itself during battle."
     },
     "slick_skin": {
         "name": "Slick Skin",
