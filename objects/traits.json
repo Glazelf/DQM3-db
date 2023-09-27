@@ -31,6 +31,10 @@
         "name": "Deadly Touch",
         "description": "Regular attacks sometimes kill the enemy instantly."
     },
+    "dodge_denier": {
+        "name": "Dodge Denier",
+        "description": "Ensures the enemy cannot avoid attacks."
+    },
     "evasive_impulse": {
         "name": "Evasive Impulse",
         "description": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle."
@@ -42,6 +46,10 @@
     "insta_accel": {
         "name": "Insta-Accel",
         "description": "Monster sometimes casts Accelerate on itself at the start of battle."
+    },
+    "little_menace": {
+        "name": "Little Menace",
+        "description": "Increases damage inflicted on S-size monsters."
     },
     "max_mp_4": {
         "name": "Max. MP +4",
@@ -74,5 +82,9 @@
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",
         "description": "Makes it much easier to prevent spellcasting"
+    },
+    "zapmeister": {
+        "name": "Zapmeister",
+        "description": "Increases the potency of electrical attacks and decreases their MP consumption."
     }
 }

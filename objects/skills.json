@@ -99,6 +99,16 @@
         "type": "Status",
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed."
     },
+    "knuckle_sandwich": {
+        "name": "Knuckle Sandwich",
+        "type": "Attack",
+        "description": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute."
+    },
+    "lightning_slash": {
+        "name": "Lightning Slash",
+        "type": "Attack",
+        "description": "Inflicts minor electrical slashing damage on a single enemy."
+    },
     "midheal": {
         "name": "Midheal",
         "type": "Healing",
@@ -108,6 +118,11 @@
         "name": "Miracle Slash",
         "type": "Attack",
         "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+    },
+    "numb": {
+        "name": "Numb",
+        "type": "Status",
+        "description": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "oomph": {
         "name": "Oomph",
@@ -158,5 +173,15 @@
         "name": "Whack",
         "type": "Status",
         "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "zap": {
+        "name": "Zap",
+        "type": "Attack",
+        "description": "Inflicts minor electrical spell damage on a single enemy."
+    },
+    "zapple": {
+        "name": "Zapple",
+        "type": "Attack",
+        "description": "Inflicts medium electrical spell damage on all enemies."
     }
 }

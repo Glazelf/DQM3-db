@@ -49,5 +49,15 @@
         "attack_8": 70,
         "flame_breath": 85,
         "chilly_breath": 100
+    },
+    "zap_afficionado": {
+        "zap": 3,
+        "lightning_slash": 10,
+        "numb": 20,
+        "max_mp_4": 30,
+        "knuckle_sandwich": 50,
+        "accelerate": 70,
+        "max_mp_8": 85,
+        "zapple": 100
     }
 }
