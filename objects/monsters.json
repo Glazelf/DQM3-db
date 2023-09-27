@@ -112,17 +112,167 @@
     "bubble_slime": {
         "name": "Bubble Slime",
         "number": 7,
-        "description": null
+        "rank": "G",
+        "family": "Slime",
+        "description": "These unfortunate creatures were once normal slimes until permeated by swamp poison, causing their bodies to collapse like underbaked meringue.",
+        "drops": {
+            "normal": "antidotal_herb",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 4,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "slimer"
+        ],
+        "traits": {
+            "small": {
+                "infected_skin": 1,
+                "insta_accel": 20,
+                "ultra_crafty_poisoner": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ace_evader": 1,
+                "strangely_alluring": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": 25,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "healslime": {
         "name": "Healslime",
         "number": 8,
-        "description": null
+        "rank": "G",
+        "family": "Slime",
+        "description": "These soft-centred slimes simply cannot stand by when they spy someone in need. Word has it there's one in particular who travels far and wide in pursuit of his dream of becoming human.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_wisdom"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "healer"
+        ],
+        "traits": {
+            "small": {
+                "health_professional": 1,
+                "rando_mister": 20,
+                "benefaction": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "ace_evader": 1,
+                "spongy_skin": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        }
     },
     "she_slime": {
         "name": "She-Slime",
         "number": 16,
-        "description": null
+        "rank": "F",
+        "family": "Slime",
+        "description": "These slimes are proud of their quirky colouration, which is likely the product of a genetic fluke. They feel faintly warm to the touch.",
+        "drops": {
+            "normal": "medicinal_herb",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "spicy_slasher"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "rando_accel": 20,
+                "strong_starter": 40
+            },
+            "large": {
+                "tactical_titan": 1,
+                "agent_of_chaos": 1,
+                "ultra_crafty_frizzer": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        }
     },
     "dragonthorn": {
         "name": "Dragonthorn",
@@ -204,7 +354,7 @@
             "small": {
                 "insta_accel": 1,
                 "strong_starter": 20,
-                "ultra_craft_frizzer": 40
+                "ultra_crafty_frizzer": 40
             },
             "large": {
                 "tactical_genius": 1,
@@ -232,6 +382,61 @@
             "stun": 50,
             "poison": -25,
             "instant_death": 25
+        }
+    },
+    "airbagon": {
+        "name": "Airbagon",
+        "number": 68,
+        "rank": "G",
+        "family": "Dragon",
+        "description": "Dragons who love giving humans a good fright by inflating themselves and then making themselves burst. In order to get the biggest bang they can, they inhale huge volumes of air but occasionally wimp out before they pop.",
+        "drops": {
+            "normal": "rockbomb_shard",
+            "rare": "seed_of_skill"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "bang_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "insta_bounce": 1,
+                "detox": 20,
+                "spongy_skin": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "parting_gift": 1,
+                "collective_punishment": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
         }
     },
     "vegandragora": {
@@ -292,7 +497,57 @@
     "damselfly": {
         "name": "Damselfly",
         "number": 70,
-        "description": null
+        "rank": "G",
+        "family": "Dragon",
+        "description": "These dragons like to ensorcell travellers with their beautiful fairy wings. Not only bewitching to behold, their wings release a fine powder which puts their prey in a trance.",
+        "drops": {
+            "normal": "medicinal_herb",
+            "rare": "seed_of_agility"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 1,
+            "def": 1,
+            "agi": 5,
+            "wis": 2
+        },
+        "talents": [
+            "soothesayer"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_stunner": 1,
+                "benefaction": 20,
+                "ultra_crafty_dazzler": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "insta_accel": 1,
+                "stunning_skin": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": -25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        }
     },
     "green_dragon": {
         "name": "Green Dragon",
@@ -311,7 +566,57 @@
     "stark_raven": {
         "name": "Stark Raven",
         "number": 135,
-        "description": null
+        "rank": "G",
+        "family": "Plant",
+        "description": "These creepy corvids can't resist scooping up skulls from ancient battlefields. Fledgling ravens like to clamber through the eye-holes to hide from predators.",
+        "drops": {
+            "normal": "pinball",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "blusterer"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "insta_accel": 20,
+                "tit_for_tat": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "zammeister": 1,
+                "ultra_crafty_zammer": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": -25,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        }
     },
     "bantamweight": {
         "name": "Bantamweight",
@@ -481,7 +786,57 @@
     "mad_mollusk": {
         "name": "Mad Mollusk",
         "number": 141,
-        "description": null
+        "rank": "G",
+        "family": "Plant",
+        "description": "These monsters have two mouths, one at each end. The one at the front is a strict vegetarian, while the one on the tail is meat mad.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_wisdom"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "tongue_twister"
+        ],
+        "traits": {
+            "small": {
+                "zombiesbane": 1,
+                "insta_bounce": 20,
+                "ultra_crafty_cracker": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "spongy_skin": 1,
+                "collective_punishment": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": -25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        }
     },
     "woebergine": {
         "name": "Woebergine",
@@ -596,12 +951,112 @@
     "toady": {
         "name": "Toady",
         "number": 145,
-        "description": null
+        "rank": "G",
+        "family": "Plant",
+        "description": "These ample amphibians might have mutated into mega-sized monsters, but they retain their original love for croaking out a tune. They like to put on evening concerts just after the rain lets up.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "splash_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "splishmeister": 1,
+                "ace_evader": 20,
+                "absorbent_touch": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "sleep_twitch": 1,
+                "ultra_crafty_splasher": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 75,
+            "wind": 0,
+            "earth": 25,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        }
     },
     "cyclown": {
         "name": "Cyclown",
         "number": 148,
-        "description": null
+        "rank": "F",
+        "family": "Plant",
+        "description": "These wicked wind spirits sport their whirlwinds like work attire. Their greatest desire is to welcome wanderers into their whirling worlds.",
+        "drops": {
+            "normal": "medicinal_herb",
+            "rare": "seed_of_magic"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "woosh_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "wooshmeister": 1,
+                "insta_accel": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "snappy_comeback": 1,
+                "collective_punishment": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 50,
+            "earth": -25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "antguzzler": {
         "name": "Antguzzler",
@@ -826,22 +1281,222 @@
     "lampling": {
         "name": "Lampling",
         "number": 288,
-        "description": null
+        "rank": "G",
+        "family": "Material",
+        "description": "These sparky spirits inhabit lanterns that have been discarded by their owners. They like to terrify unfortunate adventurers who tramp their terrain at night.",
+        "drops": {
+            "normal": "medicinal_herb",
+            "rare": "seed_of_strength"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "frizz_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "magical_moment": 20,
+                "ultra_crafty_banger": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "close_scraper": 1,
+                "bangmeister": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": -25,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        }
     },
     "foo_dog": {
         "name": "Foo Dog",
         "number": 290,
-        "description": null
+        "rank": "F",
+        "family": "Material",
+        "description": "Hellish hounds employed in the underworld as ghastly guard dogs. Bloodthirsty to the bone, even fellow monsters give these mutts a wide berth.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_resilience"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "wild_child"
+        ],
+        "traits": {
+            "small": {
+                "close_scraper": 1,
+                "naked_ambition": 20,
+                "critical_moment": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "rando_buff": 1,
+                "personal_grudge": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "bongo_drongo": {
         "name": "Bongo Drongo",
         "number": 294,
-        "description": null
+        "rank": "F",
+        "family": "Material",
+        "description": "Sturdy spirits in the thrall of their large-faced bongos. All manner of monsters are drawn in by their deft drumming, entranced by the intricate rhapsody of rhythm.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_strength"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "fortifier"
+        ],
+        "traits": {
+            "small": {
+                "rando_mister": 1,
+                "ace_evader": 20,
+                "benefaction": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "sobering_slap": 1,
+                "insta_oomph": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "leery_lout": {
         "name": "Leery Lout",
         "number": 354,
-        "description": "These shy scoundrels dish out damage from behind their smirking shields, which are precious family heirlooms, passed down from father to son."
+        "rank": "G",
+        "family": "Demon",
+        "description": "These shy scoundrels dish out damage from behind their smirking shields, which are precious family heirlooms, passed down from father to son.",
+        "drops": {
+            "normal": "pretty_pebble",
+            "rare": "seed_of_resilience"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "defender"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "late_bloomer": 20,
+                "insta_oomph": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "static_discharge": 1,
+                "desperate_measures": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        }
     },
     "dracky": {
         "name": "Dracky",
@@ -901,7 +1556,57 @@
     "lunatick": {
         "name": "Lunatick",
         "number": 359,
-        "description": null
+        "rank": "G",
+        "family": "Demon",
+        "description": "These curious monsters' enormous eyeballs afford them excellent vision, even in absolute darkness. Once they set their sights on their prey, they will not give up until they wrap their tentacles around it.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_wisdom"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "thrill_seeker"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_paralyser": 1,
+                "sizzmeister": 20,
+                "paralysing_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ace_evader": 1,
+                "ultra_crafty_sizzer": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 25,
+            "instant_death": 0
+        }
     },
     "teeny_sanguini": {
         "name": "Teeny Sanguini",
@@ -961,27 +1666,229 @@
     "lips": {
         "name": "Lips",
         "number": 361,
-        "description": null
+        "rank": "G",
+        "family": "Demon",
+        "description": "Who could resist that king-sized kisser? Protective of their prime assets, you won't catch one of these full-lipped fiends without their trusty lip balm.",
+        "drops": {
+            "normal": "moonwort_bulb",
+            "rare": "seed_of_wisdom"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 4,
+            "atk": 1,
+            "def": 2,
+            "agi": 1,
+            "wis": 1
+        },
+        "talents": [
+            "tongue_twister"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_confuser": 1,
+                "insta_ping": 20,
+                "sobering_slap": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "infected_skin": 1,
+                "confusing_touch": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 0,
+            "debilitation": -25,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        }
     },
     "cyclops": {
         "name": "Cyclops",
         "number": 376,
+        "rank": "E",
+        "family": "Demon",
         "description": null
     },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,
-        "description": null
+        "rank": "G",
+        "family": "Undead",
+        "description": "These cadaverous canines originally died of exhaustion before being brought back to life by the powers of darkness, though any smarts they had are long gone.",
+        "drops": {
+            "normal": "manky_meat",
+            "rare": "seed_of_strength"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "enfeebler"
+        ],
+        "traits": {
+            "small": {
+                "agent_of_chaos": 1,
+                "insta_accel": 20,
+                "ultra_crafty_zammer": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "close_scraper": 1,
+                "intimidating": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 50,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        }
     },
     "funghoul": {
         "name": "Funghoul",
         "number": 429,
-        "description": null
+        "rank": "G",
+        "family": "Undead",
+        "description": "These great big gurning mushrooms spring up in their dozens in damp locales. They propagate by putting travellers to sleep and seeding them with their spores.",
+        "drops": {
+            "normal": "smelling_salts",
+            "rare": "seed_of_resilience"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "stinker"
+        ],
+        "traits": {
+            "small": {
+                "beastsbane": 1,
+                "ultra_crafty_sleeper": 20,
+                "somnolent_skin": 40
+            },
+            "large": {
+                "tactical_titan": 1,
+                "major_downer": 1,
+                "insult_to_injury": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 25,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 25
+        }
     },
     "skeleton": {
         "name": "Skeleton",
         "number": 431,
-        "description": "Recycled from the bodies of fallen warriors, these unfortunate cadavers truly get worked to the bone."
+        "rank": "G",
+        "family": "Undead",
+        "description": "Recycled from the bodies of fallen warriors, these unfortunate cadavers truly get worked to the bone.",
+        "drops": {
+            "normal": "pretty_pebble",
+            "rare": "seed_of_strength"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "Graveheart"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_confuser": 1,
+                "critical_moment": 20,
+                "metal_beater": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "parting_gift": 1,
+                "ultra_crafty_zapper": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 75,
+            "debilitation": 25,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": -25,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        }
     },
     "stump_chump": {
         "name": "Stump Chump",
@@ -1040,17 +1947,168 @@
     },
     "ghost": {
         "name": "Ghost",
-        "number": 433
+        "number": 433,
+        "rank": "G",
+        "family": "Undead",
+        "description": "Unfinished business in their previous lives prevents these poltergeists from ever being at peace. They're always trying to inflict a fright one way or another, just for the attention.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_agility"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 4,
+            "atk": 1,
+            "def": 1,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "Graveheart"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "stunning_touch": 20,
+                "spongy_skin": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "supreme_sidestepper": 1,
+                "wizardly_wind": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "firespirit": {
         "name": "Firespirit",
         "number": 437,
-        "description": null
+        "rank": "G",
+        "family": "Undead",
+        "description": "No-one knows for certain how these monsters came to be. Some believe they were born of the fiery 'Frizz' spell, while others think they are the souls of those who died with a burning desire for revenge.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "frizz_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "ace_evader": 20,
+                "absorbent_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "rando_ping": 1,
+                "parting_gift": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 50,
+            "ice": -25,
+            "electricity": 0,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "shadow": {
         "name": "Shadow",
         "number": 441,
-        "description": null
+        "rank": "F",
+        "family": "Undead",
+        "description": "These monsters are said to have been born in the depths of an unfathomably deep darkness. Adept at imitation, they can even forget their natural appearance if they spend long enough shadowing someone else.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_agility"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "hexcommunicator"
+        ],
+        "traits": {
+            "small": {
+                "zammeister": 1,
+                "insta_ping": 20,
+                "deadly_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ultra_crafty_whacker": 1,
+                "slick_skin": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": -25,
+            "dark": 100,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        }
     },
     "fright_bulb": {
         "name": "Fright Bulb",
@@ -1211,7 +2269,7 @@
             "wis": 3
         },
         "talents": [
-            "Graveheart"
+            "graveheart"
         ],
         "traits": {
             "small": {
@@ -1259,7 +2317,7 @@
             "wis": 3
         },
         "talents": [
-            "Crack Afficionado"
+            "crack_afficionado"
         ],
         "traits": {
             "small": {
