@@ -39,6 +39,10 @@
         "name": "Defensive Impulse",
         "description": "Reduces damage received when HP drop to 1/2."
     },
+    "detox": {
+        "name": "Detox",
+        "description": "Sometimes cures allies of poison, severe poison and paralysis during battle."
+    },
     "dodge_denier": {
         "name": "Dodge Denier",
         "description": "Ensures the enemy cannot avoid attacks."
@@ -50,6 +54,10 @@
     "infected_skin": {
         "name": "Infected Skin",
         "description": "Sometimes poisons enemies that inflict direct attacks."
+    },
+    "insensitive_skin": {
+        "name": "Insensitive Skin",
+        "description": "Sometimes paralyses enemies that inflict direct attacks."
     },
     "insta_accel": {
         "name": "Insta-Accel",

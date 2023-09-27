@@ -4,6 +4,11 @@
         "type": "Status",
         "description": "Greatly increases the agility of a single ally for 4 to 7 turns."
     },
+    "assassins_stab": {
+        "name": "Assassin's Stab",
+        "type": "Attack",
+        "description": "Damages an enemy and occasionally causes instant death."
+    },
     "blunt": {
         "name": "Blunt",
         "type": "Status",
@@ -104,10 +109,20 @@
         "type": "Attack",
         "description": "Inflicts minor wind-elemental slashing damage on a single enemy."
     },
+    "hatchet_man": {
+        "name": "Hatchet Man",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds."
+    },
     "heal": {
         "name": "Heal",
         "type": "Healing",
         "description": "Restores 28 or more HP to a single ally."
+    },
+    "heart_breaker": {
+        "name": "Heart Breaker",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on a single enemy and stuns it for 1 turn."
     },
     "helm_splitter": {
         "name": "Helm Splitter",
@@ -159,6 +174,11 @@
         "type": "Attack",
         "description": "Inflicts heavy slashing damage on monsters in the material family."
     },
+    "mercurial_thrust": {
+        "name": "Mercurial Thrust",
+        "type": "Attack",
+        "description": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else."
+    },
     "midheal": {
         "name": "Midheal",
         "type": "Healing",
@@ -208,6 +228,11 @@
         "name": "Sap",
         "type": "Status",
         "description": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "seethe": {
+        "name": "Seethe",
+        "type": "Status",
+        "description": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge."
     },
     "sleep_attack": {
         "name": "Sleep Attack",

@@ -2610,7 +2610,7 @@
         "traits": {
             "small": {
                 "ace_evader": 1,
-                "benefactionn": 20,
+                "benefaction": 20,
                 "ultra_crafty_woosher": 40
             },
             "large": null
@@ -2635,6 +2635,54 @@
             "stun": 25,
             "poison": 50,
             "instant_death": 0
+        }
+    },
+    "avian_android": {
+        "name": "Avian Android",
+        "number": null,
+        "rank": "F",
+        "family": "material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "assassin"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_sleeper": 1,
+                "insensitive_skin": 20,
+                "detox": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 50
         }
     }
 }

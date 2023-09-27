@@ -1,4 +1,14 @@
 {
+    "assassin": {
+        "heart_breaker": 3,
+        "sandstorm": 10,
+        "mercurial_thrust": 20,
+        "seethe": 30,
+        "sleep_attack": 50,
+        "hatchet_man": 70,
+        "whack": 85,
+        "assassins_stab": 100
+    },
     "crack_afficionado": {
         "crack": 3,
         "kacrackle_slash": 10,
