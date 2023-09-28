@@ -1,4 +1,4 @@
-module.exports = (parent1, parent2, target) => {
+module.exports = ({ parents = [], target, traits = [] }) => {
     // Behaviour:
     // 1. parent1 & parent 2 --> return results
     // 2. 1 parent --> return options for synthesis with that parent
@@ -8,8 +8,8 @@ module.exports = (parent1, parent2, target) => {
     const monsters = require('../objects/monsters.json');
     const genericSynthesis = require('../objects/genericSynthesis.json');
     let synthesisResults = [];
-    let parent1data = monsters[parent1];
-    let parent2data = monsters[parent2];
+    let parent1data = monsters[parents[0]];
+    let parent2data = monsters[parents[1]];
     let parentsSameRank = (parent1data.rank === parent2data.rank);
     // Behaviour 1
     if (parent1 && parent2) {
