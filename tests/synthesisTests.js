@@ -5,16 +5,16 @@ async function synthesisTests() {
     let parent1 = "she_slime";
     let parent2 = "lampling";
     let target = null;
-    let trait1 = null;
-    let trait2 = null;
-    let trait3 = null;
+    let talent1 = null;
+    let talent2 = null;
+    let talent3 = null;
     let parents = [];
     if (parent1) parents.push(parent1);
     if (parent2) parents.push(parent2);
     let traits = [];
-    if (trait1) traits.push(trait1);
-    if (trait2) traits.push(trait2);
-    if (trait3) traits.push(trait3);
+    if (talent1) traits.push(talent1);
+    if (talent2) traits.push(talent2);
+    if (talent3) traits.push(talent3);
 
     console.log(`parent1: ${parent1} + parent2: ${parent2}`);
     let bothParentsResult = await synthesis({ parents: parents, target: target, traits: traits });
