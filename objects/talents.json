@@ -1,4 +1,25 @@
 {
+    "agility_booster_1": {
+        "name": "Agility Booster I",
+        "skills": null,
+        "traits": {
+            "agility_4": [
+                5
+            ],
+            "max_hp_4": [
+                10,
+                30,
+                70
+            ],
+            "agility_8": [
+                20,
+                50
+            ],
+            "agility_12": [
+                85
+            ]
+        }
+    },
     "assassin": {
         "name": "Assassin",
         "skills": {
@@ -13,6 +34,45 @@
         },
         "traits": null
     },
+    "attack_booster_1": {
+        "name": "Attack Booster I",
+        "skills": null,
+        "traits": {
+            "attack_4": [
+                5,
+                10,
+                30,
+                70
+            ],
+            "attack_8": [
+                20,
+                50
+            ],
+            "attack_12": [
+                85
+            ]
+        }
+    },
+    "blowy_slasher": {
+        "name": "Blowy Slasher",
+        "skills": {
+            "gust_slash": 3,
+            "woosh": 10,
+            "nature_nerfer": 20,
+            "tingle": 50,
+            "wind_sickles": 70,
+            "swoosh": 85,
+            "skysplitter": 120
+        },
+        "traits": {
+            "agility_8": [
+                30
+            ],
+            "agility_16": [
+                100
+            ]
+        }
+    },
     "crack_afficionado": {
         "name": "Crack Afficionado",
         "skills": {
@@ -24,8 +84,31 @@
             "crackle": 100
         },
         "traits": {
-            "max_mp_4": 30,
-            "max_mp_8": 85
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "dancer": {
+        "name": "Dancer",
+        "skills": {
+            "weird_dance": 3,
+            "sultry_dance": 10,
+            "mercurial_thrust": 20,
+            "buff": 50,
+            "tap_dance": 70,
+            "sword_dance": 100
+        },
+        "traits": {
+            "agility_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
         }
     },
     "enfeebler": {
@@ -84,6 +167,23 @@
         },
         "traits": null
     },
+    "hulk": {
+        "name": "Hulk",
+        "skills": {
+            "helm_splitter": 3,
+            "slime_squisher": 10,
+            "intense_defence": 20,
+            "war_cry": 30,
+            "selflessness": 70,
+            "anchorman": 85,
+            "stomp": 100
+        },
+        "traits": {
+            "max_hp_8": [
+                50
+            ]
+        }
+    },
     "materialist": {
         "name": "Materialist",
         "skills": {
@@ -124,8 +224,12 @@
             "chilly_breath": 100
         },
         "traits": {
-            "attack_4": 20,
-            "attack_8": 70
+            "attack_4": [
+                20
+            ],
+            "attack_8": [
+                70
+            ]
         }
     },
     "splash_afficionado": {
@@ -139,8 +243,12 @@
             "splash": 100
         },
         "traits": {
-            "max_mp_4": 30,
-            "max_mp_8": 85
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
         }
     },
     "willing_helper": {
@@ -157,7 +265,9 @@
             "midheal": 120
         },
         "traits": {
-            "max_mp_24": 150
+            "max_mp_24": [
+                150
+            ]
         }
     },
     "woosh_afficionado": {
@@ -171,8 +281,12 @@
             "swoosh": 100
         },
         "traits": {
-            "max_mp_4": 30,
-            "max_mp_8": 85
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
         }
     },
     "zap_afficionado": {
@@ -186,8 +300,34 @@
             "zapple": 100
         },
         "traits": {
-            "max_mp_4": 30,
-            "max_mp_8": 85
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "zap_ward": {
+        "name": "Zap Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "max_mp_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_zap_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
         }
     }
 }

@@ -7,6 +7,22 @@
         "name": "Agent of Chaos",
         "description": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits."
     },
+    "agility_4": {
+        "name": "Agility +4",
+        "description": "Raises agility by 4."
+    },
+    "agility_8": {
+        "name": "Agility +8",
+        "description": "Raises agility by 8."
+    },
+    "agility_12": {
+        "name": "Agility +12",
+        "description": "Raises agility by 12."
+    },
+    "agility_16": {
+        "name": "Agility +16",
+        "description": "Raises agility by 16."
+    },
     "attack_4": {
         "name": "Attack +4",
         "description": "Raises attack by 4."
@@ -30,6 +46,10 @@
     "bigger_upper": {
         "name": "Bigger Upper",
         "description": "Extends the duration of skills that raise the strength, defence, agility or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
+    },
+    "castslasher": {
+        "name": "Castslasher",
+        "description": "Reduces MP consumption by 1/2."
     },
     "crackmeister": {
         "name": "Crackmeister",
@@ -103,6 +123,10 @@
         "name": "Max. MP +8",
         "description": "Raises max. MP by 8."
     },
+    "max_mp_16": {
+        "name": "Max. MP +16",
+        "description": "Raises max. MP by 16."
+    },
     "max_mp_24": {
         "name": "Max. MP +24",
         "description": "Raises max. MP by 24."
@@ -166,6 +190,14 @@
     "ultra_crafty_woosher": {
         "name": "Ultra Crafty Woosher",
         "description": "Greatly increases the damage inflicted by wind-elemental attacks."
+    },
+    "ultra_zap_ward": {
+        "name": "Ultra Zap Ward",
+        "description": "Greatly increases resistance to electrical attacks."
+    },
+    "wisdom_16": {
+        "name": "Wisdom +16",
+        "description": "Raises wisdom by 16."
     },
     "zapmeister": {
         "name": "Zapmeister",

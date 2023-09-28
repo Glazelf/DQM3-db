@@ -5,6 +5,12 @@
         "description": "Greatly increases the agility of a single ally for 4 to 7 turns.",
         "mp_cost": 3
     },
+    "anchorman": {
+        "name": "Anchorman",
+        "type": "Attack",
+        "description": "Acts after everyone else to inflict extreme impact damage on an enemy.",
+        "mp_cost": 15
+    },
     "assassins_stab": {
         "name": "Assassin's Stab",
         "type": "Attack",
@@ -305,6 +311,17 @@
         "description": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge.",
         "mp_cost": 10
     },
+    "selflessness": {
+        "name": "Selflessness",
+        "type": "Status",
+        "description": "Receives all incoming attacks in place of allies for 1 round, but suffers greater damage in doing so."
+    },
+    "skysplitter": {
+        "name": "Skysplitter",
+        "type": "Attack",
+        "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
     "sleep_attack": {
         "name": "Sleep Attack",
         "type": "Attack",
@@ -341,11 +358,23 @@
         "description": "Cures all allies of poison or severe poison.",
         "mp_cost": 2
     },
+    "stomp": {
+        "name": "Stomp",
+        "type": "Attack",
+        "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 12
+    },
     "stones_throw": {
         "name": "Stone's Throw",
         "type": "Attack",
         "description": "Inflicts minor earth-elemental spell damage on a single enemy.",
         "mp_cost": 4
+    },
+    "sultry_dance": {
+        "name": "Sultry Dance",
+        "type": "Status",
+        "description": "A bewitching dance that stuns all enemies for 1 turn.",
+        "mp_cost": 2
     },
     "sweet_breath": {
         "name": "Sweet Breath",
@@ -359,6 +388,18 @@
         "description": "Inflicts medium wind-elemental spell damage on all enemies.",
         "mp_cost": 11
     },
+    "sword_dance": {
+        "name": "Sword Dance",
+        "type": "Attack",
+        "description": "A dance that damages enemies at random, 3 to 7 times in total.",
+        "mp_cost": 15
+    },
+    "tap_dance": {
+        "name": "Tap Dance",
+        "type": "Status",
+        "description": "A dance that absorbs some MP from a single enemy.",
+        "mp_cost": 0
+    },
     "tingle": {
         "name": "Tingle",
         "type": "Status",
@@ -370,6 +411,12 @@
         "type": "Status",
         "description": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1.",
         "mp_cost": 8
+    },
+    "war_cry": {
+        "name": "War Cry",
+        "type": "Status",
+        "description": "An ear-popping shout that stuns all enemies for 1 turn.",
+        "mp_cost": 30
     },
     "weird_dance": {
         "name": "Weird Dance",
