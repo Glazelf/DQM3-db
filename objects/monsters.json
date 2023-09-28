@@ -3,7 +3,7 @@
         "name": "Slime",
         "number": 1,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": "Adored by all for its flexy physique and funny face, this little monster is something of an icon. Who wouldn't want one for a pal?",
         "drops": {
             "normal": "medicinal_herb",
@@ -58,7 +58,7 @@
         "name": "Wing Slime",
         "number": 6,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": "Slimes which sprouted wings after dreaming of soaring through the sky. Their wings double up as a snug sleeping bag at night.",
         "drops": {
             "normal": "antimagic_powder",
@@ -113,7 +113,7 @@
         "name": "Bubble Slime",
         "number": 7,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": "These unfortunate creatures were once normal slimes until permeated by swamp poison, causing their bodies to collapse like underbaked meringue.",
         "drops": {
             "normal": "antidotal_herb",
@@ -168,7 +168,7 @@
         "name": "Healslime",
         "number": 8,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": "These soft-centred slimes simply cannot stand by when they spy someone in need. Word has it there's one in particular who travels far and wide in pursuit of his dream of becoming human.",
         "drops": {
             "normal": "magic_water",
@@ -223,7 +223,7 @@
         "name": "She-Slime",
         "number": 16,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": "These slimes are proud of their quirky colouration, which is likely the product of a genetic fluke. They feel faintly warm to the touch.",
         "drops": {
             "normal": "medicinal_herb",
@@ -278,7 +278,7 @@
         "name": "Dragonthorn",
         "number": 65,
         "rank": "G",
-        "family": "dragon",
+        "family": "_dragon",
         "description": "Cursed thickets of thorn tangled into draconic shape. Those entwined in their terrifying clutches have no hope of escape.",
         "drops": {
             "normal": "strong_medicine",
@@ -333,7 +333,7 @@
         "name": "Komodo",
         "number": 66,
         "rank": "G",
-        "family": "dragon",
+        "family": "_dragon",
         "description": "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down.",
         "drops": {
             "normal": "manky_meat",
@@ -388,7 +388,7 @@
         "name": "Airbagon",
         "number": 68,
         "rank": "G",
-        "family": "dragon",
+        "family": "_dragon",
         "description": "Dragons who love giving humans a good fright by inflating themselves and then making themselves burst. In order to get the biggest bang they can, they inhale huge volumes of air but occasionally wimp out before they pop.",
         "drops": {
             "normal": "rockbomb_shard",
@@ -443,7 +443,7 @@
         "name": "Vegandragora",
         "number": 69,
         "rank": "G",
-        "family": "dragon",
+        "family": "_dragon",
         "description": "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days.",
         "drops": {
             "normal": "medicinal_herb",
@@ -498,7 +498,7 @@
         "name": "Damselfly",
         "number": 70,
         "rank": "G",
-        "family": "dragon",
+        "family": "_dragon",
         "description": "These dragons like to ensorcell travellers with their beautiful fairy wings. Not only bewitching to behold, their wings release a fine powder which puts their prey in a trance.",
         "drops": {
             "normal": "medicinal_herb",
@@ -553,21 +553,21 @@
         "name": "Green Dragon",
         "number": 87,
         "rank": "E",
-        "family": "dragon",
+        "family": "_dragon",
         "description": null
     },
     "lumbering_lizard": {
         "name": "Lumbering Lizard",
         "number": 89,
         "rank": "E",
-        "family": "dragon",
+        "family": "_dragon",
         "description": null
     },
     "stark_raven": {
         "name": "Stark Raven",
         "number": 135,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These creepy corvids can't resist scooping up skulls from ancient battlefields. Fledgling ravens like to clamber through the eye-holes to hide from predators.",
         "drops": {
             "normal": "pinball",
@@ -622,7 +622,7 @@
         "name": "Bantamweight",
         "number": 136,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist.",
         "drops": {
             "normal": "monster_manure",
@@ -677,7 +677,7 @@
         "name": "Killerpillar",
         "number": 138,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "Though these creepy-crawlies might look like larvae, they are in fact fully grown. They keep themselves warm in cold weather by rolling up into snug little balls.",
         "drops": {
             "normal": "manky_meat",
@@ -732,7 +732,7 @@
         "name": "Capsichum",
         "number": 139,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These terrible twins are in fact born already skewered. Always butting heads, they are often witnessed mid-argument.",
         "drops": {
             "normal": "medicinal_herb",
@@ -787,7 +787,7 @@
         "name": "Mad Mollusk",
         "number": 141,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These monsters have two mouths, one at each end. The one at the front is a strict vegetarian, while the one on the tail is meat mad.",
         "drops": {
             "normal": "mystery_meat",
@@ -842,7 +842,7 @@
         "name": "Woebergine",
         "number": 142,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These adorable vegetable-based monsters are proud of their ability to cut some rug. Any traveller straying into their terrain should be prepared to see them strut their stuff.",
         "drops": {
             "normal": "medicinal_herb",
@@ -897,7 +897,7 @@
         "name": "Khalamari Kid",
         "number": 144,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller.",
         "drops": {
             "normal": "medicinal_herb",
@@ -952,7 +952,7 @@
         "name": "Toady",
         "number": 145,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": "These ample amphibians might have mutated into mega-sized monsters, but they retain their original love for croaking out a tune. They like to put on evening concerts just after the rain lets up.",
         "drops": {
             "normal": "mystery_meat",
@@ -1007,7 +1007,7 @@
         "name": "Cyclown",
         "number": 148,
         "rank": "F",
-        "family": "nature",
+        "family": "_nature",
         "description": "These wicked wind spirits sport their whirlwinds like work attire. Their greatest desire is to welcome wanderers into their whirling worlds.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1062,7 +1062,7 @@
         "name": "Antguzzler",
         "number": 205,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These long-snouted monsters resemble spiny anteaters. Their length tongues are well-adapted to slurping army ants up from their nests.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1117,7 +1117,7 @@
         "name": "Mischievous Mole",
         "number": 206,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These tunnelling tykes traditionally loved to play pranks, but these days tend to keep their heads down and focus on digging.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1172,7 +1172,7 @@
         "name": "Bunicorn",
         "number": 207,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These creatures might resemble rabbits, but meet one of their horns head-on and you'll understand the difference rather sharpish. They pass the long nights huddled together in their warrens.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1227,7 +1227,7 @@
         "name": "Feralball",
         "number": 213,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "This flufball is covered in green fur from top to toe. Though easily spooked, those with sharp eyes might spot something funny where this beastie's nose should be before it scarpers.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1282,7 +1282,7 @@
         "name": "Lampling",
         "number": 288,
         "rank": "G",
-        "family": "material",
+        "family": "_material",
         "description": "These sparky spirits inhabit lanterns that have been discarded by their owners. They like to terrify unfortunate adventurers who tramp their terrain at night.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1337,7 +1337,7 @@
         "name": "Foo Dog",
         "number": 290,
         "rank": "F",
-        "family": "material",
+        "family": "_material",
         "description": "Hellish hounds employed in the underworld as ghastly guard dogs. Bloodthirsty to the bone, even fellow monsters give these mutts a wide berth.",
         "drops": {
             "normal": "mystery_meat",
@@ -1392,7 +1392,7 @@
         "name": "Bongo Drongo",
         "number": 294,
         "rank": "F",
-        "family": "material",
+        "family": "_material",
         "description": "Sturdy spirits in the thrall of their large-faced bongos. All manner of monsters are drawn in by their deft drumming, entranced by the intricate rhapsody of rhythm.",
         "drops": {
             "normal": "mystery_meat",
@@ -1447,7 +1447,7 @@
         "name": "Leery Lout",
         "number": 354,
         "rank": "G",
-        "family": "demon",
+        "family": "_demon",
         "description": "These shy scoundrels dish out damage from behind their smirking shields, which are precious family heirlooms, passed down from father to son.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1502,7 +1502,7 @@
         "name": "Dracky",
         "number": 355,
         "rank": "G",
-        "family": "demon",
+        "family": "_demon",
         "description": "These flapping pains in the neck only come out at night. They love nothing more than slurping up human blood, the fresher the better.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1557,7 +1557,7 @@
         "name": "Lunatick",
         "number": 359,
         "rank": "G",
-        "family": "demon",
+        "family": "_demon",
         "description": "These curious monsters' enormous eyeballs afford them excellent vision, even in absolute darkness. Once they set their sights on their prey, they will not give up until they wrap their tentacles around it.",
         "drops": {
             "normal": "magic_water",
@@ -1612,7 +1612,7 @@
         "name": "Teeny Sanguini",
         "number": 360,
         "rank": "G",
-        "family": "demon",
+        "family": "_demon",
         "description": "Baby monsters known for their distinctive bovine markings. Considered to be fully-grown once the black fur grows out, replaced entirely with a ravishing shade of rose pink.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1667,7 +1667,7 @@
         "name": "Lips",
         "number": 361,
         "rank": "G",
-        "family": "demon",
+        "family": "_demon",
         "description": "Who could resist that king-sized kisser? Protective of their prime assets, you won't catch one of these full-lipped fiends without their trusty lip balm.",
         "drops": {
             "normal": "moonwort_bulb",
@@ -1722,14 +1722,14 @@
         "name": "Cyclops",
         "number": 376,
         "rank": "E",
-        "family": "demon",
+        "family": "_demon",
         "description": null
     },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "These cadaverous canines originally died of exhaustion before being brought back to life by the powers of darkness, though any smarts they had are long gone.",
         "drops": {
             "normal": "manky_meat",
@@ -1784,7 +1784,7 @@
         "name": "Funghoul",
         "number": 429,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "These great big gurning mushrooms spring up in their dozens in damp locales. They propagate by putting travellers to sleep and seeding them with their spores.",
         "drops": {
             "normal": "smelling_salts",
@@ -1839,7 +1839,7 @@
         "name": "Skeleton",
         "number": 431,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "Recycled from the bodies of fallen warriors, these unfortunate cadavers truly get worked to the bone.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1894,7 +1894,7 @@
         "name": "Stump Chump",
         "number": 432,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "The tragic remains of chopped-down trees whose deep-seated malice has made them morph into monsters. They attack travellers who try to sit on them, sucking out all their nutrients before discarding the husk.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1949,7 +1949,7 @@
         "name": "Ghost",
         "number": 433,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "Unfinished business in their previous lives prevents these poltergeists from ever being at peace. They're always trying to inflict a fright one way or another, just for the attention.",
         "drops": {
             "normal": "magic_water",
@@ -2004,7 +2004,7 @@
         "name": "Firespirit",
         "number": 437,
         "rank": "G",
-        "family": "undead",
+        "family": "_undead",
         "description": "No-one knows for certain how these monsters came to be. Some believe they were born of the fiery 'Frizz' spell, while others think they are the souls of those who died with a burning desire for revenge.",
         "drops": {
             "normal": "magic_water",
@@ -2059,7 +2059,7 @@
         "name": "Shadow",
         "number": 441,
         "rank": "F",
-        "family": "undead",
+        "family": "_undead",
         "description": "These monsters are said to have been born in the depths of an unfathomably deep darkness. Adept at imitation, they can even forget their natural appearance if they spend long enough shadowing someone else.",
         "drops": {
             "normal": "magic_water",
@@ -2114,7 +2114,7 @@
         "name": "Fright Bulb",
         "number": null,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "growth": {
             "hp": 1,
@@ -2161,7 +2161,7 @@
         "name": "Drake Slime",
         "number": null,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2209,7 +2209,7 @@
         "name": "Onion Slime",
         "number": null,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2257,7 +2257,7 @@
         "name": "Scarfish",
         "number": null,
         "rank": "F",
-        "family": "undead",
+        "family": "_undead",
         "description": null,
         "drops": null,
         "growth": {
@@ -2305,7 +2305,7 @@
         "name": "Snowmangler",
         "number": null,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2353,7 +2353,7 @@
         "name": "Box Slime",
         "number": null,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2401,7 +2401,7 @@
         "name": "Slime Stack",
         "number": null,
         "rank": "F",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2449,7 +2449,7 @@
         "name": "Mudraker",
         "number": null,
         "rank": "F",
-        "family": "material",
+        "family": "_material",
         "description": null,
         "drops": null,
         "growth": {
@@ -2497,7 +2497,7 @@
         "name": "Scallop Slime",
         "number": null,
         "rank": "G",
-        "family": "slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2545,7 +2545,7 @@
         "name": "Bag o' Laughs",
         "number": null,
         "rank": "G",
-        "family": "material",
+        "family": "_material",
         "description": null,
         "drops": null,
         "growth": {
@@ -2593,7 +2593,7 @@
         "name": "Cumaulus",
         "number": null,
         "rank": "G",
-        "family": "material",
+        "family": "_material",
         "description": null,
         "drops": null,
         "growth": {
@@ -2641,7 +2641,7 @@
         "name": "Avian Android",
         "number": null,
         "rank": "F",
-        "family": "material",
+        "family": "_material",
         "description": null,
         "drops": null,
         "growth": {
@@ -2689,7 +2689,7 @@
         "name": "Scissor Beatle",
         "number": null,
         "rank": "F",
-        "family": "nature",
+        "family": "_nature",
         "description": null,
         "drops": null,
         "growth": {
@@ -2737,7 +2737,7 @@
         "name": "Ornery Onion",
         "number": null,
         "rank": "G",
-        "family": "nature",
+        "family": "_nature",
         "description": null,
         "drops": null,
         "growth": {
@@ -2785,7 +2785,7 @@
         "name": "Odd Cob",
         "number": null,
         "rank": "F",
-        "family": "nature",
+        "family": "_nature",
         "description": null,
         "drops": null,
         "growth": {
@@ -2833,7 +2833,7 @@
         "name": "Scornet",
         "number": null,
         "rank": "E",
-        "family": "nature",
+        "family": "_nature",
         "description": null,
         "drops": null,
         "growth": {

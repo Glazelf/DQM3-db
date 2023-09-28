@@ -1,23 +1,23 @@
 {
-    "slime": {
+    "_slime": {
         "name": "Slime"
     },
-    "dragon": {
+    "_dragon": {
         "name": "Dragon"
     },
-    "nature": {
+    "_nature": {
         "name": "Nature"
     },
-    "beast": {
+    "_beast": {
         "name": "Beast"
     },
-    "material": {
+    "_material": {
         "name": "Material"
     },
-    "demon": {
+    "_demon": {
         "name": "Demon"
     },
-    "undead": {
+    "_undead": {
         "name": "Undead"
     }
 }
