@@ -32,8 +32,6 @@ module.exports = async ({ parents = [], target, traits = [] }) => {
                     synthesisResults.uniqueSynthesis.push(monsterId);
                 };
             });
-            // let familySynthesis = monster.synthesis.forEach(pair => pair.sort() == parentsFamilies.sort());
-            // if (familySynthesis) synthesisResults.familySynthesis.push(monsterId);
         };
         synthesisResults.familySynthesis = synthesisResults.familySynthesis.concat([parents[0], parents[1]]);
     };
