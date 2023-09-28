@@ -18,9 +18,9 @@ async function synthesisTests() {
 
     console.log(`parent1: ${parent1} + parent2: ${parent2}`);
     let bothParentsResult = await synthesis({ parents: parents, target: target, traits: traits });
-    console.log(`Family Synths:`);
-    console.log(bothParentsResult.familySynthesis);
     console.log(`Unique Synths:`);
     console.log(bothParentsResult.uniqueSynthesis);
+    console.log(`Family Synths:`);
+    console.log(bothParentsResult.familySynthesis);
 };
 synthesisTests();
