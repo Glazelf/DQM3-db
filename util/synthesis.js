@@ -1,4 +1,4 @@
-module.exports = ({ parents = [], target, traits = [] }) => {
+module.exports = async ({ parents = [], target, traits = [] }) => {
     // Behaviour:
     // 1. parent1 & parent 2 --> return results
     // 2. 1 parent --> return options for synthesis with that parent
@@ -6,22 +6,38 @@ module.exports = ({ parents = [], target, traits = [] }) => {
     // 4. target --> return options to synthesize target
     // 5. All 3 --> check if parents synthesize into target
     const monsters = require('../objects/monsters.json');
-    const genericSynthesis = require('../objects/genericSynthesis.json');
-    let synthesisResults = [];
+    let synthesisResults = {
+        familySynthesis: [],
+        uniqueSynthesis: []
+    };
     let parent1data = monsters[parents[0]];
     let parent2data = monsters[parents[1]];
-    let parentsSameRank = (parent1data.rank === parent2data.rank);
+    let parentsFamilies = [parent1data.family, parent2data.family];
+    let parentsRanks = [parent1data.rank, parent2data.rank];
+    let parentsAndFamilies = parents.concat(parentsFamilies);
     // Behaviour 1
-    if (parent1 && parent2) {
-        for (let key in genericSynthesis) {
-            let keySplit = key.split("_");
-            if (keySplit.includes(parent1data.family) && keySplit.includes(parent2data.family) && parent1data.family !== parent2data.family) {
-                synthesisResults = synthesisResults.concat(genericSynthesis[key][parent1data.rank])
-                if (!parentsSameRank) synthesisResults = synthesisResults.concat(genericSynthesis[key][parent2data.rank])
-            };
+    if (parents[0] && parents[1]) {
+        for await (let monster of Object.entries(monsters)) {
+            let monsterId = monster[0];
+            monster = monster[1];
+            if (!monster.synthesis) continue;
+            monster.synthesis.forEach(pair => {
+                // Check if fusion between both parents' families
+                let familySynthesisBool = (pair.filter((element) => !parentsFamilies.includes(element)).length === 0 && parentsRanks.includes(monster.rank));
+                // Check if fusion between both at least 1 parent and another parent or family
+                let uniqueSynthesisBool = (pair.filter((element) => !parentsAndFamilies.includes(element)).length === 0 && pair.filter((element) => !parents.includes(element)).length < 2);
+                if (familySynthesisBool) {
+                    synthesisResults.familySynthesis.push(monsterId);
+                } else if (uniqueSynthesisBool) {
+                    synthesisResults.uniqueSynthesis.push(monsterId);
+                };
+            });
+            // let familySynthesis = monster.synthesis.forEach(pair => pair.sort() == parentsFamilies.sort());
+            // if (familySynthesis) synthesisResults.familySynthesis.push(monsterId);
         };
-        synthesisResults = synthesisResults.concat([parent1, parent2]);
+        synthesisResults.familySynthesis = synthesisResults.familySynthesis.concat([parents[0], parents[1]]);
     };
-    synthesisResults = [...new Set(synthesisResults)];
+    synthesisResults.familySynthesis = [...new Set(synthesisResults.familySynthesis)];
+    synthesisResults.uniqueSynthesis = [...new Set(synthesisResults.uniqueSynthesis)];
     return synthesisResults;
 };
