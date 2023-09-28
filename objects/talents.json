@@ -1,135 +1,193 @@
 {
     "assassin": {
-        "heart_breaker": 3,
-        "sandstorm": 10,
-        "mercurial_thrust": 20,
-        "seethe": 30,
-        "sleep_attack": 50,
-        "hatchet_man": 70,
-        "whack": 85,
-        "assassins_stab": 100
+        "name": "Assassin",
+        "skills": {
+            "heart_breaker": 3,
+            "sandstorm": 10,
+            "mercurial_thrust": 20,
+            "seethe": 30,
+            "sleep_attack": 50,
+            "hatchet_man": 70,
+            "whack": 85,
+            "assassins_stab": 100
+        },
+        "traits": null
     },
     "crack_afficionado": {
-        "crack": 3,
-        "kacrackle_slash": 10,
-        "demon_demeaner": 20,
-        "max_mp_4": 30,
-        "cool_breath": 50,
-        "snooze": 70,
-        "max_mp_8": 85,
-        "crackle": 100
+        "name": "Crack Afficionado",
+        "skills": {
+            "crack": 3,
+            "kacrackle_slash": 10,
+            "demon_demeaner": 20,
+            "cool_breath": 50,
+            "snooze": 70,
+            "crackle": 100
+        },
+        "traits": {
+            "max_mp_4": 30,
+            "max_mp_8": 85
+        }
     },
     "enfeebler": {
-        "decelerate": 3,
-        "sap": 10,
-        "dim": 20,
-        "blunt": 30,
-        "deceleratle": 50,
-        "kasap": 70,
-        "kadim": 85,
-        "tongue_bashing": 100
+        "name": "Enfeebler",
+        "skills": {
+            "decelerate": 3,
+            "sap": 10,
+            "dim": 20,
+            "blunt": 30,
+            "deceleratle": 50,
+            "kasap": 70,
+            "kadim": 85,
+            "tongue_bashing": 100
+        },
+        "traits": null
     },
     "fortifier": {
-        "heal": 3,
-        "accelerate": 10,
-        "buff": 20,
-        "ping": 30,
-        "oomph": 50,
-        "insulate": 70,
-        "midheal": 85,
-        "oomphle": 100
+        "name": "Fortifier",
+        "skills": {
+            "heal": 3,
+            "accelerate": 10,
+            "buff": 20,
+            "ping": 30,
+            "oomph": 50,
+            "insulate": 70,
+            "midheal": 85,
+            "oomphle": 100
+        },
+        "traits": null
     },
     "graveheart": {
-        "poison_attack": 3,
-        "decelerate": 10,
-        "sleep_attack": 20,
-        "sweet_breath": 30,
-        "burning_breath": 50,
-        "confusion_attack": 70,
-        "whack": 85,
-        "kamikazee": 100
+        "name": "Graveheart",
+        "skills": {
+            "poison_attack": 3,
+            "decelerate": 10,
+            "sleep_attack": 20,
+            "sweet_breath": 30,
+            "burning_breath": 50,
+            "confusion_attack": 70,
+            "whack": 85,
+            "kamikazee": 100
+        },
+        "traits": null
     },
     "hive_mind": {
-        "buff": 3,
-        "snooze": 10,
-        "heart_breaker": 20,
-        "sleep_attack": 30,
-        "paralysing_punch": 50,
-        "nature_nerfer": 70,
-        "intense_defence": 85,
-        "fuddle_dance": 100
+        "name": "Hive Mind",
+        "skills": {
+            "buff": 3,
+            "snooze": 10,
+            "heart_breaker": 20,
+            "sleep_attack": 30,
+            "paralysing_punch": 50,
+            "nature_nerfer": 70,
+            "intense_defence": 85,
+            "fuddle_dance": 100
+        },
+        "traits": null
     },
     "materialist": {
-        "crag": 3,
-        "helm_splitter": 10,
-        "matter_scatterer": 20,
-        "stones_throw": 30,
-        "kabuff": 50,
-        "fizzle": 70,
-        "knuckle_sandwich": 85,
-        "kamikazee": 100
+        "name": "Materialist",
+        "skills": {
+            "crag": 3,
+            "helm_splitter": 10,
+            "matter_scatterer": 20,
+            "stones_throw": 30,
+            "kabuff": 50,
+            "fizzle": 70,
+            "knuckle_sandwich": 85,
+            "kamikazee": 100
+        },
+        "traits": null
     },
     "nature_child": {
-        "squelch": 3,
-        "heal": 10,
-        "drain_magic": 20,
-        "snooze": 30,
-        "sleep_attack": 50,
-        "dazzle": 70,
-        "fizzle": 85,
-        "miracle_slash": 100,
-        "auto_cadabra": 120
+        "name": "Nature Child",
+        "skills": {
+            "squelch": 3,
+            "heal": 10,
+            "drain_magic": 20,
+            "snooze": 30,
+            "sleep_attack": 50,
+            "dazzle": 70,
+            "fizzle": 85,
+            "miracle_slash": 100,
+            "auto_cadabra": 120
+        },
+        "traits": null
     },
     "shallow_breather": {
-        "fire_breath": 3,
-        "cool_breath": 10,
-        "attack_4": 20,
-        "sandstorm": 30,
-        "deep_breath": 50,
-        "attack_8": 70,
-        "flame_breath": 85,
-        "chilly_breath": 100
+        "name": "Shallow Breather",
+        "skills": {
+            "fire_breath": 3,
+            "cool_breath": 10,
+            "sandstorm": 30,
+            "deep_breath": 50,
+            "flame_breath": 85,
+            "chilly_breath": 100
+        },
+        "traits": {
+            "attack_4": 20,
+            "attack_8": 70
+        }
     },
     "splash_afficionado": {
-        "splish": 3,
-        "heal": 10,
-        "slime_squisher": 20,
-        "max_mp_4": 30,
-        "weird_dance": 50,
-        "blunt": 70,
-        "max_mp_8": 85,
-        "splash": 100
+        "name": "Splash Afficionado",
+        "skills": {
+            "splish": 3,
+            "heal": 10,
+            "slime_squisher": 20,
+            "weird_dance": 50,
+            "blunt": 70,
+            "splash": 100
+        },
+        "traits": {
+            "max_mp_4": 30,
+            "max_mp_8": 85
+        }
     },
     "willing_helper": {
-        "squelch": 3,
-        "heal": 10,
-        "tingle": 20,
-        "buff": 30,
-        "accelerate": 50,
-        "ping": 70,
-        "oomph": 85,
-        "insulate": 100,
-        "midheal": 120,
-        "max_mp_24": 150
+        "name": "Willing Helper",
+        "skills": {
+            "squelch": 3,
+            "heal": 10,
+            "tingle": 20,
+            "buff": 30,
+            "accelerate": 50,
+            "ping": 70,
+            "oomph": 85,
+            "insulate": 100,
+            "midheal": 120
+        },
+        "traits": {
+            "max_mp_24": 150
+        }
     },
     "woosh_afficionado": {
-        "woosh": 3,
-        "gust_slash": 10,
-        "nature_nerfer": 20,
-        "max_mp_4": 30,
-        "wind_sickles": 50,
-        "insulate": 70,
-        "max_mp_8": 85,
-        "swoosh": 100
+        "name": "Woosh Afficonado",
+        "skills": {
+            "woosh": 3,
+            "gust_slash": 10,
+            "nature_nerfer": 20,
+            "wind_sickles": 50,
+            "insulate": 70,
+            "swoosh": 100
+        },
+        "traits": {
+            "max_mp_4": 30,
+            "max_mp_8": 85
+        }
     },
     "zap_afficionado": {
-        "zap": 3,
-        "lightning_slash": 10,
-        "numb": 20,
-        "max_mp_4": 30,
-        "knuckle_sandwich": 50,
-        "accelerate": 70,
-        "max_mp_8": 85,
-        "zapple": 100
+        "name": "Zap Afficionado",
+        "skills": {
+            "zap": 3,
+            "lightning_slash": 10,
+            "numb": 20,
+            "knuckle_sandwich": 50,
+            "accelerate": 70,
+            "zapple": 100
+        },
+        "traits": {
+            "max_mp_4": 30,
+            "max_mp_8": 85
+        }
     }
 }
