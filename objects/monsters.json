@@ -2540,7 +2540,13 @@
             "stun": 0,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "lampling",
+                "she_slime"
+            ]
+        ]
     },
     "slime_stack": {
         "name": "Slime Stack",
