@@ -821,7 +821,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_material"
             ]
         ]
@@ -1108,7 +1108,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_demon"
             ]
         ]
@@ -1340,7 +1340,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_beast"
             ]
         ]
@@ -2807,7 +2807,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_material"
             ]
         ]
@@ -2861,7 +2861,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_material"
             ]
         ]
@@ -2915,7 +2915,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_material"
             ]
         ]
@@ -3023,7 +3023,7 @@
         },
         "synthesis": [
             [
-                "_plant",
+                "_nature",
                 "_undead"
             ]
         ]
@@ -3993,5 +3993,5 @@
                 "_undead"
             ]
         ]
-    },
+    }
 }
