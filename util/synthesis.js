@@ -1,4 +1,4 @@
-module.exports = async ({ parents = [], target, traits = [] }) => {
+module.exports = async ({ parents = [], target }) => {
     // Behaviour:
     // 1. parent1 & parent 2 --> return results
     // 2. 1 parent --> return options for synthesis with that parent
