@@ -166,8 +166,15 @@
                 "summer",
                 "fall"
             ],
-            "68": [],
-            "87": [],
+            "airbagon": [
+                "summer"
+            ],
+            "green_dragon": [
+                "winter",
+                "spring",
+                "summer",
+                "fall"
+            ],
             "stark_raven": [
                 "winter"
             ],
