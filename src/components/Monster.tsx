@@ -51,7 +51,7 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
   };
 
   const formatParentString = (parentArray: Array<string>) => {
-    return parentArray.join(' , ');
+    return parentArray?.join(' , ');
   }
 
   const renderParentSelect = () => (
