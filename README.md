@@ -1,5 +1,5 @@
 # DQM3-db
-Dragon Quest Monsters 3: The Dark Prince database
+Dragon Quest Monsters 3: The Dark Prince database and [webtool](https://glazelf.github.io/DQM3-db/).
 
 ## Contact
 Need help or want to join our research/development group? Join this Discord:  
