@@ -19,6 +19,8 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
 
   useEffect(() => {
     if (selectedValue) {
+      setParentOptions(undefined);
+      setSelectedParentSet(undefined);
       const parents = getMonsterByName(selectedValue)?.synthesis;
       if (parents) {
         if (Array.isArray(parents[0])) {
@@ -34,6 +36,12 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
     }
   }, [selectedValue]);
 
+  useEffect(() => {
+    if (parentData) {
+      setSelectedParentSet(formatParentString(parentData.synthesis));
+    }
+  }, [parentData]);
+
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
   };
@@ -43,22 +51,21 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
   };
 
   const formatParentString = (parentArray: Array<string>) => {
-    return parentArray.join(' , ')
+    return parentArray?.join(' , ');
   }
 
-  const renderParentSelect = () => {
-    return (
-      <select
-        value={selectedParentSet} 
-        onChange={updateParent} 
-        className="parent-select"
-      >
-       {parentOptions?.map((parents: Array<string>) => (
-          <option key={formatParentString(parents)} value={formatParentString(parents)}>{formatParentString(parents)}</option>
-        ))}
-      </select>
-    );
-  }
+  const renderParentSelect = () => (
+    <select
+      value={selectedParentSet} 
+      onChange={updateParent} 
+      className="parent-select"
+    >
+      <option hidden selected>Select one...</option>
+      { parentOptions?.map((parents: Array<string>) => (
+        <option key={formatParentString(parents)} value={formatParentString(parents)}>{formatParentString(parents)}</option>
+      ))}
+    </select>
+  );
 
   return (
     <div>
@@ -68,7 +75,7 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
           onChange={handleSelectChange} 
           disabled={parent && parentData}
         >
-         {fullList.map((monsterName: string) => (
+          { fullList.map((monsterName: string) => (
             <option key={monsterName} value={monsterName}>{monsterName}</option>
           ))}
         </select>
