@@ -8,12 +8,14 @@ async function synthesisTests() {
     let parents = [];
     if (parent1) parents.push(parent1);
     if (parent2) parents.push(parent2);
+    let divider = "----------------------------";
 
-    console.log(`Behaviour 1.\nparent1 ${parent1} + parent2: ${parent2} = target ${target}?`);
+    console.log(`Behaviour 1.\nparent1 ${parent1} + parent2: ${parent2} (= target ${target}? or routes to target)`);
     let parentsAndTargetResult = await synthesis({ parents: parents, target: target });
     console.log(parentsAndTargetResult.boolean);
-    console.log("----------------------------");
-    console.log(`Behaviour 2.\nparent1: ${parent1} + parent2: ${parent2}`);
+    console.log("Routes are WIP.");
+    console.log(divider);
+    console.log(`Behaviour 2.\nparent1: ${parent1} + parent2: ${parent2} (all options)`);
     let bothParentsResult = await synthesis({ parents: parents });
     console.log(`Unique Synths:`);
     console.log(bothParentsResult.uniqueSynthesis);
@@ -21,5 +23,18 @@ async function synthesisTests() {
     console.log(bothParentsResult.familySynthesis);
     console.log("Self Synths:");
     console.log(bothParentsResult.selfSynthesis);
+    console.log(divider);
+    console.log(`Behaviour 3.\n parent1: ${parent1} (all UNIQUE options using parent1)`);
+    console.log("WIP");
+    console.log(divider);
+    console.log(`Behaviour 4.\nparent1: ${parent1} + target: ${target} (routes to target)`);
+    console.log("WIP");
+    console.log(divider);
+    console.log(`Behaviour 5.\ntarget ${target} (all direct options into target)`);
+    let targetOnlyResult = await synthesis({ target: target });
+    console.log("Unique Synths:");
+    console.log(targetOnlyResult.uniqueSynthesis);
+    console.log("Family Synths:");
+    console.log(targetOnlyResult.familySynthesis);
 };
 synthesisTests();

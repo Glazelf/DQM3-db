@@ -49,10 +49,20 @@ module.exports = async ({ parents = [], target }) => {
         };
     } else if ((parents[0] || parents[1]) && !target) {
         // Behaviour 3
+        // Wait untill there's more unique synths added by Zora to test
     } else if ((parents[0] || parents[1]) && target) {
         // Behaviour 4
+        // Probably saving this untill full release
     } else if (!parents[0] && !parents[1] && target) {
         // Behaviour 5
+        targetData.synthesis.forEach(pair => {
+            if (!pair) return;
+            if (pair[0].startsWith("_") && pair[1].startsWith("_")) {
+                synthesisResults.familySynthesis.push(pair);
+            } else {
+                synthesisResults.uniqueSynthesis.push(pair);
+            };
+        });
     } else {
         // Error?
     };
