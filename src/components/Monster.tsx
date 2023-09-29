@@ -8,7 +8,7 @@ import Parents from './Parents';
 
 interface MonsterProps {
   parent: string;
-}
+};
 
 const Monster: FC<MonsterProps> = ({ parent }) => {
   const [selectedValue, setSelectedValue] = useState<string>(parent);
@@ -52,16 +52,16 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
 
   const formatParentString = (parentArray: Array<string>) => {
     return parentArray?.join(' , ');
-  }
+  };
 
   const renderParentSelect = () => (
     <select
-      value={selectedParentSet} 
-      onChange={updateParent} 
+      value={selectedParentSet}
+      onChange={updateParent}
       className="parent-select"
     >
       <option hidden selected>Select one...</option>
-      { parentOptions?.map((parents: Array<string>) => (
+      {parentOptions?.map((parents: Array<string>) => (
         <option key={formatParentString(parents)} value={formatParentString(parents)}>{formatParentString(parents)}</option>
       ))}
     </select>
@@ -71,17 +71,17 @@ const Monster: FC<MonsterProps> = ({ parent }) => {
     <div>
       <div className="monster-container">
         <select
-          value={selectedValue} 
-          onChange={handleSelectChange} 
+          value={selectedValue}
+          onChange={handleSelectChange}
           disabled={parent && parentData}
         >
-          { fullList.map((monsterName: string) => (
+          {fullList.map((monsterName: string) => (
             <option key={monsterName} value={monsterName}>{monsterName}</option>
           ))}
         </select>
-        { parentOptions && renderParentSelect() }
+        {parentOptions && renderParentSelect()}
       </div>
-      { selectedParentSet && <Parents selected={selectedParentSet} /> }
+      {selectedParentSet && <Parents selected={selectedParentSet} />}
     </div>
   );
 };

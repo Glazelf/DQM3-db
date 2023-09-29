@@ -5,7 +5,7 @@ import Monster from './Monster';
 
 interface ParentsProps {
   selected: string;
-}
+};
 
 const Parents: FC<ParentsProps> = ({ selected }) => {
   return (
