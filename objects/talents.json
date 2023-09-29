@@ -1,43 +1,805 @@
 {
+    "agility_booster_1": {
+        "name": "Agility Booster I",
+        "skills": null,
+        "traits": {
+            "agility_4": [
+                5
+            ],
+            "max_hp_4": [
+                10,
+                30,
+                70
+            ],
+            "agility_8": [
+                20,
+                50
+            ],
+            "agility_12": [
+                85
+            ]
+        }
+    },
+    "assassin": {
+        "name": "Assassin",
+        "skills": {
+            "heart_breaker": 3,
+            "sandstorm": 10,
+            "mercurial_thrust": 20,
+            "seethe": 30,
+            "sleep_attack": 50,
+            "hatchet_man": 70,
+            "whack": 85,
+            "assassins_stab": 100
+        },
+        "traits": null
+    },
+    "attack_booster_1": {
+        "name": "Attack Booster I",
+        "skills": null,
+        "traits": {
+            "attack_4": [
+                5,
+                10,
+                30,
+                70
+            ],
+            "attack_8": [
+                20,
+                50
+            ],
+            "attack_12": [
+                85
+            ]
+        }
+    },
+    "aquapothecary": {
+        "name": "Aquapothecary",
+        "skills": {
+            "splish": 3,
+            "heal": 10,
+            "cock_a_doodle_doo": 20,
+            "snooze": 30,
+            "midheal": 50,
+            "chilly_breath": 70,
+            "mist_me": 85,
+            "splash": 100
+        },
+        "traits": {
+            "auto_cadabra": [
+                120
+            ]
+        }
+    },
+    "bang_afficionado": {
+        "name": "Bang Afficionado",
+        "skills": {
+            "bang": 3,
+            "helm_splitter": 10,
+            "matter_scatterer": 20,
+            "anchorman": 50,
+            "oomph": 70,
+            "boom": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "bang_ward": {
+        "name": "Bang Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "attack_8": [
+                10
+            ],
+            "max_mp_16": [
+                40,
+                120
+            ],
+            "ultra_bang_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
+        }
+    },
+    "blowy_slasher": {
+        "name": "Blowy Slasher",
+        "skills": {
+            "gust_slash": 3,
+            "woosh": 10,
+            "nature_nerfer": 20,
+            "tingle": 50,
+            "wind_sickles": 70,
+            "swoosh": 85,
+            "skysplitter": 120
+        },
+        "traits": {
+            "agility_8": [
+                30
+            ],
+            "agility_16": [
+                100
+            ]
+        }
+    },
+    "blusterer": {
+        "name": "Blusterer",
+        "skills": {
+            "accelerate": 3,
+            "woosh": 10,
+            "sandstorm": 20,
+            "acceleratle": 30,
+            "insulate": 50,
+            "wind_sickles": 70,
+            "insulatle": 85,
+            "brake_wind": 100,
+            "thin_air": 120
+        },
+        "traits": null
+    },
     "crack_afficionado": {
-        "crack": 3,
-        "kacrackle_slash": 10,
-        "demon_demeaner": 20,
-        "max_mp_4": 30,
-        "cool_breath": 50,
-        "snooze": 70,
-        "max_mp_8": 85,
-        "crackle": 100
+        "name": "Crack Afficionado",
+        "skills": {
+            "crack": 3,
+            "kacrackle_slash": 10,
+            "demon_demeaner": 20,
+            "cool_breath": 50,
+            "snooze": 70,
+            "crackle": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "confusion_controller": {
+        "name": "Confusion Controller",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5,
+                20,
+                90
+            ],
+            "defence_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_clear_thinker": [
+                60
+            ],
+            "auto_restora": [
+                150
+            ]
+        }
+    },
+    "crag_ward": {
+        "name": "Crag Ward",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5
+            ],
+            "defence_16": [
+                10,
+                90
+            ],
+            "max_mp_16": [
+                20,
+                120
+            ],
+            "attack_8": [
+                40
+            ],
+            "ultra_crag_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
+        }
+    },
+    "dancer": {
+        "name": "Dancer",
+        "skills": {
+            "weird_dance": 3,
+            "sultry_dance": 10,
+            "mercurial_thrust": 20,
+            "buff": 50,
+            "tap_dance": 70,
+            "sword_dance": 100
+        },
+        "traits": {
+            "agility_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "dark_artist": {
+        "name": "Dark Artist",
+        "skills": {
+            "zam": 3,
+            "sap": 10,
+            "dim": 20,
+            "demon_demeaner": 30,
+            "drain_magic": 50,
+            "fizzle": 70,
+            "whack": 85,
+            "zammle": 100
+        },
+        "traits": {
+            "auto_cadabra": [
+                120
+            ]
+        }
+    },
+    "defence_booster_1": {
+        "name": "Defence Booster I",
+        "skills": null,
+        "traits": {
+            "defence_4": [
+                5
+            ],
+            "max_hp_4": [
+                10,
+                30,
+                70
+            ],
+            "defence_8": [
+                20
+            ],
+            "defence_16": [
+                50
+            ],
+            "defence_24": [
+                85
+            ]
+        }
+    },
+    "defender": {
+        "name": "Defender",
+        "skills": {
+            "buff": 3,
+            "heal": 10,
+            "attack_attacker": 20,
+            "dazzleflash": 30,
+            "kabuff": 50,
+            "intense_defence": 70,
+            "midheal": 85,
+            "selflessness": 100
+        },
+        "traits": null
+    },
+    "drain_dodger": {
+        "name": "Drain Dodger",
+        "skills": null,
+        "traits": {
+            "max_mp_16": [
+                5,
+                20,
+                90
+            ],
+            "agility_8": [
+                10,
+                40,
+                120
+            ],
+            "ultra_drain_dodger": [
+                60
+            ],
+            "auto_cadabra": [
+                150
+            ]
+        }
+    },
+    "enfeebler": {
+        "name": "Enfeebler",
+        "skills": {
+            "decelerate": 3,
+            "sap": 10,
+            "dim": 20,
+            "blunt": 30,
+            "deceleratle": 50,
+            "kasap": 70,
+            "kadim": 85,
+            "tongue_bashing": 100
+        },
+        "traits": null
+    },
+    "fortifier": {
+        "name": "Fortifier",
+        "skills": {
+            "heal": 3,
+            "accelerate": 10,
+            "buff": 20,
+            "ping": 30,
+            "oomph": 50,
+            "insulate": 70,
+            "midheal": 85,
+            "oomphle": 100
+        },
+        "traits": null
+    },
+    "frizz_afficionado": {
+        "name": "Frizz Afficionado",
+        "skills": {
+            "frizz": 3,
+            "flame_slash": 10,
+            "dragon_slash": 20,
+            "fire_breath": 50,
+            "oomph": 70,
+            "frizzle": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
     },
     "graveheart": {
-        "poison_attack": 3,
-        "decelerate": 10,
-        "sleep_attack": 20,
-        "sweet_breath": 30,
-        "burning_breath": 50,
-        "confusion_attack": 70,
-        "whack": 85,
-        "kamikazee": 100
+        "name": "Graveheart",
+        "skills": {
+            "poison_attack": 3,
+            "decelerate": 10,
+            "sleep_attack": 20,
+            "sweet_breath": 30,
+            "burning_breath": 50,
+            "confusion_attack": 70,
+            "whack": 85,
+            "kamikazee": 100
+        },
+        "traits": null
+    },
+    "healer": {
+        "name": "Healer",
+        "skills": {
+            "heal": 3,
+            "buff": 10,
+            "squelch": 20,
+            "insulate": 30,
+            "midheal": 50,
+            "zing": 70,
+            "meditation": 85,
+            "mist_me": 100,
+            "kazing": 120
+        },
+        "traits": null
+    },
+    "hive_mind": {
+        "name": "Hive Mind",
+        "skills": {
+            "buff": 3,
+            "snooze": 10,
+            "heart_breaker": 20,
+            "sleep_attack": 30,
+            "paralysing_punch": 50,
+            "nature_nerfer": 70,
+            "intense_defence": 85,
+            "fuddle_dance": 100
+        },
+        "traits": null
+    },
+    "angster_1": {
+        "name": "HP Booster I",
+        "skills": null,
+        "traits": {
+            "max_hp_4": [
+                5,
+                10,
+                20,
+                30
+            ],
+            "max_hp_8": [
+                50,
+                70,
+                85
+            ],
+            "max_hp_12": [
+                100
+            ]
+        }
+    },
+    "hulk": {
+        "name": "Hulk",
+        "skills": {
+            "helm_splitter": 3,
+            "slime_squisher": 10,
+            "intense_defence": 20,
+            "war_cry": 30,
+            "selflessness": 70,
+            "anchorman": 85,
+            "stomp": 100
+        },
+        "traits": {
+            "max_hp_8": [
+                50
+            ]
+        }
+    },
+    "materialist": {
+        "name": "Materialist",
+        "skills": {
+            "crag": 3,
+            "helm_splitter": 10,
+            "matter_scatterer": 20,
+            "stones_throw": 30,
+            "kabuff": 50,
+            "fizzle": 70,
+            "knuckle_sandwich": 85,
+            "kamikazee": 100
+        },
+        "traits": null
+    },
+    "mp_booster_1": {
+        "name": "MP Booster I",
+        "skills": null,
+        "traits": {
+            "max_mp_4": [
+                5,
+                10
+            ],
+            "max_mp_8": [
+                20,
+                30,
+                50,
+                70
+            ],
+            "max_mp_16": [
+                85
+            ],
+            "max_mp_24": [
+                100
+            ]
+        }
     },
     "nature_child": {
-        "squelch": 3,
-        "heal": 10,
-        "drain_magic": 20,
-        "snooze": 30,
-        "sleep_attack": 50,
-        "dazzle": 70,
-        "fizzle": 85,
-        "miracle_slash": 100,
-        "auto_cadabra": 120
+        "name": "Nature Child",
+        "skills": {
+            "squelch": 3,
+            "heal": 10,
+            "drain_magic": 20,
+            "snooze": 30,
+            "sleep_attack": 50,
+            "dazzle": 70,
+            "fizzle": 85,
+            "miracle_slash": 100,
+            "auto_cadabra": 120
+        },
+        "traits": null
+    },
+    "power_player": {
+        "name": "Power Player",
+        "skills": {
+            "helm_splitter": 3,
+            "slime_squisher": 10,
+            "seethe": 30,
+            "hatchet_man": 50,
+            "oomph": 70,
+            "anchorman": 100
+        },
+        "traits": {
+            "attack_4": [
+                20
+            ],
+            "attack: 12": [
+                85
+            ]
+        }
     },
     "shallow_breather": {
-        "fire_breath": 3,
-        "cool_breath": 10,
-        "attack_4": 20,
-        "sandstorm": 30,
-        "deep_breath": 50,
-        "attack_8": 70,
-        "flame_breath": 85,
-        "chilly_breath": 100
+        "name": "Shallow Breather",
+        "skills": {
+            "fire_breath": 3,
+            "cool_breath": 10,
+            "sandstorm": 30,
+            "deep_breath": 50,
+            "flame_breath": 85,
+            "chilly_breath": 100
+        },
+        "traits": {
+            "attack_4": [
+                20
+            ],
+            "attack_8": [
+                70
+            ]
+        }
+    },
+    "slimer": {
+        "name": "Slimer",
+        "skills": {
+            "frizz": 3,
+            "heal": 10,
+            "slime_squisher": 20,
+            "zap": 30,
+            "accelerate": 50,
+            "dazzleflash": 70,
+            "midheal": 85
+        },
+        "traits": {
+            "auto_restora": [
+                100
+            ]
+        }
+    },
+    "soothesayer": {
+        "name": "Soothesayer",
+        "skills": {
+            "heal": 3,
+            "sizz": 10,
+            "buff": 20,
+            "insulate": 30,
+            "snooze": 50,
+            "gobstopper": 70,
+            "war_cry": 85,
+            "mist_me": 100,
+            "right_as_rain": 120
+        },
+        "traits": null
+    },
+    "spicy_slasher": {
+        "name": "Spicy Slasher",
+        "skills": {
+            "flame_slash": 3,
+            "frizz": 10,
+            "dragon_slash": 20,
+            "squelch": 50,
+            "frizzle": 70,
+            "flame_breath": 85,
+            "flamesplitter": 120
+        },
+        "traits": {
+            "attack_4": [
+                30
+            ],
+            "attack_8": [
+                100
+            ]
+        }
+    },
+    "splash_afficionado": {
+        "name": "Splash Afficionado",
+        "skills": {
+            "splish": 3,
+            "heal": 10,
+            "slime_squisher": 20,
+            "weird_dance": 50,
+            "blunt": 70,
+            "splash": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "stinker": {
+        "name": "Stinker",
+        "skills": {
+            "tox": 3,
+            "gobstopper": 10,
+            "poison_breath": 20,
+            "fuddle": 30,
+            "whack": 50,
+            "sweet_breath": 70,
+            "war_cry": 85,
+            "burning_breath": 100
+        },
+        "traits": null
+    },
+    "stun_stopper": {
+        "name": "Stun Stopper",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5,
+                40
+            ],
+            "defence_16": [
+                10,
+                90
+            ],
+            "agility_8": [
+                20,
+                120
+            ],
+            "ultra_granite_chin": [
+                60
+            ],
+            "auto_restora": [
+                150
+            ]
+        }
+    },
+    "thrill_seeker": {
+        "name": "Thrill Seeker",
+        "skills": {
+            "decelerate": 3,
+            "crack": 10,
+            "cool_breath": 20,
+            "sap": 30,
+            "war_cry": 50,
+            "whack": 70,
+            "fuddle": 85,
+            "crackle": 120
+        },
+        "traits": {
+            "wisdom_24": [
+                100
+            ]
+        }
+    },
+    "willing_helper": {
+        "name": "Willing Helper",
+        "skills": {
+            "squelch": 3,
+            "heal": 10,
+            "tingle": 20,
+            "buff": 30,
+            "accelerate": 50,
+            "ping": 70,
+            "oomph": 85,
+            "insulate": 100,
+            "midheal": 120
+        },
+        "traits": {
+            "max_mp_24": [
+                150
+            ]
+        }
+    },
+    "wisdom_booster_1": {
+        "name": "Wisdom Booster I",
+        "skills": null,
+        "traits": {
+            "wisdom_4": [
+                5
+            ],
+            "max_mp_4": [
+                10,
+                30
+            ],
+            "wisdom_8": [
+                20
+            ],
+            "wisdom_16": [
+                50
+            ],
+            "max_mp_8": [
+                70
+            ],
+            "wisdom_24": [
+                85
+            ]
+        }
+    },
+    "woosh_afficionado": {
+        "name": "Woosh Afficonado",
+        "skills": {
+            "woosh": 3,
+            "gust_slash": 10,
+            "nature_nerfer": 20,
+            "wind_sickles": 50,
+            "insulate": 70,
+            "swoosh": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "woosh_ward": {
+        "name": "Woosh Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "agility_8": [
+                10
+            ],
+            "max_mp_16": [
+                40,
+                120
+            ],
+            "ultra_woosh_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
+        }
+    },
+    "zam_afficionado": {
+        "name": "Zam Afficionado",
+        "skills": {
+            "zam": 3,
+            "attack_attacker": 10,
+            "victimiser": 20,
+            "confusion_attack": 50,
+            "sap": 70,
+            "zammle": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "zap_afficionado": {
+        "name": "Zap Afficionado",
+        "skills": {
+            "zap": 3,
+            "lightning_slash": 10,
+            "numb": 20,
+            "knuckle_sandwich": 50,
+            "accelerate": 70,
+            "zapple": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "zap_ward": {
+        "name": "Zap Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "max_mp_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_zap_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
+        }
     }
 }

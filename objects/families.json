@@ -1,0 +1,23 @@
+{
+    "_slime": {
+        "name": "Slime"
+    },
+    "_dragon": {
+        "name": "Dragon"
+    },
+    "_nature": {
+        "name": "Nature"
+    },
+    "_beast": {
+        "name": "Beast"
+    },
+    "_material": {
+        "name": "Material"
+    },
+    "_demon": {
+        "name": "Demon"
+    },
+    "_undead": {
+        "name": "Undead"
+    }
+}

@@ -3,7 +3,7 @@
         "name": "Slime",
         "number": 1,
         "rank": "G",
-        "family": "Slime",
+        "family": "_slime",
         "description": "Adored by all for its flexy physique and funny face, this little monster is something of an icon. Who wouldn't want one for a pal?",
         "drops": {
             "normal": "medicinal_herb",
@@ -52,13 +52,14 @@
             "stun": 0,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": null
     },
     "wing_slime": {
         "name": "Wing Slime",
         "number": 6,
         "rank": "G",
-        "family": "Slime",
+        "family": "_slime",
         "description": "Slimes which sprouted wings after dreaming of soaring through the sky. Their wings double up as a snug sleeping bag at night.",
         "drops": {
             "normal": "antimagic_powder",
@@ -107,13 +108,19 @@
             "stun": 50,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
     },
     "bubble_slime": {
         "name": "Bubble Slime",
         "number": 7,
         "rank": "G",
-        "family": "Slime",
+        "family": "_slime",
         "description": "These unfortunate creatures were once normal slimes until permeated by swamp poison, causing their bodies to collapse like underbaked meringue.",
         "drops": {
             "normal": "antidotal_herb",
@@ -168,7 +175,7 @@
         "name": "Healslime",
         "number": 8,
         "rank": "G",
-        "family": "Slime",
+        "family": "_slime",
         "description": "These soft-centred slimes simply cannot stand by when they spy someone in need. Word has it there's one in particular who travels far and wide in pursuit of his dream of becoming human.",
         "drops": {
             "normal": "magic_water",
@@ -223,7 +230,7 @@
         "name": "She-Slime",
         "number": 16,
         "rank": "F",
-        "family": "Slime",
+        "family": "_slime",
         "description": "These slimes are proud of their quirky colouration, which is likely the product of a genetic fluke. They feel faintly warm to the touch.",
         "drops": {
             "normal": "medicinal_herb",
@@ -272,13 +279,19 @@
             "stun": 25,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
     },
     "dragonthorn": {
         "name": "Dragonthorn",
         "number": 65,
         "rank": "G",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": "Cursed thickets of thorn tangled into draconic shape. Those entwined in their terrifying clutches have no hope of escape.",
         "drops": {
             "normal": "strong_medicine",
@@ -327,13 +340,19 @@
             "stun": 50,
             "poison": -25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_nature"
+            ]
+        ]
     },
     "komodo": {
         "name": "Komodo",
         "number": 66,
         "rank": "G",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": "Nippy little dragons who have learned to stand on their highly developed hind legs. At full pelt they can outpace a racehorse, but haven't yet mastered the subtle art of slowing down.",
         "drops": {
             "normal": "manky_meat",
@@ -382,13 +401,19 @@
             "stun": 50,
             "poison": -25,
             "instant_death": 25
-        }
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
     },
     "airbagon": {
         "name": "Airbagon",
         "number": 68,
         "rank": "G",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": "Dragons who love giving humans a good fright by inflating themselves and then making themselves burst. In order to get the biggest bang they can, they inhale huge volumes of air but occasionally wimp out before they pop.",
         "drops": {
             "normal": "rockbomb_shard",
@@ -443,7 +468,7 @@
         "name": "Vegandragora",
         "number": 69,
         "rank": "G",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": "Dragons which live in harmony with herbs and flowers. They love nothing more than basking in the sun and will get together to lap up the sun's rays on summer days.",
         "drops": {
             "normal": "medicinal_herb",
@@ -498,7 +523,7 @@
         "name": "Damselfly",
         "number": 70,
         "rank": "G",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": "These dragons like to ensorcell travellers with their beautiful fairy wings. Not only bewitching to behold, their wings release a fine powder which puts their prey in a trance.",
         "drops": {
             "normal": "medicinal_herb",
@@ -553,21 +578,21 @@
         "name": "Green Dragon",
         "number": 87,
         "rank": "E",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": null
     },
     "lumbering_lizard": {
         "name": "Lumbering Lizard",
         "number": 89,
         "rank": "E",
-        "family": "Dragon",
+        "family": "_dragon",
         "description": null
     },
     "stark_raven": {
         "name": "Stark Raven",
         "number": 135,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These creepy corvids can't resist scooping up skulls from ancient battlefields. Fledgling ravens like to clamber through the eye-holes to hide from predators.",
         "drops": {
             "normal": "pinball",
@@ -616,13 +641,19 @@
             "stun": -25,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
     },
     "bantamweight": {
         "name": "Bantamweight",
         "number": 136,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These thumping great chickens have learned how to fly. Thanks to their highly-developed flight muscles, they can strike with the power of a trainer pugilist.",
         "drops": {
             "normal": "monster_manure",
@@ -677,7 +708,7 @@
         "name": "Killerpillar",
         "number": 138,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "Though these creepy-crawlies might look like larvae, they are in fact fully grown. They keep themselves warm in cold weather by rolling up into snug little balls.",
         "drops": {
             "normal": "manky_meat",
@@ -726,13 +757,19 @@
             "stun": -25,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_nature"
+            ]
+        ]
     },
     "capsichum": {
         "name": "Capsichum",
         "number": 139,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These terrible twins are in fact born already skewered. Always butting heads, they are often witnessed mid-argument.",
         "drops": {
             "normal": "medicinal_herb",
@@ -781,13 +818,19 @@
             "stun": -25,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
     },
     "mad_mollusk": {
         "name": "Mad Mollusk",
         "number": 141,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These monsters have two mouths, one at each end. The one at the front is a strict vegetarian, while the one on the tail is meat mad.",
         "drops": {
             "normal": "mystery_meat",
@@ -842,7 +885,7 @@
         "name": "Woebergine",
         "number": 142,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These adorable vegetable-based monsters are proud of their ability to cut some rug. Any traveller straying into their terrain should be prepared to see them strut their stuff.",
         "drops": {
             "normal": "medicinal_herb",
@@ -897,7 +940,7 @@
         "name": "Khalamari Kid",
         "number": 144,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These squid-like squirts are baby khalamri. Though small in stature, they're as tough as any full-grown sea-dweller.",
         "drops": {
             "normal": "medicinal_herb",
@@ -946,13 +989,19 @@
             "stun": -25,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
     },
     "toady": {
         "name": "Toady",
         "number": 145,
         "rank": "G",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These ample amphibians might have mutated into mega-sized monsters, but they retain their original love for croaking out a tune. They like to put on evening concerts just after the rain lets up.",
         "drops": {
             "normal": "mystery_meat",
@@ -1007,7 +1056,7 @@
         "name": "Cyclown",
         "number": 148,
         "rank": "F",
-        "family": "Plant",
+        "family": "_nature",
         "description": "These wicked wind spirits sport their whirlwinds like work attire. Their greatest desire is to welcome wanderers into their whirling worlds.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1056,13 +1105,19 @@
             "stun": 0,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
     },
     "antguzzler": {
         "name": "Antguzzler",
         "number": 205,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These long-snouted monsters resemble spiny anteaters. Their length tongues are well-adapted to slurping army ants up from their nests.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1117,7 +1172,7 @@
         "name": "Mischievous Mole",
         "number": 206,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These tunnelling tykes traditionally loved to play pranks, but these days tend to keep their heads down and focus on digging.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1166,13 +1221,19 @@
             "stun": 50,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
     },
     "bunicorn": {
         "name": "Bunicorn",
         "number": 207,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "These creatures might resemble rabbits, but meet one of their horns head-on and you'll understand the difference rather sharpish. They pass the long nights huddled together in their warrens.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1227,7 +1288,7 @@
         "name": "Feralball",
         "number": 213,
         "rank": "G",
-        "family": "Beast",
+        "family": "_Beast",
         "description": "This flufball is covered in green fur from top to toe. Though easily spooked, those with sharp eyes might spot something funny where this beastie's nose should be before it scarpers.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1276,13 +1337,19 @@
             "stun": 50,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
     },
     "lampling": {
         "name": "Lampling",
         "number": 288,
         "rank": "G",
-        "family": "Material",
+        "family": "_material",
         "description": "These sparky spirits inhabit lanterns that have been discarded by their owners. They like to terrify unfortunate adventurers who tramp their terrain at night.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1337,7 +1404,7 @@
         "name": "Foo Dog",
         "number": 290,
         "rank": "F",
-        "family": "Material",
+        "family": "_material",
         "description": "Hellish hounds employed in the underworld as ghastly guard dogs. Bloodthirsty to the bone, even fellow monsters give these mutts a wide berth.",
         "drops": {
             "normal": "mystery_meat",
@@ -1386,13 +1453,19 @@
             "stun": 0,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
     },
     "bongo_drongo": {
         "name": "Bongo Drongo",
         "number": 294,
         "rank": "F",
-        "family": "Material",
+        "family": "_material",
         "description": "Sturdy spirits in the thrall of their large-faced bongos. All manner of monsters are drawn in by their deft drumming, entranced by the intricate rhapsody of rhythm.",
         "drops": {
             "normal": "mystery_meat",
@@ -1441,13 +1514,19 @@
             "stun": 50,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
     },
     "leery_lout": {
         "name": "Leery Lout",
         "number": 354,
         "rank": "G",
-        "family": "Demon",
+        "family": "_demon",
         "description": "These shy scoundrels dish out damage from behind their smirking shields, which are precious family heirlooms, passed down from father to son.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1496,13 +1575,19 @@
             "stun": 25,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
     },
     "dracky": {
         "name": "Dracky",
         "number": 355,
         "rank": "G",
-        "family": "Demon",
+        "family": "_demon",
         "description": "These flapping pains in the neck only come out at night. They love nothing more than slurping up human blood, the fresher the better.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1557,7 +1642,7 @@
         "name": "Lunatick",
         "number": 359,
         "rank": "G",
-        "family": "Demon",
+        "family": "_demon",
         "description": "These curious monsters' enormous eyeballs afford them excellent vision, even in absolute darkness. Once they set their sights on their prey, they will not give up until they wrap their tentacles around it.",
         "drops": {
             "normal": "magic_water",
@@ -1606,13 +1691,19 @@
             "stun": 25,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
     },
     "teeny_sanguini": {
         "name": "Teeny Sanguini",
         "number": 360,
         "rank": "G",
-        "family": "Demon",
+        "family": "_demon",
         "description": "Baby monsters known for their distinctive bovine markings. Considered to be fully-grown once the black fur grows out, replaced entirely with a ravishing shade of rose pink.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1661,13 +1752,19 @@
             "stun": 75,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
     },
     "lips": {
         "name": "Lips",
         "number": 361,
         "rank": "G",
-        "family": "Demon",
+        "family": "_demon",
         "description": "Who could resist that king-sized kisser? Protective of their prime assets, you won't catch one of these full-lipped fiends without their trusty lip balm.",
         "drops": {
             "normal": "moonwort_bulb",
@@ -1722,14 +1819,14 @@
         "name": "Cyclops",
         "number": 376,
         "rank": "E",
-        "family": "Demon",
+        "family": "_demon",
         "description": null
     },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "These cadaverous canines originally died of exhaustion before being brought back to life by the powers of darkness, though any smarts they had are long gone.",
         "drops": {
             "normal": "manky_meat",
@@ -1778,13 +1875,19 @@
             "stun": 0,
             "poison": 50,
             "instant_death": 25
-        }
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
     },
     "funghoul": {
         "name": "Funghoul",
         "number": 429,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "These great big gurning mushrooms spring up in their dozens in damp locales. They propagate by putting travellers to sleep and seeding them with their spores.",
         "drops": {
             "normal": "smelling_salts",
@@ -1839,7 +1942,7 @@
         "name": "Skeleton",
         "number": 431,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "Recycled from the bodies of fallen warriors, these unfortunate cadavers truly get worked to the bone.",
         "drops": {
             "normal": "pretty_pebble",
@@ -1894,7 +1997,7 @@
         "name": "Stump Chump",
         "number": 432,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "The tragic remains of chopped-down trees whose deep-seated malice has made them morph into monsters. They attack travellers who try to sit on them, sucking out all their nutrients before discarding the husk.",
         "drops": {
             "normal": "medicinal_herb",
@@ -1943,13 +2046,19 @@
             "stun": 25,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
     },
     "ghost": {
         "name": "Ghost",
         "number": 433,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "Unfinished business in their previous lives prevents these poltergeists from ever being at peace. They're always trying to inflict a fright one way or another, just for the attention.",
         "drops": {
             "normal": "magic_water",
@@ -1964,7 +2073,7 @@
             "wis": 3
         },
         "talents": [
-            "Graveheart"
+            "graveheart"
         ],
         "traits": {
             "small": {
@@ -2004,7 +2113,7 @@
         "name": "Firespirit",
         "number": 437,
         "rank": "G",
-        "family": "Undead",
+        "family": "_undead",
         "description": "No-one knows for certain how these monsters came to be. Some believe they were born of the fiery 'Frizz' spell, while others think they are the souls of those who died with a burning desire for revenge.",
         "drops": {
             "normal": "magic_water",
@@ -2053,13 +2162,19 @@
             "stun": 25,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
     },
     "shadow": {
         "name": "Shadow",
         "number": 441,
         "rank": "F",
-        "family": "Undead",
+        "family": "_undead",
         "description": "These monsters are said to have been born in the depths of an unfathomably deep darkness. Adept at imitation, they can even forget their natural appearance if they spend long enough shadowing someone else.",
         "drops": {
             "normal": "magic_water",
@@ -2114,7 +2229,7 @@
         "name": "Fright Bulb",
         "number": null,
         "rank": "G",
-        "family": "Slime",
+        "family": "_slime",
         "description": null,
         "growth": {
             "hp": 1,
@@ -2155,13 +2270,19 @@
             "stun": 0,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
     },
     "drake_slime": {
         "name": "Drake Slime",
         "number": null,
         "rank": "F",
-        "family": "Slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2203,13 +2324,19 @@
             "stun": 0,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
     },
     "onion_slime": {
         "name": "Onion Slime",
         "number": null,
         "rank": "F",
-        "family": "Slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2251,13 +2378,19 @@
             "stun": 25,
             "poison": 0,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
     },
     "scarfish": {
         "name": "Scarfish",
         "number": null,
         "rank": "F",
-        "family": "Undead",
+        "family": "_undead",
         "description": null,
         "drops": null,
         "growth": {
@@ -2299,13 +2432,19 @@
             "stun": 25,
             "poison": 50,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
     },
     "snowmangler": {
         "name": "Snowmangler",
         "number": null,
         "rank": "F",
-        "family": "Slime",
+        "family": "_slime",
         "description": null,
         "drops": null,
         "growth": {
@@ -2347,6 +2486,1518 @@
             "stun": 25,
             "poison": 0,
             "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "box_slime": {
+        "name": "Box Slime",
+        "number": null,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 4,
+            "atk": 1,
+            "def": 4,
+            "agi": 1,
+            "wis": 3
+        },
+        "talents": [
+            "fortifier"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "miraculous_touch": 20,
+                "evasive_impulse": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "lampling",
+                "she_slime"
+            ]
+        ]
+    },
+    "slime_stack": {
+        "name": "Slime Stack",
+        "number": null,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "zap_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "zapmeister": 1,
+                "dodge_denier": 20,
+                "little_menace": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "mudraker": {
+        "name": "Mudraker",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 1,
+            "wis": 2
+        },
+        "talents": [
+            "materialist"
+        ],
+        "traits": {
+            "small": {
+                "cragmeister": 1,
+                "rando_buff": 20,
+                "slick_skin": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": -25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": -25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "scallop_slime": {
+        "name": "Scallop Slime",
+        "number": null,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 1,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "splash_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "defensive_impulse": 1,
+                "rando_buff": 20,
+                "metal_medley": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "bag_o_laughs": {
+        "name": "Bag o' Laughs",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "enfeebler"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_sleeper": 1,
+                "insta_ping": 20,
+                "ultra_crafty_dazzler": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "cumaulus": {
+        "name": "Cumaulus",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "woosh_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "benefaction": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
+    "avian_android": {
+        "name": "Avian Android",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "assassin"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_sleeper": 1,
+                "insensitive_skin": 20,
+                "detox": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 50
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
+    "scissor_beatle": {
+        "name": "Scissor Beatle",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "hive_mind"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "rando_oomph": 20,
+                "insta_bounce": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
+    "ornery_onion": {
+        "name": "Ornery Onion",
+        "number": null,
+        "rank": "G",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 4,
+            "atk": 1,
+            "def": 2,
+            "agi": 1,
+            "wis": 3
+        },
+        "talents": [
+            "nature_child"
+        ],
+        "traits": {
+            "small": {
+                "rando_accel": 1,
+                "big_bully": 20,
+                "evasive_impulse": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 25,
+            "light": 50,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
+    },
+    "odd_cob": {
+        "name": "Odd Cob",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "willing_helper"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_paralyser": 1,
+                "low_heal": 20,
+                "bigger_upper": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 75,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
+    },
+    "scornet": {
+        "name": "Scornet",
+        "number": null,
+        "rank": "E",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 4,
+            "wis": 2
+        },
+        "talents": [
+            "hive_mind"
+        ],
+        "traits": {
+            "small": {
+                "paralysing_touch": 1,
+                "ace_evader": 20,
+                "agent_of_chaos": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 75,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
         }
+    },
+    "raptile": {
+        "name": "Raptile",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
+    },
+    "small_fry": {
+        "name": "Small Fry",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
+    },
+    "mitey_oak": {
+        "name": "Mitey Oak",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
+    "buddy_slime": {
+        "name": "Buddy Slime",
+        "number": null,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
+    "imp": {
+        "name": "Imp",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "feral_slime": {
+        "name": "Feral Slime",
+        "number": null,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "boppin_badger": {
+        "name": "Boppin' Badger",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "shell_slime": {
+        "name": "Shell Slime",
+        "number": null,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "great_sabrecub": {
+        "name": "Great Sabrecub",
+        "number": null,
+        "rank": "G",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "picksy": {
+        "name": "Picksy",
+        "number": null,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "slimeshroom": {
+        "name": "Slimeshroom",
+        "number": null,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "soft_serve_spook": {
+        "name": "Soft Serve Spook",
+        "number": null,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "briny_bronco": {
+        "name": "Briny Bronco",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_nature"
+            ]
+        ]
+    },
+    "pogoin_penguin": {
+        "name": "Pogoin' Penguin",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_nature"
+            ]
+        ]
+    },
+    "jargon": {
+        "name": "Jargon",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "vampire_cat": {
+        "name": "Vampire Cat",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "sham_hatwitch": {
+        "name": "Sham Hatwitch",
+        "number": null,
+        "rank": "G",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "armoured_wartoise": {
+        "name": "Armoured Wartoise",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
+    },
+    "nardragon": {
+        "name": "Nardragon",
+        "number": null,
+        "rank": "G",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
+    },
+    "mecha_mynah": {
+        "name": "Mecha-Mynah",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
+    },
+    "drag_racer": {
+        "name": "Drag Racer",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "pickayune": {
+        "name": "Pickayune",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "pteranodon": {
+        "name": "Pteranodon",
+        "number": null,
+        "rank": "G",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "gremlin": {
+        "name": "Gremlin",
+        "number": null,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "flython": {
+        "name": "Flython",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "skullrider": {
+        "name": "Skullrider",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "killer_gila": {
+        "name": "Killer Gila",
+        "number": null,
+        "rank": "G",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "bagworm": {
+        "name": "Bagworm",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
+    },
+    "orc": {
+        "name": "Orc",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
+    },
+    "bludgerigar": {
+        "name": "Bludgerigar",
+        "number": null,
+        "rank": "G",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
+    },
+    "merman": {
+        "name": "Merman",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
+    },
+    "monolog": {
+        "name": "Monolog",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
+    },
+    "napir": {
+        "name": "Napir",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
+    },
+    "eggsoskeleton": {
+        "name": "Eggsoskeleton",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
+    },
+    "hawk_man": {
+        "name": "Hawk Man",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
+    },
+    "succubat": {
+        "name": "Succubat",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
+    },
+    "pan_piper": {
+        "name": "Pan Piper",
+        "number": null,
+        "rank": "G",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
+    },
+    "guaardvark": {
+        "name": "Guaardvark",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "walking_corpse": {
+        "name": "Walking Corpse",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "fat_rat": {
+        "name": "Fat Rat",
+        "number": null,
+        "rank": "G",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "pocus_poppet": {
+        "name": "Pocus Poppet",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
+    "cannonbrawler": {
+        "name": "Cannonbrawler",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
+    "spitnik": {
+        "name": "Spitnik",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
+    "horrifying_saucers": {
+        "name": "Horrifying Saucers",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "muddy_hand": {
+        "name": "Muddy Hand",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "sacksquatch": {
+        "name": "Sacksquatch",
+        "number": null,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "wax_murderer": {
+        "name": "Wax Murderer",
+        "number": null,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "dancing_devil": {
+        "name": "Dancing Devil",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
+    },
+    "hellbound_horror": {
+        "name": "Hellbound Horror",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
+    },
+    "lump_wizard": {
+        "name": "Lump Wizard",
+        "number": null,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
+    },
+    "drohl_drone": {
+        "name": "Drohl Drone",
+        "number": null,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
     }
 }
