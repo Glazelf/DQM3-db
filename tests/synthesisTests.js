@@ -4,15 +4,16 @@ async function synthesisTests() {
     // Variables
     let parent1 = "she_slime";
     let parent2 = "lampling";
-    let target = null;
-    let talent1 = null;
-    let talent2 = null;
-    let talent3 = null;
+    let target = "box_slime";
     let parents = [];
     if (parent1) parents.push(parent1);
     if (parent2) parents.push(parent2);
 
-    console.log(`parent1: ${parent1} + parent2: ${parent2}`);
+    console.log(`Behaviour 1.\nparent1 ${parent1} + parent2: ${parent2} = target ${target}?`);
+    let parentsAndTargetResult = await synthesis({ parents: parents, target: target });
+    console.log(`${parentsAndTargetResult}`);
+    console.log("----------------------------");
+    console.log(`Behaviour 2.\nparent1: ${parent1} + parent2: ${parent2}`);
     let bothParentsResult = await synthesis({ parents: parents, target: target });
     console.log(`Unique Synths:`);
     console.log(bothParentsResult.uniqueSynthesis);
