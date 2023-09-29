@@ -8,7 +8,8 @@ const getMonsterListByParent = (parent: string) => {
     const familyKeys = monsterKeys.filter((monsterName) => monsters[monsterName].family === parent);
     return familyKeys.map((monster_key) => monsters[monster_key].name);
   } else {
-    return monsters[parent];
+    const parentData = monsters[parent];
+    return parentData ? [parentData.name] : undefined;
   }
 }
 
