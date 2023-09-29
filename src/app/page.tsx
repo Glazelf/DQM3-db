@@ -1,9 +1,9 @@
-import Monster from '../components/Monster';
+import SynthContainer from '../components/SynthContainer';
 
 export default function Home() {
   return (
     <div className="home-container">
-      <Monster parent='' />
+      <SynthContainer />
     </div>
   )
 };
