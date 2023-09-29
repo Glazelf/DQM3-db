@@ -27,3 +27,6 @@ launch.json
 *.gba
 *.sav
 /assets/images/roms/screenshot.*
+.next/
+.swc/
+.*.env

@@ -1,0 +1,22 @@
+// @ts-ignore  
+import monsters from '../../objects/monsters';
+
+const monsterKeys = Object.keys(monsters).sort();
+
+const getMonsterListByParent = (parent: string) => {
+  if (parent && parent.indexOf('_') === 0) {
+    const familyKeys = monsterKeys.filter((monsterName) => monsters[monsterName].family === parent);
+    return familyKeys.map((monster_key) => monsters[monster_key].name);
+  } else {
+    return monsters[parent];
+  }
+}
+
+const monsterNames = () => monsterKeys.map((monster_key) => monsters[monster_key].name);
+
+const getMonsterByName = (name: string) => {
+  const key = monsterKeys.filter((monsterName) => monsters[monsterName].name === name)[0];
+  return monsters[key];
+}
+
+export { getMonsterByName, getMonsterListByParent, monsterNames }; 
