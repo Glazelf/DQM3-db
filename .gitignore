@@ -30,3 +30,4 @@ launch.json
 .next/
 .swc/
 .*.env
+/out/
