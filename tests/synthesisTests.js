@@ -11,13 +11,15 @@ async function synthesisTests() {
 
     console.log(`Behaviour 1.\nparent1 ${parent1} + parent2: ${parent2} = target ${target}?`);
     let parentsAndTargetResult = await synthesis({ parents: parents, target: target });
-    console.log(`${parentsAndTargetResult}`);
+    console.log(parentsAndTargetResult.boolean);
     console.log("----------------------------");
     console.log(`Behaviour 2.\nparent1: ${parent1} + parent2: ${parent2}`);
-    let bothParentsResult = await synthesis({ parents: parents, target: target });
+    let bothParentsResult = await synthesis({ parents: parents });
     console.log(`Unique Synths:`);
     console.log(bothParentsResult.uniqueSynthesis);
     console.log(`Family Synths:`);
     console.log(bothParentsResult.familySynthesis);
+    console.log("Self Synths:");
+    console.log(bothParentsResult.selfSynthesis);
 };
 synthesisTests();
