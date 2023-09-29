@@ -17,9 +17,7 @@ module.exports = async ({ parents = [], target, traits = [] }) => {
     let parentsAndFamilies = parents.concat(parentsFamilies);
     // Behaviour 1
     if (parents[0] && parents[1]) {
-        for await (let monster of Object.entries(monsters)) {
-            let monsterId = monster[0];
-            monster = monster[1];
+        for await (let [monsterId, monster] of Object.entries(monsters)) {
             if (!monster.synthesis) continue;
             monster.synthesis.forEach(pair => {
                 // Check if fusion between both parents' families
