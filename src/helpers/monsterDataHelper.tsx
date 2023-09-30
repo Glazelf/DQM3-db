@@ -5,9 +5,7 @@ import synthesis from '../../util/synthesis';
 const monsterKeys = Object.keys(monsters).sort();
 
 const getMonsterListByParent = (parent: string) => {
-  console.log(parent)
   if (parent && parent.indexOf('_') === 0) {
-
     const familyKeys = monsterKeys.filter((monsterName) => monsters[monsterName].family === parent);
     return familyKeys.map((monster_key) => monsters[monster_key].name);
   } else {
