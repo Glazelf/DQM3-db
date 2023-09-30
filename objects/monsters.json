@@ -2894,6 +2894,60 @@
             ]
         ]
     },
+    "wax_murderer": {
+        "name": "Wax Murderer",
+        "number": 430,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "spicy_slasher"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "agent_of_chaos": 20,
+                "close_scraper": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 0,
+            "earth": 25,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 25,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
     "skeleton": {
         "name": "Skeleton",
         "number": 431,
@@ -5099,6 +5153,10 @@
             [
                 "_material",
                 "_demon"
+            ],
+            [
+                "mecha_mynah",
+                "bodkin_archer"
             ]
         ]
     },
@@ -5254,60 +5312,6 @@
             ]
         ]
     },
-    "wax_murderer": {
-        "name": "Wax Murderer",
-        "number": null,
-        "rank": "G",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "spicy_slasher"
-        ],
-        "traits": {
-            "small": {
-                "frizzmeister": 1,
-                "agent_of_chaos": 20,
-                "close_scraper": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": 0,
-            "earth": 25,
-            "explosions": 25,
-            "ice": 50,
-            "electricity": 25,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 25,
-            "sleep": 0,
-            "paralysis": 25,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_material",
-                "_undead"
-            ]
-        ]
-    },
     "dancing_devil": {
         "name": "Dancing Devil",
         "number": null,
@@ -5349,6 +5353,10 @@
             [
                 "_demon",
                 "_undead"
+            ],
+            [
+                "bodkin_archer",
+                "ghost"
             ]
         ]
     },
