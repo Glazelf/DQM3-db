@@ -34,3 +34,15 @@ body {
 .parent-select {
   color: black;
 }
+
+.family-icon {
+  height: 75px;
+  width: 75px;
+}
+
+.icon-container {
+  margin-top: 16px;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
