@@ -1,0 +1,48 @@
+:root {
+  --foreground-rgb: 24, 79, 156;
+  --background-start-rgb: 24, 79, 156;
+  --background-end-rgb: 23, 92, 50;
+}
+
+body {
+  height: 100vh;
+  border: 5px solid #CD9801;
+  border-radius: 5px;
+  margin: 0px 8px 0px 8px;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.set {
+  width: 50%;
+  display: inline-block;
+}
+
+.monster-container {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.parent-select {
+  color: black;
+}
+
+.family-icon {
+  height: 75px;
+  width: 75px;
+}
+
+.icon-container {
+  margin-top: 16px;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
