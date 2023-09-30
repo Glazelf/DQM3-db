@@ -9,7 +9,7 @@ const SynthContainer = () => {
 
   const updateFilter = (family: string) => {
     setFilterFamily(family);
-  }
+  };
 
   return (
     <div className="home-container">
