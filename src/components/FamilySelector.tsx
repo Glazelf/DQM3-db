@@ -18,7 +18,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
     { name: 'Undead', family: '_undead', alt: 'undead family' },
   ];
 
-  const handleFamilyClick = (familyName) => {
+  const handleFamilyClick = (familyName: string) => {
     updateFilter(familyName);
   };
 
@@ -28,7 +28,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
         <img
           key={index}
           className='family-icon'
-          src={`/family_icons/${family.name}_family_icon.png`}
+          src={`/family_icons/${family.family}_icon.png`}
           alt={family.alt}
           onClick={() => handleFamilyClick(family.family)}
         />
