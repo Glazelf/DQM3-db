@@ -124,7 +124,9 @@
             "agi": 1,
             "wis": 2
         },
-        "talents": "defender",
+        "talents": [
+            "defender"
+        ],
         "traits": {
             "small": {
                 "insta_buff": 1,
