@@ -98,9 +98,9 @@ function synthesisCheck({ pair = [], target = "", parents = [] }) {
     let pairVariables = getPairVariables(pair);
     let parentsVariables = getPairVariables(parents);
     let targetData = monstersJSON[target];
-    // Check if fusion between both parents' families
+    // Check if fusion between both parents' families by filtering arrays against eachother, also taking into account ranks
     let familySynthesisBool = (pair.filter((element) => !parentsVariables.pairAndFamilies.includes(element)).length === 0 && parentsVariables.pairRanks.includes(targetData.rank));
-    // Check if fusion between both at least 1 parent and another parent or family
+    // Check if fusion between both at least 1 parent and another parent or family by filtering arrays against eachother, also taking into account one+ parent has to be a species
     let uniqueSynthesisBool = (pair.filter((element) => !parentsVariables.pairAndFamilies.includes(element)).length === 0 && (pair.filter((element) => !parents.includes(element)).length < 2));
     let synthesisType = null;
     if (familySynthesisBool) synthesisType = "family";
