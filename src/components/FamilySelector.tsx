@@ -28,7 +28,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
         <img
           key={index}
           className='family-icon'
-          src={`/family_icons/${family.family}_icon.png`}
+          src={`../../public/families/${family.family}_icon.png`}
           alt={family.alt}
           onClick={() => handleFamilyClick(family.family)}
         />
