@@ -1188,6 +1188,60 @@
             ]
         ]
     },
+    "cruelcumber": {
+        "name": "Cruelcumber",
+        "number": 140,
+        "rank": "G",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "blowy_slasher"
+        ],
+        "traits": {
+            "small": {
+                "stunning_skin": 1,
+                "ultra_crafty_debilitator": 20,
+                "bangmeister": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 50,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "capsichum",
+                "bambooligan"
+            ]
+        ]
+    },
     "mad_mollusk": {
         "name": "Mad Mollusk",
         "number": 141,
@@ -2366,6 +2420,168 @@
             ]
         ]
     },
+    "lump_wizard": {
+        "name": "Lump Wizard",
+        "number": 356,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "woosh_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "wooshmeister": 1,
+                "critical_theorist": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
+    },
+    "picksy": {
+        "name": "Picksy",
+        "number": 357,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "soothesayer"
+        ],
+        "traits": {
+            "small": {
+                "insta_accel": 1,
+                "ace_evader": 20,
+                "close_scraper": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 25,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "blinkster": {
+        "name": "Blinkster",
+        "number": 358,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 1,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "magic_maven"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "insta_ping": 20,
+                "magical_moment": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "winky",
+                "ghost"
+            ]
+        ]
+    },
     "lunatick": {
         "name": "Lunatick",
         "number": 359,
@@ -2858,6 +3074,168 @@
             [
                 "sham_hatwitch",
                 "soft_serve_spook"
+            ]
+        ]
+    },
+    "skipper": {
+        "name": "Skipper",
+        "number": 434,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "irritant"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_debilitator": 1,
+                "ace_evader": 20,
+                "ultra_crafty_spellbinder": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 25,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 25,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "pan_piper",
+                "winky"
+            ]
+        ]
+    },
+    "drohl_drone": {
+        "name": "Drohl Drone",
+        "number": 435,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "tongue_twister"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "ultra_crafty_magic_drainer": 20,
+                "spongy_skin": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
+    },
+    "soft_serve_spook": {
+        "name": "Soft Serve Spook",
+        "number": 436,
+        "rank": "G",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "cupid"
+        ],
+        "traits": {
+            "small": {
+                "slick_skin": 1,
+                "ace_evader": 20,
+                "sobering_slap": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
             ]
         ]
     },
@@ -3707,6 +4085,10 @@
             [
                 "capsichum",
                 "lunatick"
+            ],
+            [
+                "cruelcumber",
+                "_undead"
             ]
         ]
     },
@@ -3795,6 +4177,10 @@
             [
                 "_slime",
                 "_nature"
+            ],
+            [
+                "blinkster",
+                "stump_chump"
             ]
         ]
     },
@@ -3813,6 +4199,10 @@
             [
                 "_slime",
                 "_demon"
+            ],
+            [
+                "blinkster",
+                "dracky"
             ]
         ]
     },
@@ -3914,60 +4304,6 @@
             ]
         ]
     },
-    "picksy": {
-        "name": "Picksy",
-        "number": null,
-        "rank": "G",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 1,
-            "atk": 2,
-            "def": 2,
-            "agi": 2,
-            "wis": 1
-        },
-        "talents": [
-            "soothesayer"
-        ],
-        "traits": {
-            "small": {
-                "insta_accel": 1,
-                "ace_evader": 20,
-                "close_scraper": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 50,
-            "earth": 0,
-            "explosions": 0,
-            "ice": 0,
-            "electricity": -25,
-            "light": 25,
-            "dark": 50,
-            "debilitation": 0,
-            "bedazzlement": 0,
-            "antimagic": 25,
-            "mp_absorption": 50,
-            "confusion": 50,
-            "sleep": 0,
-            "paralysis": -25,
-            "stun": 25,
-            "poison": 25,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_demon"
-            ]
-        ]
-    },
     "slimeshroom": {
         "name": "Slimeshroom",
         "number": null,
@@ -4022,60 +4358,6 @@
             ]
         ]
     },
-    "soft_serve_spook": {
-        "name": "Soft Serve Spook",
-        "number": null,
-        "rank": "G",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 2,
-            "atk": 1,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "cupid"
-        ],
-        "traits": {
-            "small": {
-                "slick_skin": 1,
-                "ace_evader": 20,
-                "sobering_slap": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 0,
-            "wind": 0,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 50,
-            "light": 0,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 25,
-            "sleep": 0,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_undead"
-            ]
-        ]
-    },
     "briny_bronco": {
         "name": "Briny Bronco",
         "number": null,
@@ -4113,6 +4395,10 @@
             [
                 "_dragon",
                 "_nature"
+            ],
+            [
+                "stark_raven",
+                "skipper"
             ]
         ]
     },
@@ -5066,114 +5352,6 @@
             ]
         ]
     },
-    "lump_wizard": {
-        "name": "Lump Wizard",
-        "number": null,
-        "rank": "G",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 3,
-            "atk": 1,
-            "def": 3,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "woosh_afficionado"
-        ],
-        "traits": {
-            "small": {
-                "wooshmeister": 1,
-                "critical_theorist": 20,
-                "ultra_crafty_woosher": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 50,
-            "earth": 0,
-            "explosions": 0,
-            "ice": 25,
-            "electricity": -25,
-            "light": 25,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": 0,
-            "antimagic": 50,
-            "mp_absorption": 50,
-            "confusion": 50,
-            "sleep": 0,
-            "paralysis": -25,
-            "stun": 25,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_demon",
-                "_undead"
-            ]
-        ]
-    },
-    "drohl_drone": {
-        "name": "Drohl Drone",
-        "number": null,
-        "rank": "G",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 2,
-            "agi": 3,
-            "wis": 2
-        },
-        "talents": [
-            "tongue_twister"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_spellbinder": 1,
-                "ultra_crafty_magic_drainer": 20,
-                "spongy_skin": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 0,
-            "wind": 0,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 25,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 0,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 25,
-            "sleep": 0,
-            "paralysis": 25,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 25
-        },
-        "synthesis": [
-            [
-                "_demon",
-                "_undead"
-            ]
-        ]
-    },
     "mouseflap": {
         "name": "Mouseflap",
         "number": null,
@@ -5552,168 +5730,6 @@
             ]
         ]
     },
-    "cruelcumber": {
-        "name": "Cruelcumber",
-        "number": null,
-        "rank": "G",
-        "family": "_nature",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 3,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "blowy_slasher"
-        ],
-        "traits": {
-            "small": {
-                "stunning_skin": 1,
-                "ultra_crafty_debilitator": 20,
-                "bangmeister": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 50,
-            "wind": 25,
-            "earth": 50,
-            "explosions": -25,
-            "ice": 0,
-            "electricity": 0,
-            "light": 50,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 0,
-            "confusion": 25,
-            "sleep": 50,
-            "paralysis": 50,
-            "stun": -25,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "capsichum",
-                "bambooligan"
-            ]
-        ]
-    },
-    "skipper": {
-        "name": "Skipper",
-        "number": null,
-        "rank": "G",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "irritant"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_debilitator": 1,
-                "ace_evader": 20,
-                "ultra_crafty_spellbinder": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 25,
-            "wind": 0,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 0,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 25,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 50,
-            "sleep": 0,
-            "paralysis": 0,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "pan_piper",
-                "winky"
-            ]
-        ]
-    },
-    "blinkster": {
-        "name": "Blinkster",
-        "number": null,
-        "rank": "G",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 1,
-            "def": 3,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "magic_maven"
-        ],
-        "traits": {
-            "small": {
-                "frizzmeister": 1,
-                "insta_ping": 20,
-                "magical_moment": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 50,
-            "earth": 0,
-            "explosions": 0,
-            "ice": 25,
-            "electricity": -25,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 0,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 50,
-            "sleep": 0,
-            "paralysis": -25,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 25
-        },
-        "synthesis": [
-            [
-                "winky",
-                "ghost"
-            ]
-        ]
-    },
     "snail_slime": {
         "name": "Snail Slime",
         "number": null,
@@ -5913,6 +5929,78 @@
             [
                 "platypunk",
                 "_beast"
+            ]
+        ]
+    },
+    "whizzard": {
+        "name": "Whizzard",
+        "number": null,
+        "rank": "F",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "lump_wizard",
+                "blinkster"
+            ]
+        ]
+    },
+    "bodkin_archer": {
+        "name": "Bodkin Archer",
+        "number": null,
+        "rank": "G",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "assassin"
+        ],
+        "traits": {
+            "small": {
+                "insta_accel": 1,
+                "bigger_upper": 20,
+                "personal_grudge": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "cruelcumber",
+                "picksy"
             ]
         ]
     }
