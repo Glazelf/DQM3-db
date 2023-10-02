@@ -6050,6 +6050,24 @@
             ]
         ]
     },
+    "hunter_mech": {
+        "name": "Hunter Mech",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "restless_armor"
+            ]
+        ]
+    },
     "slime_knight": {
         "name": "Slime Knight",
         "number": null,
@@ -6106,6 +6124,7 @@
     },
     "restless_armour": {
         "name": "Restless Armour",
+
         "number": null,
         "rank": "F",
         "family": "_undead",

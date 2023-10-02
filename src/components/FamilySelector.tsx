@@ -3,7 +3,7 @@
 import React, { FC } from 'react';
 
 interface FamilySelectorProps {
-  updateFilter: Function;
+  updateFilter: object;
 }
 
 const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
@@ -18,7 +18,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
     { name: 'Undead', family: '_undead', alt: 'undead family' },
   ];
 
-  const handleFamilyClick = (familyName: string) => {
+  const handleFamilyClick = (familyName) => {
     updateFilter(familyName);
   };
 
@@ -28,7 +28,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
         <img
           key={index}
           className='family-icon'
-          src={`./public/families/${family.family}_icon.png`}
+          src={`/families/${family.family}_icon.png`}
           alt={family.alt}
           onClick={() => handleFamilyClick(family.family)}
         />

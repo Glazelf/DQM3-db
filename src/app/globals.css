@@ -24,7 +24,7 @@ body {
 }
 
 .monster-container {
-  width: 20%;
+  width: 9%;
   margin-left: auto;
   margin-right: auto;
   color: black;
@@ -42,7 +42,7 @@ body {
 
 .icon-container {
   margin-top: 16px;
-  width: 66%;
+  width: 37%;
   margin-left: auto;
   margin-right: auto;
 }
