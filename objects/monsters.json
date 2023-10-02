@@ -3749,7 +3749,7 @@
         },
         "synthesis": [
             [
-                "lampling",
+                "_material",
                 "she_slime"
             ]
         ]
@@ -6057,10 +6057,46 @@
         "family": "_material",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "blade_maven"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "metal_beater": 20,
+                "static_discharge": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_material",
@@ -6124,7 +6160,6 @@
     },
     "restless_armour": {
         "name": "Restless Armour",
-
         "number": null,
         "rank": "F",
         "family": "_undead",
@@ -6177,21 +6212,57 @@
             ]
         ]
     },
-    "garuda": {
-        "name": "Garuda",
+    "slick_slime": {
+        "name": "Slick Slime",
         "number": null,
-        "rank": "F",
-        "family": "_nature",
+        "rank": "E",
+        "family": "_slime",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 4,
+            "wis": 2
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "unhealthy_advantage": 20,
+                "ultra_crafty_cragger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 75,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
-                "pteranodon",
-                "bullfinch"
+                "bubble_slime",
+                "box_slime"
             ]
         ]
     }

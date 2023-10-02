@@ -370,6 +370,12 @@
         "description": "Negates all damage 1 time only. Ineffective against certain attacks.",
         "mp_cost": 10
     },
+    "multislash": {
+        "name": "Multislash",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+        "mp_cost": 5
+    },
     "nature_nerfer": {
         "name": "Nature Nerfer",
         "type": "Attack",

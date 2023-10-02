@@ -295,6 +295,10 @@
         "name": "Spongy Skin",
         "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
     },
+    "static_discharge": {
+        "name": "Static Discharge",
+        "description": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself."
+    },
     "strangely_alluring": {
         "name": "Strangely Alluring",
         "description": "Sometimes stuns the enemy during battle for 1 turn."
@@ -334,6 +338,10 @@
     "ultra_crafty_confuser": {
         "name": "Ultra Crafty Confuser",
         "description": "Makes it much easier to the enemy."
+    },
+    "ultra_crafty_cragger": {
+        "name": "Ultra Crafty Cragger",
+        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
     },
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",
@@ -386,6 +394,10 @@
     "ultra_zap_ward": {
         "name": "Ultra Zap Ward",
         "description": "Greatly increases resistance to electrical attacks."
+    },
+    "unhealthy_advantage": {
+        "name": "Unhealthy Advantage",
+        "description": "Inflicts increasing amounts of damage as remaining HP gets lower."
     },
     "wisdom_4": {
         "name": "Wisdom +4",
