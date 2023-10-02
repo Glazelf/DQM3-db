@@ -295,6 +295,10 @@
         "name": "Spongy Skin",
         "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
     },
+    "static_discharge": {
+        "name": "Static Discharge",
+        "description": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself."
+    },
     "strangely_alluring": {
         "name": "Strangely Alluring",
         "description": "Sometimes stuns the enemy during battle for 1 turn."
