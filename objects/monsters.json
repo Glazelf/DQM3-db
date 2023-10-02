@@ -6103,5 +6103,59 @@
                 "leery_lout"
             ]
         ]
+    },
+    "restless_armour": {
+        "name": "Restless Armour",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "breath_taker"
+        ],
+        "traits": {
+            "small": {
+                "miraculous_touch": 1,
+                "defensive_impulse": 20,
+                "snappy_comeback": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "slime_stack",
+                "leery_lout"
+            ]
+        ]
     }
 }
