@@ -4203,10 +4203,46 @@
         "family": "_dragon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 1,
+            "def": 1,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "shallow_breather"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "agent_of_chaos": 20,
+                "ultra_crafty_frizzer": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 25,
+            "light": 25,
+            "dark": 0,
+            "debilitation": -25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 25
+        },
         "synthesis": [
             [
                 "_slime",
@@ -5237,10 +5273,46 @@
         "family": "_material",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "irritant"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_debilitator": 1,
+                "ultra_crafty_magic_drainer": 20,
+                "rando_buff": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_material",
@@ -5255,10 +5327,46 @@
         "family": "_demon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "bang_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "rando_muster": 1,
+                "bangmeister": 20,
+                "ultra_crafty_banger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 0,
+            "electricity": -25,
+            "light": -25,
+            "dark": 75,
+            "debilitation": 50,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 25
+        },
         "synthesis": [
             [
                 "_material",
@@ -6335,6 +6443,132 @@
             [
                 "bubble_slime",
                 "box_slime"
+            ]
+        ]
+    },
+    "escudogre": {
+        "name": "Escudogre",
+        "number": null,
+        "rank": "E",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 3,
+            "def": 4,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "barricade"
+        ],
+        "traits": {
+            "small": {
+                "rando_buff": 1,
+                "slick_skin": 20,
+                "ultra_crafty_cracker": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "hunter_mech",
+                "leery_lout"
+            ]
+        ]
+    },
+    "hell_nino": {
+        "name": "Hell Niño",
+        "number": null,
+        "rank": "E",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "frizz_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "ace_evader": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 75,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "cumaulus",
+                "drake_slime"
+            ]
+        ]
+    },
+    "wyrtle": {
+        "name": "Wyrtle",
+        "number": null,
+        "rank": "E",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "armoured_wartoise",
+                "_beast"
             ]
         ]
     }

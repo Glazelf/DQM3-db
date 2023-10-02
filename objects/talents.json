@@ -134,6 +134,28 @@
         },
         "traits": null
     },
+    "antimagic_avoider": {
+        "name": "Antimagic Avoider",
+        "skills": null,
+        "traits": {
+            "max_mp_16": [
+                5,
+                20,
+                90
+            ],
+            "wisdom_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_spellbinder": [
+                60
+            ],
+            "auto_cadabra": [
+                150
+            ]
+        }
+    },
     "assassin": {
         "name": "Assassin",
         "skills": {
@@ -304,6 +326,34 @@
             10
         ]
     },
+    "bedazzlement_blocker": {
+        "name": "Bedazzlement Blocker",
+        "skills": null,
+        "traits": {
+            "max_mp_16": [
+                5,
+                90
+            ],
+            "wisdom_16": [
+                10
+            ],
+            "defence_16": [
+                20
+            ],
+            "max_hp_8": [
+                40
+            ],
+            "ultra_visionary": [
+                60
+            ],
+            "attack_8": [
+                120
+            ],
+            "auto_cadabra": [
+                150
+            ]
+        }
+    },
     "blade_maven": {
         "name": "Blade Maven",
         "skills": {
@@ -466,6 +516,30 @@
             ]
         }
     },
+    "crack_ward": {
+        "name": "Crack Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "defence_16": [
+                10
+            ],
+            "max_mp_16": [
+                40,
+                120
+            ],
+            "ultra_crack_ward": [
+                60
+            ],
+            "castslasher": [
+                150
+            ]
+        }
+    },
     "crag_afficionado": {
         "name": "Crag Afficionado",
         "skills": {
@@ -576,6 +650,28 @@
         "traits": {
             "auto_cadabra": [
                 120
+            ]
+        }
+    },
+    "death_defier": {
+        "name": "Death Defier",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5,
+                20,
+                90
+            ],
+            "ultra_mp_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_death_defier": [
+                60
+            ],
+            "auto_restora": [
+                150
             ]
         }
     },
@@ -714,6 +810,30 @@
             ],
             "max_mp_8": [
                 85
+            ]
+        }
+    },
+    "frizz_ward": {
+        "name": "Frizz Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "max_hp_8": [
+                10,
+                120
+            ],
+            "max_mp_16": [
+                40
+            ],
+            "ultra_frizz_ward": [
+                60
+            ],
+            "castslasher": [
+                150
             ]
         }
     },
@@ -1060,6 +1180,32 @@
             ],
             "max_mp_8": [
                 85
+            ]
+        }
+    },
+    "sizz_ward": {
+        "name": "Sizz Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                90
+            ],
+            "agility_8": [
+                10
+            ],
+            "max_hp_8": [
+                20,
+                120
+            ],
+            "max_mp_16": [
+                40
+            ],
+            "ultra_sizz_ward": [
+                60
+            ],
+            "castslasher": [
+                150
             ]
         }
     },
@@ -1442,6 +1588,28 @@
             ],
             "max_mp_8": [
                 85
+            ]
+        }
+    },
+    "zam_ward": {
+        "name": "Zam Ward",
+        "skills": null,
+        "traits": {
+            "wisdom_16": [
+                5,
+                20,
+                90
+            ],
+            "max_mp_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_zam_ward": [
+                60
+            ],
+            "castslasher": [
+                150
             ]
         }
     },

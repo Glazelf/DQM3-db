@@ -306,6 +306,12 @@
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed.",
         "mp_cost": -1
     },
+    "kanumb": {
+        "name": "Kanumb",
+        "type": "Status",
+        "description": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 15
+    },
     "kasap": {
         "name": "Kasap",
         "type": "Status",

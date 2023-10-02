@@ -331,6 +331,10 @@
         "name": "Ultra Clear Thinker",
         "description": "Greatly increases resistance to confusion."
     },
+    "ultra_crack_ward": {
+        "name": "Ultra Crack Ward",
+        "description": "Greatly increases resistance to ice-elemental attacks."
+    },
     "ultra_crafty_banger": {
         "name": "Ultra Crafty Banger",
         "description": "Greatly increases the damage inflicted by explosive attacks."
@@ -354,6 +358,10 @@
     "ultra_crafty_frizzer": {
         "name": "Ultra Crafty Frizzer",
         "description": "Greatly increases the damage inflicted by fire-elemental attacks."
+    },
+    "ultra_crafty_magic_drainer": {
+        "name": "Ultra Crafty Magic Drainer",
+        "description": "Makes it much easier to absorb MP."
     },
     "ultra_crafty_paralyser": {
         "name": "Ultra Crafty Paralyser",
@@ -379,17 +387,41 @@
         "name": "Ultra Crag Ward",
         "description": "Greatly increases resistance to earth-elemental attacks."
     },
+    "ultra_death_defier": {
+        "name": "Ultra Death Defier",
+        "description": "Greatly increases resistance to instant death."
+    },
     "ultra_drain_blocker": {
         "name": "Ultra Drain Blocker",
         "description": "Greatly increases resistance to MP absorption."
+    },
+    "ultra_frizz_ward": {
+        "name": "Ultra Frizz Ward",
+        "description": "Greatly increases resistance to fire-elemental attacks."
     },
     "ultra_granite_chin": {
         "name": "Ultra Granite Chin",
         "description": "Greatly increases resistance to being stunned."
     },
+    "ultra_sizz_ward": {
+        "name": "Ultra Sizz Ward",
+        "description": "Greatly increases resistance to light-elemental attacks."
+    },
+    "ultra_spellbinder": {
+        "name": "Ultra Spellbinder",
+        "description": "Greatly increases resistance to antimagic."
+    },
+    "ultra_visionary": {
+        "name": "Ultra Visionary",
+        "description": "Greatly increases resistance to bedazzlement."
+    },
     "ultra_woosh_ward": {
         "name": "Ultra Woosh Ward",
         "description": "Greatly increases resistance to wind-elemental attacks."
+    },
+    "ultra_zam_ward": {
+        "name": "Ultra Zam Ward",
+        "description": "Greatly increases resistance to dark-elemental attacks."
     },
     "ultra_zap_ward": {
         "name": "Ultra Zap Ward",
