@@ -3,7 +3,7 @@
 import React, { FC } from 'react';
 
 interface FamilySelectorProps {
-  updateFilter: object;
+  updateFilter: Function;
 }
 
 const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
