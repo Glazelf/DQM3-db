@@ -83,6 +83,11 @@
         "type": "Battle",
         "description": "A pong deposit that can be pitched at one's opponents. Inflicts minor damage to a single enemy when used in battle."
     },
+    "pinball": {
+        "name": "Pinball",
+        "type": "Battle",
+        "description": "A sphere of the toughest stone that really hurts if it hits you. Inflicts minor damage to a single enemy when used in battle, including metallic monsters."
+    },
     "rockbomb_shard": {
         "name": "Rockbomb Shard",
         "type": "Battle",
