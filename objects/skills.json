@@ -47,6 +47,12 @@
         "description": "Inflicts medium explosive spell damage on all enemies.",
         "mp_cost": 12
     },
+    "bounce": {
+        "name": "Bounce",
+        "type": "Status",
+        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
+        "mp_cost": 32
+    },
     "brake_wind": {
         "name": "Brake Wind",
         "type": "Status",

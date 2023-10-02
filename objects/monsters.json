@@ -4501,10 +4501,46 @@
         "family": "_dragon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_dazzler": 1,
+                "critical_moment": 20,
+                "rando_oomph": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_dragon",
@@ -4527,10 +4563,46 @@
         "family": "_beast",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 1,
+            "def": 2,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "antimagician"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "ace_evader": 20,
+                "rando_accel": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 75,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_dragon",
