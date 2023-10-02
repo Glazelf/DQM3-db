@@ -967,6 +967,28 @@
         },
         "traits": null
     },
+    "poison_preventer": {
+        "name": "Poison Preventer",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5,
+                20,
+                90
+            ],
+            "max_mp_16": [
+                10,
+                40,
+                120
+            ],
+            "ultra_antitoxidant": [
+                60
+            ],
+            "auto_restora": [
+                150
+            ]
+        }
+    },
     "power_player": {
         "name": "Power Player",
         "skills": {

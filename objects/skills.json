@@ -101,6 +101,10 @@
         "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round.",
         "mp_cost": 5
     },
+    "critical_meltdown": {
+        "name": "Critical Meltdown",
+        "description": "Prevents a single enemy from inflicting critical hits for 4 to 7 turns."
+    },
     "cock_a_doodle_doo": {
         "name": "Cock-a-Doodle-Doo",
         "description": "Cures all allies of sleep.",
@@ -147,6 +151,10 @@
         "type": "Status",
         "description": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
+    },
+    "dodgy_dance": {
+        "name": "Dodgy Dance",
+        "description": "Raises the user's evasion for 4 to 7 turns."
     },
     "dragon_slash": {
         "name": "Dragon Slash",
@@ -297,6 +305,10 @@
         "type": "Status",
         "description": "Greatly decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 4
+    },
+    "katox": {
+        "name": "Katox",
+        "description": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "kazing": {
         "name": "Kazing",
