@@ -47,7 +47,6 @@
                 200
             ]
         }
-
     },
     "agility_booster_3": {
         "name": "Agility Booster III",
@@ -731,7 +730,7 @@
             "meditation": 100,
             "miracle_slash": 120
         },
-        "traits":  null
+        "traits": null
     },
     "graveheart": {
         "name": "Graveheart",
@@ -797,7 +796,7 @@
             "zammie": 120
         },
         "traits": {
-            "wisadom_24": [
+            "wisdom_24": [
                 100
             ]
         }
