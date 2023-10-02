@@ -4247,10 +4247,46 @@
         "family": "_demon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "dark_artist"
+        ],
+        "traits": {
+            "small": {
+                "rando_ping": 1,
+                "bangmeister": 20,
+                "trance_state": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_slime",
@@ -6011,6 +6047,60 @@
             [
                 "cruelcumber",
                 "picksy"
+            ]
+        ]
+    },
+    "slime_knight": {
+        "name": "Slime Knight",
+        "number": null,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "good_knight"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "close_scraper": 20,
+                "big_bully": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "slime_stack",
+                "leery_lout"
             ]
         ]
     }

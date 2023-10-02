@@ -51,6 +51,10 @@
         "name": "Auto-Restora",
         "description": "Restores a small amount of HP after each action."
     },
+    "bangmeister": {
+        "name": "Bangmeister",
+        "description": "Increases the potency of explosive attacks and decreases their MP consumption."
+    },
     "benefaction": {
         "name": "Benefaction",
         "description": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
@@ -70,6 +74,10 @@
     "castslasher": {
         "name": "Castslasher",
         "description": "Reduces MP consumption by 1/2."
+    },
+    "close_scraper": {
+        "name": "Close Scraper",
+        "description": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it."
     },
     "crackmeister": {
         "name": "Crackmeister",
@@ -239,6 +247,10 @@
         "name": "Rando-Oomph",
         "description": "Monster sometimes casts Oomph on itself during battle."
     },
+    "rando_ping": {
+        "name": "Rando-Ping",
+        "description": "Monster sometimes casts Ping on itself during battle."
+    },
     "sleepy_touch": {
         "name": "Sleepy Touch",
         "description": "Regular attacks sometimes put the enemy to sleep."
@@ -267,9 +279,17 @@
         "name": "Strong Starter",
         "description": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards."
     },
+    "tactical_trooper": {
+        "name": "Tactical Trooper",
+        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
+    },
     "tit_for_tat": {
         "name": "Tit for Tat",
         "description": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them."
+    },
+    "trance_state": {
+        "name": "Trance State",
+        "description": "Greatly increases wisdom after casting a critical spell."
     },
     "ultra_bang_ward": {
         "name": "Ultra Bang Ward",
@@ -310,6 +330,10 @@
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",
         "description": "Makes it much easier to prevent spellcasting"
+    },
+    "ultra_crafty_stunner": {
+        "name": "Ultra Crafty Stunner",
+        "description": "Makes it much easier to stun the enemy."
     },
     "ultra_crafty_woosher": {
         "name": "Ultra Crafty Woosher",
