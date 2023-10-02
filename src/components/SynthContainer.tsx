@@ -5,10 +5,14 @@ import Monster from '../components/Monster';
 import FamilySelector from '../components/FamilySelector';
 import SkillContainer from '../components/SkillContainer';
 
+type MonsterSet = {
+  [key: string]: string;
+};
+
 const SynthContainer = () => {
   const [filterFamily, setFilterFamily] = useState<string>('');
   const [monsterIdSet, setMonsterIdSet] = useState<Array<string>>([]);
-  const [monsterSet, setMonsterSet] = useState<object>({});
+  const [monsterSet, setMonsterSet] = useState<MonsterSet>({});
   
 
   const updateFilter = (family: string) => {
