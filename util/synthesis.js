@@ -80,6 +80,7 @@ function getPairVariables(pair = []) {
     let parent1Rank = null;
     let parent2Rank = null;
     if (!pair[0].startsWith("_") && monstersJSON[pair[0]].family) {
+        console.log(monstersJSON[pair[0]])
         parent1Family = monstersJSON[pair[0]].family;
         parent1Rank = monstersJSON[pair[0]].rank;
     }
