@@ -335,6 +335,10 @@
         "name": "Ultra Crafty Confuser",
         "description": "Makes it much easier to the enemy."
     },
+    "ultra_crafty_cragger": {
+        "name": "Ultra Crafty Cragger",
+        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
+    },
     "ultra_crafty_dazzler": {
         "name": "Ultra Crafty Dazzler",
         "description": "Makes it much easier to bedazzle enemies."
@@ -386,6 +390,10 @@
     "ultra_zap_ward": {
         "name": "Ultra Zap Ward",
         "description": "Greatly increases resistance to electrical attacks."
+    },
+    "unhealthy_advantage": {
+        "name": "Unhealthy Advantage",
+        "description": "Inflicts increasing amounts of damage as remaining HP gets lower."
     },
     "wisdom_4": {
         "name": "Wisdom +4",

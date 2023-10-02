@@ -6124,7 +6124,6 @@
     },
     "restless_armour": {
         "name": "Restless Armour",
-
         "number": null,
         "rank": "F",
         "family": "_undead",
@@ -6174,6 +6173,60 @@
             [
                 "slime_knight",
                 "bambooligan"
+            ]
+        ]
+    },
+    "slick_slime": {
+        "name": "Slick Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 4,
+            "wis": 2
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "unhealthy_advantage": 20,
+                "ultra_crafty_cragger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 75,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "bubble_slime",
+                "box_slime"
             ]
         ]
     }
