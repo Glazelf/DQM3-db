@@ -255,6 +255,10 @@
         "name": "Sleepy Touch",
         "description": "Regular attacks sometimes put the enemy to sleep."
     },
+    "sleep_twitch": {
+        "name": "Sleep Twitch",
+        "description": "Attacks all enemies when the monster is asleep"
+    },
     "slick_skin": {
         "name": "Slick Skin",
         "description": "Sometimes causes incoming direct attacks to miss."
