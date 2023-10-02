@@ -25,6 +25,7 @@ module.exports = async ({ parents = [], target }) => {
                 if (!synthesisCheckResults.boolean) synthesisCheckResults = synthesisCheck({ pair: pair, target: target, parents: parents });
                 if (!synthesisCheckResults.boolean) {
                     // Calculate routes
+                    synthesisResults.routes = true;
                 };
             });
 
@@ -53,6 +54,7 @@ module.exports = async ({ parents = [], target }) => {
     } else if ((parents[0] || parents[1]) && target) {
         // Behaviour 4
         // Probably saving this untill full release
+        synthesisResults.routes = true;
     } else if (!parents[0] && !parents[1] && target) {
         // Behaviour 5
         if (targetData.synthesis) {
@@ -65,8 +67,6 @@ module.exports = async ({ parents = [], target }) => {
                 };
             });
         };
-    } else {
-        // Error?
     };
     if (typeof synthesisResults == "object") {
         synthesisResults.familySynthesis = [...new Set(synthesisResults.familySynthesis)];
