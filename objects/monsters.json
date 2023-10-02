@@ -6013,5 +6013,41 @@
                 "picksy"
             ]
         ]
+    },
+    "hunter_mech": {
+        "name": "Hunter Mech",
+        "number": null,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "restless_armor"
+            ]
+        ]
+    },
+    "restless_armor": {
+        "name": "Restless Armor",
+        "number": null,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "slime_knight",
+                "bambooligan"
+            ]
+        ]
     }
 }
