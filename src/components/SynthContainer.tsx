@@ -1,20 +1,36 @@
 'use client'
 
-import React, { FC, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import Monster from '../components/Monster';
 import FamilySelector from '../components/FamilySelector';
+import SkillContainer from '../components/SkillContainer';
 
 const SynthContainer = () => {
   const [filterFamily, setFilterFamily] = useState<string>('');
+  const [monsterIdSet, setMonsterIdSet] = useState<Array<string>>([]);
+  const [monsterSet, setMonsterSet] = useState<object>({});
+  
 
   const updateFilter = (family: string) => {
     setFilterFamily(family);
   };
 
+  const updateMonsterSet = (id: string, monsterId: string) => {
+    if (monsterId && !monsterSet[id]) {
+      monsterSet[id] = monsterId;
+      setMonsterIdSet(Object.keys(monsterSet).map((key) => monsterSet[key]).filter((monsterId) => monsterId.indexOf('_') != 0));
+    }
+  }
+
   return (
     <div className="home-container">
       <FamilySelector updateFilter={updateFilter} />
-      <Monster parent={filterFamily} />
+      <div className="skill-container">
+        <SkillContainer monsterIds={monsterIdSet} />
+      </div>
+      <div className="all-monster-container">
+        <Monster parent={filterFamily} id='' updateMonsterSet={updateMonsterSet} />
+      </div>
     </div>
   )
 };

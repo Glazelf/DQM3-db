@@ -23,6 +23,24 @@ body {
   display: inline-block;
 }
 
+.all-monster-container {
+  display: inline-block;
+  width: 89%;
+}
+
+.skill-container {
+  display: inline-block;
+  width: 10%;
+  color: white;
+  border: 2px white solid;
+  height: 70vh;
+  text-align: center;
+}
+
+.skill-list {
+  color: white;
+}
+
 .monster-container {
   width: 9%;
   margin-left: auto;

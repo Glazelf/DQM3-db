@@ -6176,5 +6176,23 @@
                 "bambooligan"
             ]
         ]
+    },
+    "garuda": {
+        "name": "Garuda",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "pteranodon",
+                "bullfinch"
+            ]
+        ]
     }
 }
