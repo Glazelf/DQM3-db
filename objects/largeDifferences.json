@@ -1,0 +1,13 @@
+{
+    "resistances": {
+        "affected": [
+            "confusion",
+            "sleep",
+            "paralysis",
+            "stun",
+            "poison",
+            "instant_death"
+        ],
+        "bonus": 50
+    }
+}
