@@ -16,7 +16,7 @@ module.exports = async ({ parents = [], target }) => {
     let parent2Data = monstersJSON[parents[1]];
     let targetData = monstersJSON[target];
     // Behaviour scripts
-    if (parents[0] && parents[1] && target) {
+    if (parent1Data && parent2Data && targetData) {
         // Behaviour 1
         if (parents.includes(target)) synthesisCheckResults.boolean = true;
         if (targetData.synthesis) {
@@ -31,7 +31,7 @@ module.exports = async ({ parents = [], target }) => {
 
         };
         synthesisResults = synthesisCheckResults;
-    } else if (parents[0] && parents[1] && !target) {
+    } else if (parent1Data && parent2Data && !targetData) {
         // Behaviour 2
         synthesisResults.selfSynthesis = synthesisResults.selfSynthesis.concat([parents[0], parents[1]]);
         for await (let [monsterID, monster] of Object.entries(monstersJSON)) {
@@ -48,14 +48,14 @@ module.exports = async ({ parents = [], target }) => {
                 };
             });
         };
-    } else if ((parents[0] || parents[1]) && !target) {
+    } else if ((parent1Data || parent2Data) && !targetData) {
         // Behaviour 3
         // Wait untill there's more unique synths added by Zora to test
-    } else if ((parents[0] || parents[1]) && target) {
+    } else if ((parent1Data || parent2Data) && targetData) {
         // Behaviour 4
         // Probably saving this untill full release
         synthesisResults.routes = true;
-    } else if (!parents[0] && !parents[1] && target) {
+    } else if (!parent1Data && !parent2Data && targetData) {
         // Behaviour 5
         if (targetData.synthesis) {
             targetData.synthesis.forEach(pair => {
@@ -80,7 +80,6 @@ function getPairVariables(pair = []) {
     let parent1Rank = null;
     let parent2Rank = null;
     if (!pair[0].startsWith("_") && monstersJSON[pair[0]].family) {
-        console.log(monstersJSON[pair[0]])
         parent1Family = monstersJSON[pair[0]].family;
         parent1Rank = monstersJSON[pair[0]].rank;
     }
