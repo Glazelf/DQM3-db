@@ -290,7 +290,7 @@
         "name": "Kamikazee",
         "type": "Status",
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed.",
-        "mp_cost": 101
+        "mp_cost": -1
     },
     "kasap": {
         "name": "Kasap",
@@ -320,7 +320,7 @@
         "name": "Magic Pop",
         "type": "Attack",
         "description": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
-        "mp_cost": 0.25
+        "mp_cost": -0.25
     },
     "matter_scatterer": {
         "name": "Matter Scatterer",
