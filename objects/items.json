@@ -83,12 +83,27 @@
         "type": "Battle",
         "description": "A pong deposit that can be pitched at one's opponents. Inflicts minor damage to a single enemy when used in battle."
     },
+    "pinball": {
+        "name": "Pinball",
+        "type": "Battle",
+        "description": "A sphere of the toughest stone that really hurts if it hits you. Inflicts minor damage to a single enemy when used in battle, including metallic monsters."
+    },
+    "rockbomb_shard": {
+        "name": "Rockbomb Shard",
+        "type": "Battle",
+        "description": "An unstable stone that explodes when it strikes its target. Almost kills a single enemy when used in battle, but the damage it inflicts will vary according to the target's resistance to instant death."
+    },
     "monster_munchies": {
         "name": "Monster Munchies",
         "type": "Food",
         "description": "A meaty morsel that monsters love. Feed to a monster to very slightly increase the likelihood of it wanting to join you.",
         "buy": 100,
         "sell": 10
+    },
+    "mystery_meat": {
+        "name": "Mystery Meat",
+        "type": "Food",
+        "description": "Suspicious meat of unknown origin. Feed to a monster to increase the likelihood of it wanting to join you by a random factor."
     },
     "smoked_sirloin": {
         "name": "Smoked Sirloin",
@@ -120,6 +135,11 @@
         "type": "Treasure",
         "description": "Raises the agility of a single ally by 3. Note that each monster type has an upper limit to its agility that cannot be exceeded.",
         "sell": 10
+    },
+    "seed_of_skill": {
+        "name": "Seed of Skill",
+        "type": "Treasure",
+        "description": "Provides a single ally with 3 additional talent points. Note that a monster can have a maximum of 999 available talent points."
     },
     "strength_ring": {
         "name": "Strength Ring",

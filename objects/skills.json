@@ -47,6 +47,12 @@
         "description": "Inflicts medium explosive spell damage on all enemies.",
         "mp_cost": 12
     },
+    "bounce": {
+        "name": "Bounce",
+        "type": "Status",
+        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
+        "mp_cost": 32
+    },
     "brake_wind": {
         "name": "Brake Wind",
         "type": "Status",
@@ -101,6 +107,10 @@
         "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round.",
         "mp_cost": 5
     },
+    "critical_meltdown": {
+        "name": "Critical Meltdown",
+        "description": "Prevents a single enemy from inflicting critical hits for 4 to 7 turns."
+    },
     "cock_a_doodle_doo": {
         "name": "Cock-a-Doodle-Doo",
         "description": "Cures all allies of sleep.",
@@ -147,6 +157,10 @@
         "type": "Status",
         "description": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
+    },
+    "dodgy_dance": {
+        "name": "Dodgy Dance",
+        "description": "Raises the user's evasion for 4 to 7 turns."
     },
     "dragon_slash": {
         "name": "Dragon Slash",
@@ -290,13 +304,23 @@
         "name": "Kamikazee",
         "type": "Status",
         "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed.",
-        "mp_cost": 101
+        "mp_cost": -1
+    },
+    "kanumb": {
+        "name": "Kanumb",
+        "type": "Status",
+        "description": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 15
     },
     "kasap": {
         "name": "Kasap",
         "type": "Status",
         "description": "Greatly decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 4
+    },
+    "katox": {
+        "name": "Katox",
+        "description": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
     },
     "kazing": {
         "name": "Kazing",
@@ -320,7 +344,7 @@
         "name": "Magic Pop",
         "type": "Attack",
         "description": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
-        "mp_cost": 0.25
+        "mp_cost": -0.25
     },
     "matter_scatterer": {
         "name": "Matter Scatterer",
@@ -357,6 +381,12 @@
         "type": "Status",
         "description": "Negates all damage 1 time only. Ineffective against certain attacks.",
         "mp_cost": 10
+    },
+    "multislash": {
+        "name": "Multislash",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+        "mp_cost": 5
     },
     "nature_nerfer": {
         "name": "Nature Nerfer",

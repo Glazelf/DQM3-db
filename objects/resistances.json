@@ -1,0 +1,59 @@
+{
+    "fire": {
+        "name": "Fire"
+    },
+    "water": {
+        "name": "Water"
+    },
+    "wind": {
+        "name": "Wind"
+    },
+    "earth": {
+        "name": "Earth"
+    },
+    "explosions": {
+        "name": "Explosions"
+    },
+    "ice": {
+        "name": "Ice"
+    },
+    "electricity": {
+        "name": "Electricity"
+    },
+    "light": {
+        "name": "Light"
+    },
+    "dark": {
+        "name": "Dark"
+    },
+    "debilitation": {
+        "name": "Debilitation"
+    },
+    "bedazzlement": {
+        "name": "Bedazzlement"
+    },
+    "antimagic": {
+        "name": "Antimagic"
+    },
+    "mp_absorption": {
+        "name": "MP Absorption"
+    },
+    "confusion": {
+        "name": "Confusion"
+    },
+    "sleep": {
+        "name": "Sleep"
+    },
+    "paralysis": {
+        "name": "Paralysis"
+    },
+    "stun": {
+        "name": "Stun"
+    },
+    "poison": {
+        "name": "Poison"
+    },
+    "instant_death": {
+        "name": "Instant Death"
+    }
+}
