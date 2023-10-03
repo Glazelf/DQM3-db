@@ -1389,7 +1389,7 @@
             ]
         }
     },
-    "sweet-talker": {
+    "sweet_talker": {
         "name": "Sweet-Talker",
         "skills": {
             "heal": 3,
