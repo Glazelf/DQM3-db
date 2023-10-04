@@ -79,11 +79,11 @@ function getPairVariables(pair = []) {
     let parent2Family = pair[1];
     let parent1Rank = null;
     let parent2Rank = null;
-    if (!pair[0].startsWith("_") && monstersJSON[pair[0]].family) {
+    if (!pair[0].startsWith("_") && monstersJSON[pair[0]]) {
         parent1Family = monstersJSON[pair[0]].family;
         parent1Rank = monstersJSON[pair[0]].rank;
     }
-    if (!pair[1].startsWith("_") && monstersJSON[pair[1]].family) {
+    if (!pair[1].startsWith("_") && monstersJSON[pair[1]]) {
         parent2Family = monstersJSON[pair[1]].family;
         parent2Rank = monstersJSON[pair[1]].rank;
     };
@@ -99,7 +99,7 @@ function synthesisCheck({ pair = [], target = "", parents = [] }) {
     let parentsVariables = getPairVariables(parents);
     let targetData = monstersJSON[target];
     // Check if fusion between both parents' families by filtering arrays against eachother, also taking into account ranks
-    let familySynthesisBool = (pair.filter((element) => !parentsVariables.pairAndFamilies.includes(element)).length === 0 && parentsVariables.pairRanks.includes(targetData.rank));
+    let familySynthesisBool = (pair.filter((element) => !parentsVariables.pairAndFamilies.includes(element)).length === 0 && parentsVariables.pairRanks.includes(targetData.rank) && !parents.includes(target)); // Check for matching ranks and unmatching family synths
     // Check if fusion between both at least 1 parent and another parent or family by filtering arrays against eachother, also taking into account one+ parent has to be a species
     let uniqueSynthesisBool = (pair.filter((element) => !parentsVariables.pairAndFamilies.includes(element)).length === 0 && (pair.filter((element) => !parents.includes(element)).length < 2));
     let synthesisType = null;
