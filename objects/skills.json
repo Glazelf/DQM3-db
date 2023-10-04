@@ -1,33 +1,45 @@
 {
-    "accelerate": {
-        "name": "Accelerate",
-        "type": "Status",
-        "description": "Greatly increases the agility of a single ally for 4 to 7 turns.",
-        "mp_cost": 3
+    "frizz": {
+        "name": "Frizz",
+        "type": "Attack",
+        "description": "Inflicts minor fire-elemental spell damage on a single enemy.",
+        "mp_cost": 1
     },
-    "acceleratle": {
-        "name": "Acceleratle",
-        "type": "Status",
-        "description": "Increases the agility of all allies for 4 to 7 turns.",
+    "frizzle": {
+        "name": "Frizzle",
+        "type": "Attack",
+        "description": "Inflicts medium fire-elemental spell damage on a single enemy.",
+        "mp_cost": 2
+    },
+    "splish": {
+        "name": "Splish",
+        "type": "Attack",
+        "description": "Inflicts minor water-elemental spell damage on a single enemy.",
+        "mp_cost": 2
+    },
+    "splash": {
+        "name": "Splash",
+        "type": "Attack",
+        "description": "Inflicts medium water-elemental spell damage on a single enemy.",
+        "mp_cost": 5
+    },
+    "woosh": {
+        "name": "Woosh",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental spell damage on all enemies.",
         "mp_cost": 4
     },
-    "anchorman": {
-        "name": "Anchorman",
+    "swoosh": {
+        "name": "Swoosh",
         "type": "Attack",
-        "description": "Acts after everyone else to inflict extreme impact damage on an enemy.",
-        "mp_cost": 15
+        "description": "Inflicts medium wind-elemental spell damage on all enemies.",
+        "mp_cost": 11
     },
-    "assassins_stab": {
-        "name": "Assassin's Stab",
+    "crag": {
+        "name": "Crag",
         "type": "Attack",
-        "description": "Damages an enemy and occasionally causes instant death.",
-        "mp_cost": 8
-    },
-    "attack_attacker": {
-        "name": "Attack Attacker",
-        "type": "Attack",
-        "description": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns.",
-        "mp_cost": 4
+        "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round.",
+        "mp_cost": 5
     },
     "bang": {
         "name": "Bang",
@@ -35,59 +47,11 @@
         "description": "Inflicts minor explosive spell damage on all enemies.",
         "mp_cost": 5
     },
-    "blunt": {
-        "name": "Blunt",
-        "type": "Status",
-        "description": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 6
-    },
     "boom": {
         "name": "Boom",
         "type": "Attack",
         "description": "Inflicts medium explosive spell damage on all enemies.",
         "mp_cost": 12
-    },
-    "bounce": {
-        "name": "Bounce",
-        "type": "Status",
-        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
-        "mp_cost": 32
-    },
-    "brake_wind": {
-        "name": "Brake Wind",
-        "type": "Status",
-        "description": "Reflects breath attacks back at the enemy. Protects all allies once only.",
-        "mp_cost": 10
-    },
-    "buff": {
-        "name": "Buff",
-        "type": "Status",
-        "description": "Greatly increases the defence of a single ally for 4 to 7 turns.",
-        "mp_cost": 3
-    },
-    "burning_breath": {
-        "name": "Burning Breath",
-        "type": "Status",
-        "description": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns.",
-        "mp_cost": 4
-    },
-    "chilly_breath": {
-        "name": "Chilly Breath",
-        "type": "Attack",
-        "description": "Inflicts medium ice-elemental breath damage on all enemies.",
-        "mp_cost": 6
-    },
-    "confusion_attack": {
-        "name": "Confusion Attack",
-        "type": "Attack",
-        "description": "Damages a single enemy and occasionally confuses it for 2 to 5 turns.",
-        "mp_cost": 4
-    },
-    "cool_breath": {
-        "name": "Cool Breath",
-        "type": "Attack",
-        "description": "Inflicts minor ice-elemental breath damage on all enemies.",
-        "mp_cost": 3
     },
     "crack": {
         "name": "Crack",
@@ -101,32 +65,143 @@
         "description": "Inflicts medium ice-elemental spell damage on a all enemies.",
         "mp_cost": 12
     },
-    "crag": {
-        "name": "Crag",
+    "zap": {
+        "name": "Zap",
         "type": "Attack",
-        "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round.",
-        "mp_cost": 5
+        "description": "Inflicts minor electrical spell damage on a single enemy.",
+        "mp_cost": 2
     },
-    "critical_meltdown": {
-        "name": "Critical Meltdown",
-        "description": "Prevents a single enemy from inflicting critical hits for 4 to 7 turns."
+    "zapple": {
+        "name": "Zapple",
+        "type": "Attack",
+        "description": "Inflicts medium electrical spell damage on all enemies.",
+        "mp_cost": 13
+    },
+    "sizz": {
+        "name": "Sizz",
+        "type": "Attack",
+        "description": "Inflicts minor light-elemental spell damage on all enemies.",
+        "mp_cost": 4
+    },
+    "sizzle": {
+        "name": "Sizzle",
+        "type": "Attack",
+        "description": "Inflicts medium light-elemental spell damage on all enemies.",
+        "mp_cost": 11
+    },
+    "zam": {
+        "name": "Zam",
+        "type": "Attack",
+        "description": "Inflicts minor dark-elemental spell damage on a single enemy.",
+        "mp_cost": 3
+    },
+    "zammle": {
+        "name": "Zammle",
+        "type": "Attack",
+        "description": "Inflicts medium dark-elemental spell damage on a single enemy.",
+        "mp_cost": 6
+    },
+    "magic_pop": {
+        "name": "Magic Pop",
+        "type": "Attack",
+        "description": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
+        "mp_cost": -0.25
+    },
+    "heal": {
+        "name": "Heal",
+        "type": "Healing",
+        "description": "Restores 28 or more HP to a single ally.",
+        "mp_cost": 3
+    },
+    "midheal": {
+        "name": "Midheal",
+        "type": "Healing",
+        "description": "Restores 76 or more HP to a single ally.",
+        "mp_cost": 8
+    },
+    "zing": {
+        "name": "Zing",
+        "type": "Healing",
+        "description": "Resurrects a fallen ally. Has a chance of failure.",
+        "mp_cost": 4
+    },
+    "kazing": {
+        "name": "Kazing",
+        "type": "Healing",
+        "description": "Is guaranteed to resurrect a fallen ally.",
+        "mp_cost": 40
+    },
+    "squelch": {
+        "name": "Squelch",
+        "type": "Healing",
+        "description": "Cures all allies of poison or severe poison.",
+        "mp_cost": 2
+    },
+    "tingle": {
+        "name": "Tingle",
+        "type": "Healing",
+        "description": "Cures all allies of paralysis.",
+        "mp_cost": 2
     },
     "cock_a_doodle_doo": {
         "name": "Cock-a-Doodle-Doo",
+        "type": "Healing",
         "description": "Cures all allies of sleep.",
         "mp_cost": 2
     },
-    "dazzle": {
-        "name": "Dazzle",
+    "oomph": {
+        "name": "Oomph",
         "type": "Status",
-        "description": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "description": "Greatly increases the attack of a single ally for 2 to 5 turns.",
+        "mp_cost": 6
+    },
+    "oomphle": {
+        "name": "Oomphle",
+        "type": "Status",
+        "description": "Increases the attack of all allies for 2 to 5 turns.",
+        "mp_cost": 10
+    },
+    "blunt": {
+        "name": "Blunt",
+        "type": "Status",
+        "description": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 6
+    },
+    "buff": {
+        "name": "Buff",
+        "type": "Status",
+        "description": "Greatly increases the defence of a single ally for 4 to 7 turns.",
         "mp_cost": 3
     },
-    "dazzleflash": {
-        "name": "Dazzleflash",
+    "kabuff": {
+        "name": "Kabuff",
         "type": "Status",
-        "description": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns.",
-        "mp_cost": 2
+        "description": "Greatly increases the defence of all allies for 4 to 7 turns.",
+        "mp_cost": 4
+    },
+    "sap": {
+        "name": "Sap",
+        "type": "Status",
+        "description": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 3
+    },
+    "kasap": {
+        "name": "Kasap",
+        "type": "Status",
+        "description": "Greatly decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 4
+    },
+    "accelerate": {
+        "name": "Accelerate",
+        "type": "Status",
+        "description": "Greatly increases the agility of a single ally for 4 to 7 turns.",
+        "mp_cost": 3
+    },
+    "acceleratle": {
+        "name": "Acceleratle",
+        "type": "Status",
+        "description": "Increases the agility of all allies for 4 to 7 turns.",
+        "mp_cost": 4
     },
     "decelerate": {
         "name": "Decelerate",
@@ -140,17 +215,11 @@
         "description": "Greatly decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 4
     },
-    "deep_breath": {
-        "name": "Deep Breath",
+    "ping": {
+        "name": "Ping",
         "type": "Status",
-        "description": "Inhales long and deep, raising the damage inflicted by the user's next breath attack.",
-        "mp_cost": 0
-    },
-    "demon_demeaner": {
-        "name": "Demon Demeaner",
-        "type": "Attack",
-        "description": "Inflicts heavy slashing damage on monsters in the demon family.",
-        "mp_cost": 4
+        "description": "Greatly increases the wisdom of a single ally for 4 to 7 turns.",
+        "mp_cost": 3
     },
     "dim": {
         "name": "Dim",
@@ -158,110 +227,10 @@
         "description": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
     },
-    "dodgy_dance": {
-        "name": "Dodgy Dance",
-        "description": "Raises the user's evasion for 4 to 7 turns."
-    },
-    "dragon_slash": {
-        "name": "Dragon Slash",
-        "type": "Attack",
-        "description": "Inflicts heavy slashing damage on monsters in the dragon family.",
-        "mp_cost": 4
-    },
-    "drain_magic": {
-        "name": "Drain Magic",
+    "kadim": {
+        "name": "Kadim",
         "type": "Status",
-        "description": "Absorbs some MP from a single enemy.",
-        "mp_cost": 0
-    },
-    "fire_breath": {
-        "name": "Fire Breath",
-        "type": "Attack",
-        "description": "Inflicts minor fire-elemental breath damage on all enemies.",
-        "mp_cost": 3
-    },
-    "fizzle": {
-        "name": "Fizzle",
-        "type": "Status",
-        "description": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 3
-    },
-    "flamesplitter": {
-        "name": "Flamesplitter",
-        "type": "Attack",
-        "description": "Inflicts heavy fire-elemental slashing damage on all enemies.",
-        "mp_cost": 7
-    },
-    "flame_breath": {
-        "name": "Flame Breath",
-        "type": "Attack",
-        "description": "Inflicts medium fire-elemental breath damage on all enemies.",
-        "mp_cost": 6
-    },
-    "flame_slash": {
-        "name": "Flame Slash",
-        "type": "Attack",
-        "description": "Inflicts minor fire-elemental slashing damage on a single enemy.",
-        "mp_cost": 1
-    },
-    "frizz": {
-        "name": "Frizz",
-        "type": "Attack",
-        "description": "Inflicts minor fire-elemental spell damage on a single enemy.",
-        "mp_cost": 1
-    },
-    "frizzle": {
-        "name": "Frizzle",
-        "type": "Attack",
-        "description": "Inflicts medium fire-elemental spell damage on a single enemy.",
-        "mp_cost": 2
-    },
-    "fuddle": {
-        "name": "Fuddle",
-        "type": "Status",
-        "description": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 5
-    },
-    "fuddle_dance": {
-        "name": "Fuddle Dance",
-        "type": "Status",
-        "description": "A dance that confuses all enemies for 2 to 5 turns.",
-        "mp_cost": 2
-    },
-    "gobstopper": {
-        "name": "Gobstopper",
-        "type": "Status",
-        "description": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns.",
-        "mp_cost": 6
-    },
-    "gust_slash": {
-        "name": "Gust Slash",
-        "type": "Attack",
-        "description": "Inflicts minor wind-elemental slashing damage on a single enemy.",
-        "mp_cost": 2
-    },
-    "hatchet_man": {
-        "name": "Hatchet Man",
-        "type": "Attack",
-        "description": "Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds.",
-        "mp_cost": 8
-    },
-    "heal": {
-        "name": "Heal",
-        "type": "Healing",
-        "description": "Restores 28 or more HP to a single ally.",
-        "mp_cost": 3
-    },
-    "heart_breaker": {
-        "name": "Heart Breaker",
-        "type": "Attack",
-        "description": "Inflicts slashing damage on a single enemy and stuns it for 1 turn.",
-        "mp_cost": 4
-    },
-    "helm_splitter": {
-        "name": "Helm Splitter",
-        "type": "Attack",
-        "description": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns.",
+        "description": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 4
     },
     "insulate": {
@@ -276,123 +245,35 @@
         "description": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns.",
         "mp_cost": 4
     },
-    "intense_defence": {
-        "name": "Intense Defence",
+    "dazzle": {
+        "name": "Dazzle",
         "type": "Status",
-        "description": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle.",
+        "description": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
     },
-    "kabuff": {
-        "name": "Kabuff",
+    "fizzle": {
+        "name": "Fizzle",
         "type": "Status",
-        "description": "Greatly increases the defence of all allies for 4 to 7 turns.",
-        "mp_cost": 4
+        "description": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 3
     },
-    "kacrackle_slash": {
-        "name": "Kacrackle Slash",
-        "type": "Attack",
-        "description": "Inflicts minor ice-elemental slashing damage on a single enemy.",
-        "mp_cost": 2
-    },
-    "kadim": {
-        "name": "Kadim",
+    "drain_magic": {
+        "name": "Drain Magic",
         "type": "Status",
-        "description": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 4
+        "description": "Absorbs some MP from a single enemy.",
+        "mp_cost": 0
     },
-    "kamikazee": {
-        "name": "Kamikazee",
+    "fuddle": {
+        "name": "Fuddle",
         "type": "Status",
-        "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed.",
-        "mp_cost": -1
-    },
-    "kanumb": {
-        "name": "Kanumb",
-        "type": "Status",
-        "description": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 15
-    },
-    "kasap": {
-        "name": "Kasap",
-        "type": "Status",
-        "description": "Greatly decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 4
-    },
-    "katox": {
-        "name": "Katox",
-        "description": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
-    },
-    "kazing": {
-        "name": "Kazing",
-        "type": "Healing",
-        "description": "Is guaranteed to resurrect a fallen ally.",
-        "mp_cost": 40
-    },
-    "knuckle_sandwich": {
-        "name": "Knuckle Sandwich",
-        "type": "Attack",
-        "description": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute.",
-        "mp_cost": 20
-    },
-    "lightning_slash": {
-        "name": "Lightning Slash",
-        "type": "Attack",
-        "description": "Inflicts minor electrical slashing damage on a single enemy.",
-        "mp_cost": 2
-    },
-    "magic_pop": {
-        "name": "Magic Pop",
-        "type": "Attack",
-        "description": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
-        "mp_cost": -0.25
-    },
-    "matter_scatterer": {
-        "name": "Matter Scatterer",
-        "type": "Attack",
-        "description": "Inflicts heavy slashing damage on monsters in the material family.",
-        "mp_cost": 4
-    },
-    "meditation": {
-        "name": "Meditation",
-        "type": "Healing",
-        "description": "Restores 300 or more HP to the user.",
-        "mp_cost": 17
-    },
-    "mercurial_thrust": {
-        "name": "Mercurial Thrust",
-        "type": "Attack",
-        "description": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else.",
-        "mp_cost": 2
-    },
-    "midheal": {
-        "name": "Midheal",
-        "type": "Healing",
-        "description": "Restores 76 or more HP to a single ally.",
-        "mp_cost": 8
-    },
-    "miracle_slash": {
-        "name": "Miracle Slash",
-        "type": "Attack",
-        "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP.",
-        "mp_cost": 10
-    },
-    "mist_me": {
-        "name": "Mist Me",
-        "type": "Status",
-        "description": "Negates all damage 1 time only. Ineffective against certain attacks.",
-        "mp_cost": 10
-    },
-    "multislash": {
-        "name": "Multislash",
-        "type": "Attack",
-        "description": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+        "description": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 5
     },
-    "nature_nerfer": {
-        "name": "Nature Nerfer",
-        "type": "Attack",
-        "description": "Inflicts heavy slashing damage on monsters in the nature family.",
-        "mp_cost": 4
+    "snooze": {
+        "name": "Snooze",
+        "type": "Status",
+        "description": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 3
     },
     "numb": {
         "name": "Numb",
@@ -400,17 +281,171 @@
         "description": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 8
     },
-    "oomph": {
-        "name": "Oomph",
+    "kanumb": {
+        "name": "Kanumb",
         "type": "Status",
-        "description": "Greatly increases the attack of a single ally for 2 to 5 turns.",
-        "mp_cost": 6
+        "description": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 15
     },
-    "oomphle": {
-        "name": "Oomphle",
+    "tox": {
+        "name": "Tox",
         "type": "Status",
-        "description": "Increases the attack of all allies for 2 to 5 turns.",
+        "description": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 3
+    },
+    "katox": {
+        "name": "Katox",
+        "description": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+    },
+    "whack": {
+        "name": "Whack",
+        "type": "Status",
+        "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 9
+    },
+    "kamikazee": {
+        "name": "Kamikazee",
+        "type": "Status",
+        "description": "Kill all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's MP, the more likely the spell is to succeed.",
+        "mp_cost": -1
+    },
+    "flame_slash": {
+        "name": "Flame Slash",
+        "type": "Attack",
+        "description": "Inflicts minor fire-elemental slashing damage on a single enemy.",
+        "mp_cost": 1
+    },
+    "gust_slash": {
+        "name": "Gust Slash",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental slashing damage on a single enemy.",
+        "mp_cost": 2
+    },
+    "kacrackle_slash": {
+        "name": "Kacrackle Slash",
+        "type": "Attack",
+        "description": "Inflicts minor ice-elemental slashing damage on a single enemy.",
+        "mp_cost": 2
+    },
+    "lightning_slash": {
+        "name": "Lightning Slash",
+        "type": "Attack",
+        "description": "Inflicts minor electrical slashing damage on a single enemy.",
+        "mp_cost": 2
+    },
+    "flamesplitter": {
+        "name": "Flamesplitter",
+        "type": "Attack",
+        "description": "Inflicts heavy fire-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
+    "skysplitter": {
+        "name": "Skysplitter",
+        "type": "Attack",
+        "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
+    "slime_squisher": {
+        "name": "Slime Squisher",
+        "type": "Attack",
+        "description": "Inflicts heavy impact damage on monsters in the slime family.",
+        "mp_cost": 4
+    },
+    "dragon_slash": {
+        "name": "Dragon Slash",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the dragon family.",
+        "mp_cost": 4
+    },
+    "nature_nerfer": {
+        "name": "Nature Nerfer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the nature family.",
+        "mp_cost": 4
+    },
+    "matter_scatterer": {
+        "name": "Matter Scatterer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the material family.",
+        "mp_cost": 4
+    },
+    "demon_demeaner": {
+        "name": "Demon Demeaner",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the demon family.",
+        "mp_cost": 4
+    },
+    "undead_undoer": {
+        "name": "Undead Undoer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the undead family.",
+        "mp_cost": 4
+    },
+    "multislash": {
+        "name": "Multislash",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+        "mp_cost": 5
+    },
+    "mercurial_thrust": {
+        "name": "Mercurial Thrust",
+        "type": "Attack",
+        "description": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else.",
+        "mp_cost": 2
+    },
+    "anchorman": {
+        "name": "Anchorman",
+        "type": "Attack",
+        "description": "Acts after everyone else to inflict extreme impact damage on an enemy.",
+        "mp_cost": 15
+    },
+    "knuckle_sandwich": {
+        "name": "Knuckle Sandwich",
+        "type": "Attack",
+        "description": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute.",
+        "mp_cost": 20
+    },
+    "hatchet_man": {
+        "name": "Hatchet Man",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds.",
+        "mp_cost": 8
+    },
+    "frenzy": {
+        "name": "Frenzy",
+        "type": "Attack",
+        "description": "A risky technique that inflicts a critical hit on a single enemy or ally at random.",
+        "mp_cost": 4
+    },
+    "miracle_slash": {
+        "name": "Miracle Slash",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP.",
         "mp_cost": 10
+    },
+    "attack_attacker": {
+        "name": "Attack Attacker",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns.",
+        "mp_cost": 4
+    },
+    "helm_splitter": {
+        "name": "Helm Splitter",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns.",
+        "mp_cost": 4
+    },
+    "confusion_attack": {
+        "name": "Confusion Attack",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally confuses it for 2 to 5 turns.",
+        "mp_cost": 4
+    },
+    "sleep_attack": {
+        "name": "Sleep Attack",
+        "type": "Attack",
+        "description": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns.",
+        "mp_cost": 4
     },
     "paralysing_punch": {
         "name": "Paralysing Punch",
@@ -418,11 +453,11 @@
         "description": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns.",
         "mp_cost": 4
     },
-    "ping": {
-        "name": "Ping",
-        "type": "Status",
-        "description": "Greatly increases the wisdom of a single ally for 4 to 7 turns.",
-        "mp_cost": 3
+    "heart_breaker": {
+        "name": "Heart Breaker",
+        "type": "Attack",
+        "description": "Inflicts slashing damage on a single enemy and stuns it for 1 turn.",
+        "mp_cost": 4
     },
     "poison_attack": {
         "name": "Poison Attack",
@@ -430,11 +465,53 @@
         "description": "Damages a single enemy and occasionally poisons it.",
         "mp_cost": 2
     },
-    "poison_breath": {
-        "name": "Poison Breath",
-        "type": "Status",
-        "description": "Exhales toxic fumes that poison all enemies.",
-        "mp_cost": 3
+    "assassins_stab": {
+        "name": "Assassin's Stab",
+        "type": "Attack",
+        "description": "Damages an enemy and occasionally causes instant death.",
+        "mp_cost": 8
+    },
+    "victimiser": {
+        "name": "Victimiser",
+        "type": "Attack",
+        "description": "Damages a single enemy. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
+        "mp_cost": 4
+    },
+    "persecutter": {
+        "name": "Persecutter",
+        "type": "Attack",
+        "description": "Damages a single enemy. Highly effective against enemies that are asleep or confused.",
+        "mp_cost": 4
+    },
+    "wind_sickles": {
+        "name": "Wind Sickles",
+        "type": "Attack",
+        "description": "Inflicts minor wind-elemental damage on a single enemy.",
+        "mp_cost": 4
+    },
+    "thin_air": {
+        "name": "Thin Air",
+        "type": "Attack",
+        "description": "Inflicts medium wind-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 12
+    },
+    "stones_throw": {
+        "name": "Stone's Throw",
+        "type": "Attack",
+        "description": "Inflicts minor earth-elemental spell damage on a single enemy.",
+        "mp_cost": 4
+    },
+    "stomp": {
+        "name": "Stomp",
+        "type": "Attack",
+        "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 12
+    },
+    "meditation": {
+        "name": "Meditation",
+        "type": "Healing",
+        "description": "Restores 300 or more HP to the user.",
+        "mp_cost": 17
     },
     "right_as_rain": {
         "name": "Right as Rain",
@@ -448,143 +525,35 @@
         "description": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns.",
         "mp_cost": 2
     },
-    "sap": {
-        "name": "Sap",
+    "dazzleflash": {
+        "name": "Dazzleflash",
         "type": "Status",
-        "description": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 3
+        "description": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns.",
+        "mp_cost": 2
     },
-    "seethe": {
-        "name": "Seethe",
+    "gobstopper": {
+        "name": "Gobstopper",
         "type": "Status",
-        "description": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge.",
+        "description": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns.",
+        "mp_cost": 6
+    },
+    "critical_meltdown": {
+        "name": "Critical Meltdown",
+        "type": "Status",
+        "description": "Prevents a single enemy from inflicting critical hits for 4 to 7 turns.",
+        "mp_cost": 6
+    },
+    "brake_wind": {
+        "name": "Brake Wind",
+        "type": "Status",
+        "description": "Reflects breath attacks back at the enemy. Protects all allies once only.",
         "mp_cost": 10
     },
-    "selflessness": {
-        "name": "Selflessness",
+    "mist_me": {
+        "name": "Mist Me",
         "type": "Status",
-        "description": "Receives all incoming attacks in place of allies for 1 round, but suffers greater damage in doing so.",
-        "mp_cost": 5
-    },
-    "sizz": {
-        "name": "Sizz",
-        "type": "Attack",
-        "description": "Inflicts minor light-elemental spell damage on all enemies.",
-        "mp_cost": 4
-    },
-    "skysplitter": {
-        "name": "Skysplitter",
-        "type": "Attack",
-        "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
-        "mp_cost": 15
-    },
-    "sleep_attack": {
-        "name": "Sleep Attack",
-        "type": "Attack",
-        "description": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns.",
-        "mp_cost": 4
-    },
-    "slime_squisher": {
-        "name": "Slime Squisher",
-        "type": "Attack",
-        "description": "Inflicts heavy impact damage on monsters in the slime family.",
-        "mp_cost": 4
-    },
-    "snooze": {
-        "name": "Snooze",
-        "type": "Status",
-        "description": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 3
-    },
-    "splash": {
-        "name": "Splash",
-        "type": "Attack",
-        "description": "Inflicts medium water-elemental spell damage on a single enemy.",
-        "mp_cost": 5
-    },
-    "splish": {
-        "name": "Splish",
-        "type": "Attack",
-        "description": "Inflicts minor water-elemental spell damage on a single enemy.",
-        "mp_cost": 2
-    },
-    "squelch": {
-        "name": "Squelch",
-        "type": "Healing",
-        "description": "Cures all allies of poison or severe poison.",
-        "mp_cost": 2
-    },
-    "stomp": {
-        "name": "Stomp",
-        "type": "Attack",
-        "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
-        "mp_cost": 12
-    },
-    "stones_throw": {
-        "name": "Stone's Throw",
-        "type": "Attack",
-        "description": "Inflicts minor earth-elemental spell damage on a single enemy.",
-        "mp_cost": 4
-    },
-    "sultry_dance": {
-        "name": "Sultry Dance",
-        "type": "Status",
-        "description": "A bewitching dance that stuns all enemies for 1 turn.",
-        "mp_cost": 2
-    },
-    "sweet_breath": {
-        "name": "Sweet Breath",
-        "type": "Status",
-        "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns.",
-        "mp_cost": 3
-    },
-    "swoosh": {
-        "name": "Swoosh",
-        "type": "Attack",
-        "description": "Inflicts medium wind-elemental spell damage on all enemies.",
-        "mp_cost": 11
-    },
-    "sword_dance": {
-        "name": "Sword Dance",
-        "type": "Attack",
-        "description": "A dance that damages enemies at random, 3 to 7 times in total.",
-        "mp_cost": 15
-    },
-    "tap_dance": {
-        "name": "Tap Dance",
-        "type": "Status",
-        "description": "A dance that absorbs some MP from a single enemy.",
-        "mp_cost": 0
-    },
-    "thin_air": {
-        "name": "Thin Air",
-        "type": "Attack",
-        "description": "Inflicts medium wind-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
-        "mp_cost": 12
-    },
-    "tingle": {
-        "name": "Tingle",
-        "type": "Status",
-        "description": "Cures all allies of paralysis.",
-        "mp_cost": 2
-    },
-    "tongue_bashing": {
-        "name": "Tongue Bashing",
-        "type": "Status",
-        "description": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1.",
-        "mp_cost": 8
-    },
-    "tox": {
-        "name": "Tox",
-        "type": "Status",
-        "description": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 3
-    },
-    "victimiser": {
-        "name": "Victimiser",
-        "type": "Attack",
-        "description": "Damages a single enemy. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
-        "mp_cost": 4
+        "description": "Negates all damage 1 time only. Ineffective against certain attacks.",
+        "mp_cost": 10
     },
     "war_cry": {
         "name": "War Cry",
@@ -592,58 +561,124 @@
         "description": "An ear-popping shout that stuns all enemies for 1 turn.",
         "mp_cost": 30
     },
+    "tongue_lashing": {
+        "name": "Tongue Lashing",
+        "type": "Status",
+        "description": "Slathers a single enemy with slimy saliva, stunning it and lowering its defence.",
+        "mp_cost": 1
+    },
+    "tongue_bashing": {
+        "name": "Tongue Bashing",
+        "type": "Status",
+        "description": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1.",
+        "mp_cost": 8
+    },
+    "seethe": {
+        "name": "Seethe",
+        "type": "Status",
+        "description": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge.",
+        "mp_cost": 10
+    },
+    "dodgy_dance": {
+        "name": "Dodgy Dance",
+        "type": "Status",
+        "description": "Raises the user's evasion for 4 to 7 turns.",
+        "mp_cost": 1
+    },
+    "selflessness": {
+        "name": "Selflessness",
+        "type": "Status",
+        "description": "Receives all incoming attacks in place of allies for 1 round, but suffers greater damage in doing so.",
+        "mp_cost": 5
+    },
+    "fire_breath": {
+        "name": "Fire Breath",
+        "type": "Attack",
+        "description": "Inflicts minor fire-elemental breath damage on all enemies.",
+        "mp_cost": 3
+    },
+    "flame_breath": {
+        "name": "Flame Breath",
+        "type": "Attack",
+        "description": "Inflicts medium fire-elemental breath damage on all enemies.",
+        "mp_cost": 6
+    },
+    "cool_breath": {
+        "name": "Cool Breath",
+        "type": "Attack",
+        "description": "Inflicts minor ice-elemental breath damage on all enemies.",
+        "mp_cost": 3
+    },
+    "chilly_breath": {
+        "name": "Chilly Breath",
+        "type": "Attack",
+        "description": "Inflicts medium ice-elemental breath damage on all enemies.",
+        "mp_cost": 6
+    },
+    "deep_breath": {
+        "name": "Deep Breath",
+        "type": "Status",
+        "description": "Inhales long and deep, raising the damage inflicted by the user's next breath attack.",
+        "mp_cost": 0
+    },
+    "sweet_breath": {
+        "name": "Sweet Breath",
+        "type": "Status",
+        "description": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns.",
+        "mp_cost": 3
+    },
+    "burning_breath": {
+        "name": "Burning Breath",
+        "type": "Status",
+        "description": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns.",
+        "mp_cost": 4
+    },
+    "poison_breath": {
+        "name": "Poison Breath",
+        "type": "Status",
+        "description": "Exhales toxic fumes that poison all enemies.",
+        "mp_cost": 3
+    },
+    "sword_dance": {
+        "name": "Sword Dance",
+        "type": "Attack",
+        "description": "A dance that damages enemies at random, 3 to 7 times in total.",
+        "mp_cost": 15
+    },
     "weird_dance": {
         "name": "Weird Dance",
         "type": "Status",
         "description": "A dance that decreases the MP of a single enemy.",
         "mp_cost": 0
     },
-    "whack": {
-        "name": "Whack",
+    "tap_dance": {
+        "name": "Tap Dance",
         "type": "Status",
-        "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
-        "mp_cost": 9
+        "description": "A dance that absorbs some MP from a single enemy.",
+        "mp_cost": 0
     },
-    "wind_sickles": {
-        "name": "Wind Sickles",
-        "type": "Attack",
-        "description": "Inflicts minor wind-elemental damage on a single enemy.",
-        "mp_cost": 4
-    },
-    "woosh": {
-        "name": "Woosh",
-        "type": "Attack",
-        "description": "Inflicts minor wind-elemental spell damage on all enemies.",
-        "mp_cost": 4
-    },
-    "zam": {
-        "name": "Zam",
-        "type": "Attack",
-        "description": "Inflicts minor dark-elemental spell damage on a single enemy.",
-        "mp_cost": 3
-    },
-    "zammle": {
-        "name": "Zammle",
-        "type": "Attack",
-        "description": "Inflicts medium dark-elemental spell damage on a single enemy.",
-        "mp_cost": 6
-    },
-    "zap": {
-        "name": "Zap",
-        "type": "Attack",
-        "description": "Inflicts minor electrical spell damage on a single enemy.",
+    "fuddle_dance": {
+        "name": "Fuddle Dance",
+        "type": "Status",
+        "description": "A dance that confuses all enemies for 2 to 5 turns.",
         "mp_cost": 2
     },
-    "zapple": {
-        "name": "Zapple",
-        "type": "Attack",
-        "description": "Inflicts medium electrical spell damage on all enemies.",
-        "mp_cost": 13
+    "sultry_dance": {
+        "name": "Sultry Dance",
+        "type": "Status",
+        "description": "A bewitching dance that stuns all enemies for 1 turn.",
+        "mp_cost": 2
     },
-    "zing": {
-        "name": "Zing",
-        "type": "Healing",
-        "description": "Resurrects a fallen ally. Has a chance of failure.",
-        "mp_cost": 4
+    "intense_defence": {
+        "name": "Intense Defence",
+        "type": "Status",
+        "description": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle.",
+        "mp_cost": 3
+    },
+    "bounce": {
+        "name": "Bounce",
+        "type": "Status",
+        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
+        "mp_cost": 32
     }
 }
