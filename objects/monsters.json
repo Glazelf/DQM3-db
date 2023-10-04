@@ -644,7 +644,7 @@
     "small_fry": {
         "name": "Small Fry",
         "number": 67,
-        "rank": "G",
+        "rank": "F",
         "family": "_dragon",
         "description": null,
         "drops": null,
@@ -890,7 +890,54 @@
         "number": 89,
         "rank": "E",
         "family": "_dragon",
-        "description": null
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "nature_child"
+        ],
+        "traits": {
+            "small": {
+                "miraculous_touch": 1,
+                "splishmeister": 20,
+                "last_legs": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": 25,
+            "earth": 25,
+            "explosions": 25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "dragonthorn",
+                "drag_racer"
+            ]
+        ]
     },
     "stark_raven": {
         "name": "Stark Raven",
@@ -3751,6 +3798,10 @@
             [
                 "_material",
                 "she_slime"
+            ],
+            [
+                "bubble_slime",
+                "she_slime"
             ]
         ]
     },
@@ -4194,7 +4245,13 @@
             "stun": -25,
             "poison": 25,
             "instant_death": 0
-        }
+        },
+        "synthesis": [
+            [
+                "odd_cob",
+                "scissor_beatle"
+            ]
+        ]
     },
     "raptile": {
         "name": "Raptile",
@@ -7055,6 +7112,10 @@
             [
                 "slime",
                 "_beast"
+            ],
+            [
+                "great_sabrecub",
+                "she_slime"
             ]
         ]
     },
@@ -7379,6 +7440,10 @@
             [
                 "platypunk",
                 "_demon"
+            ],
+            [
+                "platypunk",
+                "snowmangler"
             ]
         ]
     },
@@ -7829,6 +7894,10 @@
             [
                 "armoured_wartoise",
                 "_beast"
+            ],
+            [
+                "armoured_wartoise",
+                "flython"
             ]
         ]
     },
@@ -7887,6 +7956,790 @@
             [
                 "foo_dog",
                 "pteranodon"
+            ]
+        ]
+    },
+    "dark_slime": {
+        "name": "Dark Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 4,
+            "atk": 1,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "prankster"
+        ],
+        "traits": {
+            "small": {
+                "close_scraper": 1,
+                "sobering_slap": 20,
+                "ultra_crafty_zammer": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": -25,
+            "dark": 75,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "succubat",
+                "_slime"
+            ],
+            [
+                "imp",
+                "_slime"
+            ]
+        ]
+    },
+    "spiny_slime": {
+        "name": "Spiny Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "fortifier"
+        ],
+        "traits": {
+            "small": {
+                "spiky_skin": 1,
+                "insta_accel": 20,
+                "tit_for_tat": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 50,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "snowmangler",
+                "disfigurine"
+            ]
+        ]
+    },
+    "ham_shamwitch": {
+        "name": "Ham Shamwitch",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "sham_hatwitch",
+                "drake_slime"
+            ]
+        ]
+    },
+    "rubble_slime": {
+        "name": "Rubble Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "crag_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "slick_skin": 1,
+                "insta_buff": 20,
+                "ultra_crafty_cragger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "mottle_slime",
+                "mudraker"
+            ]
+        ]
+    },
+    "tortoceratops": {
+        "name": "Tortoceratops",
+        "number": null,
+        "rank": "E",
+        "family": "_dragon",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "defender"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "spiky_skin": 20,
+                "critical_moment": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "armoured_wartoise",
+                "drag_racer"
+            ]
+        ]
+    },
+    "croc_a_bugle_doo": {
+        "name": "Croc-a-Bugle-Doo",
+        "number": null,
+        "rank": "F",
+        "family": "_dragon",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 4,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "fortifier"
+        ],
+        "traits": {
+            "small": {
+                "metal_medley": 1,
+                "bigger_upper": 20,
+                "rando_accel": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 25,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "briny_bronco",
+                "bongo_drongo"
+            ]
+        ]
+    },
+    "behemoth_slime": {
+        "name": "Behemoth Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "slime",
+                "jargon"
+            ]
+        ]
+    },
+    "cauldragon": {
+        "name": "Cauldragon",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "killer_gila",
+                "jargon"
+            ]
+        ]
+    },
+    "garuda": {
+        "name": "Garuda",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "sizz_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "last_legs": 20,
+                "ultra_crafty_sizzer": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "bullfinch",
+                "pteranodon"
+            ]
+        ]
+    },
+    "weaken_beakon": {
+        "name": "Weaken Beakon",
+        "number": null,
+        "rank": "E",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "irritant"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_debilitator": 1,
+                "ace_evader": 20,
+                "critical_moment": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "bullfinch",
+                "putrefido"
+            ]
+        ]
+    },
+    "cactiball": {
+        "name": "Cactiball",
+        "number": null,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "blowy_slasher"
+        ],
+        "traits": {
+            "small": {
+                "spiky_skin": 1,
+                "ultra_crafty_stunner": 20,
+                "big_bully": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "disfigurine",
+                "_nature"
+            ]
+        ]
+    },
+    "clockwork_cuckoo": {
+        "name": "Clockwork Cuckoo",
+        "number": null,
+        "rank": "E",
+        "family": "_material",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 4,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "blusterer"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "ace_evader": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "mecha_mynah",
+                "cyclown"
+            ]
+        ]
+    },
+    "hooper_trooper": {
+        "name": "Hooper Trooper",
+        "number": null,
+        "rank": "E",
+        "family": "_demon",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "bang_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "bangmeister": 1,
+                "wooshmeister": 20,
+                "wizardly_waft": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "cyclown",
+                "dancing_devil"
+            ]
+        ]
+    },
+    "beanie_meanie": {
+        "name": "Beanie Meanie",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "cruelcumber",
+                "odd_cob"
+            ]
+        ]
+    },
+    "awebergine": {
+        "name": "Awebergine",
+        "number": null,
+        "rank": "E",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "vexologist"
+        ],
+        "traits": {
+            "small": {
+                "static_discharge": 1,
+                "critical_theorist": 20,
+                "rando_ping": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": -25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "woebergine",
+                "pogoin_penguin"
+            ]
+        ]
+    },
+    "goodybag": {
+        "name": "Goodybag",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "bag_o_laughs",
+                "pogoin_penguin"
+            ]
+        ]
+    },
+    "chimaera": {
+        "name": "Chimaera",
+        "number": null,
+        "rank": "E",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "paramedic"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "critical_theorist": 20,
+                "confusing_touch": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "pogoin_penguin",
+                "imp"
+            ]
+        ]
+    },
+    "angel_slime": {
+        "name": "Angel Slime",
+        "number": null,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "mitey_oak",
+                "healslime"
+            ]
+        ]
+    },
+    "rotten_cotton": {
+        "name": "Rotten Cotton",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "feralball",
+                "powie_yowie"
+            ]
+        ]
+    },
+    "cross_eye": {
+        "name": "Cross Eye",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "powie_yowie",
+                "see_urchin"
             ]
         ]
     }
