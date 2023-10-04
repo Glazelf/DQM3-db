@@ -1,219 +1,423 @@
 {
-    "absorbent_touch": {
-        "name": "Absorbent Touch",
-        "description": "Regular attacks sometimes absorb a portion of the enemy's MP."
+    "tactical_trooper": {
+        "name": "Tactical Trooper",
+        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
     },
-    "ace_evader": {
-        "name": "Ace Evader",
-        "description": "Makes it somewhat easier to avoid enemy attacks."
+    "tactical_commander": {
+        "name": "Tactical Commander",
+        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
     },
-    "agent_of_chaos": {
-        "name": "Agent of Chaos",
-        "description": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits."
+    "tactical_genius": {
+        "name": "Tactical Genius",
+        "description": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
     },
-    "agility_4": {
-        "name": "Agility +4",
-        "description": "Raises agility by 4."
-    },
-    "agility_8": {
-        "name": "Agility +8",
-        "description": "Raises agility by 8."
-    },
-    "agility_12": {
-        "name": "Agility +12",
-        "description": "Raises agility by 12."
-    },
-    "agility_16": {
-        "name": "Agility +16",
-        "description": "Raises agility by 16."
-    },
-    "attacking_impulse": {
-        "name": "Attacking Impulse",
-        "description": "Increases damage inflicted when HP drop to 1/2."
-    },
-    "attack_4": {
-        "name": "Attack +4",
-        "description": "Raises attack by 4."
-    },
-    "attack_8": {
-        "name": "Attack +8",
-        "description": "Raises attack by 8."
-    },
-    "attack_12": {
-        "name": "Attack +12",
-        "description": "Raises attack by 12."
-    },
-    "auto_cadabra": {
-        "name": "Auto-Cadabra",
-        "description": "Restores a small amount of MP after each action."
-    },
-    "auto_restora": {
-        "name": "Auto-Restora",
-        "description": "Restores a small amount of HP after each action."
-    },
-    "bangmeister": {
-        "name": "Bangmeister",
-        "description": "Increases the potency of explosive attacks and decreases their MP consumption."
-    },
-    "benefaction": {
-        "name": "Benefaction",
-        "description": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
-    },
-    "beastsbane": {
-        "name": "Beastsbane",
-        "description": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
-    },
-    "big_bully": {
-        "name": "Big Bully",
-        "description": "Increases damage inflicted on L-size monsters."
-    },
-    "bigger_upper": {
-        "name": "Bigger Upper",
-        "description": "Extends the duration of skills that raise the strength, defence, agility or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
-    },
-    "castslasher": {
-        "name": "Castslasher",
-        "description": "Reduces MP consumption by 1/2."
-    },
-    "close_scraper": {
-        "name": "Close Scraper",
-        "description": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it."
-    },
-    "collective_punishment": {
-        "name": "Collective Punishment",
-        "description": "Attacks that do more damage as the attack attribute increases will strike all enemies instead of a single target."
-    },
-    "confusing_touch": {
-        "name": "Confusing Touch",
-        "description": "Regular attacks sometimes confuse the enemy."
-    },
-    "crackmeister": {
-        "name": "Crackmeister",
-        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
-    },
-    "cragmeister": {
-        "name": "Cragmeister",
-        "description": "Increases the potency of earth-elemental attacks and decreases their MP consumption."
-    },
-    "critical_moment": {
-        "name": "Critical Moment",
-        "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
-    },
-    "critical_triumph": {
-        "name": "Critical Triumph",
-        "description": "Makes it somewhat easier to inflict critical hits."
-    },
-    "deadly_touch": {
-        "name": "Deadly Touch",
-        "description": "Regular attacks sometimes kill the enemy instantly."
-    },
-    "defence_4": {
-        "name": "Defence +4",
-        "description": "Raises defence by 4."
-    },
-    "defence_8": {
-        "name": "Defence +8",
-        "description": "Raises defence by 8."
-    },
-    "defence_16": {
-        "name": "Defence +16",
-        "description": "Raises defence by 16."
-    },
-    "defence_24": {
-        "name": "Defence +24",
-        "description": "Raises defence by 24."
-    },
-    "defensive_impulse": {
-        "name": "Defensive Impulse",
-        "description": "Reduces damage received when HP drop to 1/2."
-    },
-    "desperate_measures": {
-        "name": "Desperate Measures",
-        "description": "Negates all damage suffered from critical hits and critical spells."
-    },
-    "detox": {
-        "name": "Detox",
-        "description": "Sometimes cures allies of poison, severe poison and paralysis during battle."
-    },
-    "dodge_denier": {
-        "name": "Dodge Denier",
-        "description": "Ensures the enemy cannot avoid attacks."
-    },
-    "evasive_impulse": {
-        "name": "Evasive Impulse",
-        "description": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle."
-    },
-    "frizzmeister": {
-        "name": "Frizzmeister",
-        "description": "Increases the potency of fire-elemental attacks and decreases their MP consumption."
-    },
-    "health_professional": {
-        "name": "Health Professional",
-        "description": "Increases the potency of healing skills and decreases their MP consumption."
-    },
-    "infected_skin": {
-        "name": "Infected Skin",
-        "description": "Sometimes poisons enemies that inflict direct attacks."
-    },
-    "insensitive_skin": {
-        "name": "Insensitive Skin",
-        "description": "Sometimes paralyses enemies that inflict direct attacks."
-    },
-    "insta_accel": {
-        "name": "Insta-Accel",
-        "description": "Monster sometimes casts Accelerate on itself at the start of battle."
-    },
-    "insta_bounce": {
-        "name": "Insta-Bounce",
-        "description": "Monster sometimes casts Bounce on itself at the start of battle."
-    },
-    "insta_buff": {
-        "name": "Insta-Buff",
-        "description": "Monster sometimes casts Buff on itself at the start of battle."
+    "tactical_titan": {
+        "name": "Tactical Titan",
+        "description": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's attributes."
     },
     "insta_oomph": {
         "name": "Insta-Oomph",
         "description": "Monster sometimes casts Oomph on itself at the start of battle."
     },
+    "insta_buff": {
+        "name": "Insta-Buff",
+        "description": "Monster sometimes casts Buff on itself at the start of battle."
+    },
+    "insta_accel": {
+        "name": "Insta-Accel",
+        "description": "Monster sometimes casts Accelerate on itself at the start of battle."
+    },
     "insta_ping": {
         "name": "Insta-Ping",
         "description": "Monster sometimes casts Ping on itself at the start of battle."
     },
-    "insult_to_injury": {
-        "name": "Insult to Injury",
-        "description": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused or paralysed."
+    "insta_bounce": {
+        "name": "Insta-Bounce",
+        "description": "Monster sometimes casts Bounce on itself at the start of battle."
     },
-    "intimidating": {
-        "name": "Intimidating",
-        "description": "Sometimes stuns the enemy during battle for 1 turn."
+    "rando_oomph": {
+        "name": "Rando-Oomph",
+        "description": "Monster sometimes casts Oomph on itself during battle."
     },
-    "last_legs": {
-        "name": "Last Legs",
-        "description": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it."
+    "rando_buff": {
+        "name": "Rando-Buff",
+        "description": "Monster sometimes casts Buff on itself during battle."
     },
-    "late_bloomer": {
-        "name": "Late Bloomer",
-        "description": "Increases attack, defence, agility and wisdom from round 3 onwards, and even more so from round 6."
+    "rando_accel": {
+        "name": "Rando-Accel",
+        "description": "Monster sometimes casts Accelerate on itself during battle."
     },
-    "little_menace": {
-        "name": "Little Menace",
-        "description": "Increases damage inflicted on S-size monsters."
+    "rando_ping": {
+        "name": "Rando-Ping",
+        "description": "Monster sometimes casts Ping on itself during battle."
+    },
+    "rando_mister": {
+        "name": "Rando-Mister",
+        "description": "Monster sometimes uses Mist Me on itself during battle."
+    },
+    "rando_relief": {
+        "name": "Rando-Relief",
+        "description": "Sometimes uses Wave of Relief during battle."
+    },
+    "rando_muster": {
+        "name": "Rando-Muster",
+        "description": "Sometimes uses Muster Strength during battle."
     },
     "low_heal": {
         "name": "Low Heal",
         "description": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful."
     },
+    "high_heal": {
+        "name": "High Heal",
+        "description": "Sometimes restores 80 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful."
+    },
+    "wizardly_wind": {
+        "name": "Wizardly Wind",
+        "description": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount."
+    },
+    "frizzmeister": {
+        "name": "Frizzmeister",
+        "description": "Increases the potency of fire-elemental attacks and decreases their MP consumption."
+    },
+    "splishmeister": {
+        "name": "Splishmeister",
+        "description": "Increases the potency of water-elemental attacks and decreases their MP consumption."
+    },
+    "wooshmeister": {
+        "name": "Wooshmeister",
+        "description": "Increases the potency of wind-elemental attacks and decreases their MP consumption."
+    },
+    "cragmeister": {
+        "name": "Cragmeister",
+        "description": "Increases the potency of earth-elemental attacks and decreases their MP consumption."
+    },
+    "bangmeister": {
+        "name": "Bangmeister",
+        "description": "Increases the potency of explosive attacks and decreases their MP consumption."
+    },
+    "zapmeister": {
+        "name": "Zapmeister",
+        "description": "Increases the potency of electrical attacks and decreases their MP consumption."
+    },
+    "sizzmeister": {
+        "name": "Sizzmeister",
+        "description": "Increases the potency of light-elemental attacks and decreases their MP consumption."
+    },
+    "zammeister": {
+        "name": "Zammeister",
+        "description": "Increases the potency of dark-elemental attacks and decreases their MP consumption."
+    },
+    "health_professional": {
+        "name": "Health Professional",
+        "description": "Increases the potency of healing skills and decreases their MP consumption."
+    },
+    "slick_skin": {
+        "name": "Slick Skin",
+        "description": "Sometimes causes incoming direct attacks to miss."
+    },
+    "spiky_skin": {
+        "name": "Spiky Skin",
+        "description": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy."
+    },
+    "infected_skin": {
+        "name": "Infected Skin",
+        "description": "Sometimes poisons enemies that inflict direct attacks."
+    },
+    "stunning_skin": {
+        "name": "Stunning Skin",
+        "description": "Sometimes stuns enemies that inflict direct attacks for 1 turn."
+    },
+    "somnolent_skin": {
+        "name": "Somnolent Skin",
+        "description": "Sometimes puts enemies that inflict direct attacks to sleep."
+    },
+    "insensitive_skin": {
+        "name": "Insensitive Skin",
+        "description": "Sometimes paralyses enemies that inflict direct attacks."
+    },
+    "spongy_skin": {
+        "name": "Spongy Skin",
+        "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
+    },
+    "ace_evader": {
+        "name": "Ace Evader",
+        "description": "Makes it somewhat easier to avoid enemy attacks."
+    },
+    "supreme_sidestepper": {
+        "name": "Supreme Sidestepper",
+        "description": "Makes it much easier to avoid enemy attacks."
+    },
+    "dodge_denier": {
+        "name": "Dodge Denier",
+        "description": "Ensures the enemy cannot avoid attacks."
+    },
+    "critical_triumph": {
+        "name": "Critical Triumph",
+        "description": "Makes it somewhat easier to inflict critical hits."
+    },
+    "critical_sensation": {
+        "name": "Critical Sensation",
+        "description": "Makes it much easier to inflict critical hits."
+    },
+    "critical_moment": {
+        "name": "Critical Moment",
+        "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
+    },
     "magical_moment": {
         "name": "Magical Moment",
         "description": "Makes it easier to cast critical spells when HP drops to 1/2, and even more so when HP drops to 1/4."
+    },
+    "desperate_measures": {
+        "name": "Desperate Measures",
+        "description": "Negates all damage suffered from critical hits and critical spells."
+    },
+    "auto_restora": {
+        "name": "Auto-Restora",
+        "description": "Restores a small amount of HP after each action."
+    },
+    "auto_cadabra": {
+        "name": "Auto-Cadabra",
+        "description": "Restores a small amount of MP after each action."
+    },
+    "castslasher": {
+        "name": "Castslasher",
+        "description": "Reduces MP consumption by 1/2."
+    },
+    "beastsbane": {
+        "name": "Beastsbane",
+        "description": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
+    },
+    "zombiesbane": {
+        "name": "Zombiesbane",
+        "description": "Increases damage inflicted on monsters from the undead family and slightly lowers all resistances."
+    },
+    "matterbane": {
+        "name": "Matterbane",
+        "description": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
+    },
+    "uber_beastsbane": {
+        "name": "Über Beastsbane",
+        "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+    },
+    "poisonous_touch": {
+        "name": "Poisonous Touch",
+        "description": "Regular attacks sometimes poison the enemy."
+    },
+    "stunning_touch": {
+        "name": "Stunning Touch",
+        "description": "Regular attacks sometimes stun the enemy for 1 turn."
+    },
+    "sleepy_touch": {
+        "name": "Sleepy Touch",
+        "description": "Regular attacks sometimes put the enemy to sleep."
+    },
+    "confusing_touch": {
+        "name": "Confusing Touch",
+        "description": "Regular attacks sometimes confuse the enemy."
+    },
+    "paralysing_touch": {
+        "name": "Paralysing Touch",
+        "description": "Regular attacks sometimes paralyse the enemy."
+    },
+    "deadly_touch": {
+        "name": "Deadly Touch",
+        "description": "Regular attacks sometimes kill the enemy instantly."
+    },
+    "miraculous_touch": {
+        "name": "Miraculous Touch",
+        "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
+    },
+    "absorbent_touch": {
+        "name": "Absorbent Touch",
+        "description": "Regular attacks sometimes absorb a portion of the enemy's MP."
+    },
+    "metal_beater": {
+        "name": "Metal Beater",
+        "description": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait."
+    },
+    "metal_medley": {
+        "name": "Metal Medley",
+        "description": "Ignores the damage-reducing effect that the Metal Skin trait provides."
+    },
+    "little_menace": {
+        "name": "Little Menace",
+        "description": "Increases damage inflicted on S-size monsters."
+    },
+    "big_bully": {
+        "name": "Big Bully",
+        "description": "Increases damage inflicted on L-size monsters."
+    },
+    "insult_to_injury": {
+        "name": "Insult to Injury",
+        "description": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused or paralysed."
+    },
+    "strangely_alluring": {
+        "name": "Strangely Alluring",
+        "description": "Sometimes stuns the enemy during battle for 1 turn."
+    },
+    "agent_of_chaos": {
+        "name": "Agent of Chaos",
+        "description": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits."
+    },
+    "sleep_twitch": {
+        "name": "Sleep Twitch",
+        "description": "Attacks all enemies when the monster is asleep"
+    },
+    "static_discharge": {
+        "name": "Static Discharge",
+        "description": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself."
+    },
+    "sobering_slap": {
+        "name": "Sobering Slap",
+        "description": "Sometimes cures allies of sleep and confusion during battle."
+    },
+    "detox": {
+        "name": "Detox",
+        "description": "Sometimes cures allies of poison, severe poison and paralysis during battle."
+    },
+    "heaven_sent": {
+        "name": "Heaven-Sent",
+        "description": "Sometimes greatly increases attack, defence, agility or wisdom during battle."
+    },
+    "bigger_upper": {
+        "name": "Bigger Upper",
+        "description": "Extends the duration of skills that raise the strength, defence, agility or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
     },
     "major_downer": {
         "name": "Major Downer",
         "description": "Extends the duration of skills that lower the strength, defence, agility or wisdom of enemies to 5 turns. In addition, randomly prevents breath attacks, critical hits or the casting of magic, or bedazzles the enemy."
     },
-    "matterbane": {
-        "name": "Matterbane",
-        "description": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
+    "close_scraper": {
+        "name": "Close Scraper",
+        "description": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it."
+    },
+    "last_legs": {
+        "name": "Last Legs",
+        "description": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it."
+    },
+    "snappy_comeback": {
+        "name": "Snappy Comeback",
+        "description": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
+    },
+    "parting_gift": {
+        "name": "Parting Gift",
+        "description": "Inflicts damage back on all enemies when a killer blow is received. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
+    },
+    "benefaction": {
+        "name": "Benefaction",
+        "description": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
+    },
+    "strong_starter": {
+        "name": "Strong Starter",
+        "description": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards."
+    },
+    "late_bloomer": {
+        "name": "Late Bloomer",
+        "description": "Increases attack, defence, agility and wisdom from round 3 onwards, and even more so from round 6."
+    },
+    "tit_for_tat": {
+        "name": "Tit for Tat",
+        "description": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them."
+    },
+    "naked_ambition": {
+        "name": "Naked Ambition",
+        "description": "Increases the likelihood of critical hits and critical spells if no accessory is equipped."
+    },
+    "attacking_impulse": {
+        "name": "Attacking Impulse",
+        "description": "Increases damage inflicted when HP drop to 1/2."
+    },
+    "defensive_impulse": {
+        "name": "Defensive Impulse",
+        "description": "Reduces damage received when HP drop to 1/2."
+    },
+    "evasive_impulse": {
+        "name": "Evasive Impulse",
+        "description": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle."
+    },
+    "unhealthy_advantage": {
+        "name": "Unhealthy Advantage",
+        "description": "Inflicts increasing amounts of damage as remaining HP gets lower."
+    },
+    "collective_punishment": {
+        "name": "Collective Punishment",
+        "description": "Attacks that do more damage as the attack attribute increases will strike all enemies instead of a single target."
+    },
+    "personal_grudge": {
+        "name": "Personal Grudge",
+        "description": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
+    },
+    "ultra_crafty_frizzer": {
+        "name": "Ultra Crafty Frizzer",
+        "description": "Greatly increases the damage inflicted by fire-elemental attacks."
+    },
+    "ultra_crafty_splasher": {
+        "name": "Ultra Crafty Splasher",
+        "description": "Greatly increases the damage inflicted by water-elemental attacks."
+    },
+    "ultra_crafty_woosher": {
+        "name": "Ultra Crafty Woosher",
+        "description": "Greatly increases the damage inflicted by wind-elemental attacks."
+    },
+    "ultra_crafty_banger": {
+        "name": "Ultra Crafty Banger",
+        "description": "Greatly increases the damage inflicted by explosive attacks."
+    },
+    "ultra_crafty_cracker": {
+        "name": "Ultra Crafty Cracker",
+        "description": "Greatly increases the damage inflicted by ice-elemental attacks."
+    },
+    "ultra_crafty_zapper": {
+        "name": "Ultra Crafty Zapper",
+        "description": "Greatly increases the damage inflicted by electrical attacks."
+    },
+    "ultra_crafty_sizzer": {
+        "name": "Ultra Crafty Sizzer",
+        "description": "Greatly increases the damage inflicted by light-elemental attacks."
+    },
+    "ultra_crafty_zammer": {
+        "name": "Ultra Crafty Zammer",
+        "description": "Greatly increases the damage inflicted by dark-elemental attacks."
+    },
+    "ultra_crafty_debilitator": {
+        "name": "Ultra Crafty Debilitator",
+        "description": "Makes it much easier to reduce an enemy's attack, defence, agility or wisdom."
+    },
+    "ultra_crafty_dazzler": {
+        "name": "Ultra Crafty Dazzler",
+        "description": "Makes it much easier to bedazzle enemies."
+    },
+    "ultra_crafty_spellbinder": {
+        "name": "Ultra Crafty Spellbinder",
+        "description": "Makes it much easier to prevent spellcasting"
+    },
+    "ultra_crafty_confuser": {
+        "name": "Ultra Crafty Confuser",
+        "description": "Makes it much easier to the enemy."
+    },
+    "ultra_crafty_sleeper": {
+        "name": "Ultra Crafty Sleeper",
+        "description": "Makes it much easier to put the enemy to sleep."
+    },
+    "ultra_crafty_paralyser": {
+        "name": "Ultra Crafty Paralyser",
+        "description": "Makes it much easier to paralyse the enemy."
+    },
+    "ultra_crafty_stunner": {
+        "name": "Ultra Crafty Stunner",
+        "description": "Makes it much easier to stun the enemy."
+    },
+    "ultra_crafty_poisoner": {
+        "name": "Ultra Crafty Poisoner",
+        "description": "Makes it much easier to poison or severely poison the enemy."
+    },
+    "ultra_crafty_whacker": {
+        "name": "Ultra Crafty Whacker",
+        "description": "Makes it much easier to kill the enemy instantly."
+    },
+    "crafty_devil": {
+        "name": "Crafty Devil",
+        "description": "Makes it moderately easier to inflict status ailments on the enemy."
     },
     "max_hp_4": {
         "name": "Max. HP +4",
@@ -243,293 +447,53 @@
         "name": "Max. MP +24",
         "description": "Raises max. MP by 24."
     },
-    "metal_beater": {
-        "name": "Metal Beater",
-        "description": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait."
-    },
-    "metal_medley": {
-        "name": "Metal Medley",
-        "description": "Ignores the damage-reducing effect that the Metal Skin trait provides."
-    },
-    "miraculous_touch": {
-        "name": "Miraculous Touch",
-        "description": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP."
-    },
-    "naked_ambition": {
-        "name": "Naked Ambition",
-        "description": "Increases the likelihood of critical hits and critical spells if no accessory is equipped."
-    },
-    "paralysing_touch": {
-        "name": "Paralysing Touch",
-        "description": "Regular attacks sometimes paralyse the enemy."
-    },
-    "parting_gift": {
-        "name": "Parting Gift",
-        "description": "Inflicts damage back on all enemies when a killer blow is received. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
-    },
-    "personal_grudge": {
-        "name": "Personal Grudge",
-        "description": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
-    },
-    "poisonous_touch": {
-        "name": "Poisonous Touch",
-        "description": "Regular attacks sometimes poison the enemy."
-    },
-    "rando_accel": {
-        "name": "Rando-Accel",
-        "description": "Monster sometimes casts Accelerate on itself during battle."
-    },
-    "rando_buff": {
-        "name": "Rando-Buff",
-        "description": "Monster sometimes casts Buff on itself during battle."
-    },
-    "rando_mister": {
-        "name": "Rando-Mister",
-        "description": "Monster sometimes uses Mist Me on itself during battle."
-    },
-    "rando_muster": {
-        "name": "Rando-Muster",
-        "description": "Sometimes uses Muster Strength during battle."
-    },
-    "rando_oomph": {
-        "name": "Rando-Oomph",
-        "description": "Monster sometimes casts Oomph on itself during battle."
-    },
-    "rando_ping": {
-        "name": "Rando-Ping",
-        "description": "Monster sometimes casts Ping on itself during battle."
-    },
-    "rando_relief": {
-        "name": "Rando-Relief",
-        "description": "Sometimes uses Wave of Relief during battle."
-    },
-    "sizzmeister": {
-        "name": "Sizzmeister",
-        "description": "Increases the potency of light-elemental attacks and decreases their MP consumption."
-    },
-    "sleepy_touch": {
-        "name": "Sleepy Touch",
-        "description": "Regular attacks sometimes put the enemy to sleep."
-    },
-    "sleep_twitch": {
-        "name": "Sleep Twitch",
-        "description": "Attacks all enemies when the monster is asleep"
-    },
-    "slick_skin": {
-        "name": "Slick Skin",
-        "description": "Sometimes causes incoming direct attacks to miss."
-    },
-    "snappy_comeback": {
-        "name": "Snappy Comeback",
-        "description": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
-    },
-    "sobering_slap": {
-        "name": "Sobering Slap",
-        "description": "Sometimes cures allies of sleep and confusion during battle."
-    },
-    "somnolent_skin": {
-        "name": "Somnolent Skin",
-        "description": "Sometimes puts enemies that inflict direct attacks to sleep."
-    },
-    "spiky_skin": {
-        "name": "Spiky Skin",
-        "description": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy."
-    },
-    "splishmeister": {
-        "name": "Splishmeister",
-        "description": "Increases the potency of water-elemental attacks and decreases their MP consumption."
-    },
-    "spongy_skin": {
-        "name": "Spongy Skin",
-        "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
-    },
-    "static_discharge": {
-        "name": "Static Discharge",
-        "description": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself."
-    },
-    "strangely_alluring": {
-        "name": "Strangely Alluring",
-        "description": "Sometimes stuns the enemy during battle for 1 turn."
-    },
-    "strong_starter": {
-        "name": "Strong Starter",
-        "description": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards."
-    },
-    "stunning_skin": {
-        "name": "Stunning Skin",
-        "description": "Sometimes stuns enemies that inflict direct attacks for 1 turn."
-    },
-    "stunning_touch": {
-        "name": "Stunning Touch",
-        "description": "Regular attacks sometimes stun the enemy for 1 turn."
-    },
-    "supreme_sidestepper": {
-        "name": "Supreme Sidestepper",
-        "description": "Makes it much easier to avoid enemy attacks."
-    },
-    "tactical_commander": {
-        "name": "Tactical Commander",
-        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
-    },
-    "tactical_genius": {
-        "name": "Tactical Genius",
-        "description": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
-    },
-    "tactical_titan": {
-        "name": "Tactical Titan",
-        "description": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's attributes."
-    },
-    "tactical_trooper": {
-        "name": "Tactical Trooper",
-        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
-    },
-    "tit_for_tat": {
-        "name": "Tit for Tat",
-        "description": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them."
-    },
-    "trance_state": {
-        "name": "Trance State",
-        "description": "Greatly increases wisdom after casting a critical spell."
-    },
-    "uber_beastsbane": {
-        "name": "Über Beastsbane",
-        "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
-    },
-    "ultra_antitoxidant": {
-        "name": "Ultra Antitoxidant",
-        "description": "Greatly increases resistance to poison and severe poison."
-    },
-    "ultra_bang_ward": {
-        "name": "Ultra Bang Ward",
-        "description": "Greatly increases resistance to explosive attacks."
-    },
-    "ultra_clear_thinker": {
-        "name": "Ultra Clear Thinker",
-        "description": "Greatly increases resistance to confusion."
-    },
-    "ultra_crack_ward": {
-        "name": "Ultra Crack Ward",
-        "description": "Greatly increases resistance to ice-elemental attacks."
-    },
-    "ultra_crafty_banger": {
-        "name": "Ultra Crafty Banger",
-        "description": "Greatly increases the damage inflicted by explosive attacks."
-    },
-    "ultra_crafty_confuser": {
-        "name": "Ultra Crafty Confuser",
-        "description": "Makes it much easier to the enemy."
-    },
-    "ultra_crafty_cracker": {
-        "name": "Ultra Crafty Cracker",
-        "description": "Greatly increases the damage inflicted by ice-elemental attacks."
-    },
-    "ultra_crafty_cragger": {
-        "name": "Ultra Crafty Cragger",
-        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
-    },
-    "ultra_crafty_dazzler": {
-        "name": "Ultra Crafty Dazzler",
-        "description": "Makes it much easier to bedazzle enemies."
-    },
-    "ultra_crafty_debilitator": {
-        "name": "Ultra Crafty Debilitator",
-        "description": "Makes it much easier to reduce an enemy's attack, defence, agility or wisdom."
-    },
-    "ultra_crafty_frizzer": {
-        "name": "Ultra Crafty Frizzer",
-        "description": "Greatly increases the damage inflicted by fire-elemental attacks."
-    },
-    "ultra_crafty_magic_drainer": {
-        "name": "Ultra Crafty Magic Drainer",
-        "description": "Makes it much easier to absorb MP."
-    },
-    "ultra_crafty_paralyser": {
-        "name": "Ultra Crafty Paralyser",
-        "description": "Makes it much easier to paralyse the enemy."
-    },
-    "ultra_crafty_sizzer": {
-        "name": "Ultra Crafty Sizzer",
-        "description": "Greatly increases the damage inflicted by light-elemental attacks."
-    },
-    "ultra_crafty_sleeper": {
-        "name": "Ultra Crafty Sleeper",
-        "description": "Makes it much easier to put the enemy to sleep."
-    },
-    "ultra_crafty_spellbinder": {
-        "name": "Ultra Crafty Spellbinder",
-        "description": "Makes it much easier to prevent spellcasting"
-    },
-    "ultra_crafty_splasher": {
-        "name": "Ultra Crafty Splasher",
-        "description": "Greatly increases the damage inflicted by water-elemental attacks."
-    },
-    "ultra_crafty_stunner": {
-        "name": "Ultra Crafty Stunner",
-        "description": "Makes it much easier to stun the enemy."
-    },
-    "ultra_crafty_whacker": {
-        "name": "Ultra Crafty Whacker",
-        "description": "Makes it much easier to kill the enemy instantly."
-    },
-    "ultra_crafty_woosher": {
-        "name": "Ultra Crafty Woosher",
-        "description": "Greatly increases the damage inflicted by wind-elemental attacks."
-    },
-    "ultra_crafty_zammer": {
-        "name": "Ultra Crafty Zammer",
-        "description": "Greatly increases the damage inflicted by dark-elemental attacks."
-    },
-    "ultra_crafty_zapper": {
-        "name": "Ultra Crafty Zapper",
-        "description": "Greatly increases the damage inflicted by electrical attacks."
-    },
-    "ultra_crag_ward": {
-        "name": "Ultra Crag Ward",
-        "description": "Greatly increases resistance to earth-elemental attacks."
-    },
-    "ultra_death_defier": {
-        "name": "Ultra Death Defier",
-        "description": "Greatly increases resistance to instant death."
-    },
-    "ultra_drain_blocker": {
-        "name": "Ultra Drain Blocker",
-        "description": "Greatly increases resistance to MP absorption."
-    },
-    "ultra_frizz_ward": {
-        "name": "Ultra Frizz Ward",
-        "description": "Greatly increases resistance to fire-elemental attacks."
-    },
-    "ultra_granite_chin": {
-        "name": "Ultra Granite Chin",
-        "description": "Greatly increases resistance to being stunned."
-    },
-    "ultra_sizz_ward": {
-        "name": "Ultra Sizz Ward",
-        "description": "Greatly increases resistance to light-elemental attacks."
-    },
-    "ultra_spellbinder": {
-        "name": "Ultra Spellbinder",
-        "description": "Greatly increases resistance to antimagic."
-    },
-    "ultra_visionary": {
-        "name": "Ultra Visionary",
-        "description": "Greatly increases resistance to bedazzlement."
-    },
-    "ultra_woosh_ward": {
-        "name": "Ultra Woosh Ward",
-        "description": "Greatly increases resistance to wind-elemental attacks."
-    },
-    "ultra_zam_ward": {
-        "name": "Ultra Zam Ward",
-        "description": "Greatly increases resistance to dark-elemental attacks."
-    },
-    "ultra_zap_ward": {
-        "name": "Ultra Zap Ward",
-        "description": "Greatly increases resistance to electrical attacks."
-    },
-    "unhealthy_advantage": {
-        "name": "Unhealthy Advantage",
-        "description": "Inflicts increasing amounts of damage as remaining HP gets lower."
+    "attack_4": {
+        "name": "Attack +4",
+        "description": "Raises attack by 4."
+    },
+    "attack_8": {
+        "name": "Attack +8",
+        "description": "Raises attack by 8."
+    },
+    "attack_12": {
+        "name": "Attack +12",
+        "description": "Raises attack by 12."
+    },
+    "attack_16": {
+        "name": "Attack +16",
+        "description": "Raises attack by 16."
+    },
+    "defence_4": {
+        "name": "Defence +4",
+        "description": "Raises defence by 4."
+    },
+    "defence_8": {
+        "name": "Defence +8",
+        "description": "Raises defence by 8."
+    },
+    "defence_16": {
+        "name": "Defence +16",
+        "description": "Raises defence by 16."
+    },
+    "defence_24": {
+        "name": "Defence +24",
+        "description": "Raises defence by 24."
+    },
+    "agility_4": {
+        "name": "Agility +4",
+        "description": "Raises agility by 4."
+    },
+    "agility_8": {
+        "name": "Agility +8",
+        "description": "Raises agility by 8."
+    },
+    "agility_12": {
+        "name": "Agility +12",
+        "description": "Raises agility by 12."
+    },
+    "agility_16": {
+        "name": "Agility +16",
+        "description": "Raises agility by 16."
     },
     "wisdom_4": {
         "name": "Wisdom +4",
@@ -547,24 +511,84 @@
         "name": "Wisdom +24",
         "description": "Raises wisdom by 24."
     },
-    "wizardly_wind": {
-        "name": "Wizardly Wind",
-        "description": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount."
+    "ultra_frizz_ward": {
+        "name": "Ultra Frizz Ward",
+        "description": "Greatly increases resistance to fire-elemental attacks."
     },
-    "wooshmeister": {
-        "name": "Wooshmeister",
-        "description": "Increases the potency of wind-elemental attacks and decreases their MP consumption."
+    "ultra_woosh_ward": {
+        "name": "Ultra Woosh Ward",
+        "description": "Greatly increases resistance to wind-elemental attacks."
     },
-    "zammeister": {
-        "name": "Zammeister",
-        "description": "Increases the potency of dark-elemental attacks and decreases their MP consumption."
+    "ultra_crag_ward": {
+        "name": "Ultra Crag Ward",
+        "description": "Greatly increases resistance to earth-elemental attacks."
     },
-    "zapmeister": {
-        "name": "Zapmeister",
-        "description": "Increases the potency of electrical attacks and decreases their MP consumption."
+    "ultra_bang_ward": {
+        "name": "Ultra Bang Ward",
+        "description": "Greatly increases resistance to explosive attacks."
     },
-    "zombiesbane": {
-        "name": "Zombiesbane",
-        "description": "Increases damage inflicted on monsters from the undead family and slightly lowers all resistances."
+    "ultra_crack_ward": {
+        "name": "Ultra Crack Ward",
+        "description": "Greatly increases resistance to ice-elemental attacks."
+    },
+    "ultra_zap_ward": {
+        "name": "Ultra Zap Ward",
+        "description": "Greatly increases resistance to electrical attacks."
+    },
+    "ultra_sizz_ward": {
+        "name": "Ultra Sizz Ward",
+        "description": "Greatly increases resistance to light-elemental attacks."
+    },
+    "ultra_zam_ward": {
+        "name": "Ultra Zam Ward",
+        "description": "Greatly increases resistance to dark-elemental attacks."
+    },
+    "ultra_antitoxidant": {
+        "name": "Ultra Antitoxidant",
+        "description": "Greatly increases resistance to poison and severe poison."
+    },
+    "ultra_granite_chin": {
+        "name": "Ultra Granite Chin",
+        "description": "Greatly increases resistance to being stunned."
+    },
+    "ultra_clear_thinker": {
+        "name": "Ultra Clear Thinker",
+        "description": "Greatly increases resistance to confusion."
+    },
+    "ultra_death_defier": {
+        "name": "Ultra Death Defier",
+        "description": "Greatly increases resistance to instant death."
+    },
+    "ultra_visionary": {
+        "name": "Ultra Visionary",
+        "description": "Greatly increases resistance to bedazzlement."
+    },
+    "ultra_spellbinder": {
+        "name": "Ultra Spellbinder",
+        "description": "Greatly increases resistance to antimagic."
+    },
+    "ultra_drain_blocker": {
+        "name": "Ultra Drain Blocker",
+        "description": "Greatly increases resistance to MP absorption."
+    },
+    "crackmeister": {
+        "name": "Crackmeister",
+        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
+    },
+    "intimidating": {
+        "name": "Intimidating",
+        "description": "Sometimes stuns the enemy during battle for 1 turn."
+    },
+    "trance_state": {
+        "name": "Trance State",
+        "description": "Greatly increases wisdom after casting a critical spell."
+    },
+    "ultra_crafty_cragger": {
+        "name": "Ultra Crafty Cragger",
+        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
+    },
+    "ultra_crafty_magic_drainer": {
+        "name": "Ultra Crafty Magic Drainer",
+        "description": "Makes it much easier to absorb MP."
     }
 }
