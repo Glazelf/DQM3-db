@@ -6845,10 +6845,46 @@
         "family": "_demon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 1,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "splash_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "low_heal": 20,
+                "ultra_crafty_splasher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 75,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 50,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 25,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "khalamari_kid",
@@ -6921,10 +6957,46 @@
         "family": "_material",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "thrill_seeker"
+        ],
+        "traits": {
+            "small": {
+                "critical_moment": 1,
+                "dodge_denier": 20,
+                "ultra_crafty_whacker": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "eggsoskeleton",
@@ -7047,10 +7119,46 @@
         "family": "_demon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "outlaw"
+        ],
+        "traits": {
+            "small": {
+                "metal_medley": 1,
+                "critical_triumph": 20,
+                "little_menace": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "mischievous_mole",
@@ -7119,10 +7227,46 @@
         "family": "_material",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "materialist"
+        ],
+        "traits": {
+            "small": {
+                "stunning_touch": 1,
+                "strangely_alluring": 20,
+                "ultra_crafty_cragger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "goonache_goodie",
@@ -7137,10 +7281,46 @@
         "family": "_material",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "blade_maven"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "critical_moment": 20,
+                "dodge_denier": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "bambooligan",
@@ -7155,14 +7335,50 @@
         "family": "_beast",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "chilly_receptionist"
+        ],
+        "traits": {
+            "small": {
+                "crackmeister": 1,
+                "dodge_denier": 20,
+                "stunning_touch": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 25,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 100,
+            "electricity": 0,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 25
+        },
         "synthesis": [
             [
                 "platypunk",
-                "_beast"
+                "_demon"
             ]
         ]
     },
@@ -7173,10 +7389,46 @@
         "family": "_demon",
         "description": null,
         "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "woosh_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "wooshmeister": 1,
+                "trance_state": 20,
+                "insta_ping": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 25,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "lump_wizard",
