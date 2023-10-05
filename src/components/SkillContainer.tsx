@@ -6,7 +6,7 @@ import monsters from '../../objects/monsters';
 
 interface SkillContainerProps {
   monsterIds: Array<string>;
-}
+};
 
 const SkillContainer: FC<SkillContainerProps> = ({ monsterIds }) => {
 
@@ -14,7 +14,7 @@ const SkillContainer: FC<SkillContainerProps> = ({ monsterIds }) => {
     <div className="skill-list">
       Skill List
       {monsterIds.map((monsterId) => (
-        <div key={monsterId} className='skill-list'> { monsters[monsterId]?.talents } </div>
+        <div key={monsterId} className='skill-list'> {monsters[monsterId]?.talents} </div>
       ))}
     </div>
   );

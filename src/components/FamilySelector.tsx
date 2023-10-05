@@ -28,7 +28,7 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
         <img
           key={index}
           className='family-icon'
-          src={`/families/${family.family}_icon.png`}
+          src={`https://github.com/Glazelf/DQM3-db/blob/master/public/families/${family.family}_icon.png`}
           alt={family.alt}
           onClick={() => handleFamilyClick(family.family)}
         />

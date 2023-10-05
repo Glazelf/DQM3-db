@@ -35,9 +35,9 @@ const Monster: FC<MonsterProps> = ({ id, parent, updateMonsterSet }) => {
           }
         } else {
           setSelectedParentSet(formatParentString(parents));
-        }
-      }
-    }
+        };
+      };
+    };
   }, [selectedValue, updateMonsterSet]);
 
   useEffect(() => {
@@ -62,9 +62,9 @@ const Monster: FC<MonsterProps> = ({ id, parent, updateMonsterSet }) => {
     if (!acquired) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
-    }
+    };
     setAcquired(!acquired);
-  }
+  };
 
   const renderParentSelect = () => (
     <select
