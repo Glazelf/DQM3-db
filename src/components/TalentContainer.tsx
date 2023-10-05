@@ -2,25 +2,21 @@
 
 import React, { FC } from 'react';
 // @ts-ignore
-import monsters from '../../objects/monsters';
+import monstersJSON from '../../objects/monsters';
 // @ts-ignore
-import talents from '../../objects/talents';
+import talentsJSON from '../../objects/talents';
 
 interface TalentContainerProps {
   monsterIds: Array<string>;
 };
 
 const TalentContainer: FC<TalentContainerProps> = ({ monsterIds }) => {
-  let monsterTalents = "";
-  monsterIds.forEach((monsterId) => {
-    talents[monsters[monsterId]?.talents]?.forEach((talent: string) => {
-      monsterTalents += talent + "\n";
-    })
-  })
   return (
-    <div className="talent-list">
-      Talent List
-      <div key="monster-talents" className='talent-list'> {monsterTalents} </div>
+    <div className="skill-list">
+      Skill List
+      {monsterIds.map((monsterId) => (
+        <div key={monsterId} className='skill-list'> {talentsJSON[monstersJSON[monsterId]?.talents]?.name} </div>
+      ))}
     </div>
   );
 };
