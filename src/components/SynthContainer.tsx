@@ -3,7 +3,7 @@
 import React, { FC, useEffect, useState } from 'react';
 import Monster from '../components/Monster';
 import FamilySelector from '../components/FamilySelector';
-import SkillContainer from '../components/SkillContainer';
+import SkillContainer from '../components/TalentContainer';
 
 type MonsterSet = {
   [key: string]: string;
