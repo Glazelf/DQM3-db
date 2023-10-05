@@ -12,10 +12,10 @@ interface TalentContainerProps {
 
 const TalentContainer: FC<TalentContainerProps> = ({ monsterIds }) => {
   return (
-    <div className="skill-list">
-      Skill List
+    <div className="talent-list">
+      Talent List
       {monsterIds.map((monsterId) => (
-        <div key={monsterId} className='skill-list'> {talentsJSON[monstersJSON[monsterId]?.talents]?.name} </div>
+        <div key={monsterId} className='talent-list'> {talentsJSON[monstersJSON[monsterId]?.talents]?.name} </div>
       ))}
     </div>
   );
