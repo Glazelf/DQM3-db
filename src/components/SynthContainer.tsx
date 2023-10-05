@@ -13,7 +13,6 @@ const SynthContainer = () => {
   const [filterFamily, setFilterFamily] = useState<string>('');
   const [monsterIdSet, setMonsterIdSet] = useState<Array<string>>([]);
   const [monsterSet, setMonsterSet] = useState<MonsterSet>({});
-  
 
   const updateFilter = (family: string) => {
     setFilterFamily(family);
@@ -23,8 +22,8 @@ const SynthContainer = () => {
     if (monsterId && !monsterSet[id]) {
       monsterSet[id] = monsterId;
       setMonsterIdSet(Object.keys(monsterSet).map((key) => monsterSet[key]).filter((monsterId) => monsterId.indexOf('_') != 0));
-    }
-  }
+    };
+  };
 
   return (
     <div className="home-container">
