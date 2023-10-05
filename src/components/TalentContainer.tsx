@@ -19,7 +19,7 @@ const TalentContainer: FC<TalentContainerProps> = ({ monsterIds }) => {
   })
   return (
     <div className="talent-list">
-      Skill List
+      Talent List
       <div key="monster-talents" className='talent-list'> {monsterTalents} </div>
     </div>
   );
