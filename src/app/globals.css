@@ -28,7 +28,7 @@ body {
   width: 89%;
 }
 
-.skill-container {
+.talent-container {
   display: inline-block;
   width: 10%;
   color: white;
@@ -37,7 +37,7 @@ body {
   text-align: center;
 }
 
-.skill-list {
+.talent-list {
   color: white;
 }
 

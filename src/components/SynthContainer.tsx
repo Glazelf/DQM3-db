@@ -3,7 +3,7 @@
 import React, { FC, useEffect, useState } from 'react';
 import Monster from '../components/Monster';
 import FamilySelector from '../components/FamilySelector';
-import SkillContainer from '../components/SkillContainer';
+import TalentContainer from '../components/TalentContainer';
 
 type MonsterSet = {
   [key: string]: string;
@@ -28,8 +28,8 @@ const SynthContainer = () => {
   return (
     <div className="home-container">
       <FamilySelector updateFilter={updateFilter} />
-      <div className="skill-container">
-        <SkillContainer monsterIds={monsterIdSet} />
+      <div className="talent-container">
+        <TalentContainer monsterIds={monsterIdSet} />
       </div>
       <div className="all-monster-container">
         <Monster parent={filterFamily} id='' updateMonsterSet={updateMonsterSet} />
