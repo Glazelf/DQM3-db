@@ -454,6 +454,387 @@
             ]
         ]
     },
+    "slimeshroom": {
+        "name": "Slimeshroom",
+        "number": 9,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "irritant"
+        ],
+        "traits": {
+            "small": {
+                "stupefying_skin": 1,
+                "health_professional": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "fright_bulb": {
+        "name": "Fright Bulb",
+        "number": 10,
+        "rank": "G",
+        "family": "_slime",
+        "description": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "soothesayer"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_stunner": 1,
+                "evasive_impulse": 20,
+                "ace_evader": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": 0,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "feral_slime": {
+        "name": "Feral Slime",
+        "number": 11,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "fighter"
+        ],
+        "traits": {
+            "small": {
+                "rando_oomph": 1,
+                "rando_accel": 20,
+                "poisonous_touch": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ],
+            [
+                "slime",
+                "antguzzler"
+            ]
+        ]
+    },
+    "snowmangler": {
+        "name": "Snowmangler",
+        "number": 12,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "crack_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "crackmeister": 1,
+                "insta_accel": 20,
+                "deadly_touch": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 100,
+            "electricity": 50,
+            "light": 0,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "snail_slime": {
+        "name": "Snail Slime",
+        "number": 13,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 1,
+            "def": 5,
+            "agi": 1,
+            "wis": 3
+        },
+        "talents": [
+            "barricade"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "rando_mister": 20,
+                "stupefying_skin": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "shell_slime",
+                "mad_mollusk"
+            ]
+        ]
+    },
+    "slime_stack": {
+        "name": "Slime Stack",
+        "number": 14,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "zap_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "zapmeister": 1,
+                "dodge_denier": 20,
+                "little_menace": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "slime_knight": {
+        "name": "Slime Knight",
+        "number": 15,
+        "rank": "F",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "good_knight"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "close_scraper": 20,
+                "big_bully": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": 25,
+            "dark": -25,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "slime_stack",
+                "leery_lout"
+            ]
+        ]
+    },
     "she_slime": {
         "name": "She-Slime",
         "number": 16,
@@ -1589,6 +1970,113 @@
             ]
         ]
     },
+    "bullfinch": {
+        "name": "Bullfinch",
+        "number": 146,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "wild_child"
+        ],
+        "traits": {
+            "small": {
+                "agent_of_chaos": 1,
+                "ace_evader": 20,
+                "rando_oomph": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "bantamweight",
+                "_beast"
+            ]
+        ]
+    },
+    "suckling_ocker": {
+        "name": "Suckling Ocker",
+        "number": 147,
+        "rank": "F",
+        "family": "_nature",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "soggy_slasher"
+        ],
+        "traits": {
+            "small": {
+                "paralysing_touch": 1,
+                "splishmeister": 20,
+                "strong_starter": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 100,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "khalamari_kid",
+                "khalamari_kid"
+            ]
+        ]
+    },
     "cyclown": {
         "name": "Cyclown",
         "number": 148,
@@ -2225,6 +2713,60 @@
             ]
         ]
     },
+    "bag_o_laughs": {
+        "name": "Bag o' Laughs",
+        "number": 289,
+        "rank": "G",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "enfeebler"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_sleeper": 1,
+                "insta_ping": 20,
+                "ultra_crafty_dazzler": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
     "foo_dog": {
         "name": "Foo Dog",
         "number": 290,
@@ -2283,6 +2825,172 @@
             [
                 "_beast",
                 "_material"
+            ]
+        ]
+    },
+    "horrifying_saucers": {
+        "name": "Horrifying Saucers",
+        "number": 291,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "thrill_seeker"
+        ],
+        "traits": {
+            "small": {
+                "naked_ambition": 1,
+                "metal_medley": 20,
+                "rando_mister": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": -25,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ],
+            [
+                "dracky",
+                "wax_murderer"
+            ]
+        ]
+    },
+    "chocolate_golem": {
+        "name": "Chocolate Golem",
+        "number": 292,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "materialist"
+        ],
+        "traits": {
+            "small": {
+                "stunning_touch": 1,
+                "strangely_alluring": 20,
+                "ultra_crafty_cragger": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "goonache_goodie",
+                "mud_mannequin"
+            ]
+        ]
+    },
+    "disfigurine": {
+        "name": "Disfigurine",
+        "number": 293,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "stony_slasher"
+        ],
+        "traits": {
+            "small": {
+                "spiky_skin": 1,
+                "rando_ping": 20,
+                "static_discharge": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "dragonthorn",
+                "string_fella"
             ]
         ]
     },
@@ -3403,6 +4111,176 @@
             ]
         ]
     },
+    "scarfish": {
+        "name": "Scarfish",
+        "number": 438,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 1,
+            "def": 2,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "graveheart"
+        ],
+        "traits": {
+            "small": {
+                "infected_skin": 1,
+                "tit_for_tat": 20,
+                "strong_starter": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 75,
+            "wind": -25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ],
+            [
+                "khalamari_kid",
+                "funghoul"
+            ]
+        ]
+    },
+    "walking_corpse": {
+        "name": "Walking Corpse",
+        "number": 439,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "graveheart"
+        ],
+        "traits": {
+            "small": {
+                "poisonous_touch": 1,
+                "ultra_crafty_stunner": 20,
+                "ultra_crafty_spellbinder": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 25,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ],
+            [
+                "putrefido",
+                "skeleton"
+            ]
+        ]
+    },
+    "restless_armour": {
+        "name": "Restless Armour",
+        "number": 440,
+        "rank": "F",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "breath_taker"
+        ],
+        "traits": {
+            "small": {
+                "miraculous_touch": 1,
+                "defensive_impulse": 20,
+                "snappy_comeback": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 25,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "slime_knight",
+                "bambooligan"
+            ]
+        ]
+    },
     "shadow": {
         "name": "Shadow",
         "number": 441,
@@ -3461,59 +4339,6 @@
             [
                 "spitnik",
                 "hellbound_horror"
-            ]
-        ]
-    },
-    "fright_bulb": {
-        "name": "Fright Bulb",
-        "number": null,
-        "rank": "G",
-        "family": "_slime",
-        "description": null,
-        "growth": {
-            "hp": 1,
-            "mp": 3,
-            "atk": 2,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "soothesayer"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_stunner": 1,
-                "evasive_impulse": 20,
-                "ace_evader": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 25,
-            "wind": 0,
-            "earth": 25,
-            "explosions": 0,
-            "ice": 25,
-            "electricity": 50,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": -25,
-            "confusion": 50,
-            "sleep": 0,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_demon"
             ]
         ]
     },
@@ -3641,118 +4466,6 @@
             ]
         ]
     },
-    "scarfish": {
-        "name": "Scarfish",
-        "number": null,
-        "rank": "F",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 1,
-            "def": 2,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "graveheart"
-        ],
-        "traits": {
-            "small": {
-                "infected_skin": 1,
-                "tit_for_tat": 20,
-                "strong_starter": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 75,
-            "wind": -25,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 0,
-            "light": 0,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 25,
-            "sleep": 25,
-            "paralysis": 0,
-            "stun": 25,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_undead"
-            ],
-            [
-                "khalamari_kid",
-                "funghoul"
-            ]
-        ]
-    },
-    "snowmangler": {
-        "name": "Snowmangler",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 3,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "crack_afficionado"
-        ],
-        "traits": {
-            "small": {
-                "crackmeister": 1,
-                "insta_accel": 20,
-                "deadly_touch": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 25,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 100,
-            "electricity": 50,
-            "light": 0,
-            "dark": -25,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": -25,
-            "confusion": 0,
-            "sleep": 25,
-            "paralysis": 50,
-            "stun": 25,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_undead"
-            ]
-        ]
-    },
     "box_slime": {
         "name": "Box Slime",
         "number": null,
@@ -3811,60 +4524,6 @@
             ]
         ]
     },
-    "slime_stack": {
-        "name": "Slime Stack",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "zap_afficionado"
-        ],
-        "traits": {
-            "small": {
-                "zapmeister": 1,
-                "dodge_denier": 20,
-                "little_menace": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 25,
-            "electricity": 50,
-            "light": 25,
-            "dark": -25,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 25,
-            "mp_absorption": -25,
-            "confusion": 25,
-            "sleep": 25,
-            "paralysis": 25,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_material"
-            ]
-        ]
-    },
     "mudraker": {
         "name": "Mudraker",
         "number": null,
@@ -3916,60 +4575,6 @@
             [
                 "mud_mannequin",
                 "_undead"
-            ]
-        ]
-    },
-    "bag_o_laughs": {
-        "name": "Bag o' Laughs",
-        "number": null,
-        "rank": "G",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 3,
-            "atk": 1,
-            "def": 2,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "enfeebler"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_sleeper": 1,
-                "insta_ping": 20,
-                "ultra_crafty_dazzler": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": -25,
-            "earth": 25,
-            "explosions": 50,
-            "ice": 50,
-            "electricity": 50,
-            "light": 0,
-            "dark": 0,
-            "debilitation": 0,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 25,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 0,
-            "stun": 50,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_material"
             ]
         ]
     },
@@ -4433,64 +5038,6 @@
             ]
         ]
     },
-    "feral_slime": {
-        "name": "Feral Slime",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 3,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "fighter"
-        ],
-        "traits": {
-            "small": {
-                "rando_oomph": 1,
-                "rando_accel": 20,
-                "poisonous_touch": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 25,
-            "water": 0,
-            "wind": 0,
-            "earth": 0,
-            "explosions": 50,
-            "ice": 0,
-            "electricity": 50,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": -25,
-            "confusion": 25,
-            "sleep": 25,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_beast"
-            ],
-            [
-                "slime",
-                "antguzzler"
-            ]
-        ]
-    },
     "boppin_badger": {
         "name": "Boppin' Badger",
         "number": null,
@@ -4600,60 +5147,6 @@
             [
                 "_slime",
                 "_beast"
-            ]
-        ]
-    },
-    "slimeshroom": {
-        "name": "Slimeshroom",
-        "number": null,
-        "rank": "G",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "irritant"
-        ],
-        "traits": {
-            "small": {
-                "stupefying_skin": 1,
-                "health_professional": 20,
-                "ultra_crafty_woosher": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 25,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 25,
-            "electricity": 50,
-            "light": 0,
-            "dark": 25,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 25,
-            "mp_absorption": -25,
-            "confusion": 0,
-            "sleep": 25,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_undead"
             ]
         ]
     },
@@ -5955,64 +6448,6 @@
             ]
         ]
     },
-    "walking_corpse": {
-        "name": "Walking Corpse",
-        "number": null,
-        "rank": "F",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 3,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "graveheart"
-        ],
-        "traits": {
-            "small": {
-                "poisonous_touch": 1,
-                "ultra_crafty_stunner": 20,
-                "ultra_crafty_spellbinder": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 25,
-            "wind": 0,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 0,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 0,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 0,
-            "sleep": 0,
-            "paralysis": 25,
-            "stun": 25,
-            "poison": 50,
-            "instant_death": 25
-        },
-        "synthesis": [
-            [
-                "_beast",
-                "_undead"
-            ],
-            [
-                "putrefido",
-                "skeleton"
-            ]
-        ]
-    },
     "pocus_poppet": {
         "name": "Pocus Poppet",
         "number": null,
@@ -6176,64 +6611,6 @@
             [
                 "_material",
                 "_demon"
-            ]
-        ]
-    },
-    "horrifying_saucers": {
-        "name": "Horrifying Saucers",
-        "number": null,
-        "rank": "F",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 3,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "thrill_seeker"
-        ],
-        "traits": {
-            "small": {
-                "naked_ambition": 1,
-                "metal_medley": 20,
-                "rando_mister": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 25,
-            "water": 25,
-            "wind": -25,
-            "earth": 25,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 50,
-            "light": 0,
-            "dark": 0,
-            "debilitation": -25,
-            "bedazzlement": 25,
-            "antimagic": 25,
-            "mp_absorption": 0,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 0,
-            "stun": 25,
-            "poison": 50,
-            "instant_death": 25
-        },
-        "synthesis": [
-            [
-                "_material",
-                "_undead"
-            ],
-            [
-                "dracky",
-                "wax_murderer"
             ]
         ]
     },
@@ -6847,60 +7224,6 @@
             ]
         ]
     },
-    "snail_slime": {
-        "name": "Snail Slime",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 3,
-            "atk": 1,
-            "def": 5,
-            "agi": 1,
-            "wis": 3
-        },
-        "talents": [
-            "barricade"
-        ],
-        "traits": {
-            "small": {
-                "insta_buff": 1,
-                "rando_mister": 20,
-                "stupefying_skin": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 25,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 50,
-            "electricity": 50,
-            "light": 25,
-            "dark": -25,
-            "debilitation": 0,
-            "bedazzlement": 50,
-            "antimagic": 25,
-            "mp_absorption": -25,
-            "confusion": 25,
-            "sleep": 25,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "shell_slime",
-                "mad_mollusk"
-            ]
-        ]
-    },
     "see_urchin": {
         "name": "See Urchin",
         "number": null,
@@ -7125,60 +7448,6 @@
             ]
         ]
     },
-    "bullfinch": {
-        "name": "Bullfinch",
-        "number": null,
-        "rank": "F",
-        "family": "_nature",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 3,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "wild_child"
-        ],
-        "traits": {
-            "small": {
-                "agent_of_chaos": 1,
-                "ace_evader": 20,
-                "rando_oomph": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 25,
-            "earth": 50,
-            "explosions": -25,
-            "ice": 0,
-            "electricity": 0,
-            "light": 25,
-            "dark": 25,
-            "debilitation": 25,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 0,
-            "confusion": 25,
-            "sleep": 50,
-            "paralysis": 50,
-            "stun": -25,
-            "poison": 25,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "bantamweight",
-                "_beast"
-            ]
-        ]
-    },
     "hood": {
         "name": "Hood",
         "number": null,
@@ -7230,114 +7499,6 @@
             [
                 "mischievous_mole",
                 "hammerhood"
-            ]
-        ]
-    },
-    "disfigurine": {
-        "name": "Disfigurine",
-        "number": null,
-        "rank": "F",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 2,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "stony_slasher"
-        ],
-        "traits": {
-            "small": {
-                "spiky_skin": 1,
-                "rando_ping": 20,
-                "static_discharge": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": -25,
-            "earth": 25,
-            "explosions": 25,
-            "ice": 50,
-            "electricity": 50,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 0,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": 25,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 0,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "dragonthorn",
-                "string_fella"
-            ]
-        ]
-    },
-    "chocolate_golem": {
-        "name": "Chocolate Golem",
-        "number": null,
-        "rank": "F",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 1
-        },
-        "talents": [
-            "materialist"
-        ],
-        "traits": {
-            "small": {
-                "stunning_touch": 1,
-                "strangely_alluring": 20,
-                "ultra_crafty_cragger": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": -25,
-            "earth": 25,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 50,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 0,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 25,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 25,
-            "stun": 25,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "goonache_goodie",
-                "mud_mannequin"
             ]
         ]
     },
@@ -7612,114 +7773,6 @@
             [
                 "_material",
                 "restless_armour"
-            ]
-        ]
-    },
-    "slime_knight": {
-        "name": "Slime Knight",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 3,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "good_knight"
-        ],
-        "traits": {
-            "small": {
-                "tactical_trooper": 1,
-                "close_scraper": 20,
-                "big_bully": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 25,
-            "water": 25,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 25,
-            "electricity": 50,
-            "light": 25,
-            "dark": -25,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": -25,
-            "confusion": 0,
-            "sleep": 50,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "slime_stack",
-                "leery_lout"
-            ]
-        ]
-    },
-    "restless_armour": {
-        "name": "Restless Armour",
-        "number": null,
-        "rank": "F",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 4,
-            "agi": 2,
-            "wis": 2
-        },
-        "talents": [
-            "breath_taker"
-        ],
-        "traits": {
-            "small": {
-                "miraculous_touch": 1,
-                "defensive_impulse": 20,
-                "snappy_comeback": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": -25,
-            "water": 0,
-            "wind": 0,
-            "earth": 50,
-            "explosions": 0,
-            "ice": 50,
-            "electricity": 25,
-            "light": 50,
-            "dark": 0,
-            "debilitation": 0,
-            "bedazzlement": -25,
-            "antimagic": 0,
-            "mp_absorption": 50,
-            "confusion": 0,
-            "sleep": 0,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 50,
-            "instant_death": 25
-        },
-        "synthesis": [
-            [
-                "slime_knight",
-                "bambooligan"
             ]
         ]
     },
@@ -8285,6 +8338,10 @@
             [
                 "killer_gila",
                 "jargon"
+            ],
+            [
+                "croc_a_bugle_doo",
+                "_undead"
             ]
         ]
     },
@@ -9704,6 +9761,148 @@
             [
                 "slimeshroom",
                 "muddy_hand"
+            ]
+        ]
+    },
+    "weartiger": {
+        "name": "Weartiger",
+        "number": null,
+        "rank": "F",
+        "family": "_beast",
+        "description": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "stony_slasher"
+        ],
+        "traits": {
+            "small": {
+                "critical_moment": 1,
+                "agent_of_chaos": 20,
+                "dodge_denier": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 25,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "mummy_boy",
+                "_beast"
+            ]
+        ]
+    },
+    "dead_resident": {
+        "name": "Dead Resident",
+        "number": null,
+        "rank": "E",
+        "family": "_undead",
+        "description": null,
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "thrill_seeker"
+        ],
+        "traits": {
+            "small": {
+                "critical_moment": 1,
+                "agent_of_chaos": 20,
+                "ultra_crafty_spellbinder": 40
+            },
+            "large": null
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 50
+        },
+        "synthesis": [
+            [
+                "skullrider",
+                "mummy_boy"
+            ]
+        ]
+    },
+    "skeleton_soldier": {
+        "name": "Skeleton Soldier",
+        "number": null,
+        "rank": "E",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "skeleton",
+                "restless_armour"
+            ]
+        ]
+    },
+    "mandrake_major": {
+        "name": "Mandrake Major",
+        "number": null,
+        "rank": "E",
+        "family": null,
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "raptile",
+                "restless_armour"
             ]
         ]
     }
