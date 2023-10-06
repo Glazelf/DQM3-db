@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component, FC, useState } from 'react';
 
 interface ImageWithFallbackProps {
   alt: string;
