@@ -56,6 +56,25 @@
             ]
         }
     },
+    "crag_afficionado": {
+        "name": "Crag Afficionado",
+        "skills": {
+            "crag": 3,
+            "stones_throw": 10,
+            "beast_tamer": 20,
+            "stomp": 50,
+            "buff": 70,
+            "craggle": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
     "bang_afficionado": {
         "name": "Bang Afficionado",
         "skills": {
@@ -65,6 +84,25 @@
             "anchorman": 50,
             "oomph": 70,
             "boom": 100
+        },
+        "traits": {
+            "max_mp_4": [
+                30
+            ],
+            "max_mp_8": [
+                85
+            ]
+        }
+    },
+    "crack_afficionado": {
+        "name": "Crack Afficionado",
+        "skills": {
+            "crack": 3,
+            "kacrackle_slash": 10,
+            "demon_demeaner": 20,
+            "cool_breath": 50,
+            "snooze": 70,
+            "crackle": 100
         },
         "traits": {
             "max_mp_4": [
@@ -151,6 +189,25 @@
             ]
         }
     },
+    "chilly_receptionist": {
+        "name": "Chilly Receptionist",
+        "skills": {
+            "cool_breath": 3,
+            "crack": 10,
+            "whack": 30,
+            "snooze": 50,
+            "dazzleflash": 85,
+            "chilly_breath": 100
+        },
+        "traits": {
+            "agility_8": [
+                20
+            ],
+            "wisdom_16": [
+                70
+            ]
+        }
+    },
     "shallow_breather": {
         "name": "Shallow Breather",
         "skills": {
@@ -189,6 +246,20 @@
             ]
         }
     },
+    "choreographer": {
+        "name": "Choreographer",
+        "skills": {
+            "decelerate": 3,
+            "dim": 10,
+            "weird_dance": 20,
+            "deceleratle": 30,
+            "dazzleflash": 50,
+            "sultry_dance": 70,
+            "fuddle_dance": 85,
+            "kerplunk_dance": 100
+        },
+        "traits": null
+    },
     "slimer": {
         "name": "Slimer",
         "skills": {
@@ -203,6 +274,24 @@
         "traits": {
             "auto_restora": [
                 100
+            ]
+        }
+    },
+    "dragonheart": {
+        "name": "Dragonheart",
+        "skills": {
+            "fire_breath": 3,
+            "cool_breath": 10,
+            "beast_tamer": 20,
+            "sandstorm": 30,
+            "deep_breath": 50,
+            "war_cry": 70,
+            "flame_breath": 85,
+            "chilly_breath": 100
+        },
+        "traits": {
+            "auto-restora": [
+                120
             ]
         }
     },
@@ -351,6 +440,26 @@
             ]
         }
     },
+    "soggy_slasher": {
+        "name": "Soggy Slasher",
+        "skills": {
+            "kacrackle_slash": 3,
+            "splish": 10,
+            "slime_squisher": 20,
+            "cock-a-doodle-doo": 50,
+            "splash": 70,
+            "chilly_breath": 85,
+            "blightsplitter": 120
+        },
+        "traits": {
+            "wisdom_8": [
+                30
+            ],
+            "wisdom_16": [
+                100
+            ]
+        }
+    },
     "blowy_slasher": {
         "name": "Blowy Slasher",
         "skills": {
@@ -367,6 +476,26 @@
                 30
             ],
             "agility_16": [
+                100
+            ]
+        }
+    },
+    "stony_slasher": {
+        "name": "Stony Slasher",
+        "skills": {
+            "lightning_slash": 3,
+            "crag": 10,
+            "beast_tamer": 20,
+            "defuddle": 50,
+            "stones_throw": 70,
+            "craggle": 85,
+            "brightsplitter": 120
+        },
+        "traits": {
+            "defense_8": [
+                30
+            ],
+            "defense_16": [
                 100
             ]
         }
@@ -407,6 +536,40 @@
             ]
         }
     },
+    "speedster": {
+        "name": "Accelerate",
+        "skills": {
+            "accelerate": 3,
+            "heal": 10,
+            "decelerate": 20,
+            "dodgy_dance": 50,
+            "sandstorm": 70,
+            "acceleratle": 85,
+            "mercurial_thrust": 100
+        },
+        "traits": {
+            "agility_4": [
+                30
+            ]
+        }
+    },
+    "cupid": {
+        "name": "Cupid",
+        "skills": {
+            "heal": 3,
+            "buff": 10,
+            "sizz": 20,
+            "heart_breaker": 30,
+            "sizzle": 50,
+            "dazzleflash": 70,
+            "shining_shot": 100
+        },
+        "traits": {
+            "max_hp_8": [
+                85
+            ]
+        }
+    },
     "power_player": {
         "name": "Power Player",
         "skills": {
@@ -443,6 +606,20 @@
             ]
         }
     },
+    "fighter": {
+        "name": "Fighter",
+        "skills": {
+            "Helm_splitter": 3,
+            "heart_breaker": 10,
+            "frenzy": 20,
+            "stones_throw": 30,
+            "hatchet_man": 50,
+            "roundhouse_kick": 70,
+            "war_cry": 85,
+            "knuckle_sandwich": 100
+        },
+        "traits": null
+    },
     "blade_maven": {
         "name": "Blade Maven",
         "skills": {
@@ -474,6 +651,39 @@
             "miracle_slash": 120
         },
         "traits": null
+    },
+    "cutpurse": {
+        "name": "Cutpurse",
+        "skills": {
+            "accelerate": 3,
+            "poison_attack": 10,
+            "sleep_attack": 20,
+            "sandstorm": 30,
+            "dodgy_dance": 50,
+            "mercurial_thrust": 70,
+            "victimiser": 85,
+            "persecutter": 100
+        },
+        "traits": null
+    },
+    "sweet_talker": {
+        "name": "Sweet-Talker",
+        "skills": {
+            "heal": 3,
+            "tongue_lashing": 10,
+            "sleep_attack": 20,
+            "buff": 30,
+            "sweet_breath": 70,
+            "miracle_slash": 85
+        },
+        "traits": {
+            "max_hp_8": [
+                50
+            ],
+            "auto-cadabra": [
+                100
+            ]
+        }
     },
     "tongue_twister": {
         "name": "Tongue Twister",
@@ -520,6 +730,25 @@
             ]
         }
     },
+    "martyr": {
+        "name": "Martyr",
+        "skills": {
+            "whack": 3,
+            "intense_defense": 20,
+            "selflessness": 50,
+            "anchorman": 70,
+            "kamikazee": 85,
+            "kerplunk": 100
+        },
+        "traits": {
+            "max_hp_8": [
+                10
+            ],
+            "defense_8": [
+                30
+            ]
+        }
+    },
     "prankster": {
         "name": "Prankster",
         "skills": {
@@ -552,6 +781,20 @@
         },
         "traits": null
     },
+    "paramedic": {
+        "name": "Paramedic",
+        "skills": {
+            "heal": 3,
+            "squelch": 10,
+            "tingle": 20,
+            "defuddle": 30,
+            "cock-a-doodle-doo": 50,
+            "drain_magic": 70,
+            "zing": 85,
+            "wave_of_relief": 100
+        },
+        "traits": null
+    },
     "soothesayer": {
         "name": "Soothesayer",
         "skills": {
@@ -564,6 +807,34 @@
             "war_cry": 85,
             "mist_me": 100,
             "right_as_rain": 120
+        },
+        "traits": null
+    },
+    "sleep_counsellor": {
+        "name": "Sleep Counsellor",
+        "skills": {
+            "snooze": 3,
+            "dazzle": 10,
+            "sleep_attack": 20,
+            "fuddle": 30,
+            "sweet_breath": 50,
+            "confusion_attack": 70,
+            "kasnooze": 85,
+            "kafuddle": 100
+        },
+        "traits": null
+    },
+    "toxicologist": {
+        "name": "Toxicologist",
+        "skills": {
+            "tox": 3,
+            "poison_attack": 10,
+            "tongue_lashing": 20,
+            "heart_breaker": 30,
+            "poison_breath": 50,
+            "dim": 70,
+            "katox": 85,
+            "tongue_bashing": 100
         },
         "traits": null
     },
@@ -631,6 +902,20 @@
             ]
         }
     },
+    "antimagician": {
+        "name": "Antimagician",
+        "skills": {
+            "dim": 3,
+            "fizzle": 10,
+            "ping": 20,
+            "drain_magic": 30,
+            "mist_me": 50,
+            "kadim": 70,
+            "mercurial_thrust": 85,
+            "bounce": 100
+        },
+        "traits": null
+    },
     "defender": {
         "name": "Defender",
         "skills": {
@@ -642,6 +927,35 @@
             "intense_defence": 70,
             "midheal": 85,
             "selflessness": 100
+        },
+        "traits": null
+    },
+    "barricade": {
+        "name": "Barricade",
+        "skills": {
+            "insulate": 3,
+            "kabuff": 20,
+            "mist_me": 30,
+            "knuckle_sandwich": 50,
+            "intense_defense": 70,
+            "critical_meltdown": 85,
+            "selflessness": 100
+        },
+        "defense_4": [
+            10
+        ]
+    },
+    "irritant": {
+        "name": "Irritant",
+        "skills": {
+            "sap": 3,
+            "snooze": 10,
+            "tox": 20,
+            "poison_attack": 30,
+            "numb": 50,
+            "sleep_attack": 70,
+            "assassins_stab": 85,
+            "kanumb": 100
         },
         "traits": null
     },
@@ -1318,169 +1632,6 @@
             ]
         }
     },
-    "barricade": {
-        "name": "Barricade",
-        "skills": {
-            "insulate": 3,
-            "kabuff": 20,
-            "mist_me": 30,
-            "knuckle_sandwich": 50,
-            "intense_defense": 70,
-            "critical_meltdown": 85,
-            "selflessness": 100
-        },
-        "defense_4": [
-            10
-        ]
-    },
-    "antimagician": {
-        "name": "Antimagician",
-        "skills": {
-            "dim": 3,
-            "fizzle": 10,
-            "ping": 20,
-            "drain_magic": 30,
-            "mist_me": 50,
-            "kadim": 70,
-            "mercurial_thrust": 85,
-            "bounce": 100
-        },
-        "traits": null
-    },
-    "chilly_receptionist": {
-        "name": "Chilly Receptionist",
-        "skills": {
-            "cool_breath": 3,
-            "crack": 10,
-            "whack": 30,
-            "snooze": 50,
-            "dazzleflash": 85,
-            "chilly_breath": 100
-        },
-        "traits": {
-            "agility_8": [
-                20
-            ],
-            "wisdom_16": [
-                70
-            ]
-        }
-    },
-    "choreographer": {
-        "name": "Choreographer",
-        "skills": {
-            "decelerate": 3,
-            "dim": 10,
-            "weird_dance": 20,
-            "deceleratle": 30,
-            "dazzleflash": 50,
-            "sultry_dance": 70,
-            "fuddle_dance": 85,
-            "kerplunk_dance": 100
-        },
-        "traits": null
-    },
-    "crack_afficionado": {
-        "name": "Crack Afficionado",
-        "skills": {
-            "crack": 3,
-            "kacrackle_slash": 10,
-            "demon_demeaner": 20,
-            "cool_breath": 50,
-            "snooze": 70,
-            "crackle": 100
-        },
-        "traits": {
-            "max_mp_4": [
-                30
-            ],
-            "max_mp_8": [
-                85
-            ]
-        }
-    },
-    "crag_afficionado": {
-        "name": "Crag Afficionado",
-        "skills": {
-            "crag": 3,
-            "stones_throw": 10,
-            "beast_tamer": 20,
-            "stomp": 50,
-            "buff": 70,
-            "craggle": 100
-        },
-        "traits": {
-            "max_mp_4": [
-                30
-            ],
-            "max_mp_8": [
-                85
-            ]
-        }
-    },
-    "cupid": {
-        "name": "Cupid",
-        "skills": {
-            "heal": 3,
-            "buff": 10,
-            "sizz": 20,
-            "heart_breaker": 30,
-            "sizzle": 50,
-            "dazzleflash": 70,
-            "shining_shot": 100
-        },
-        "traits": {
-            "max_hp_8": [
-                85
-            ]
-        }
-    },
-    "cutpurse": {
-        "name": "Cutpurse",
-        "skills": {
-            "accelerate": 3,
-            "poison_attack": 10,
-            "sleep_attack": 20,
-            "sandstorm": 30,
-            "dodgy_dance": 50,
-            "mercurial_thrust": 70,
-            "victimiser": 85,
-            "persecutter": 100
-        },
-        "traits": null
-    },
-    "dragonheart": {
-        "name": "Dragonheart",
-        "skills": {
-            "fire_breath": 3,
-            "cool_breath": 10,
-            "beast_tamer": 20,
-            "sandstorm": 30,
-            "deep_breath": 50,
-            "war_cry": 70,
-            "flame_breath": 85,
-            "chilly_breath": 100
-        },
-        "traits": {
-            "auto-restora": [
-                120
-            ]
-        }
-    },
-    "fighter": {
-        "name": "Fighter",
-        "skills": {
-            "Helm_splitter": 3,
-            "heart_breaker": 10,
-            "frenzy": 20,
-            "stones_throw": 30,
-            "hatchet_man": 50,
-            "roundhouse_kick": 70,
-            "war_cry": 85,
-            "knuckle_sandwich": 100
-        },
-        "traits": null
-    },
     "hair_splitter": {
         "name": "Hair Splitter",
         "evolution": [
@@ -1500,157 +1651,6 @@
             "Blightsplitter": 120,
             "Gigacross": 150,
             "Shadow Blast": 200
-        },
-        "traits": null
-    },
-    "irritant": {
-        "name": "Irritant",
-        "skills": {
-            "sap": 3,
-            "snooze": 10,
-            "tox": 20,
-            "poison_attack": 30,
-            "numb": 50,
-            "sleep_attack": 70,
-            "assassins_stab": 85,
-            "kanumb": 100
-        },
-        "traits": null
-    },
-    "martyr": {
-        "name": "Martyr",
-        "skills": {
-            "whack": 3,
-            "intense_defense": 20,
-            "selflessness": 50,
-            "anchorman": 70,
-            "kamikazee": 85,
-            "kerplunk": 100
-        },
-        "traits": {
-            "max_hp_8": [
-                10
-            ],
-            "defense_8": [
-                30
-            ]
-        }
-    },
-    "paramedic": {
-        "name": "Paramedic",
-        "skills": {
-            "heal": 3,
-            "squelch": 10,
-            "tingle": 20,
-            "defuddle": 30,
-            "cock-a-doodle-doo": 50,
-            "drain_magic": 70,
-            "zing": 85,
-            "wave_of_relief": 100
-        },
-        "traits": null
-    },
-    "sleep_counsellor": {
-        "name": "Sleep Counsellor",
-        "skills": {
-            "snooze": 3,
-            "dazzle": 10,
-            "sleep_attack": 20,
-            "fuddle": 30,
-            "sweet_breath": 50,
-            "confusion_attack": 70,
-            "kasnooze": 85,
-            "kafuddle": 100
-        },
-        "traits": null
-    },
-    "soggy_slasher": {
-        "name": "Soggy Slasher",
-        "skills": {
-            "kacrackle_slash": 3,
-            "splish": 10,
-            "slime_squisher": 20,
-            "cock-a-doodle-doo": 50,
-            "splash": 70,
-            "chilly_breath": 85,
-            "blightsplitter": 120
-        },
-        "traits": {
-            "wisdom_8": [
-                30
-            ],
-            "wisdom_16": [
-                100
-            ]
-        }
-    },
-    "speedster": {
-        "name": "Accelerate",
-        "skills": {
-            "accelerate": 3,
-            "heal": 10,
-            "decelerate": 20,
-            "dodgy_dance": 50,
-            "sandstorm": 70,
-            "acceleratle": 85,
-            "mercurial_thrust": 100
-        },
-        "traits": {
-            "agility_4": [
-                30
-            ]
-        }
-    },
-    "stony_slasher": {
-        "name": "Stony Slasher",
-        "skills": {
-            "lightning_slash": 3,
-            "crag": 10,
-            "beast_tamer": 20,
-            "defuddle": 50,
-            "stones_throw": 70,
-            "craggle": 85,
-            "brightsplitter": 120
-        },
-        "traits": {
-            "defense_8": [
-                30
-            ],
-            "defense_16": [
-                100
-            ]
-        }
-    },
-    "sweet_talker": {
-        "name": "Sweet-Talker",
-        "skills": {
-            "heal": 3,
-            "tongue_lashing": 10,
-            "sleep_attack": 20,
-            "buff": 30,
-            "sweet_breath": 70,
-            "miracle_slash": 85
-        },
-        "traits": {
-            "max_hp_8": [
-                50
-            ],
-            "auto-cadabra": [
-                100
-            ]
-        }
-    },
-    "toxicologist": {
-        "name": "Toxicologist",
-        "skills": {
-            "tox": 3,
-            "poison_attack": 10,
-            "tongue_lashing": 20,
-            "heart_breaker": 30,
-            "poison_breath": 50,
-            "dim": 70,
-            "katox": 85,
-            "tongue_bashing": 100
         },
         "traits": null
     }
