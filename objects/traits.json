@@ -95,6 +95,10 @@
         "name": "Bangmeister",
         "description": "Increases the potency of explosive attacks and decreases their MP consumption."
     },
+    "crackmeister": {
+        "name": "Crackmeister",
+        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
+    },
     "zapmeister": {
         "name": "Zapmeister",
         "description": "Increases the potency of electrical attacks and decreases their MP consumption."
@@ -251,6 +255,10 @@
         "name": "Insult to Injury",
         "description": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused or paralysed."
     },
+    "intimidating": {
+        "name": "Intimidating",
+        "description": "Sometimes stuns the enemy during battle for 1 turn."
+    },
     "strangely_alluring": {
         "name": "Strangely Alluring",
         "description": "Sometimes stuns the enemy during battle for 1 turn."
@@ -347,6 +355,10 @@
         "name": "Personal Grudge",
         "description": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
     },
+    "trance_state": {
+        "name": "Trance State",
+        "description": "Greatly increases wisdom after casting a critical spell."
+    },
     "ultra_crafty_frizzer": {
         "name": "Ultra Crafty Frizzer",
         "description": "Greatly increases the damage inflicted by fire-elemental attacks."
@@ -358,6 +370,10 @@
     "ultra_crafty_woosher": {
         "name": "Ultra Crafty Woosher",
         "description": "Greatly increases the damage inflicted by wind-elemental attacks."
+    },
+    "ultra_crafty_cragger": {
+        "name": "Ultra Crafty Cragger",
+        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
     },
     "ultra_crafty_banger": {
         "name": "Ultra Crafty Banger",
@@ -390,6 +406,10 @@
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",
         "description": "Makes it much easier to prevent spellcasting"
+    },
+    "ultra_crafty_magic_drainer": {
+        "name": "Ultra Crafty Magic Drainer",
+        "description": "Makes it much easier to absorb MP."
     },
     "ultra_crafty_confuser": {
         "name": "Ultra Crafty Confuser",
@@ -570,25 +590,5 @@
     "ultra_drain_blocker": {
         "name": "Ultra Drain Blocker",
         "description": "Greatly increases resistance to MP absorption."
-    },
-    "crackmeister": {
-        "name": "Crackmeister",
-        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
-    },
-    "intimidating": {
-        "name": "Intimidating",
-        "description": "Sometimes stuns the enemy during battle for 1 turn."
-    },
-    "trance_state": {
-        "name": "Trance State",
-        "description": "Greatly increases wisdom after casting a critical spell."
-    },
-    "ultra_crafty_cragger": {
-        "name": "Ultra Crafty Cragger",
-        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
-    },
-    "ultra_crafty_magic_drainer": {
-        "name": "Ultra Crafty Magic Drainer",
-        "description": "Makes it much easier to absorb MP."
     }
 }
