@@ -135,8 +135,8 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
 
 "@types/node@latest":
-  version "20.7.1"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.7.1.tgz"
+  version "20.8.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.3.tgz#c4ae2bb1cfab2999ed441a95c122bbbe1567a66d"
 
 "@types/prop-types@*":
   version "15.7.7"
