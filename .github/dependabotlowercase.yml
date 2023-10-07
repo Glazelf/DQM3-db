@@ -5,8 +5,3 @@ updates:
     assignees: ["glazelf"]
     schedule:
       interval: "daily"
-  - package-ecosystem: "yarn"
-    directory: "/"
-    assignees: ["glazelf"]
-    schedule:
-      interval: "daily"
