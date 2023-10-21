@@ -12,14 +12,16 @@ interface TalentContainerProps {
 
 const TalentContainer: FC<TalentContainerProps> = ({ monsterIds }) => {
   return (
-    <div className="talent-list">
-      <div className="talent-header">
-        Talent List
+    <div className="talent-container">
+      <div className="talent-list">
+        <div className="talent-header">
+          Talent List
+        </div>
+        <br />
+        {Array.from(new Set(monsterIds)).map((monsterId) => (
+          <div key={monsterId} className='talent-line-item'> {talentsJSON[monstersJSON[monsterId]?.talents]?.name} </div>
+        ))}
       </div>
-      <br />
-      {monsterIds.map((monsterId) => (
-        <div key={monsterId} className='talent-line-item'> {talentsJSON[monstersJSON[monsterId]?.talents]?.name} </div>
-      ))}
     </div>
   );
 };

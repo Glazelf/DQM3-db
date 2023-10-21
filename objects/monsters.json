@@ -7737,6 +7737,7 @@
             "agi": 2,
             "wis": 1
         },
+        "image": "hunter_mech.jpeg",
         "talents": [
             "blade_maven"
         ],
