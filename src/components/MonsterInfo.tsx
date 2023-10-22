@@ -7,6 +7,8 @@ import ParentSelector from './ParentSelector';
 import talentsJSON from '../../objects/talents';
 // @ts-ignore
 import traitsJSON from '../../objects/traits';
+// @ts-ignore
+import resistancesJSON from '../../objects/resistances';
 
 interface MonsterInfoProps {
   selectedNode: MonsterNode;
@@ -144,7 +146,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
           <ul>
             {Object.keys(monster.traits?.small || {}).map((trait: string, index: number) => (
               <li key={index}>
-                {trait}: {traitsJSON[monster.traits?.small[trait]]?.name}
+                {traitsJSON[trait]?.name}: {monster.traits?.small[trait]}
               </li>
             ))}
           </ul>
@@ -152,7 +154,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
           <ul>
             {Object.keys(monster.traits?.large || {}).map((trait: string, index: number) => (
               <li key={index}>
-                {trait}: {traitsJSON[monster.traits?.large[trait]]?.name}
+                {traitsJSON[trait]?.name}: {monster.traits?.small[trait]}
               </li>
             ))}
           </ul>
@@ -166,10 +168,10 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
             {Object.keys(monster?.resistances || {}).map((element: string, index: number) => (
               index % 4 === 0 ? (
                 <tr key={index}>
-                  <td>{element}:</td>
+                  <td>{resistancesJSON[element]?.name}:</td>
                   <td>{monster?.resistances[element]}%</td>
-                  <td>{index + 1 < Object.keys(monster?.resistances).length ? Object.keys(monster?.resistances)[index + 1] + ": " + monster?.resistances[Object.keys(monster?.resistances)[index + 1]] + "%" : ""}</td>
-                  <td>{index + 2 < Object.keys(monster?.resistances).length ? Object.keys(monster?.resistances)[index + 2] + ": " + monster?.resistances[Object.keys(monster?.resistances)[index + 2]] + "%" : ""}</td>
+                  <td>{index + 1 < Object.keys(monster?.resistances).length ? resistancesJSON[Object.keys(monster?.resistances)[index + 1]]?.name + ": " + monster?.resistances[Object.keys(monster?.resistances)[index + 1]] + "%" : ""}</td>
+                  <td>{index + 2 < Object.keys(monster?.resistances).length ? resistancesJSON[Object.keys(monster?.resistances)[index + 2]]?.name + ": " + monster?.resistances[Object.keys(monster?.resistances)[index + 2]] + "%" : ""}</td>
                 </tr>
               ) : null
             ))}
