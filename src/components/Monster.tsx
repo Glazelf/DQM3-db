@@ -21,9 +21,6 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
   const [parentOptions, setParentOptions] = useState<Array<Array<string>> | undefined>(undefined);
   const [acquired, setAcquired] = useState<boolean>(false);
   const parentData = getMonsterByName(parent);
-  console.log(id)
-  console.log(selectedNode.id)
-  console.log(parent)
 
   if (!selectedNode) {
     console.log('something went wrong ' + id);
@@ -46,7 +43,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
             setParentOptions(parents);
           } else {
             setSelectedParentSet(formatParentString(parents[0]));
-          }
+          };
         } else {
           setSelectedParentSet(formatParentString(parents));
         };
@@ -97,7 +94,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
       <div className={generatedClassName} onClick={selectNode}>
         <ImageWithFallback
           alt={selectedValue}
-          src={`/monsters/${id}.jpeg`}
+          src={`/monsters/${id}.jpeg`} // Tried to make it get images by monster ID but doesn't seem to work :(
         />
       </div>
       {selectedParentSet && !acquired &&
