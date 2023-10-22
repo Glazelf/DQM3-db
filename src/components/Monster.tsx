@@ -88,6 +88,9 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
   }
 
   const generatedClassName = "monster-container" + (selectedNode.id === id ? " selected-node" : "");
+  console.log(id)
+  console.log(selectedNode.id)
+  console.log(parent)
 
   return (
     <div>
