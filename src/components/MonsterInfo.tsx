@@ -3,6 +3,10 @@ import React, { FC } from 'react';
 import { getMonsterByName, getMonsterListByParent, monsterNames } from '../helpers/monsterDataHelper';
 import { MonsterNode } from './types';
 import ParentSelector from './ParentSelector';
+// @ts-ignore
+import talentsJSON from '../../objects/talents';
+// @ts-ignore
+import traitsJSON from '../../objects/traits';
 
 interface MonsterInfoProps {
   selectedNode: MonsterNode;
@@ -129,7 +133,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
           <h3>Talents</h3>
           <ul>
             {monster.talents?.map((talent: string, index: number) => (
-              <li key={index}>{talent}</li>
+              <li key={index}>{talentsJSON[talent]?.name}</li>
             ))}
           </ul>
         </div>
@@ -140,7 +144,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
           <ul>
             {Object.keys(monster.traits?.small || {}).map((trait: string, index: number) => (
               <li key={index}>
-                {trait}: {monster.traits?.small[trait]}
+                {trait}: {traitsJSON[monster.traits?.small[trait]]?.name}
               </li>
             ))}
           </ul>
@@ -148,7 +152,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
           <ul>
             {Object.keys(monster.traits?.large || {}).map((trait: string, index: number) => (
               <li key={index}>
-                {trait}: {monster.traits?.large[trait]}
+                {trait}: {traitsJSON[monster.traits?.large[trait]]?.name}
               </li>
             ))}
           </ul>
