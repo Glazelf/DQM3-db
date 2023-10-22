@@ -94,11 +94,11 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
       <div className={generatedClassName} onClick={selectNode}>
         <ImageWithFallback
           alt={selectedValue}
-          src={`/monsters/${getMonsterByName(selectedValue)?.image}`}
+          src={`/monsters/${id}.jpeg`}
         />
       </div>
-      {selectedParentSet && !acquired && 
-        <Parents 
+      {selectedParentSet && !acquired &&
+        <Parents
           id={id}
           selected={selectedParentSet}
           selectedNode={selectedNode}
