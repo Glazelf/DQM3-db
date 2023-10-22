@@ -1,26 +1,37 @@
-'use client'
-
 import React, { FC, useState, useEffect } from 'react';
 // @ts-ignore  
 import monsters from '../../objects/monsters';
-import { getMonsterByName, getMonsterListByParent, monsterNames } from '../helpers/monsterDataHelper';
+import { formatParentString, getMonsterByName, getMonsterListByParent, monsterNames } from '../helpers/monsterDataHelper';
+import ImageWithFallback from './ImageWithFallback';
 import Parents from './Parents';
+import ParentSelector from './ParentSelector';
+import { MonsterNode } from './types';
 
 interface MonsterProps {
   id: string;
   parent: string;
+  setSelectedNode: Function;
+  selectedNode: MonsterNode;
   updateMonsterSet: Function;
 };
 
-const Monster: FC<MonsterProps> = ({ id, parent, updateMonsterSet }) => {
+const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, updateMonsterSet }) => {
   const [selectedValue, setSelectedValue] = useState<string>(parent);
   const [selectedParentSet, setSelectedParentSet] = useState<string | undefined>(undefined);
   const [parentOptions, setParentOptions] = useState<Array<Array<string>> | undefined>(undefined);
   const [acquired, setAcquired] = useState<boolean>(false);
-  const fullList = getMonsterListByParent(parent) || monsterNames();
-  const parentData = monsters[parent];
+  const parentData = getMonsterByName(parent);
+
+  if (!selectedNode) {
+    console.log('something went wrong ' + id);
+    return (<></>);
+  }
 
   useEffect(() => {
+    if (acquired) {
+      setParentOptions(undefined);
+      setSelectedParentSet(undefined);
+    }
     if (selectedValue && updateMonsterSet) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
@@ -38,7 +49,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, updateMonsterSet }) => {
         };
       };
     };
-  }, [selectedValue, updateMonsterSet]);
+  }, [selectedValue, updateMonsterSet, acquired]);
 
   useEffect(() => {
     if (parentData) {
@@ -46,61 +57,55 @@ const Monster: FC<MonsterProps> = ({ id, parent, updateMonsterSet }) => {
     }
   }, [parentData]);
 
+  useEffect(() => {
+    if (id === selectedNode.id) {
+      selectNode();
+    }
+  }, [acquired, id, parent, selectedNode.id, selectedValue])
+
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
   };
 
-  const updateParent = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedParentSet(event.target.value);
-  };
-
-  const formatParentString = (parentArray: Array<string>) => {
-    return parentArray?.join(' , ');
-  };
-
   const setMonsterAcquired = () => {
-    if (!acquired) {
-      setParentOptions(undefined);
-      setSelectedParentSet(undefined);
-    };
     setAcquired(!acquired);
   };
 
-  const renderParentSelect = () => (
-    <select
-      value={selectedParentSet}
-      onChange={updateParent}
-      className="parent-select"
-    >
-      {parentOptions?.map((parents: Array<string>) => (
-        <option key={formatParentString(parents)} value={formatParentString(parents)}>{formatParentString(parents)}</option>
-      ))}
-    </select>
-  );
+  const selectNode = () => {
+    const nodeInfo: MonsterNode = {
+      acquired: acquired,
+      id: id,
+      name: selectedValue,
+      parent: parent,
+      parentData: parentData,
+      parentOptions: parentOptions,
+      selectChange: handleSelectChange,
+      selectedParentSet: selectedParentSet,
+      setAcquired: setMonsterAcquired,
+      setSelectedParentSet: setSelectedParentSet,
+    };
+    setSelectedNode(nodeInfo);
+  }
+
+  const generatedClassName = "monster-container" + (selectedNode.id === id ? " selected-node" : "");
 
   return (
     <div>
-      <div className="monster-container">
-        <select
-          value={selectedValue}
-          onChange={handleSelectChange}
-          disabled={(parent && parentData) || acquired}
-        >
-          {fullList.map((monsterName: string) => (
-            <option key={monsterName} value={monsterName}>{monsterName}</option>
-          ))}
-        </select>
-        <label>
-          <input
-            type="checkbox"
-            checked={acquired}
-            onChange={setMonsterAcquired}
-          />
-          Acquired
-        </label>
-        {parentOptions && renderParentSelect()}
+      <div className={generatedClassName} onClick={selectNode}>
+        <ImageWithFallback
+          alt={selectedValue}
+          src={`/monsters/${id}.jpeg`}
+        />
       </div>
-      {selectedParentSet && !acquired && <Parents selected={selectedParentSet} id={id} updateMonsterSet={updateMonsterSet} />}
+      {selectedParentSet && !acquired &&
+        <Parents
+          id={id}
+          selected={selectedParentSet}
+          selectedNode={selectedNode}
+          setSelectedNode={setSelectedNode}
+          updateMonsterSet={updateMonsterSet}
+        />
+      }
     </div>
   );
 };

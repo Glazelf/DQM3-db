@@ -23,15 +23,13 @@ body {
   display: inline-block;
 }
 
-.all-monster-container {
+.monster-info-container {
   display: inline-block;
-  width: 78%;
+  width: 77%;
 }
 
-.selected-monster {
-  height: 75px;
-  width: 75px;
-  border: 1px solid white;
+.selected-node {
+  border: 3px solid white !important;
 }
 
 .talent-container {
@@ -39,7 +37,7 @@ body {
   float: left;
   width: 10%;
   border: 2px white solid;
-  height: 70vh;
+  height: 380px;
   margin-top: 16px;
   margin-left: 8px;
 }
@@ -63,22 +61,75 @@ body {
 }
 
 .monster-container {
-  width: 9%;
+  width: 75px;
+  height: 75px;
   margin-left: auto;
   margin-right: auto;
   color: black;
   margin-bottom: 8px;
+  border: 1px solid #f8f4e3;
+  border-radius: 2px;
+}
+
+.selected-monster {
+  height: 75px;
+  width: 75px;
 }
 
 .monster-details {
-  background-color: #f8f4e3; /* Off-white background color */
-  padding: 20px; /* Adjust padding as needed */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 10); /* Box shadow for the box */
+  display: flex;
+  width: 95%;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
 
-  /* Text styles */
-  color: #2d2d2d; /* Old ink-looking text color */
-  font-family: 'Times New Roman', Times, serif; /* Adjust the font-family */
-  font-size: 16px; /* Adjust the font size */
+  height: 355px;
+
+  background: linear-gradient(to bottom, #ffffff, #f8f4e3);
+
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+
+  color: #2d2d2d;
+  font-size: 16px;
+  margin-bottom: 16px;
+
+  position: relative;
+}
+
+.monster-details-select {
+  max-height: 30px;
+  min-height: 30px;
+}
+
+.monster-detail-select {
+  position: absolute;
+  left: 128px;
+  bottom: 8px;
+}
+
+.parent-detail-select {
+  position: absolute;
+  left: 256px;
+  bottom: 8px;
+}
+
+.acquired-container {
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+}
+
+.monster-details-overview {
+  display: inline-block;
+}
+
+.monster-details-growth {
+  margin: 8px 16px 8px 16px;
+}
+
+.monster-talents-and-traits {
+  margin: 8px 16px 8px 16px;
 }
 
 .parent-select {
@@ -97,15 +148,63 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   float: right;
-  width: 10%;
+  width: 11%;
   border: 2px white solid;
-  height: 70vh;
+  height: 380px;
   margin-right: 8px;
   margin-top: 16px;
 }
 
 .family-icon-container {
+  margin-left: 8px;
   display: flex;
   flex-direction: column;
-  width: 50%;
+}
+
+.dragon-quest-table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.dragon-quest-table th,
+.dragon-quest-table td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.dragon-quest-table th {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dragon-quest-table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+.dragon-quest-table th:first-child,
+.dragon-quest-table td:first-child {
+  border-left: none;
+}
+
+.dragon-quest-table th:last-child,
+.dragon-quest-table td:last-child {
+  border-right: none;
+}
+
+.fallback-name {
+  color: white;
+  width: 100%; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.monster-tree-container {
+  max-height: 400px;
+  overflow-y: scroll;
 }
