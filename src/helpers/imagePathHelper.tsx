@@ -5,4 +5,4 @@ const getImagePath = () => {
   return 'DQM3-db/';
 };
 
-export { getImagePath }; 
+export { getImagePath };

@@ -15,21 +15,21 @@ const Parents: FC<ParentsProps> = ({ id, selected, selectedNode, setSelectedNode
   return (
     <div>
       <div className="set">
-        <Monster 
+        <Monster
           id={`${id}L`}
-          parent={getMonsterNameById(selected.split(',')[0].trim())} 
+          parent={getMonsterNameById(selected.split(',')[0].trim())}
           selectedNode={selectedNode}
           setSelectedNode={setSelectedNode}
-          updateMonsterSet={updateMonsterSet} 
+          updateMonsterSet={updateMonsterSet}
         />
       </div>
       <div className="set">
-        <Monster 
+        <Monster
           id={`${id}R`}
           parent={getMonsterNameById(selected.split(',')[1].trim())}
           selectedNode={selectedNode}
           setSelectedNode={setSelectedNode}
-          updateMonsterSet={updateMonsterSet} 
+          updateMonsterSet={updateMonsterSet}
         />
       </div>
     </div>

@@ -10,13 +10,13 @@ interface MonsterInfoProps {
 
 const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
   const {
-    acquired, 
-    id, 
-    name, 
-    parent, 
-    parentData, 
-    parentOptions, 
-    selectChange, 
+    acquired,
+    id,
+    name,
+    parent,
+    parentData,
+    parentOptions,
+    selectChange,
     selectedParentSet,
     setAcquired,
     setSelectedParentSet,
@@ -26,7 +26,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
 
   if (id === '') {
     return (
-      <div className="monster-details"> 
+      <div className="monster-details">
         Select a node
       </div>
     );
@@ -34,7 +34,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
 
   if (!monster && (name === '' || name.indexOf('_') === 0)) {
     return (
-      <div className="monster-details"> 
+      <div className="monster-details">
         <select
           className='monster-details-select'
           value={name}
@@ -51,7 +51,7 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
 
   if (!monster && name !== '') {
     return (
-      <div className="monster-details"> 
+      <div className="monster-details">
         Monster Not Found!
       </div>
     );
@@ -81,16 +81,16 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
             <option key={`select-${monsterName}`} value={monsterName}>{monsterName}</option>
           ))}
         </select>
-        {parentOptions && !acquired && 
+        {parentOptions && !acquired &&
           <ParentSelector
-            parentOptions={parentOptions} 
-            selectedParentSet={selectedParentSet} 
+            parentOptions={parentOptions}
+            selectedParentSet={selectedParentSet}
             setSelectedParentSet={setSelectedParentSet}
           />
         }
         <div className="acquired-container">
           <label>
-             <input
+            <input
               type="checkbox"
               checked={acquired}
               onChange={setAcquired}

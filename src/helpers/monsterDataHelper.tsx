@@ -1,6 +1,5 @@
 // @ts-ignore  
 import monsters from '../../objects/monsters';
-import synthesis from '../../util/synthesis';
 
 const monsterKeys = Object.keys(monsters).sort();
 
@@ -31,12 +30,12 @@ const isFamily = (family: string) => family.indexOf('_') === 0;
 
 const formatFamilyName = (family: string) => family.charAt(1).toUpperCase() + family.slice(2)
 
-export { 
+export {
   formatFamilyName,
-  formatParentString, 
-  getMonsterByName, 
-  getMonsterListByParent, 
-  getMonsterNameById, 
+  formatParentString,
+  getMonsterByName,
+  getMonsterListByParent,
+  getMonsterNameById,
   isFamily,
-  monsterNames 
+  monsterNames
 }; 

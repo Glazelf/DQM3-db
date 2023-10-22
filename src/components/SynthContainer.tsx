@@ -14,9 +14,9 @@ const SynthContainer = () => {
     name: '',
     parent: '',
     parentData: '',
-    selectChange: (event: ChangeEvent<HTMLSelectElement>) => {},
-    setAcquired: (event: ChangeEvent<HTMLInputElement>) => {},
-    setSelectedParentSet: (value: string) => {},
+    selectChange: (event: ChangeEvent<HTMLSelectElement>) => { },
+    setAcquired: (event: ChangeEvent<HTMLInputElement>) => { },
+    setSelectedParentSet: (value: string) => { },
   };
   const [filterFamily, setFilterFamily] = useState<string>('');
   const [monsterIdSet, setMonsterIdSet] = useState<Array<string>>([]);
@@ -42,7 +42,7 @@ const SynthContainer = () => {
       </div>
       <FamilySelector updateFilter={updateFilter} />
       <div className="monster-tree-container">
-        <Monster 
+        <Monster
           id='c'
           parent={filterFamily}
           setSelectedNode={setSelectedNode}

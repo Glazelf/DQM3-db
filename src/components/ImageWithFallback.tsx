@@ -33,15 +33,15 @@ const ImageWithFallback: FC<ImageWithFallbackProps> = ({ src, alt }) => {
   }, [src]);
 
   return (
-    <> 
+    <>
       {!imageError && <img
-          className='selected-monster'
-          src={src}
-          alt={alt}
-          onError={handleImageError}
-        />
+        className='selected-monster'
+        src={src}
+        alt={alt}
+        onError={handleImageError}
+      />
       }
-      {imageError && 
+      {imageError &&
         <div className='fallback-name'>
           {shortenedName(alt)}
         </div>
