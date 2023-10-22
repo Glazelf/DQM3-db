@@ -21,17 +21,20 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
   const [parentOptions, setParentOptions] = useState<Array<Array<string>> | undefined>(undefined);
   const [acquired, setAcquired] = useState<boolean>(false);
   const parentData = getMonsterByName(parent);
+  console.log(id)
+  console.log(selectedNode.id)
+  console.log(parent)
 
   if (!selectedNode) {
     console.log('something went wrong ' + id);
     return (<></>);
-  }
+  };
 
   useEffect(() => {
     if (acquired) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
-    }
+    };
     if (selectedValue && updateMonsterSet) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
@@ -61,7 +64,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
     if (id === selectedNode.id) {
       selectNode();
     }
-  }, [acquired, id, parent, selectedNode.id, selectedValue])
+  }, [acquired, id, parent, selectedNode.id, selectedValue]);
 
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
@@ -85,12 +88,9 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
       setSelectedParentSet: setSelectedParentSet,
     };
     setSelectedNode(nodeInfo);
-  }
+  };
 
   const generatedClassName = "monster-container" + (selectedNode.id === id ? " selected-node" : "");
-  console.log(id)
-  console.log(selectedNode.id)
-  console.log(parent)
 
   return (
     <div>
