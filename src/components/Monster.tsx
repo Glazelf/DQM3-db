@@ -25,13 +25,13 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
   if (!selectedNode) {
     console.log('something went wrong ' + id);
     return (<></>);
-  };
+  }
 
   useEffect(() => {
     if (acquired) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
-    };
+    }
     if (selectedValue && updateMonsterSet) {
       setParentOptions(undefined);
       setSelectedParentSet(undefined);
@@ -43,7 +43,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
             setParentOptions(parents);
           } else {
             setSelectedParentSet(formatParentString(parents[0]));
-          };
+          }
         } else {
           setSelectedParentSet(formatParentString(parents));
         };
@@ -61,7 +61,7 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
     if (id === selectedNode.id) {
       selectNode();
     }
-  }, [acquired, id, parent, selectedNode.id, selectedValue]);
+  }, [acquired, id, parent, selectedNode.id, selectedValue])
 
   const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
@@ -85,16 +85,18 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
       setSelectedParentSet: setSelectedParentSet,
     };
     setSelectedNode(nodeInfo);
-  };
+  }
 
   const generatedClassName = "monster-container" + (selectedNode.id === id ? " selected-node" : "");
+
+  const formatNameToId = (name: string) => name.toLowerCase().replaceAll(' ', '_');
 
   return (
     <div>
       <div className={generatedClassName} onClick={selectNode}>
         <ImageWithFallback
           alt={selectedValue}
-          src={`/monsters/${id}.jpeg`} // Tried to make it get images by monster ID but doesn't seem to work :(
+          src={formatNameToId(selectedValue)}
         />
       </div>
       {selectedParentSet && !acquired &&
