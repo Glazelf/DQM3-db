@@ -9,10 +9,17 @@ interface ImageWithFallbackProps {
 
 const ImageWithFallback: FC<ImageWithFallbackProps> = ({ src, alt }) => {
   const [imageError, setImageError] = useState<boolean>(false);
+  let formattedSource = '';
 
   const handleImageError = () => {
     setImageError(true);
   };
+
+  if (isFamily(src)) {
+    formattedSource = `/families/${src}_icon.png`;
+  } else {
+    formattedSource = `/monsters/${src}.jpg`;
+  }
 
   const shortenedName = (name: string) => {
     if (isFamily(name)) {
@@ -27,16 +34,15 @@ const ImageWithFallback: FC<ImageWithFallbackProps> = ({ src, alt }) => {
   useEffect(() => {
     setImageError(false);
     const img = new Image();
-    img.src = src;
-
+    
     img.onerror = handleImageError;
-  }, [src]);
+  }, [formattedSource]);
 
   return (
     <>
       {!imageError && <img
         className='selected-monster'
-        src={src}
+        src={formattedSource}
         alt={alt}
         onError={handleImageError}
       />

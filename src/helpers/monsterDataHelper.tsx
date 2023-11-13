@@ -26,13 +26,18 @@ const formatParentString = (parentArray: Array<string>) => {
   return parentArray?.join(' , ');
 };
 
-const isFamily = (family: string) => family.indexOf('_') === 0;
+const isFamily = (family: string) => family?.indexOf('_') === 0;
 
-const formatFamilyName = (family: string) => family.charAt(1).toUpperCase() + family.slice(2)
+const formatFamilyName = (family: string) => family.charAt(1).toUpperCase() + family.slice(2);
+
+const getIdByName = (name: string) => {
+  return monsterKeys.filter((key) => monsters[key].name === name)[0];
+};
 
 export {
   formatFamilyName,
   formatParentString,
+  getIdByName,
   getMonsterByName,
   getMonsterListByParent,
   getMonsterNameById,
