@@ -1,10 +1,10 @@
 import React, { FC, useState, useEffect } from 'react';
 // @ts-ignore  
 import monsters from '../../objects/monsters';
-import { 
-  formatParentString, 
+import {
+  formatParentString,
   getIdByName,
-  getMonsterByName, 
+  getMonsterByName,
   getMonsterListByParent,
   monsterNames,
 } from '../helpers/monsterDataHelper';
