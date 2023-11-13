@@ -1,7 +1,13 @@
 import React, { FC, useState, useEffect } from 'react';
 // @ts-ignore  
 import monsters from '../../objects/monsters';
-import { formatParentString, getMonsterByName, getMonsterListByParent, monsterNames } from '../helpers/monsterDataHelper';
+import { 
+  formatParentString, 
+  getIdByName,
+  getMonsterByName, 
+  getMonsterListByParent,
+  monsterNames,
+} from '../helpers/monsterDataHelper';
 import ImageWithFallback from './ImageWithFallback';
 import Parents from './Parents';
 import ParentSelector from './ParentSelector';
@@ -89,14 +95,12 @@ const Monster: FC<MonsterProps> = ({ id, parent, setSelectedNode, selectedNode, 
 
   const generatedClassName = "monster-container" + (selectedNode.id === id ? " selected-node" : "");
 
-  const formatNameToId = (name: string) => name.toLowerCase().replaceAll(' ', '_');
-
   return (
     <div>
       <div className={generatedClassName} onClick={selectNode}>
         <ImageWithFallback
           alt={selectedValue}
-          src={formatNameToId(selectedValue)}
+          src={getIdByName(selectedValue) || selectedValue}
         />
       </div>
       {selectedParentSet && !acquired &&
