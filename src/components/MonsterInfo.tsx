@@ -9,6 +9,8 @@ import talentsJSON from '../../objects/talents';
 import traitsJSON from '../../objects/traits';
 // @ts-ignore
 import resistancesJSON from '../../objects/resistances';
+// @ts-ignore
+import itemsJSON from '../../objects/items';
 
 interface MonsterInfoProps {
   selectedNode: MonsterNode;
@@ -74,8 +76,8 @@ const MonsterInfo: FC<MonsterInfoProps> = ({ selectedNode }) => {
 
         <div className="monster-details-drops">
           <h3>Drops</h3>
-          <p>Normal Drop: {monster.drops?.normal}</p>
-          <p>Rare Drop: {monster.drops?.rare}</p>
+          <p>Normal Drop: {itemsJSON[monster.drops?.normal]?.name}</p>
+          <p>Rare Drop: {itemsJSON[monster.drops?.rare]?.name}</p>
         </div>
         <select
           className="monster-detail-select"
