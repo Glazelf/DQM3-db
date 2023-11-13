@@ -16,9 +16,9 @@ const ImageWithFallback: FC<ImageWithFallbackProps> = ({ src, alt }) => {
   };
 
   if (isFamily(src)) {
-    formattedSource = `/families/${src}_icon.png`;
+    formattedSource = `families/${src}_icon.png`;
   } else {
-    formattedSource = `/monsters/${src}.jpg`;
+    formattedSource = `monsters/${src}.jpg`;
   }
 
   const shortenedName = (name: string) => {
@@ -34,7 +34,7 @@ const ImageWithFallback: FC<ImageWithFallbackProps> = ({ src, alt }) => {
   useEffect(() => {
     setImageError(false);
     const img = new Image();
-    
+
     img.onerror = handleImageError;
   }, [formattedSource]);
 
