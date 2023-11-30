@@ -5,7 +5,7 @@
     },
     "tactical_commander": {
         "name": "Tactical Commander",
-        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
+        "description": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
     },
     "tactical_genius": {
         "name": "Tactical Genius",
