@@ -59,6 +59,10 @@
         "name": "Rando-Relief",
         "description": "Sometimes uses Wave of Relief during battle."
     },
+    "rando_disrupt": {
+        "name": "Rando-Disrupt",
+        "description": "Sometimes uses Disruptive Wave during battle."
+    },
     "rando_muster": {
         "name": "Rando-Muster",
         "description": "Sometimes uses Muster Strength during battle."
