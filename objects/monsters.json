@@ -2768,6 +2768,67 @@
             ]
         ]
     },
+    "crabid": {
+        "name": "Crabid",
+        "number": 160,
+        "rank": "E",
+        "family": "_nature",
+        "description": "These monsters hunt their prey in squadrons. Highly disciplined troops, as soon as the orders come in from the top brass, they file back to their barracks in an orderly fashion.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "waterproof_armband"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 4,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "defender"
+        ],
+        "traits": {
+            "small": {
+                "agent_of_chaos": 1,
+                "insta_buff": 20,
+                "ultra_crafty_debilitator": 40
+            },
+            "large": {
+                "tactical_titan": 1,
+                "desperate_measures": 1,
+                "parting_gift": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
     "antguzzler": {
         "name": "Antguzzler",
         "number": 205,
@@ -9590,7 +9651,7 @@
         "synthesis": [
             [
                 "pickayune",
-                "Blinkster"
+                "blinkster"
             ]
         ]
     },
