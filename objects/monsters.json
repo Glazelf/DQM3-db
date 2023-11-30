@@ -3397,8 +3397,11 @@
         "number": 300,
         "rank": "F",
         "family": "_material",
-        "description": null,
-        "drops": null,
+        "description": "Merciless mechs made to hunt metallic slimes. Sick of their swift and cowardly quarry, they hope they'll be upgraded into killing machines one day.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
         "growth": {
             "hp": 1,
             "mp": 1,
