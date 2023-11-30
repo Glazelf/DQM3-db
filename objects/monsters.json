@@ -513,7 +513,11 @@
         "number": 10,
         "rank": "G",
         "family": "_slime",
-        "description": null,
+        "description": "These vegetable monsters simply sprouted from the earth one day. Their shrieks are said to root anyone who hears them to the spot.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
         "growth": {
             "hp": 1,
             "mp": 3,
@@ -531,7 +535,11 @@
                 "evasive_impulse": 20,
                 "ace_evader": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "critical_moment": 1,
+                "collective_punishment": 60
+            }
         },
         "resistances": {
             "fire": 0,
@@ -900,6 +908,75 @@
             ]
         ]
     },
+    "drake_slime": {
+        "name": "Drake Slime",
+        "number": 18,
+        "rank": "F",
+        "family": "_slime",
+        "description": {
+            "normal": "monster_manure",
+            "rare": "seed_of_agility"
+        },
+        "drops": "These orange slimes love dragons so much they've sculpted their own bodies into imitations to their idols. They long to grow up to be fully-fledged dragons.",
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 1
+        },
+        "talents": [
+            "shallow_breather"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "insta_accel": 20,
+                "critical_moment": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ultra_crafty_frizzer": 1,
+                "frizzmeister": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ],
+            [
+                "wing_slime",
+                "small_fry"
+            ],
+            [
+                "slime",
+                "_dragon"
+            ]
+        ]
+    },
     "dragonthorn": {
         "name": "Dragonthorn",
         "number": 65,
@@ -1256,6 +1333,75 @@
             [
                 "dragonthorn",
                 "picksy"
+            ]
+        ]
+    },
+    "jargon": {
+        "name": "Jargon",
+        "number": 80,
+        "rank": "F",
+        "family": "_dragon",
+        "description": "These chaps will shove anything and everything into their beloved jars--pickles, preserves, jams, chutneys... Oh, and the occasional weapon too.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_dazzler": 1,
+                "critical_moment": 20,
+                "rando_oomph": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "little_menace": 1,
+                "ultra_crafty_frizzer": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ],
+            [
+                "komodo",
+                "airbagon"
+            ],
+            [
+                "airbagon",
+                "_beast"
             ]
         ]
     },
@@ -2138,6 +2284,136 @@
             ]
         ]
     },
+    "odd_cob": {
+        "name": "Odd Cob",
+        "number": 150,
+        "rank": "F",
+        "family": "_nature",
+        "description": "Diabolic cobs of corn. Rumour has it that popping their kernels over a medium heat will turn them into a slightly odd-tasting but perfectly palatable popcorn.",
+        "drops": {
+            "normal": "rockbomb_shard",
+            "rare": "seed_of_resilience"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "willing_helper"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_paralyser": 1,
+                "low_heal": 20,
+                "bigger_upper": 40
+            },
+            "large": {
+                "tactical_titan": 1,
+                "unhealthy_advantage": 1,
+                "parting_gift": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 75,
+            "wind": 0,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ],
+            [
+                "capsichum",
+                "lunatick"
+            ],
+            [
+                "cruelcumber",
+                "_undead"
+            ]
+        ]
+    },
+    "scissor_beatle": {
+        "name": "Scissor Beatle",
+        "number": 154,
+        "rank": "F",
+        "family": "_nature",
+        "description": "Nothing escapes the clutches of their two tremendous mandibles. Often found clashing with rival creepy-crawlies over the sap of unfortunate treefaces.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "hive_mind"
+        ],
+        "traits": {
+            "small": {
+                "insta_buff": 1,
+                "rando_oomph": 20,
+                "insta_bounce": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "rando_buff": 1,
+                "bigger_upper": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
     "antguzzler": {
         "name": "Antguzzler",
         "number": 205,
@@ -2652,6 +2928,67 @@
             ]
         ]
     },
+    "cumaulus": {
+        "name": "Cumaulus",
+        "number": 280,
+        "rank": "G",
+        "family": "_material",
+        "description": "These creatures are clumps of living cloud. Often at the mercy of the weather, you might clap eyes on a stray cumaulus on an especially windy day.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_agility"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 1,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "woosh_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "ace_evader": 1,
+                "benefaction": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "static_discharge": 1,
+                "wooshmeister": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
     "lampling": {
         "name": "Lampling",
         "number": 288,
@@ -3052,6 +3389,64 @@
             [
                 "_dragon",
                 "_material"
+            ]
+        ]
+    },
+    "hunter_mech": {
+        "name": "Hunter Mech",
+        "number": 300,
+        "rank": "F",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": {
+            "hp": 1,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "blade_maven"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "metal_beater": 20,
+                "static_discharge": 40
+            },
+            "large": {
+                "dodge_denier": 1,
+                "critical_sensation": 1,
+                "stunning_touch": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 25,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_material",
+                "restless_armour"
             ]
         ]
     },
@@ -4342,68 +4737,6 @@
             ]
         ]
     },
-    "drake_slime": {
-        "name": "Drake Slime",
-        "number": null,
-        "rank": "F",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 3,
-            "atk": 2,
-            "def": 2,
-            "agi": 3,
-            "wis": 1
-        },
-        "talents": [
-            "shallow_breather"
-        ],
-        "traits": {
-            "small": {
-                "ace_evader": 1,
-                "insta_accel": 20,
-                "critical_moment": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 50,
-            "water": 0,
-            "wind": 0,
-            "earth": -25,
-            "explosions": 50,
-            "ice": 0,
-            "electricity": 50,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": 50,
-            "antimagic": 25,
-            "mp_absorption": -25,
-            "confusion": 0,
-            "sleep": 25,
-            "paralysis": 50,
-            "stun": 0,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_slime",
-                "_dragon"
-            ],
-            [
-                "wing_slime",
-                "small_fry"
-            ],
-            [
-                "slime",
-                "_dragon"
-            ]
-        ]
-    },
     "onion_slime": {
         "name": "Onion Slime",
         "number": null,
@@ -4578,60 +4911,6 @@
             ]
         ]
     },
-    "cumaulus": {
-        "name": "Cumaulus",
-        "number": null,
-        "rank": "G",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 2,
-            "atk": 2,
-            "def": 1,
-            "agi": 2,
-            "wis": 3
-        },
-        "talents": [
-            "woosh_afficionado"
-        ],
-        "traits": {
-            "small": {
-                "ace_evader": 1,
-                "benefaction": 20,
-                "ultra_crafty_woosher": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": -25,
-            "earth": 25,
-            "explosions": 50,
-            "ice": 50,
-            "electricity": 50,
-            "light": 0,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 25,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 0,
-            "stun": 25,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_nature",
-                "_material"
-            ]
-        ]
-    },
     "avian_android": {
         "name": "Avian Android",
         "number": null,
@@ -4691,122 +4970,6 @@
             [
                 "mecha_mynah",
                 "_nature"
-            ]
-        ]
-    },
-    "scissor_beatle": {
-        "name": "Scissor Beatle",
-        "number": null,
-        "rank": "F",
-        "family": "_nature",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 2,
-            "def": 4,
-            "agi": 2,
-            "wis": 1
-        },
-        "talents": [
-            "hive_mind"
-        ],
-        "traits": {
-            "small": {
-                "insta_buff": 1,
-                "rando_oomph": 20,
-                "insta_bounce": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 50,
-            "wind": 25,
-            "earth": 50,
-            "explosions": -25,
-            "ice": 0,
-            "electricity": 0,
-            "light": 25,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": 25,
-            "antimagic": 25,
-            "mp_absorption": 0,
-            "confusion": 0,
-            "sleep": 50,
-            "paralysis": 50,
-            "stun": -25,
-            "poison": 25,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_nature",
-                "_material"
-            ]
-        ]
-    },
-    "odd_cob": {
-        "name": "Odd Cob",
-        "number": null,
-        "rank": "F",
-        "family": "_nature",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 3,
-            "atk": 3,
-            "def": 2,
-            "agi": 3,
-            "wis": 2
-        },
-        "talents": [
-            "willing_helper"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_paralyser": 1,
-                "low_heal": 20,
-                "bigger_upper": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 75,
-            "wind": 0,
-            "earth": 50,
-            "explosions": -25,
-            "ice": 0,
-            "electricity": 0,
-            "light": 0,
-            "dark": 50,
-            "debilitation": 50,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": -25,
-            "confusion": 0,
-            "sleep": 50,
-            "paralysis": 50,
-            "stun": -25,
-            "poison": 0,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_nature",
-                "_undead"
-            ],
-            [
-                "capsichum",
-                "lunatick"
-            ],
-            [
-                "cruelcumber",
-                "_undead"
             ]
         ]
     },
@@ -5263,68 +5426,6 @@
             [
                 "stark_raven",
                 "skipper"
-            ]
-        ]
-    },
-    "jargon": {
-        "name": "Jargon",
-        "number": null,
-        "rank": "F",
-        "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 2,
-            "mp": 1,
-            "atk": 3,
-            "def": 3,
-            "agi": 2,
-            "wis": 1
-        },
-        "talents": [
-            "blazer"
-        ],
-        "traits": {
-            "small": {
-                "ultra_crafty_dazzler": 1,
-                "critical_moment": 20,
-                "rando_oomph": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 50,
-            "water": -25,
-            "wind": 0,
-            "earth": 0,
-            "explosions": 50,
-            "ice": 0,
-            "electricity": 25,
-            "light": 25,
-            "dark": 25,
-            "debilitation": 0,
-            "bedazzlement": 50,
-            "antimagic": 0,
-            "mp_absorption": 25,
-            "confusion": 0,
-            "sleep": 0,
-            "paralysis": 50,
-            "stun": 50,
-            "poison": -25,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_dragon",
-                "_beast"
-            ],
-            [
-                "komodo",
-                "airbagon"
-            ],
-            [
-                "airbagon",
-                "_beast"
             ]
         ]
     },
@@ -7719,60 +7820,6 @@
             [
                 "cruelcumber",
                 "picksy"
-            ]
-        ]
-    },
-    "hunter_mech": {
-        "name": "Hunter Mech",
-        "number": null,
-        "rank": "F",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": {
-            "hp": 1,
-            "mp": 1,
-            "atk": 3,
-            "def": 3,
-            "agi": 2,
-            "wis": 1
-        },
-        "talents": [
-            "blade_maven"
-        ],
-        "traits": {
-            "small": {
-                "tactical_trooper": 1,
-                "metal_beater": 20,
-                "static_discharge": 40
-            },
-            "large": null
-        },
-        "resistances": {
-            "fire": 0,
-            "water": 0,
-            "wind": -25,
-            "earth": 0,
-            "explosions": 50,
-            "ice": 50,
-            "electricity": 50,
-            "light": 25,
-            "dark": 0,
-            "debilitation": 25,
-            "bedazzlement": 0,
-            "antimagic": 0,
-            "mp_absorption": 0,
-            "confusion": 50,
-            "sleep": -25,
-            "paralysis": 0,
-            "stun": 50,
-            "poison": 50,
-            "instant_death": 0
-        },
-        "synthesis": [
-            [
-                "_material",
-                "restless_armour"
             ]
         ]
     },
