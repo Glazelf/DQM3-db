@@ -345,6 +345,12 @@
         "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
         "mp_cost": 15
     },
+    "gigaslash": {
+        "name": "Gigaslash",
+        "type": "Attack",
+        "description": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 20
+    },
     "slime_squisher": {
         "name": "Slime Squisher",
         "type": "Attack",
@@ -380,6 +386,12 @@
         "type": "Attack",
         "description": "Inflicts heavy slashing damage on monsters in the undead family.",
         "mp_cost": 4
+    },
+    "shining_shot": {
+        "name": "Shining Shot",
+        "type": "Attack",
+        "description": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total.",
+        "mp_cost": 100
     },
     "multislash": {
         "name": "Multislash",
@@ -500,6 +512,12 @@
         "type": "Attack",
         "description": "Inflicts minor earth-elemental spell damage on a single enemy.",
         "mp_cost": 4
+    },
+    "lightning_storm": {
+        "name": "Lightning Storm",
+        "type": "Attack",
+        "description": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 52
     },
     "stomp": {
         "name": "Stomp",
@@ -638,6 +656,12 @@
         "type": "Status",
         "description": "Exhales toxic fumes that poison all enemies.",
         "mp_cost": 3
+    },
+    "fan_dango": {
+        "name": "Fan Dango",
+        "type": "Attack",
+        "description": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted.",
+        "mp_cost": 8
     },
     "sword_dance": {
         "name": "Sword Dance",

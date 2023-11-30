@@ -941,9 +941,30 @@
             "critical_meltdown": 85,
             "selflessness": 100
         },
-        "defense_4": [
-            10
-        ]
+        "traits": {
+            "defense_4": [
+                10
+            ]
+        }
+    },
+    "just_ruler": {
+        "name": "Just Ruler",
+        "skills": {
+            "midheal": 3,
+            "kabuff": 10,
+            "zapple": 30,
+            "selflessness": 50,
+            "zing": 70,
+            "fan_dango": 85,
+            "shining_shot": 100,
+            "gigaslash": 120,
+            "lightning_storm": 150
+        },
+        "traits": {
+            "attack_16": [
+                20
+            ]
+        }
     },
     "irritant": {
         "name": "Irritant",

@@ -1038,6 +1038,67 @@
             ]
         ]
     },
+    "king_slime": {
+        "name": "King Slime",
+        "number": 31,
+        "rank": "D",
+        "family": "_slime",
+        "description": "This solemn sovereign reigns over slimekind. Its regal rotundity is only matched by its great surplus of spirit.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "just_ruler"
+        ],
+        "traits": {
+            "small": {
+                "miraculous_touch": 1,
+                "detox": 20,
+                "rando_relief": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "close_scraper": 1,
+                "little_menace": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 50,
+            "dark": -25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "slime",
+                "jargon"
+            ]
+        ]
+    },
     "dragonthorn": {
         "name": "Dragonthorn",
         "number": 65,
