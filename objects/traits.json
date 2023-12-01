@@ -287,6 +287,10 @@
         "name": "Detox",
         "description": "Sometimes cures allies of poison, severe poison and paralysis during battle."
     },
+    "decontaminate": {
+        "name": "Decontaminate",
+        "description": "Sometimes cures allies of sleep, confusion, poison, severe poison and paralysis during battle."
+    },
     "heaven_sent": {
         "name": "Heaven-Sent",
         "description": "Sometimes greatly increases attack, defence, agility or wisdom during battle."
@@ -502,6 +506,10 @@
     "defence_24": {
         "name": "Defence +24",
         "description": "Raises defence by 24."
+    },
+    "defence_40": {
+        "name": "Defence +40",
+        "description": "Raises defence by 40."
     },
     "agility_4": {
         "name": "Agility +4",

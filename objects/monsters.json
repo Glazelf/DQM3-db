@@ -2890,6 +2890,67 @@
             ]
         ]
     },
+    "palooka_prawn": {
+        "name": "Palooka Prawn",
+        "number": 175,
+        "rank": "D",
+        "family": "_nature",
+        "description": "These shelled sluggers, sick of life at sea, only want to prove to all the doubters that they can go the distance living on land.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 3,
+            "atk": 3,
+            "def": 4,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "protector"
+        ],
+        "traits": {
+            "small": {
+                "defensive_impulse": 1,
+                "critical_triumph": 20,
+                "tit_for_tat": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "insta_buff": 1,
+                "decontaminate": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": -25,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "crabid",
+                "_material"
+            ]
+        ]
+    },
     "antguzzler": {
         "name": "Antguzzler",
         "number": 205,

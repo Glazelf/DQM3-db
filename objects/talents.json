@@ -734,7 +734,7 @@
         "name": "Martyr",
         "skills": {
             "whack": 3,
-            "intense_defense": 20,
+            "intense_defence": 20,
             "selflessness": 50,
             "anchorman": 70,
             "kamikazee": 85,
@@ -937,7 +937,7 @@
             "kabuff": 20,
             "mist_me": 30,
             "knuckle_sandwich": 50,
-            "intense_defense": 70,
+            "intense_defence": 70,
             "critical_meltdown": 85,
             "selflessness": 100
         },
@@ -963,6 +963,27 @@
         "traits": {
             "attack_16": [
                 20
+            ]
+        }
+    },
+    "protector": {
+        "name": "Protector",
+        "skills": {
+            "attack_attacker": 3,
+            "gobstopper": 10,
+            "kabuff": 20,
+            "fizzle": 30,
+            "intense_defence": 70,
+            "mist_me": 85,
+            "selflessness": 100,
+            "bounce": 150
+        },
+        "traits": {
+            "max_hp_8": [
+                50
+            ],
+            "defence_40": [
+                120
             ]
         }
     },
