@@ -135,8 +135,8 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
 
 "@types/node@latest":
-  version "20.8.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.10.tgz#a5448b895c753ae929c26ce85cab557c6d4a365e"
+  version "20.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.2.tgz#32a5e8228357f57714ad28d52229ab04880c2814"
   dependencies:
     undici-types "~5.26.4"
 
