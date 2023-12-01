@@ -947,6 +947,27 @@
             ]
         }
     },
+    "evil_genius": {
+        "name": "Evil Genius",
+        "skills": {
+            "kasap": 3,
+            "confusion_attack": 10,
+            "frenzy": 20,
+            "katox": 30,
+            "kanumb": 50,
+            "thwack": 70,
+            "multi_persecutter": 85,
+            "giga_drain_magic": 150
+        },
+        "traits": {
+            "ultra_fidget": [
+                100
+            ],
+            "ultra_antitoxidant": [
+                120
+            ]
+        }
+    },
     "just_ruler": {
         "name": "Just Ruler",
         "skills": {

@@ -167,6 +167,10 @@
         "name": "Critical Sensation",
         "description": "Makes it much easier to inflict critical hits."
     },
+    "critical_theorist": {
+        "name": "Critical Theorist",
+        "description": "Makes it somewhat easier to cast critical spells."
+    },
     "critical_moment": {
         "name": "Critical Moment",
         "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
@@ -602,5 +606,9 @@
     "ultra_drain_blocker": {
         "name": "Ultra Drain Blocker",
         "description": "Greatly increases resistance to MP absorption."
+    },
+    "ultra_fidget": {
+        "name": "Ultra Fidget",
+        "description": "Greatly increases resistance to paralysis."
     }
 }

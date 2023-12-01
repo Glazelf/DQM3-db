@@ -5148,6 +5148,67 @@
         "family": "_demon",
         "description": null
     },
+    "hypothermion": {
+        "name": "Hypothermion",
+        "number": 385,
+        "rank": "D",
+        "family": "_demon",
+        "description": "Part of the underworld's upper crust, these chilling creatures operate as shady string-pullers, particularly skilled at lurking in the sahdows in service to their master.",
+        "drops": {
+            "normal": "sages_elixir",
+            "rare": "champions_choker"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "evil_genius"
+        ],
+        "traits": {
+            "small": {
+                "ulrta_crafty_whacker": 1,
+                "rando_ping": 20,
+                "ultra_crafty_cracker": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "critical_theorist": 1,
+                "deadly_touch": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 50
+        },
+        "synthesis": [
+            [
+                "beleth",
+                "_undead"
+            ]
+        ]
+    },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,

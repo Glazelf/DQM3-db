@@ -263,6 +263,12 @@
         "description": "Absorbs some MP from a single enemy.",
         "mp_cost": 0
     },
+    "giga_drain_magic": {
+        "name": "Giga Drain Magic",
+        "type": "Status",
+        "description": "Absorbs MP from enemies at random, 4 times in total.",
+        "mp_cost": -0.5
+    },
     "fuddle": {
         "name": "Fuddle",
         "type": "Status",
@@ -302,6 +308,12 @@
         "type": "Status",
         "description": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 9
+    },
+    "thwack": {
+        "name": "Thwack",
+        "type": "Status",
+        "description": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 12
     },
     "kamikazee": {
         "name": "Kamikazee",
@@ -494,6 +506,12 @@
         "type": "Attack",
         "description": "Damages a single enemy. Highly effective against enemies that are asleep or confused.",
         "mp_cost": 4
+    },
+    "multi_persecutter": {
+        "name": "Multi-Persecutter",
+        "type": "Attack",
+        "description": "Damages all enemies. Highly effective against enemies that are asleep or confused.",
+        "mp_cost": 26
     },
     "wind_sickles": {
         "name": "Wind Sickles",
