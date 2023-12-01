@@ -1698,23 +1698,44 @@
     "hair_splitter": {
         "name": "Hair Splitter",
         "evolution": [
-            "Air Fryer",
-            "Freeze Popper",
-            "Freezer Burner",
-            "Storm Brewer"
+            "air_fryer",
+            "freeze_popper",
+            "freezer_burner",
+            "storm_brewer"
         ],
         "skills": {
-            "Kacrackle Slash": 10,
-            "Lightning Slash": 20,
-            "Flamesplitter": 30,
-            "Skysplitter": 50,
-            "Earthsplitter": 70,
-            "Gigagash": 85,
-            "Brightsplitter": 100,
-            "Blightsplitter": 120,
-            "Gigacross": 150,
-            "Shadow Blast": 200
+            "kacrackle_slash": 10,
+            "lightning_slash": 20,
+            "flamesplitter": 30,
+            "skysplitter": 50,
+            "earthsplitter": 70,
+            "gigagash": 85,
+            "brightsplitter": 100,
+            "blightsplitter": 120,
+            "gigacross": 150,
+            "shadow_blast": 200
         },
         "traits": null
+    },
+    "blighter": {
+        "name": "Blighter",
+        "skills": {
+            "whack": 3,
+            "kadim": 10,
+            "zammle": 20,
+            "chilly_breath": 30,
+            "blightsplitter": 50,
+            "black_breath": 70,
+            "kazammle": 85,
+            "grim_breath": 150
+        },
+        "traits": {
+            "max_mp_24": [
+                85
+            ],
+            "ultra_zam_ward": [
+                120
+            ]
+        }
     }
 }

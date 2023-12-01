@@ -1099,6 +1099,67 @@
             ]
         ]
     },
+    "shadow_slime": {
+        "name": "Shadow Slime",
+        "number": 43,
+        "rank": "C",
+        "family": "_slime",
+        "description": "These squishy sorts turnend jet black after mastering the speediest of slime skills. They can fling themselves forward so fast they virtually catch fire as they fly!",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 4,
+            "wis": 2
+        },
+        "talents": [
+            "blighter"
+        ],
+        "traits": {
+            "small": {
+                "sobering_slap": 1,
+                "ultra_crafty_zammer": 20,
+                "close_scraper": 40
+            },
+            "large": {
+                "tactical_trooper": 1,
+                "rando_panic": 1,
+                "parting_gift": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 25,
+            "electricity": 50,
+            "light": -25,
+            "dark": 125,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "hypothermion",
+                "slime"
+            ]
+        ]
+    },
     "dragonthorn": {
         "name": "Dragonthorn",
         "number": 65,

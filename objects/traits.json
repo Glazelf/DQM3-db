@@ -47,6 +47,10 @@
         "name": "Rando-Accel",
         "description": "Monster sometimes casts Accelerate on itself during battle."
     },
+    "rando_panic": {
+        "name": "Rando-Panic",
+        "description": "Sometimes uses Wave of Panic during battle."
+    },
     "rando_ping": {
         "name": "Rando-Ping",
         "description": "Monster sometimes casts Ping on itself during battle."

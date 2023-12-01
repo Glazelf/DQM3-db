@@ -101,6 +101,12 @@
         "description": "Inflicts medium dark-elemental spell damage on a single enemy.",
         "mp_cost": 6
     },
+    "kazammle": {
+        "name": "Kazammle",
+        "type": "Attack",
+        "description": "Inflicts extreme dark-elemental spell damage on a single enemy.",
+        "mp_cost": 30
+    },
     "magic_pop": {
         "name": "Magic Pop",
         "type": "Attack",
@@ -722,5 +728,23 @@
         "type": "Status",
         "description": "Reflects most spells back at the caster for 4 to 7 turns.",
         "mp_cost": 32
+    },
+    "blightsplitter": {
+        "name": "Blightsplitter",
+        "type": "Attack",
+        "description": "Inflicts medium dark-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
+    "black_breath": {
+        "name": "Black Breath",
+        "type": "Attack",
+        "description": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 4 to 7 turns.",
+        "mp_cost": 22
+    },
+    "grim_breath": {
+        "name": "Grim Breath",
+        "type": "Attack",
+        "description": "Inflicts outrageous dark-elemental breath damage on all enemies.",
+        "mp_cost": 80
     }
 }
