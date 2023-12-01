@@ -1820,6 +1820,10 @@
             [
                 "dragonthorn",
                 "drag_racer"
+            ],
+            [
+                "_nature",
+                "_dragon"
             ]
         ]
     },
@@ -4548,6 +4552,10 @@
             [
                 "hunter_mech",
                 "leery_lout"
+            ],
+            [
+                "_material",
+                "_beast"
             ]
         ]
     },
@@ -8439,6 +8447,10 @@
             [
                 "armoured_wartoise",
                 "flython"
+            ],
+            [
+                "_dragon",
+                "_slime"
             ]
         ]
     },
