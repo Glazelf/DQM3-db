@@ -1708,6 +1708,67 @@
         "family": "_dragon",
         "description": null
     },
+    "gasbagon": {
+        "name": "Gasbagon",
+        "number": 88,
+        "rank": "E",
+        "family": "_dragon",
+        "description": "Dragons which float using gas trapped in their bellies, and are best kept away from open flames. However, they themselves are capable of breathing fire, which is not only dangerous, but tends to leave them looking rather deflated.",
+        "drops": {
+            "normal": "medicinal_herb",
+            "rare": "scholars_specs"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "bangmeister": 1,
+                "sizzmeister": 20,
+                "ultra_crafty_frizzer": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "parting_gift": 1,
+                "ultra_crafty_banger": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "airbagon",
+                "hell_nino"
+            ]
+        ]
+    },
     "lumbering_lizard": {
         "name": "Lumbering Lizard",
         "number": 89,
