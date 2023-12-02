@@ -47,10 +47,6 @@
         "name": "Rando-Accel",
         "description": "Monster sometimes casts Accelerate on itself during battle."
     },
-    "rando_panic": {
-        "name": "Rando-Panic",
-        "description": "Sometimes uses Wave of Panic during battle."
-    },
     "rando_ping": {
         "name": "Rando-Ping",
         "description": "Monster sometimes casts Ping on itself during battle."
@@ -62,6 +58,10 @@
     "rando_relief": {
         "name": "Rando-Relief",
         "description": "Sometimes uses Wave of Relief during battle."
+    },
+    "rando_panic": {
+        "name": "Rando-Panic",
+        "description": "Sometimes uses Wave of Panic during battle."
     },
     "rando_disrupt": {
         "name": "Rando-Disrupt",
@@ -151,6 +151,10 @@
         "name": "Spongy Skin",
         "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
     },
+    "artful_dodger": {
+        "name": "Artful Dodger",
+        "description": "Makes it slightly easier to avoid enemy attacks."
+    },
     "ace_evader": {
         "name": "Ace Evader",
         "description": "Makes it somewhat easier to avoid enemy attacks."
@@ -171,13 +175,17 @@
         "name": "Critical Sensation",
         "description": "Makes it much easier to inflict critical hits."
     },
+    "critical_moment": {
+        "name": "Critical Moment",
+        "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
+    },
     "critical_theorist": {
         "name": "Critical Theorist",
         "description": "Makes it somewhat easier to cast critical spells."
     },
-    "critical_moment": {
-        "name": "Critical Moment",
-        "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
+    "critical_mastermind": {
+        "name": "Critical Mastermind",
+        "description": "Makes it much easier to cast critical spells."
     },
     "magical_moment": {
         "name": "Magical Moment",
@@ -186,6 +194,10 @@
     "desperate_measures": {
         "name": "Desperate Measures",
         "description": "Negates all damage suffered from critical hits and critical spells."
+    },
+    "hothead": {
+        "name": "Hothead",
+        "description": "Makes it easier to activate a frenzied state, turning the monster into a formidable fighting force."
     },
     "auto_restora": {
         "name": "Auto-Restora",
@@ -199,6 +211,10 @@
         "name": "Castslasher",
         "description": "Reduces MP consumption by 1/2."
     },
+    "dragonsbane": {
+        "name": "Dragonsbane",
+        "description": "Increases damage inflicted on monsters from the dragon family and slightly lowers all resistances."
+    },
     "beastsbane": {
         "name": "Beastsbane",
         "description": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
@@ -211,9 +227,29 @@
         "name": "Matterbane",
         "description": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
     },
+    "bossesbane": {
+        "name": "Bossesbane",
+        "description": "Increases damage inflicted on monsters from the ??? family and slightly lowers all resistances."
+    },
+    "uber_slimesbane": {
+        "name": "Über Slimesbane",
+        "description": "Greatly increases damage inflicted on monsters from the slime family and somewhat lowers all resistances."
+    },
+    "uber_dragonsbane": {
+        "name": "Über Dragonsbane",
+        "description": "Greatly increases damage inflicted on monsters from the dragon family and somewhat lowers all resistances."
+    },
+    "uber_naturesbane": {
+        "name": "Über Naturesbane",
+        "description": "Greatly increases damage inflicted on monsters from the nature family and somewhat lowers all resistances."
+    },
     "uber_beastsbane": {
         "name": "Über Beastsbane",
         "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+    },
+    "uber_matterbane": {
+        "name": "Über Matterbane",
+        "description": "Greatly increases damage inflicted on monsters from the material family and somewhat lowers all resistances."
     },
     "poisonous_touch": {
         "name": "Poisonous Touch",
@@ -371,9 +407,29 @@
         "name": "Personal Grudge",
         "description": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
     },
+    "echonomist": {
+        "name": "Echonomist",
+        "description": "Sometimes casts the same spell twice. Consumes slightly more MP than usual."
+    },
+    "adrenaline_rush": {
+        "name": "Adrenaline Rush",
+        "description": "Greatly increases attack after inflicting a critical hit."
+    },
     "trance_state": {
         "name": "Trance State",
         "description": "Greatly increases wisdom after casting a critical spell."
+    },
+    "iota_of_experience": {
+        "name": "Iota of Experience",
+        "description": "Slightly increases the amount of experience points earned after battle."
+    },
+    "gold_planner": {
+        "name": "Gold Planner",
+        "description": "Slightly increases the amount of gold coins acquired from battle."
+    },
+    "rummager": {
+        "name": "Rummager",
+        "description": "Slightly increases the likelihood of acquiring an item from battle."
     },
     "ultra_crafty_frizzer": {
         "name": "Ultra Crafty Frizzer",
@@ -394,6 +450,10 @@
     "ultra_crafty_banger": {
         "name": "Ultra Crafty Banger",
         "description": "Greatly increases the damage inflicted by explosive attacks."
+    },
+    "crafty_cracker": {
+        "name": "Crafty Cracker",
+        "description": "Slightly increases the damage inflicted by ice-elemental attacks."
     },
     "ultra_crafty_cracker": {
         "name": "Ultra Crafty Cracker",
@@ -467,6 +527,10 @@
         "name": "Max. HP +12",
         "description": "Raises max. HP by 12."
     },
+    "max_hp_48": {
+        "name": "Max. HP +48",
+        "description": "Raises max. HP by 48."
+    },
     "max_mp_4": {
         "name": "Max. MP +4",
         "description": "Raises max. MP by 4."
@@ -483,6 +547,10 @@
         "name": "Max. MP +24",
         "description": "Raises max. MP by 24."
     },
+    "max_mp_32": {
+        "name": "Max. MP +32",
+        "description": "Raises max. MP by 32."
+    },
     "attack_4": {
         "name": "Attack +4",
         "description": "Raises attack by 4."
@@ -498,6 +566,18 @@
     "attack_16": {
         "name": "Attack +16",
         "description": "Raises attack by 16."
+    },
+    "attack_20": {
+        "name": "Attack +20",
+        "description": "Raises attack by 20."
+    },
+    "attack_30": {
+        "name": "Attack +30",
+        "description": "Raises attack by 30."
+    },
+    "attack_36": {
+        "name": "Attack +36",
+        "description": "Raises attack by 36."
     },
     "defence_4": {
         "name": "Defence +4",
@@ -535,6 +615,10 @@
         "name": "Agility +16",
         "description": "Raises agility by 16."
     },
+    "agility_20": {
+        "name": "Agility +20",
+        "description": "Raises agility by 20."
+    },
     "wisdom_4": {
         "name": "Wisdom +4",
         "description": "Raises wisdom by 4."
@@ -554,6 +638,10 @@
     "ultra_frizz_ward": {
         "name": "Ultra Frizz Ward",
         "description": "Greatly increases resistance to fire-elemental attacks."
+    },
+    "woosh_ward": {
+        "name": "Woosh Ward",
+        "description": "Slightly increases resistance to wind-elemental attacks."
     },
     "ultra_woosh_ward": {
         "name": "Ultra Woosh Ward",
@@ -595,9 +683,25 @@
         "name": "Ultra Clear Thinker",
         "description": "Greatly increases resistance to confusion."
     },
+    "insomniac": {
+        "name": "Insomniac",
+        "description": "Slightly increases resistance to being put to sleep."
+    },
+    "ultra_insomniac": {
+        "name": "Ultra Insomniac",
+        "description": "Greatly increases resistance to being put to sleep."
+    },
+    "ultra_fidget": {
+        "name": "Ultra Fidget",
+        "description": "Greatly increases resistance to paralysis."
+    },
     "ultra_death_defier": {
         "name": "Ultra Death Defier",
         "description": "Greatly increases resistance to instant death."
+    },
+    "ultra_tough_customer": {
+        "name": "Ultra Tough Customer",
+        "description": "Greatly increases resistance to debilitation."
     },
     "ultra_visionary": {
         "name": "Ultra Visionary",
@@ -610,9 +714,5 @@
     "ultra_drain_blocker": {
         "name": "Ultra Drain Blocker",
         "description": "Greatly increases resistance to MP absorption."
-    },
-    "ultra_fidget": {
-        "name": "Ultra Fidget",
-        "description": "Greatly increases resistance to paralysis."
     }
 }

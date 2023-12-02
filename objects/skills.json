@@ -11,6 +11,12 @@
         "description": "Inflicts medium fire-elemental spell damage on a single enemy.",
         "mp_cost": 2
     },
+    "kafrizz": {
+        "name": "Kafrizz",
+        "type": "Attack",
+        "description": "Inflicts major fire-elemental spell damage on a single enemy.",
+        "mp_cost": 12
+    },
     "splish": {
         "name": "Splish",
         "type": "Attack",
@@ -22,6 +28,12 @@
         "type": "Attack",
         "description": "Inflicts medium water-elemental spell damage on a single enemy.",
         "mp_cost": 5
+    },
+    "kasplash": {
+        "name": "Kasplash",
+        "type": "Attack",
+        "description": "Inflicts major water-elemental spell damage on a single enemy.",
+        "mp_cost": 11
     },
     "woosh": {
         "name": "Woosh",
@@ -41,6 +53,18 @@
         "description": "Inflicts minor earth-elemental spell damage on a single enemy, but not until the following round.",
         "mp_cost": 5
     },
+    "craggle": {
+        "name": "Craggle",
+        "type": "Attack",
+        "description": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round.",
+        "mp_cost": 12
+    },
+    "kacrag": {
+        "name": "Kacrag",
+        "type": "Attack",
+        "description": "Inflicts major earth-elemental spell damage on all enemies, but not until the following round.",
+        "mp_cost": 23
+    },
     "bang": {
         "name": "Bang",
         "type": "Attack",
@@ -52,6 +76,12 @@
         "type": "Attack",
         "description": "Inflicts medium explosive spell damage on all enemies.",
         "mp_cost": 12
+    },
+    "kaboom": {
+        "name": "Kaboom",
+        "type": "Attack",
+        "description": "Inflicts major explosive spell damage on all enemies.",
+        "mp_cost": 24
     },
     "crack": {
         "name": "Crack",
@@ -77,6 +107,18 @@
         "description": "Inflicts medium electrical spell damage on all enemies.",
         "mp_cost": 13
     },
+    "kazap": {
+        "name": "Kazap",
+        "type": "Attack",
+        "description": "Inflicts major electrical spell damage on all enemies.",
+        "mp_cost": 23
+    },
+    "kazapple": {
+        "name": "Kazapple",
+        "type": "Attack",
+        "description": "Inflicts extreme electrical spell damage on all enemies.",
+        "mp_cost": 61
+    },
     "sizz": {
         "name": "Sizz",
         "type": "Attack",
@@ -88,6 +130,12 @@
         "type": "Attack",
         "description": "Inflicts medium light-elemental spell damage on all enemies.",
         "mp_cost": 11
+    },
+    "kasizzle": {
+        "name": "Kasizzle",
+        "type": "Attack",
+        "description": "Inflicts extreme light-elemental spell damage on all enemies.",
+        "mp_cost": 54
     },
     "zam": {
         "name": "Zam",
@@ -101,6 +149,12 @@
         "description": "Inflicts medium dark-elemental spell damage on a single enemy.",
         "mp_cost": 6
     },
+    "kazam": {
+        "name": "Kazam",
+        "type": "Attack",
+        "description": "Inflicts major dark-elemental spell damage on a single enemy.",
+        "mp_cost": 10
+    },
     "kazammle": {
         "name": "Kazammle",
         "type": "Attack",
@@ -112,6 +166,12 @@
         "type": "Attack",
         "description": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
         "mp_cost": -0.25
+    },
+    "magic_burst": {
+        "name": "Magic Burst",
+        "type": "Attack",
+        "description": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be.",
+        "mp_cost": -1
     },
     "heal": {
         "name": "Heal",
@@ -125,6 +185,18 @@
         "description": "Restores 76 or more HP to a single ally.",
         "mp_cost": 8
     },
+    "moreheal": {
+        "name": "Moreheal",
+        "type": "Healing",
+        "description": "Restores 285 or more HP to a single ally.",
+        "mp_cost": 40
+    },
+    "multiheal": {
+        "name": "Multiheal",
+        "type": "Healing",
+        "description": "Restores 76 or more HP to all allies.",
+        "mp_cost": 26
+    },
     "zing": {
         "name": "Zing",
         "type": "Healing",
@@ -137,6 +209,12 @@
         "description": "Is guaranteed to resurrect a fallen ally.",
         "mp_cost": 40
     },
+    "kerplunk": {
+        "name": "Kerplunk",
+        "type": "Healing",
+        "description": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. The caster cannnot be resurrected in the same battle.",
+        "mp_cost": -1
+    },
     "squelch": {
         "name": "Squelch",
         "type": "Healing",
@@ -147,6 +225,12 @@
         "name": "Tingle",
         "type": "Healing",
         "description": "Cures all allies of paralysis.",
+        "mp_cost": 2
+    },
+    "defuddle": {
+        "name": "Defuddle",
+        "type": "Healing",
+        "description": "Cures all allies of confusion.",
         "mp_cost": 2
     },
     "cock_a_doodle_doo": {
@@ -263,6 +347,12 @@
         "description": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
     },
+    "bounce": {
+        "name": "Bounce",
+        "type": "Status",
+        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
+        "mp_cost": 32
+    },
     "drain_magic": {
         "name": "Drain Magic",
         "type": "Status",
@@ -363,11 +453,29 @@
         "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
         "mp_cost": 15
     },
+    "brightsplitter": {
+        "name": "Brightsplitter",
+        "type": "Attack",
+        "description": "Inflicts medium light-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
+    "blightsplitter": {
+        "name": "Blightsplitter",
+        "type": "Attack",
+        "description": "Inflicts medium dark-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
     "gigaslash": {
         "name": "Gigaslash",
         "type": "Attack",
         "description": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 20
+    },
+    "gigagash": {
+        "name": "Gigagash",
+        "type": "Attack",
+        "description": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 56
     },
     "slime_squisher": {
         "name": "Slime Squisher",
@@ -387,6 +495,12 @@
         "description": "Inflicts heavy slashing damage on monsters in the nature family.",
         "mp_cost": 4
     },
+    "beast_tamer": {
+        "name": "Beast Tamer",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on monsters in the beast family.",
+        "mp_cost": 4
+    },
     "matter_scatterer": {
         "name": "Matter Scatterer",
         "type": "Attack",
@@ -404,6 +518,12 @@
         "type": "Attack",
         "description": "Inflicts heavy slashing damage on monsters in the undead family.",
         "mp_cost": 4
+    },
+    "multifists": {
+        "name": "Multifists",
+        "type": "Attack",
+        "description": "A punching technique that damages enemies at random, 4 times in total.",
+        "mp_cost": 20
     },
     "shining_shot": {
         "name": "Shining Shot",
@@ -434,6 +554,12 @@
         "type": "Attack",
         "description": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute.",
         "mp_cost": 20
+    },
+    "roundhouse_kick": {
+        "name": "Roundhouse Kick",
+        "type": "Attack",
+        "description": "A kicking technique that damages all enemies, regardless of their defence. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+        "mp_cost": 8
     },
     "hatchet_man": {
         "name": "Hatchet Man",
@@ -483,6 +609,12 @@
         "description": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns.",
         "mp_cost": 4
     },
+    "parallax": {
+        "name": "Parallax",
+        "type": "Attack",
+        "description": "Inflicts heavy slashing damage on a single enemy and occasionally paralyses it for 2 to 5 turns.",
+        "mp_cost": 20
+    },
     "heart_breaker": {
         "name": "Heart Breaker",
         "type": "Attack",
@@ -507,6 +639,12 @@
         "description": "Damages a single enemy. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
         "mp_cost": 4
     },
+    "multi_victimiser": {
+        "name": "Multi-Victimiser",
+        "type": "Attack",
+        "description": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
+        "mp_cost": 26
+    },
     "persecutter": {
         "name": "Persecutter",
         "type": "Attack",
@@ -518,6 +656,12 @@
         "type": "Attack",
         "description": "Damages all enemies. Highly effective against enemies that are asleep or confused.",
         "mp_cost": 26
+    },
+    "tidal_wave": {
+        "name": "Tidal Wave",
+        "type": "Attack",
+        "description": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 52
     },
     "wind_sickles": {
         "name": "Wind Sickles",
@@ -537,17 +681,35 @@
         "description": "Inflicts minor earth-elemental spell damage on a single enemy.",
         "mp_cost": 4
     },
+    "stomp": {
+        "name": "Stomp",
+        "type": "Attack",
+        "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 12
+    },
     "lightning_storm": {
         "name": "Lightning Storm",
         "type": "Attack",
         "description": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 52
     },
-    "stomp": {
-        "name": "Stomp",
+    "starfall": {
+        "name": "Starfall",
         "type": "Attack",
-        "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "description": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 12
+    },
+    "hellish_howl": {
+        "name": "Hellish Howl",
+        "type": "Attack",
+        "description": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn.",
+        "mp_cost": 12
+    },
+    "power_surge": {
+        "name": "Power Surge",
+        "type": "Attack",
+        "description": "Inflicts outrageous electrical damage on all enemies",
+        "mp_cost": 52
     },
     "meditation": {
         "name": "Meditation",
@@ -560,6 +722,12 @@
         "type": "Healing",
         "description": "Performs a rainmaking ritual that invokes a healing shower in the next turn. Restores a random amount of HP to all allies.",
         "mp_cost": 40
+    },
+    "wave_of_relief": {
+        "name": "Wave of Relief",
+        "type": "Healing",
+        "description": "Cures all allies of their status ailments.",
+        "mp_cost": 60
     },
     "sandstorm": {
         "name": "Sandstorm",
@@ -645,6 +813,18 @@
         "description": "Inflicts medium fire-elemental breath damage on all enemies.",
         "mp_cost": 6
     },
+    "scorch": {
+        "name": "Scorch",
+        "type": "Attack",
+        "description": "Inflicts extreme fire-elemental breath damage on all enemies.",
+        "mp_cost": 30
+    },
+    "hellitosis": {
+        "name": "Hellitosis",
+        "type": "Attack",
+        "description": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+        "mp_cost": 64
+    },
     "cool_breath": {
         "name": "Cool Breath",
         "type": "Attack",
@@ -656,6 +836,24 @@
         "type": "Attack",
         "description": "Inflicts medium ice-elemental breath damage on all enemies.",
         "mp_cost": 6
+    },
+    "freezing_blizzard": {
+        "name": "Freezing Blizzard",
+        "type": "Attack",
+        "description": "Inflicts major ice-elemental breath damage on all enemies.",
+        "mp_cost": 15
+    },
+    "black_breath": {
+        "name": "Black Breath",
+        "type": "Attack",
+        "description": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 4 to 7 turns.",
+        "mp_cost": 22
+    },
+    "grim_breath": {
+        "name": "Grim Breath",
+        "type": "Attack",
+        "description": "Inflicts outrageous dark-elemental breath damage on all enemies.",
+        "mp_cost": 80
     },
     "deep_breath": {
         "name": "Deep Breath",
@@ -681,17 +879,35 @@
         "description": "Exhales toxic fumes that poison all enemies.",
         "mp_cost": 3
     },
+    "sword_dance": {
+        "name": "Sword Dance",
+        "type": "Attack",
+        "description": "A dance that damages enemies at random, 3 to 7 times in total.",
+        "mp_cost": 15
+    },
     "fan_dango": {
         "name": "Fan Dango",
         "type": "Attack",
         "description": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted.",
         "mp_cost": 8
     },
-    "sword_dance": {
-        "name": "Sword Dance",
+    "butterfly_bop": {
+        "name": "Butterfly Bop",
         "type": "Attack",
-        "description": "A dance that damages enemies at random, 3 to 7 times in total.",
+        "description": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greater the damage that will be inflicted.",
         "mp_cost": 15
+    },
+    "hotstepper": {
+        "name": "Hotstepper",
+        "type": "Attack",
+        "description": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 30
+    },
+    "hustle_dance": {
+        "name": "Hustle Dance",
+        "type": "Healing",
+        "description": "A dance that heals allies at random, 2 to 6 times in total. The higher the user's level, the greater the healing amount.",
+        "mp_cost": 40
     },
     "weird_dance": {
         "name": "Weird Dance",
@@ -717,34 +933,16 @@
         "description": "A bewitching dance that stuns all enemies for 1 turn.",
         "mp_cost": 2
     },
+    "mirror_moves": {
+        "name": "Mirror Moves",
+        "type": "Status",
+        "description": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only.",
+        "mp_cost": 32
+    },
     "intense_defence": {
         "name": "Intense Defence",
         "type": "Status",
         "description": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle.",
         "mp_cost": 3
-    },
-    "bounce": {
-        "name": "Bounce",
-        "type": "Status",
-        "description": "Reflects most spells back at the caster for 4 to 7 turns.",
-        "mp_cost": 32
-    },
-    "blightsplitter": {
-        "name": "Blightsplitter",
-        "type": "Attack",
-        "description": "Inflicts medium dark-elemental slashing damage on all enemies.",
-        "mp_cost": 15
-    },
-    "black_breath": {
-        "name": "Black Breath",
-        "type": "Attack",
-        "description": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 4 to 7 turns.",
-        "mp_cost": 22
-    },
-    "grim_breath": {
-        "name": "Grim Breath",
-        "type": "Attack",
-        "description": "Inflicts outrageous dark-elemental breath damage on all enemies.",
-        "mp_cost": 80
     }
 }
