@@ -113,6 +113,25 @@
             ]
         }
     },
+    "bang_virtuoso": {
+        "name": "Bang Virtuoso",
+        "skills": {
+            "boom": 3,
+            "hatchet_man": 10,
+            "kaboom": 40,
+            "kamikazee": 60,
+            "oomphle": 80,
+            "kaboomle": 150
+        },
+        "traits": {
+            "max_mp_16": [
+                20
+            ],
+            "max_mp_24": [
+                110
+            ]
+        }
+    },
     "crack_afficionado": {
         "name": "Crack Afficionado",
         "skills": {
