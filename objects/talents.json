@@ -1043,6 +1043,41 @@
         },
         "traits": null
     },
+    "stinker": {
+        "name": "Stinker",
+        "skills": {
+            "tox": 3,
+            "gobstopper": 10,
+            "poison_breath": 20,
+            "fuddle": 30,
+            "whack": 50,
+            "sweet_breath": 70,
+            "war_cry": 85,
+            "burning_breath": 100
+        },
+        "traits": null
+    },
+    "paragon": {
+        "name": "Paragon",
+        "skills": {
+            "attack_attacker": 3,
+            "helm_splitter": 10,
+            "intense_defence": 20,
+            "hatchet_man": 30,
+            "anchorman": 70,
+            "multifists": 85,
+            "hellish_howl": 100,
+            "boulder_toos": 150
+        },
+        "traits": {
+            "attack_8": [
+                50
+            ],
+            "attack_30": [
+                120
+            ]
+        }
+    },
     "duelist": {
         "name": "Duelist",
         "skills": {
@@ -1063,20 +1098,6 @@
                 120
             ]
         }
-    },
-    "stinker": {
-        "name": "Stinker",
-        "skills": {
-            "tox": 3,
-            "gobstopper": 10,
-            "poison_breath": 20,
-            "fuddle": 30,
-            "whack": 50,
-            "sweet_breath": 70,
-            "war_cry": 85,
-            "burning_breath": 100
-        },
-        "traits": null
     },
     "maniac": {
         "name": "Maniac",
@@ -1477,6 +1498,27 @@
             ],
             "max_mp_32": [
                 85
+            ]
+        }
+    },
+    "hater": {
+        "name": "Hater",
+        "skills": {
+            "undead_undoer": 3,
+            "gobstopper": 10,
+            "war_cry": 20,
+            "critical_meltdown": 30,
+            "black_breath": 50,
+            "multi_victimiser": 70,
+            "multi_persecutter": 100,
+            "death_dance": 150
+        },
+        "traits": {
+            "wisdom_24": [
+                85
+            ],
+            "ultra_death_defier": [
+                120
             ]
         }
     },

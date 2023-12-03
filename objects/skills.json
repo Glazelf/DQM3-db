@@ -723,6 +723,12 @@
         "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 12
     },
+    "boulder_toss": {
+        "name": "Boulder Toss",
+        "type": "Attack",
+        "description": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 36
+    },
     "big_banga": {
         "name": "Big Banga",
         "type": "Attack",

@@ -3584,6 +3584,67 @@
         "resistances": null,
         "synthesis": null
     },
+    "tundragster": {
+        "name": "Tundragster",
+        "number": 94,
+        "rank": "D",
+        "family": "_dragon",
+        "description": "Dragons with scales as white as snow. Superstitious folk living in cold regions believe them to cause natural disasters and as such steer well clear.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 1
+        },
+        "talents": [
+            "paragon"
+        ],
+        "traits": {
+            "small": {
+                "attacking_impulse": 1,
+                "insta_accel": 20,
+                "ultra_crafty_cracker": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "little_menace": 1,
+                "rando_accel": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": -25,
+            "wind": 0,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 75,
+            "electricity": 0,
+            "light": 25,
+            "dark": 50,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_dragon"
+            ]
+        ]
+    },
     "metal_dragon": {
         "name": "Metal Dragon",
         "number": 98,
@@ -12520,6 +12581,67 @@
             ]
         ]
     },
+    "bilhaw": {
+        "name": "Bilhaw",
+        "number": 411,
+        "rank": "B",
+        "family": "_demon",
+        "description": "Some say they're woebergines that got teleported between dimensions, and subsequently awakened to their true powers while trapped there. Whatever their story, these dimension-hopping demons are dreadful indeed.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 4,
+            "wis": 4
+        },
+        "talents": [
+            "demoniac"
+        ],
+        "traits": {
+            "small": {
+                "static_discharge": 1,
+                "dodge_denier": 20,
+                "sleep_twitch": 40
+            },
+            "large": {
+                "tactical_trooper": 1,
+                "critical_sensation": 1,
+                "crafty_devil": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 50,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 100,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,
@@ -14038,12 +14160,55 @@
         "number": 461,
         "rank": "D",
         "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "These singers attack travellers by belting out their malevolent melodies in a baleful baritone. They've picked up quite a following among a certain section of the monster populace.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 3,
+            "atk": 3,
+            "def": 4,
+            "agi": 2,
+            "wis": 4
+        },
+        "talents": [
+            "hater"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_debilitator": 1,
+                "major_downer": 20,
+                "last_legs": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "decontaminate": 1,
+                "confusing_touch": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 75
+        },
         "synthesis": [
             [
                 "_nature",
@@ -15998,24 +16163,6 @@
             ]
         ]
     },
-    "tundragster": {
-        "name": "Tundragster",
-        "number": null,
-        "rank": "D",
-        "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_nature",
-                "_dragon"
-            ]
-        ]
-    },
     "low_djinks": {
         "name": "Low Djinks",
         "number": null,
@@ -16751,24 +16898,6 @@
             [
                 "_beast",
                 "_nature"
-            ]
-        ]
-    },
-    "bilhaw": {
-        "name": "Bilhaw",
-        "number": null,
-        "rank": "B",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_material",
-                "_demon"
             ]
         ]
     },
