@@ -1367,6 +1367,10 @@
             [
                 "imp",
                 "_slime"
+            ],
+            [
+                "_slime",
+                "_demon"
             ]
         ]
     },
@@ -1642,7 +1646,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
     },
     "dark_king_slime": {
         "name": "Dark King Slime",
@@ -1702,6 +1711,10 @@
             [
                 "king_slime",
                 "_demon"
+            ],
+            [
+                "_slime",
+                "_demon"
             ]
         ]
     },
@@ -1759,7 +1772,12 @@
             "poison": 0,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
     },
     "king_bubble_slime": {
         "name": "King Bubble Slime",
@@ -1924,7 +1942,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
     },
     "shadow_slime": {
         "name": "Shadow Slime",
@@ -1984,6 +2007,10 @@
             [
                 "hypothermion",
                 "slime"
+            ],
+            [
+                "_slime",
+                "_dragon"
             ]
         ]
     },
@@ -1998,7 +2025,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
     },
     "liquid_metal_slime": {
         "name": "Liquid Metal Slime",
@@ -2067,7 +2099,12 @@
             "poison": 0,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
     },
     "shogum": {
         "name": "Shogum",
@@ -2127,6 +2164,10 @@
             [
                 "metal_slime_knight",
                 "beshemoth_slime"
+            ],
+            [
+                "_slime",
+                "_beast"
             ]
         ]
     },
@@ -2141,7 +2182,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
     },
     "metal_king_slime": {
         "name": "Metal King Slime",
@@ -3254,7 +3300,7 @@
             ],
             [
                 "_dragon",
-                "beast"
+                "_beast"
             ]
         ]
     },
@@ -3451,7 +3497,7 @@
             ],
             [
                 "_dragon",
-                "demon"
+                "_demon"
             ]
         ]
     },
@@ -3544,7 +3590,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_dragon"
+            ]
+        ]
     },
     "wyvern": {
         "name": "Wyvernn",
@@ -3557,7 +3608,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
     },
     "wyrtoise": {
         "name": "Wyrtoise",
@@ -3626,7 +3682,12 @@
             "poison": -25,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
     },
     "noble_gasbagon": {
         "name": "Noble Gasbagon",
@@ -3682,7 +3743,12 @@
             "poison": -25,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
     },
     "helligator": {
         "name": "Helligator",
@@ -3751,7 +3817,12 @@
             "poison": -25,
             "instant_death": 25
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
     },
     "iron_tortoise": {
         "name": "Iron Tortoise",
@@ -3811,6 +3882,10 @@
             [
                 "armoured_wartoise",
                 "armoured_scorpion"
+            ],
+            [
+                "_dragon",
+                "_material"
             ]
         ]
     },
@@ -5909,7 +5984,12 @@
             "poison": 0,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
     },
     "armoured_scorpion": {
         "name": "Armoured Scorpion",
@@ -5965,7 +6045,12 @@
             "poison": 25,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
     },
     "crabber_dabber_doo": {
         "name": "Crabber Dabber Doo",
@@ -6025,6 +6110,10 @@
             [
                 "crabid",
                 "carnivine"
+            ],
+            [
+                "_nature",
+                "_undead"
             ]
         ]
     },
@@ -6065,7 +6154,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
     },
     "roistering_rooster": {
         "name": "Roistering Rooster",
@@ -6078,7 +6172,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
     },
     "clobster": {
         "name": "Clobster",
@@ -6152,7 +6251,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
     },
     "antguzzler": {
         "name": "Antguzzler",
@@ -7651,6 +7755,10 @@
             [
                 "candy_cat",
                 "cannonbrawler"
+            ],
+            [
+                "_beast",
+                "_undead"
             ]
         ]
     },
@@ -7757,7 +7865,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
     },
     "calypso_king": {
         "name": "Calypso King",
@@ -7770,7 +7883,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_beast"
+            ]
+        ]
     },
     "hyperborean": {
         "name": "Hyperborean",
@@ -7843,6 +7961,10 @@
             [
                 "ripped_rabbit",
                 "mischievous_mole"
+            ],
+            [
+                "_beast",
+                "_material"
             ]
         ]
     },
@@ -7900,7 +8022,12 @@
             "poison": 25,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
     },
     "greater_platypunk": {
         "name": "Greater Platypunk",
@@ -9752,7 +9879,12 @@
             "poison": 50,
             "instant_death": 25
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_beast"
+            ]
+        ]
     },
     "coralossus": {
         "name": "Coralossus",
@@ -9839,7 +9971,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
     },
     "saccharine_sacksquatch": {
         "name": "Saccharine Sacksquatch",
@@ -9977,7 +10114,12 @@
             "poison": 50,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_dragon"
+            ]
+        ]
     },
     "magmalice": {
         "name": "Magmalice",
@@ -10021,7 +10163,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
     },
     "flamethrower": {
         "name": "Flamethrower",
@@ -10077,7 +10224,12 @@
             "poison": 50,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
     },
     "bongo_fandango": {
         "name": "Bongo Fandango",
@@ -10090,7 +10242,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
     },
     "face_invader": {
         "name": "Face Invader",
@@ -10103,7 +10260,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
     },
     "bamboogieman": {
         "name": "Bamboogieman",
@@ -10224,6 +10386,10 @@
             [
                 "eggsoskeleton",
                 "mottle_she_slime"
+            ],
+            [
+                "_slime",
+                "_material"
             ]
         ]
     },
@@ -10281,7 +10447,12 @@
             "poison": 50,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
     },
     "a3g15": {
         "name": "A3G15",
@@ -10402,6 +10573,10 @@
             [
                 "abracadabrador",
                 "crabber_dabber_doo"
+            ],
+            [
+                "_material",
+                "_beast"
             ]
         ]
     },
@@ -11618,6 +11793,10 @@
             [
                 "walking_corpse",
                 "bodkin_archer"
+            ],
+            [
+                "_demon",
+                "beast"
             ]
         ]
     },
@@ -11766,6 +11945,10 @@
             [
                 "dracky",
                 "whizzard"
+            ],
+            [
+                "_slime",
+                "_demon"
             ]
         ]
     },
@@ -12011,7 +12194,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
     },
     "sintaur": {
         "name": "Sintaur",
@@ -12024,7 +12212,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
     },
     "the_time_being": {
         "name": "The Time Being",
@@ -12136,7 +12329,12 @@
             "poison": 0,
             "instant_death": 25
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
     },
     "togre": {
         "name": "Togre",
@@ -12192,7 +12390,12 @@
             "poison": 25,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
     },
     "goobonce": {
         "name": "Goobonce",
@@ -12231,7 +12434,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
     },
     "jugular_joker": {
         "name": "Jugular Joker",
@@ -12291,6 +12499,10 @@
             [
                 "jinkster",
                 "maniacal_mole"
+            ],
+            [
+                "_demon",
+                "_undead"
             ]
         ]
     },
@@ -13582,6 +13794,10 @@
             [
                 "skeleton",
                 "restless_armour"
+            ],
+            [
+                "_demon",
+                "_undead"
             ]
         ]
     },
@@ -13596,7 +13812,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
     },
     "phantom_fencer": {
         "name": "Phantom Fencer",
@@ -13809,7 +14030,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
     },
     "night_sneaker": {
         "name": "Night Sneaker",
@@ -13848,7 +14074,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
     },
     "corpsickle": {
         "name": "Corpsickle",
@@ -13874,7 +14105,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_undead",
+                "_dragon"
+            ]
+        ]
     },
     "discombombulator": {
         "name": "Discombombulator",
@@ -14051,7 +14287,12 @@
             "poison": 50,
             "instant_death": 50
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
     },
     "dullahan": {
         "name": "Dullahan",
@@ -14064,7 +14305,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
     },
     "skellyfish": {
         "name": "Skellyfish",
@@ -14077,7 +14323,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
     },
     "fright_knight": {
         "name": "Fright Knight",
@@ -14146,7 +14397,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
     },
     "hellspawn": {
         "name": "Hellspawn",
@@ -14159,7 +14415,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
     },
     "demon_at_arms": {
         "name": "Demon-at-Arms",
@@ -14172,7 +14433,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_demon",
+                "_undead"
+            ]
+        ]
     },
     "box_slime": {
         "name": "Box Slime",
@@ -15313,6 +15579,10 @@
             [
                 "vampire_cat",
                 "_demon"
+            ],
+            [
+                "demon",
+                "_beast"
             ]
         ]
     },
@@ -15411,6 +15681,10 @@
             [
                 "pocus_poppet",
                 "lump_wizard"
+            ],
+            [
+                "_demon",
+                "_undead"
             ]
         ]
     },
@@ -15577,6 +15851,1090 @@
             [
                 "mottle_slime",
                 "beshemoth_slime"
+            ],
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "well_wisher": {
+        "name": "Well Wisher",
+        "number": null,
+        "rank": "E",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_dragon"
+            ]
+        ]
+    },
+    "brownie": {
+        "name": "Brownie",
+        "number": null,
+        "rank": "E",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_beast"
+            ]
+        ]
+    },
+    "brimstone_bulb": {
+        "name": "Brimstone Bulb",
+        "number": null,
+        "rank": "E",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
+    "minidemon": {
+        "name": "Minidemon",
+        "number": null,
+        "rank": "D",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "saltwater_stallion": {
+        "name": "Saltwater Stallion",
+        "number": null,
+        "rank": "D",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
+    },
+    "cheater_cheetah": {
+        "name": "Cheater Cheetah",
+        "number": null,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "giruffian": {
+        "name": "Giruffian",
+        "number": null,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
+    },
+    "tundragster": {
+        "name": "Tundragster",
+        "number": null,
+        "rank": "D",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_dragon"
+            ]
+        ]
+    },
+    "low_djinks": {
+        "name": "Low Djinks",
+        "number": null,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "gargoyle": {
+        "name": "Gargoyle",
+        "number": null,
+        "rank": "D",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_beast"
+            ]
+        ]
+    },
+    "paralyslicer": {
+        "name": "Paralyslicer",
+        "number": null,
+        "rank": "D",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_material"
+            ]
+        ]
+    },
+    "frostburn": {
+        "name": "Frostburn",
+        "number": null,
+        "rank": "D",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "bomboulder": {
+        "name": "Bomboulder",
+        "number": null,
+        "rank": "C",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "flutter_slime": {
+        "name": "Flutter Slime",
+        "number": null,
+        "rank": "C",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
+    "dark_hare": {
+        "name": "Dark Hare",
+        "number": null,
+        "rank": "C",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "drackyma": {
+        "name": "Drackyma",
+        "number": null,
+        "rank": "C",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
+    },
+    "treevil": {
+        "name": "Treevil",
+        "number": null,
+        "rank": "C",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
+    },
+    "hellion": {
+        "name": "Hellion",
+        "number": null,
+        "rank": "C",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_beast"
+            ]
+        ]
+    },
+    "heligator": {
+        "name": "Heligator",
+        "number": null,
+        "rank": "C",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_dragon"
+            ]
+        ]
+    },
+    "tyrannoceratops": {
+        "name": "Tyrannoceratops",
+        "number": null,
+        "rank": "C",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
+    },
+    "jowler": {
+        "name": "Jowler",
+        "number": null,
+        "rank": "C",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "bobonga": {
+        "name": "Bobonga",
+        "number": null,
+        "rank": "C",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "flapdragon": {
+        "name": "Flapdragon",
+        "number": null,
+        "rank": "C",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "gnumesis": {
+        "name": "Gnumesis",
+        "number": null,
+        "rank": "C",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_undead",
+                "_beast"
+            ]
+        ]
+    },
+    "grincinerator": {
+        "name": "Grincinerator",
+        "number": null,
+        "rank": "C",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "swinogre": {
+        "name": "Swinogre",
+        "number": null,
+        "rank": "C",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
+    "phantom_swordsman": {
+        "name": "Phantom Swordsman",
+        "number": null,
+        "rank": "C",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "blue_moon": {
+        "name": "Blue Moon",
+        "number": null,
+        "rank": "C",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_undead"
+            ]
+        ]
+    },
+    "king_jester_slime": {
+        "name": "King Jester Slime",
+        "number": null,
+        "rank": "B",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_undead"
+            ]
+        ]
+    },
+    "king_slick_slime": {
+        "name": "King Slick Slime",
+        "number": null,
+        "rank": "B",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_demon"
+            ]
+        ]
+    },
+    "slime_snack": {
+        "name": "Slime Snack",
+        "number": null,
+        "rank": "B",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_material"
+            ]
+        ]
+    },
+    "tuffpoise": {
+        "name": "Tuffpoise",
+        "number": null,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
+    "mogus": {
+        "name": "Mogus",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "goomulonimbus": {
+        "name": "Goomulonimbus",
+        "number": null,
+        "rank": "B",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
+    },
+    "drakulard": {
+        "name": "Drakulard",
+        "number": null,
+        "rank": "B",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_dragon"
+            ]
+        ]
+    },
+    "neer_do_well": {
+        "name": "Ne'er-Do-Well",
+        "number": null,
+        "rank": "B",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_material"
+            ]
+        ]
+    },
+    "black_dragon": {
+        "name": "Black Dragon",
+        "number": null,
+        "rank": "B",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "archdemon": {
+        "name": "Archdemon",
+        "number": null,
+        "rank": "B",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
+    "grotwyrm": {
+        "name": "Grotwyrm",
+        "number": null,
+        "rank": "B",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "mandrake_marshal": {
+        "name": "Mandrake Marshal",
+        "number": null,
+        "rank": "B",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "nature"
+            ]
+        ]
+    },
+    "firebird": {
+        "name": "Firebird",
+        "number": null,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_dragon"
+            ]
+        ]
+    },
+    "backsaurus": {
+        "name": "Hacksaurus",
+        "number": null,
+        "rank": "B",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "tantamount": {
+        "name": "Tantamount",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
+            ]
+        ]
+    },
+    "gigantes": {
+        "name": "Gigantes",
+        "number": null,
+        "rank": "B",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_nature"
+            ]
+        ]
+    },
+    "cosmic_chimaera": {
+        "name": "Cosmic Chimaera",
+        "number": null,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
+    },
+    "belisha_beakon": {
+        "name": "Belisha Beakon",
+        "number": null,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_undead"
+            ]
+        ]
+    },
+    "snowgre": {
+        "name": "Snowgre",
+        "number": null,
+        "rank": "B",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
+    "gangleclaw": {
+        "name": "Gangleclaw",
+        "number": null,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_nature",
+                "_material"
+            ]
+        ]
+    },
+    "draguar": {
+        "name": "Draguar",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_nature"
+            ]
+        ]
+    },
+    "bilhaw": {
+        "name": "Bilhaw",
+        "number": null,
+        "rank": "B",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_material",
+                "_demon"
+            ]
+        ]
+    },
+    "headless_horseman": {
+        "name": "Headless Horseman",
+        "number": null,
+        "rank": "B",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_undead",
+                "_material"
+            ]
+        ]
+    },
+    "admirer": {
+        "name": "Admirer",
+        "number": null,
+        "rank": "B",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_undead",
+                "_demon"
+            ]
+        ]
+    },
+    "mohawker": {
+        "name": "Mohawker",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
+    },
+    "dark_sabrecat": {
+        "name": "Dark Sabrecat",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_demon"
+            ]
+        ]
+    },
+    "grrrgoyle": {
+        "name": "Grrrgoyle",
+        "number": null,
+        "rank": "B",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_demon",
+                "_beast"
+            ]
+        ]
+    },
+    "bone_baron": {
+        "name": "Bone Baron",
+        "number": null,
+        "rank": "B",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "ursa_mega": {
+        "name": "Ursa Mega",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "abyss_diver": {
+        "name": "Abyss Diver",
+        "number": null,
+        "rank": "D",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
+    "grim_rider": {
+        "name": "Grim Rider",
+        "number": null,
+        "rank": "D",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "great_sabrecat": {
+        "name": "Great Sabrecat",
+        "number": null,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_beast",
+                "_dragon"
             ]
         ]
     }
