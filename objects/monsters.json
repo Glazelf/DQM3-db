@@ -1184,7 +1184,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "fromage_fray",
+                "spiny_slime"
+            ]
+        ]
     },
     "rubble_slime": {
         "name": "Rubble Slime",
@@ -10002,7 +10007,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "rockbomb",
+                "_undead"
+            ]
+        ]
     },
     "bag_o_tricks": {
         "name": "Bag o' Tricks",
@@ -10118,6 +10128,10 @@
             [
                 "_material",
                 "_dragon"
+            ],
+            [
+                "grinferno",
+                "hell_nino"
             ]
         ]
     },
@@ -16935,6 +16949,24 @@
             [
                 "_beast",
                 "_dragon"
+            ]
+        ]
+    },
+    "rhinoceraxe": {
+        "name": "Rhinoceraxe",
+        "number": null,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "ursa_major",
+                "_material"
             ]
         ]
     }
