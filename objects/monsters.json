@@ -11551,7 +11551,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "skeleton_soldier",
+                "skeleton_soldier"
+            ]
+        ]
     },
     "night_sneaker": {
         "name": "Night Sneaker",
