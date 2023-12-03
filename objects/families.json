@@ -19,5 +19,8 @@
     },
     "_undead": {
         "name": "Undead"
+    },
+    "_unknown": {
+        "name": "???"
     }
 }
