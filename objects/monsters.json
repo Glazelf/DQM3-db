@@ -13260,5 +13260,185 @@
                 "_undead"
             ]
         ]
+    },
+    "maniacal_mole": {
+        "name": "Maniacal Mole",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "ripped_rabbit",
+                "mischievous_mole"
+            ]
+        ]
+    },
+    "jugular_joker": {
+        "name": "Jugular Joker",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "jinkster",
+                "maniacal_mole"
+            ]
+        ]
+    },
+    "overkilling_machine": {
+        "name": "Overkilling Machine",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "jugular_joker",
+                "killing_machine"
+            ]
+        ]
+    },
+    "killing_machine": {
+        "name": "Killing Machine",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "hunter_mech",
+                "skeleton_swordsman"
+            ]
+        ]
+    },
+    "mottle_she_slime": {
+        "name": "Mottle She Slime",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "mottle_slime",
+                "beshemoth_slime"
+            ]
+        ]
+    },
+    "hard_boiled_eggsoskeleton": {
+        "name": "Hard Boiled Eggsoskeleton",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "mottle_she_slime",
+                "eggsoskeleton"
+            ]
+        ]
+    },
+    "bamboogieman": {
+        "name": "Bamboogieman",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "hard_boiled_eggsoskeleton",
+                "bambooligan"
+            ]
+        ]
+    },
+    "a3g15": {
+        "name": "A3G15",
+        "number": null,
+        "rank": "",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "bamboogieman",
+                "killing_machine"
+            ]
+        ]
+    },
+    "the_trauminator": {
+        "name": "The Trauminator",
+        "number": null,
+        "rank": "",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "overkilling_machine",
+                "a3g15"
+            ]
+        ]
+    },
+    "uberkilling_machine": {
+        "name": "Uberkilling Machine",
+        "number": null,
+        "rank": "",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "the_trauminator",
+                "iron_tortoise"
+            ]
+        ]
     }
 }
