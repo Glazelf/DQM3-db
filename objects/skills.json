@@ -167,6 +167,12 @@
         "description": "Inflicts extreme dark-elemental spell damage on a single enemy.",
         "mp_cost": 30
     },
+    "pearly_gates": {
+        "name": "Pearly Gates",
+        "type": "Attack",
+        "description": "Inflicts extreme light-elemental spell damage on all enemies. Highly effective against monsters in the undead family.",
+        "mp_cost": 60
+    },
     "magic_pop": {
         "name": "Magic Pop",
         "type": "Attack",
@@ -488,6 +494,12 @@
         "type": "Attack",
         "description": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 56
+    },
+    "gigacross": {
+        "name": "Gigacross",
+        "type": "Attack",
+        "description": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 80
     },
     "shadow_blast": {
         "name": "Shadow Blast",

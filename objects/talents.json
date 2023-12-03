@@ -1015,6 +1015,20 @@
         },
         "traits": null
     },
+    "vexologist": {
+        "name": "Vexologist",
+        "skills": {
+            "tox": 3,
+            "dodgy_dance": 10,
+            "gobstopper": 20,
+            "sandstorm": 30,
+            "critical_meltdown": 50,
+            "brake_wind": 70,
+            "katox": 85,
+            "tongue_bashing": 100
+        },
+        "traits": null
+    },
     "charmer": {
         "name": "Charmer",
         "skills": {
@@ -1028,6 +1042,27 @@
             "giga_drain_magic": 100
         },
         "traits": null
+    },
+    "duelist": {
+        "name": "Duelist",
+        "skills": {
+            "gust_slash": 3,
+            "heart_breaker": 10,
+            "helm_splitter": 20,
+            "hatchet_man": 30,
+            "multislash": 50,
+            "skysplitter": 85,
+            "earthsplitter": 100,
+            "gigagash": 150
+        },
+        "traits": {
+            "attack_16": [
+                70
+            ],
+            "attack_36": [
+                120
+            ]
+        }
     },
     "stinker": {
         "name": "Stinker",
@@ -1122,6 +1157,25 @@
         "traits": {
             "attack_48": [
                 100
+            ]
+        }
+    },
+    "fire_chief": {
+        "name": "Fire Chief",
+        "skills": {
+            "flame_slash": 3,
+            "flame_breath": 10,
+            "deep_breath": 20,
+            "boom": 30,
+            "inferno": 50,
+            "burning_breath": 70,
+            "kaboom": 85,
+            "scorch": 100,
+            "hellitosis": 150
+        },
+        "traits": {
+            "ultra_frizz_ward": [
+                120
             ]
         }
     },
@@ -1366,6 +1420,24 @@
             ]
         }
     },
+    "vaudevillian": {
+        "name": "Vaudevillian",
+        "skills": {
+            "war_cry": 3,
+            "flame_breath": 10,
+            "miracle_slash": 20,
+            "sword_dance": 30,
+            "lightning": 50,
+            "tongue_bashing": 70,
+            "pearly_gates": 85,
+            "kerplunk_dance": 120
+        },
+        "traits": {
+            "ultra_woosh_ward": [
+                100
+            ]
+        }
+    },
     "airhead": {
         "name": "Airhead",
         "skills": {
@@ -1508,19 +1580,42 @@
         },
         "traits": null
     },
-    "vexologist": {
-        "name": "Vexologist",
+    "multidisciplinarian": {
+        "name": "Multidisciplinarian",
         "skills": {
-            "tox": 3,
-            "dodgy_dance": 10,
-            "gobstopper": 20,
-            "sandstorm": 30,
-            "critical_meltdown": 50,
-            "brake_wind": 70,
-            "katox": 85,
-            "tongue_bashing": 100
+            "attack_attacker": 10,
+            "helm_splitter": 20,
+            "poison_attack": 30,
+            "heart_breaker": 50,
+            "sleep_attack": 70,
+            "confusion_attack": 85,
+            "paralysing_punch": 100,
+            "assassins_stab": 120,
+            "multi_victimiser": 150,
+            "multi_persecutter": 200
         },
         "traits": null
+    },
+    "uberkilling_machine": {
+        "name": "Überkilling Machine",
+        "skills": {
+            "dragon_slash": 10,
+            "multislash": 20,
+            "helm_splitter": 30,
+            "hatchet_man": 50,
+            "parallax": 85,
+            "multifists": 100,
+            "earthsplitter": 120,
+            "gigacross": 200
+        },
+        "traits": {
+            "attack_12": [
+                70
+            ],
+            "attack_16": [
+                150
+            ]
+        }
     },
     "hp_booster_1": {
         "name": "HP Booster I",
@@ -1539,6 +1634,29 @@
             ],
             "max_hp_12": [
                 100
+            ]
+        }
+    },
+    "hp_booster_2": {
+        "name": "HP Booster II",
+        "skills": null,
+        "traits": {
+            "max_hp_4": [
+                5,
+                15,
+                30
+            ],
+            "max_hp_8": [
+                50,
+                75,
+                100
+            ],
+            "max_hp_12": [
+                130,
+                160
+            ],
+            "max_hp_16": [
+                200
             ]
         }
     },
@@ -1589,6 +1707,38 @@
             ]
         }
     },
+    "mp_booster_3": {
+        "name": "MP Booster III",
+        "skills": null,
+        "traits": {
+            "max_mp_4": [
+                10,
+                20
+            ],
+            "max_mp_8": [
+                30
+            ],
+            "max_mp_16": [
+                50,
+                70
+            ],
+            "max_mp_24": [
+                85
+            ],
+            "max_mp_32": [
+                100
+            ],
+            "max_mp_40": [
+                120
+            ],
+            "max_mp_48": [
+                150
+            ],
+            "ultra_drain_blocker": [
+                200
+            ]
+        }
+    },
     "attack_booster_1": {
         "name": "Attack Booster I",
         "skills": null,
@@ -1611,7 +1761,7 @@
     "attack_booster_2": {
         "name": "Attack Booster II",
         "evolution": [
-            "Attack Booster I"
+            "attack_booster_1"
         ],
         "skills": null,
         "traits": {
@@ -1639,7 +1789,7 @@
     "attack_booster_3": {
         "name": "Attack Booster III",
         "evolution": [
-            "Attack Booster II"
+            "attack_booster_2"
         ],
         "skills": null,
         "traits": {
@@ -1692,6 +1842,31 @@
             ]
         }
     },
+    "defence_booster_2": {
+        "name": "Defence Booster II",
+        "skills": null,
+        "traits": {
+            "defence_8": [
+                5
+            ],
+            "max_hp_4": [
+                15,
+                50,
+                100,
+                160
+            ],
+            "defence_16": [
+                30,
+                75
+            ],
+            "defence_24": [
+                130
+            ],
+            "defence_32": [
+                200
+            ]
+        }
+    },
     "agility_booster_1": {
         "name": "Agility Booster I",
         "skills": null,
@@ -1716,7 +1891,7 @@
     "agility_booster_2": {
         "name": "Agility Booster II",
         "evolution": [
-            "Agility Booster I"
+            "agility_booster_1"
         ],
         "skills": null,
         "traits": {
@@ -1744,7 +1919,7 @@
     "agility_booster_3": {
         "name": "Agility Booster III",
         "evolution": [
-            "Agility Booster II"
+            "agility_booster_2"
         ],
         "skills": null,
         "traits": {
@@ -1777,7 +1952,7 @@
     "agility_booster_4": {
         "name": "Agility Booster IV",
         "evolution": [
-            "Agility Booster III"
+            "agility_booster_3"
         ],
         "skills": null,
         "traits": {

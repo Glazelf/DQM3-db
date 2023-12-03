@@ -83,8 +83,8 @@
         "name": "Wizardly Wind",
         "description": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount."
     },
-    "last_gap": {
-        "name": "Last Gap",
+    "last_gasp": {
+        "name": "Last Gasp",
         "description": "Revives a single ally after it falls in battle. Only works once per battle."
     },
     "frizzmeister": {
@@ -226,6 +226,14 @@
     "beastsbane": {
         "name": "Beastsbane",
         "description": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
+    },
+    "naturesbane": {
+        "name": "Naturesbane",
+        "description": "Increases damage inflicted on monsters from the nature family and slightly lowers all resistances."
+    },
+    "demonsbane": {
+        "name": "Demonsbane",
+        "description": "Increases damage inflicted on monsters from the demon family and slightly lowers all resistances."
     },
     "zombiesbane": {
         "name": "Zombiesbane",
@@ -547,6 +555,10 @@
         "name": "Max. HP +12",
         "description": "Raises max. HP by 12."
     },
+    "max_hp_16": {
+        "name": "Max. HP +16",
+        "description": "Raises max. HP by 16."
+    },
     "max_hp_48": {
         "name": "Max. HP +48",
         "description": "Raises max. HP by 48."
@@ -571,6 +583,14 @@
         "name": "Max. MP +32",
         "description": "Raises max. MP by 32."
     },
+    "max_mp_40": {
+        "name": "Max. MP +40",
+        "description": "Raises max. MP by 40."
+    },
+    "max_mp_48": {
+        "name": "Max. MP +48",
+        "description": "Raises max. MP by 48."
+    },
     "attack_4": {
         "name": "Attack +4",
         "description": "Raises attack by 4."
@@ -591,6 +611,10 @@
         "name": "Attack +20",
         "description": "Raises attack by 20."
     },
+    "attack_24": {
+        "name": "Attack +24",
+        "description": "Raises attack by 24."
+    },
     "attack_30": {
         "name": "Attack +30",
         "description": "Raises attack by 30."
@@ -598,6 +622,10 @@
     "attack_36": {
         "name": "Attack +36",
         "description": "Raises attack by 36."
+    },
+    "attack_48": {
+        "name": "Attack +48",
+        "description": "Raises attack by 48."
     },
     "defence_4": {
         "name": "Defence +4",
@@ -614,6 +642,10 @@
     "defence_24": {
         "name": "Defence +24",
         "description": "Raises defence by 24."
+    },
+    "defence_32": {
+        "name": "Defence +32",
+        "description": "Raises defence by 32."
     },
     "defence_40": {
         "name": "Defence +40",
@@ -639,6 +671,10 @@
         "name": "Agility +20",
         "description": "Raises agility by 20."
     },
+    "agility_24": {
+        "name": "Agility +24",
+        "description": "Raises agility by 24."
+    },
     "wisdom_4": {
         "name": "Wisdom +4",
         "description": "Raises wisdom by 4."
@@ -655,9 +691,25 @@
         "name": "Wisdom +24",
         "description": "Raises wisdom by 24."
     },
+    "wisdom_32": {
+        "name": "Wisdom +32",
+        "description": "Raises wisdom by 32."
+    },
+    "frizz_ward": {
+        "name": "Frizz Ward",
+        "description": "Slightly increases resistance to fire-elemental attacks."
+    },
     "ultra_frizz_ward": {
         "name": "Ultra Frizz Ward",
         "description": "Greatly increases resistance to fire-elemental attacks."
+    },
+    "splish_ward": {
+        "name": "Splish Ward",
+        "description": "Slightly increases resistance to water-elemental attacks."
+    },
+    "ultra_splish_ward": {
+        "name": "Ultra Splish Ward",
+        "description": "Greatly increases resistance to water-elemental attacks."
     },
     "woosh_ward": {
         "name": "Woosh Ward",
@@ -667,33 +719,65 @@
         "name": "Ultra Woosh Ward",
         "description": "Greatly increases resistance to wind-elemental attacks."
     },
+    "crag_ward": {
+        "name": "Crag Ward",
+        "description": "Slightly increases resistance to earth-elemental attacks."
+    },
     "ultra_crag_ward": {
         "name": "Ultra Crag Ward",
         "description": "Greatly increases resistance to earth-elemental attacks."
+    },
+    "bang_ward": {
+        "name": "Bang Ward",
+        "description": "Slightly increases resistance to explosive attacks."
     },
     "ultra_bang_ward": {
         "name": "Ultra Bang Ward",
         "description": "Greatly increases resistance to explosive attacks."
     },
+    "crack_ward": {
+        "name": "Crack Ward",
+        "description": "Slightly increases resistance to ice-elemental attacks."
+    },
     "ultra_crack_ward": {
         "name": "Ultra Crack Ward",
         "description": "Greatly increases resistance to ice-elemental attacks."
+    },
+    "zap_ward": {
+        "name": "Zap Ward",
+        "description": "Slightly increases resistance to electrical attacks."
     },
     "ultra_zap_ward": {
         "name": "Ultra Zap Ward",
         "description": "Greatly increases resistance to electrical attacks."
     },
+    "sizz_ward": {
+        "name": "Sizz Ward",
+        "description": "Slightly increases resistance to light-elemental attacks."
+    },
     "ultra_sizz_ward": {
         "name": "Ultra Sizz Ward",
         "description": "Greatly increases resistance to light-elemental attacks."
+    },
+    "zam_ward": {
+        "name": "Zam Ward",
+        "description": "Slightly increases resistance to dark-elemental attacks."
     },
     "ultra_zam_ward": {
         "name": "Ultra Zam Ward",
         "description": "Greatly increases resistance to dark-elemental attacks."
     },
+    "antitoxidant": {
+        "name": "Antitoxidant",
+        "description": "Slightly increases resistance to poison and severe poison."
+    },
     "ultra_antitoxidant": {
         "name": "Ultra Antitoxidant",
         "description": "Greatly increases resistance to poison and severe poison."
+    },
+    "granite_chin": {
+        "name": "Granite Chin",
+        "description": "Slightly increases resistance to being stunned."
     },
     "ultra_granite_chin": {
         "name": "Ultra Granite Chin",
