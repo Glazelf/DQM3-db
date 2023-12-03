@@ -83,6 +83,10 @@
         "name": "Wizardly Wind",
         "description": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount."
     },
+    "last_gap": {
+        "name": "Last Gap",
+        "description": "Revives a single ally after it falls in battle. Only works once per battle."
+    },
     "frizzmeister": {
         "name": "Frizzmeister",
         "description": "Increases the potency of fire-elemental attacks and decreases their MP consumption."
@@ -207,6 +211,10 @@
         "name": "Auto-Cadabra",
         "description": "Restores a small amount of MP after each action."
     },
+    "castcutter": {
+        "name": "Castcutter",
+        "description": "Reduces MP consumption by 1/4."
+    },
     "castslasher": {
         "name": "Castslasher",
         "description": "Reduces MP consumption by 1/2."
@@ -239,13 +247,21 @@
         "name": "Über Dragonsbane",
         "description": "Greatly increases damage inflicted on monsters from the dragon family and somewhat lowers all resistances."
     },
+    "uber_beastsbane": {
+        "name": "Über Beastsbane",
+        "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+    },
     "uber_naturesbane": {
         "name": "Über Naturesbane",
         "description": "Greatly increases damage inflicted on monsters from the nature family and somewhat lowers all resistances."
     },
-    "uber_beastsbane": {
-        "name": "Über Beastsbane",
-        "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+    "uber_demonsbane": {
+        "name": "Über Demonsbane",
+        "description": "Greatly increases damage inflicted on monsters from the demon family and somewhat lowers all resistances."
+    },
+    "uber_zombiesbane": {
+        "name": "Über Zombiesbane",
+        "description": "Greatly increases damage inflicted on monsters from the undead family and somewhat lowers all resistances."
     },
     "uber_matterbane": {
         "name": "Über Matterbane",
@@ -430,6 +446,10 @@
     "rummager": {
         "name": "Rummager",
         "description": "Slightly increases the likelihood of acquiring an item from battle."
+    },
+    "scavenger": {
+        "name": "Scavenger",
+        "description": "Somewhat increases the likelihood of acquiring an item from battle."
     },
     "ultra_crafty_frizzer": {
         "name": "Ultra Crafty Frizzer",

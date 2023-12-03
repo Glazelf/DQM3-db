@@ -75,6 +75,25 @@
             ]
         }
     },
+    "crag_virtuoso": {
+        "name": "Crag Virtuoso",
+        "skills": {
+            "craggle": 3,
+            "sandy_sigh": 10,
+            "kacrag": 40,
+            "earthsplitter": 60,
+            "kabuff": 80,
+            "kacraggle": 150
+        },
+        "traits": {
+            "max_mp_16": [
+                20
+            ],
+            "max_mp_24": [
+                110
+            ]
+        }
+    },
     "bang_afficionado": {
         "name": "Bang Afficionado",
         "skills": {
@@ -609,7 +628,7 @@
     "fighter": {
         "name": "Fighter",
         "skills": {
-            "Helm_splitter": 3,
+            "helm_splitter": 3,
             "heart_breaker": 10,
             "frenzy": 20,
             "stones_throw": 30,
@@ -1047,6 +1066,46 @@
             ]
         }
     },
+    "slayer": {
+        "name": "Slayer",
+        "skills": {
+            "kacrackle_slash": 3,
+            "heart_breaker": 10,
+            "poison_attack": 20,
+            "frenzy": 30,
+            "paralysing_punch": 70,
+            "assassins_stab": 85,
+            "parallax": 100,
+            "multi_victimiser": 150
+        },
+        "traits": {
+            "agility_20": [
+                50
+            ],
+            "attack_48": [
+                120
+            ]
+        }
+    },
+    "destroyer": {
+        "name": "Destroyer",
+        "skills": {
+            "undead_undoer": 3,
+            "helm_splitter": 10,
+            "assassins_stab": 20,
+            "death_dance": 30,
+            "thwack": 50,
+            "withering_look": 70,
+            "tidal_wave": 85,
+            "kamikazee": 120,
+            "gigagash": 150
+        },
+        "traits": {
+            "attack_48": [
+                100
+            ]
+        }
+    },
     "firebrand": {
         "name": "Firebrand",
         "skills": {
@@ -1063,6 +1122,27 @@
         "traits": {
             "attack_16": [
                 10
+            ]
+        }
+    },
+    "pyrotechnician": {
+        "name": "Pyrotechnician",
+        "skills": {
+            "flame_slash": 3,
+            "frizzle": 10,
+            "flame_breath": 20,
+            "magma_blast": 30,
+            "thwack": 50,
+            "kazam": 85,
+            "hotstepper": 100,
+            "hellitosis": 150
+        },
+        "traits": {
+            "wisdom_24": [
+                70
+            ],
+            "ultra_frizz_ward": [
+                120
             ]
         }
     },
@@ -1184,6 +1264,27 @@
             ]
         }
     },
+    "charge_leader": {
+        "name": "Charge Leader",
+        "skills": {
+            "lightning_slash": 3,
+            "heal": 10,
+            "flame_breath": 20,
+            "oomphle": 30,
+            "midheal": 50,
+            "kazap": 70,
+            "gigaslash": 85,
+            "gigagash": 150
+        },
+        "traits": {
+            "ultra_zap_ward": [
+                100
+            ],
+            "ultra_sizz_ward": [
+                120
+            ]
+        }
+    },
     "bombshell": {
         "name": "Bombshell",
         "skills": {
@@ -1243,6 +1344,27 @@
             ],
             "atack_20": [
                 120
+            ]
+        }
+    },
+    "airhead": {
+        "name": "Airhead",
+        "skills": {
+            "snooze": 3,
+            "thin_air": 10,
+            "stomp": 20,
+            "lightning": 30,
+            "seethe": 50,
+            "brake_wind": 85,
+            "lightning_storm": 120,
+            "big_banga": 150
+        },
+        "traits": {
+            "max_mp_24": [
+                70
+            ],
+            "max_mp_40": [
+                100
             ]
         }
     },
@@ -1350,6 +1472,22 @@
                 120
             ]
         }
+    },
+    "pest_controller": {
+        "name": "Pest Controller",
+        "skills": {
+            "dragon_slash": 10,
+            "slime_squisher": 20,
+            "nature_nerfer": 30,
+            "frenzy": 50,
+            "beast_tamer": 70,
+            "matter_scatterer": 85,
+            "hatchet_man": 100,
+            "demon_demeaner": 120,
+            "undead_undoer": 150,
+            "shadow_blast": 200
+        },
+        "traits": null
     },
     "vexologist": {
         "name": "Vexologist",

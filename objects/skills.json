@@ -65,6 +65,12 @@
         "description": "Inflicts major earth-elemental spell damage on all enemies, but not until the following round.",
         "mp_cost": 23
     },
+    "kacraggle": {
+        "name": "Kacraggle",
+        "type": "Attack",
+        "description": "Inflicts extreme earth-elemental spell damage on all enemies, but not until the following round.",
+        "mp_cost": 58
+    },
     "bang": {
         "name": "Bang",
         "type": "Attack",
@@ -453,6 +459,12 @@
         "description": "Inflicts medium wind-elemental slashing damage on all enemies.",
         "mp_cost": 15
     },
+    "earthsplitter": {
+        "name": "Earthsplitter",
+        "type": "Attack",
+        "description": "Inflicts medium earth-elemental slashing damage on all enemies.",
+        "mp_cost": 15
+    },
     "brightsplitter": {
         "name": "Brightsplitter",
         "type": "Attack",
@@ -476,6 +488,12 @@
         "type": "Attack",
         "description": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 56
+    },
+    "shadow_blast": {
+        "name": "Shadow Blast",
+        "type": "Attack",
+        "description": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 80
     },
     "slime_squisher": {
         "name": "Slime Squisher",
@@ -657,6 +675,12 @@
         "description": "Damages all enemies. Highly effective against enemies that are asleep or confused.",
         "mp_cost": 26
     },
+    "magma_blast": {
+        "name": "Magma Blast",
+        "type": "Attack",
+        "description": "Inflicts medium fire-elemental damage on all enemies.",
+        "mp_cost": 4
+    },
     "tidal_wave": {
         "name": "Tidal Wave",
         "type": "Attack",
@@ -687,6 +711,18 @@
         "description": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 12
     },
+    "big_banga": {
+        "name": "Big Banga",
+        "type": "Attack",
+        "description": "Inflicts outrageous earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 52
+    },
+    "lightning": {
+        "name": "Lightning",
+        "type": "Attack",
+        "description": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 12
+    },
     "lightning_storm": {
         "name": "Lightning Storm",
         "type": "Attack",
@@ -698,6 +734,12 @@
         "type": "Attack",
         "description": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 12
+    },
+    "withering_look": {
+        "name": "Withering Look",
+        "type": "Attack",
+        "description": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 36
     },
     "hellish_howl": {
         "name": "Hellish Howl",
@@ -843,6 +885,12 @@
         "description": "Inflicts major ice-elemental breath damage on all enemies.",
         "mp_cost": 15
     },
+    "sandy_sigh": {
+        "name": "Sandy Sigh",
+        "type": "Attack",
+        "description": "Whips up a cloud of dust that inflicts major earth-elemenntal breath damage on all enemies and lowers their accuracy for 2 to 5 turns.",
+        "mp_cost": 22
+    },
     "black_breath": {
         "name": "Black Breath",
         "type": "Attack",
@@ -909,6 +957,12 @@
         "description": "A dance that heals allies at random, 2 to 6 times in total. The higher the user's level, the greater the healing amount.",
         "mp_cost": 40
     },
+    "kerplunk_dance": {
+        "name": "Kerplunk Dance",
+        "type": "Healing",
+        "description": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle.",
+        "mp_cost": -1
+    },
     "weird_dance": {
         "name": "Weird Dance",
         "type": "Status",
@@ -932,6 +986,12 @@
         "type": "Status",
         "description": "A bewitching dance that stuns all enemies for 1 turn.",
         "mp_cost": 2
+    },
+    "death_dance": {
+        "name": "Death Dance",
+        "type": "Status",
+        "description": "A dance that kills all enemies instantly.",
+        "mp_cost": 6
     },
     "mirror_moves": {
         "name": "Mirror Moves",
