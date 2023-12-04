@@ -11902,12 +11902,55 @@
         "number": 378,
         "rank": "E",
         "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Former pâtissiers who sold their souls to become unrivalled in the art of cake-making. The fruits of their labour are undoubtedly first-rate, but their calorie counts are nothing short of criminal.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_wisdom"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 1,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "sweet_talker"
+        ],
+        "traits": {
+            "small": {
+                "evasive_impulse": 1,
+                "strangely_alluring": 20,
+                "miraculous_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "uber_slimesbane": 1,
+                "critical_mastermind": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": -25,
+            "dark": 50,
+            "debilitation": 50,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 25
+        },
         "synthesis": null
     },
     "bodkin_fletcher": {
