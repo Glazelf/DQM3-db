@@ -14477,12 +14477,55 @@
         "number": 467,
         "rank": "D",
         "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Scarlet skeletal horrors who command squadrons of bony bats. Rumour has it their colouration comes from their red-hot fighting fervour.",
+        "drops": {
+            "normal": "sages_elixir",
+            "rare": "seed_of_skill"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "breath_Taker"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_debilitator": 1,
+                "ace_evader": 20,
+                "close_scraper": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "insta_ping": 1,
+                "ultra_crafty_zammer": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 25,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_undead",
