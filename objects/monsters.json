@@ -8237,8 +8237,8 @@
         },
         "synthesis": [
             [
-                "_notso_macho",
-                "_alarmour"
+                "notso_macho",
+                "alarmour"
             ]
         ]
     },
