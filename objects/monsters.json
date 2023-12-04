@@ -16380,8 +16380,12 @@
         "resistances": null,
         "synthesis": [
             [
-                "Hood",
-                "Cannonbrawler"
+                "hood",
+                "cannonbrawler"
+            ],
+            [
+                "brownie",
+                "_demon"
             ]
         ]
     },
@@ -16588,6 +16592,10 @@
             [
                 "_slime",
                 "_demon"
+            ],
+            [
+                "drackolyte",
+                "imp"
             ]
         ]
     },
@@ -17582,6 +17590,24 @@
             [
                 "tantamount",
                 "black_dragon"
+            ]
+        ]
+    },
+    "bag_o_sweets": {
+        "name": "Bag o' Sweets",
+        "number": null,
+        "rank": "C",
+        "family": "_material",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "bag_o_tricks",
+                "sugar_baddie"
             ]
         ]
     }
