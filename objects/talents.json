@@ -575,7 +575,7 @@
         }
     },
     "speedster": {
-        "name": "Accelerate",
+        "name": "Speedster",
         "skills": {
             "accelerate": 3,
             "heal": 10,
