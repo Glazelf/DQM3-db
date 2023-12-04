@@ -1844,6 +1844,10 @@
                 "bubble_slime"
             ],
             [
+                "bubble_slime",
+                "behemoth_slime"
+            ],
+            [
                 "_slime",
                 "_undead"
             ]
@@ -8231,7 +8235,12 @@
             "poison": 0,
             "instant_death": 25
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "_notso_macho",
+                "_alarmour"
+            ]
+        ]
     },
     "eggsoskeleton": {
         "name": "Eggsoskeleton",
@@ -9693,7 +9702,12 @@
             "poison": 50,
             "instant_death": 0
         },
-        "synthesis": null
+        "synthesis": [
+            [
+                "phantom_fencer",
+                "_material"
+            ]
+        ]
     },
     "rockbomb": {
         "name": "Rockbomb",
@@ -17060,6 +17074,10 @@
             [
                 "_beast",
                 "_undead"
+            ],
+            [
+                "harmour",
+                "skull_rider"
             ]
         ]
     },
@@ -17096,6 +17114,24 @@
             [
                 "ursa_major",
                 "_material"
+            ]
+        ]
+    },
+    "equinox": {
+        "name": "Equinox",
+        "number": null,
+        "rank": "A",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "tantamount",
+                "black_dragon"
             ]
         ]
     }
