@@ -7817,13 +7817,77 @@
             ]
         ]
     },
+    "brownie": {
+        "name": "Brownie",
+        "number": 236,
+        "rank": "E",
+        "family": "_beast",
+        "description": "These miniature marauders never hold back with their hefty hammer attacks, meaning that if they miss their targets, they tend to tumble head over heels.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_skill"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "outlaw"
+        ],
+        "traits": {
+            "small": {
+                "insta_bounce": 1,
+                "rando_accel": 20,
+                "rando_muster": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "uber_matterbane": 1,
+                "critical_sensation": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_material",
+                "_beast"
+            ]
+        ]
+    },
     "jailcat": {
         "name": "Jailcat",
         "number": 237,
         "rank": "E",
         "family": "_beast",
-        "description": null,
-        "drops": null,
+        "description": "These cute critters take their name from their striped fur, which resembles prison-wear. Proud practitioners of a secretive form of self defence called mew-jitsu.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "seed_of_skill"
+        },
         "growth": {
             "hp": 2,
             "mp": 1,
@@ -7841,7 +7905,11 @@
                 "agent_of_chaos": 20,
                 "ace_evader": 40
             },
-            "large": null
+            "large": {
+                "tactical_commander": 1,
+                "insta_accel": 1,
+                "ultra_crafty_cracker": 60
+            }
         },
         "resistances": {
             "fire": 25,
@@ -7948,6 +8016,67 @@
         "traits": null,
         "resistances": null,
         "synthesis": null
+    },
+    "gargoyle": {
+        "name": "Gargoyle",
+        "number": 241,
+        "rank": "D",
+        "family": "_demon",
+        "description": "Stony sentients of the underworld, they are always on the alert for intruders. Sometimes sent ahead to the human world as scouts for the Master of Monsterkind's army.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "leather_collar"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 3,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "speedster"
+        ],
+        "traits": {
+            "small": {
+                "adrenaline_rush": 1,
+                "defensive_impulse": 20,
+                "rando_buff": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ultra_crafty_sleeper": 1,
+                "insta_buff": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_demon",
+                "_beast"
+            ]
+        ]
     },
     "warhog": {
         "name": "Warhog",
@@ -16297,24 +16426,6 @@
             ]
         ]
     },
-    "brownie": {
-        "name": "Brownie",
-        "number": null,
-        "rank": "E",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_material",
-                "_beast"
-            ]
-        ]
-    },
     "brimstone_bulb": {
         "name": "Brimstone Bulb",
         "number": null,
@@ -16419,24 +16530,6 @@
         "synthesis": [
             [
                 "_dragon",
-                "_beast"
-            ]
-        ]
-    },
-    "gargoyle": {
-        "name": "Gargoyle",
-        "number": null,
-        "rank": "D",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_demon",
                 "_beast"
             ]
         ]
