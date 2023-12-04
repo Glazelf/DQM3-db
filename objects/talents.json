@@ -644,6 +644,23 @@
             ]
         }
     },
+    "outlaw": {
+        "name": "Outlaw",
+        "skills": {
+            "helm_splitter": 3,
+            "tongue_lashing": 10,
+            "poison_attack": 30,
+            "stones_throw": 50,
+            "war_cry": 70,
+            "parallax": 85,
+            "hustle_dance": 100
+        },
+        "traits": {
+            "max_hp_4": [
+                20
+            ]
+        }
+    },
     "fighter": {
         "name": "Fighter",
         "skills": {
