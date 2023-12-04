@@ -12591,12 +12591,55 @@
         "number": 395,
         "rank": "C",
         "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "These guardians of the gates of hell take their duties very seriously...most of the time. When they get bored, they sneak up to the surface to let off a little steam from time to time.",
+        "drops": {
+            "normal": "bad_medicine",
+            "rare": "glow_in_the_dark_armband"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "slayer"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_magic_drainer": 1,
+                "magical_moment": 20,
+                "deadly_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "wizardly_wind": 1,
+                "ultra_crafty_frizzer": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": -25,
+            "ice": 25,
+            "electricity": -25,
+            "light": -25,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 25
+        },
         "synthesis": [
             [
                 "_demon",
