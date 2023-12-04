@@ -5,7 +5,7 @@
     },
     "tactical_commander": {
         "name": "Tactical Commander",
-        "description": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
+        "description": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
     },
     "tactical_genius": {
         "name": "Tactical Genius",
@@ -59,6 +59,14 @@
         "name": "Rando-Relief",
         "description": "Sometimes uses Wave of Relief during battle."
     },
+    "rando_panic": {
+        "name": "Rando-Panic",
+        "description": "Sometimes uses Wave of Panic during battle."
+    },
+    "rando_disrupt": {
+        "name": "Rando-Disrupt",
+        "description": "Sometimes uses Disruptive Wave during battle."
+    },
     "rando_muster": {
         "name": "Rando-Muster",
         "description": "Sometimes uses Muster Strength during battle."
@@ -74,6 +82,10 @@
     "wizardly_wind": {
         "name": "Wizardly Wind",
         "description": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount."
+    },
+    "last_gasp": {
+        "name": "Last Gasp",
+        "description": "Revives a single ally after it falls in battle. Only works once per battle."
     },
     "frizzmeister": {
         "name": "Frizzmeister",
@@ -94,6 +106,10 @@
     "bangmeister": {
         "name": "Bangmeister",
         "description": "Increases the potency of explosive attacks and decreases their MP consumption."
+    },
+    "crackmeister": {
+        "name": "Crackmeister",
+        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
     },
     "zapmeister": {
         "name": "Zapmeister",
@@ -139,6 +155,10 @@
         "name": "Spongy Skin",
         "description": "Sometimes absorbs MP from enemies that inflict direct attacks."
     },
+    "artful_dodger": {
+        "name": "Artful Dodger",
+        "description": "Makes it slightly easier to avoid enemy attacks."
+    },
     "ace_evader": {
         "name": "Ace Evader",
         "description": "Makes it somewhat easier to avoid enemy attacks."
@@ -163,6 +183,14 @@
         "name": "Critical Moment",
         "description": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4."
     },
+    "critical_theorist": {
+        "name": "Critical Theorist",
+        "description": "Makes it somewhat easier to cast critical spells."
+    },
+    "critical_mastermind": {
+        "name": "Critical Mastermind",
+        "description": "Makes it much easier to cast critical spells."
+    },
     "magical_moment": {
         "name": "Magical Moment",
         "description": "Makes it easier to cast critical spells when HP drops to 1/2, and even more so when HP drops to 1/4."
@@ -170,6 +198,10 @@
     "desperate_measures": {
         "name": "Desperate Measures",
         "description": "Negates all damage suffered from critical hits and critical spells."
+    },
+    "hothead": {
+        "name": "Hothead",
+        "description": "Makes it easier to activate a frenzied state, turning the monster into a formidable fighting force."
     },
     "auto_restora": {
         "name": "Auto-Restora",
@@ -179,13 +211,29 @@
         "name": "Auto-Cadabra",
         "description": "Restores a small amount of MP after each action."
     },
+    "castcutter": {
+        "name": "Castcutter",
+        "description": "Reduces MP consumption by 1/4."
+    },
     "castslasher": {
         "name": "Castslasher",
         "description": "Reduces MP consumption by 1/2."
     },
+    "dragonsbane": {
+        "name": "Dragonsbane",
+        "description": "Increases damage inflicted on monsters from the dragon family and slightly lowers all resistances."
+    },
     "beastsbane": {
         "name": "Beastsbane",
         "description": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
+    },
+    "naturesbane": {
+        "name": "Naturesbane",
+        "description": "Increases damage inflicted on monsters from the nature family and slightly lowers all resistances."
+    },
+    "demonsbane": {
+        "name": "Demonsbane",
+        "description": "Increases damage inflicted on monsters from the demon family and slightly lowers all resistances."
     },
     "zombiesbane": {
         "name": "Zombiesbane",
@@ -195,9 +243,37 @@
         "name": "Matterbane",
         "description": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
     },
+    "bossesbane": {
+        "name": "Bossesbane",
+        "description": "Increases damage inflicted on monsters from the ??? family and slightly lowers all resistances."
+    },
+    "uber_slimesbane": {
+        "name": "Über Slimesbane",
+        "description": "Greatly increases damage inflicted on monsters from the slime family and somewhat lowers all resistances."
+    },
+    "uber_dragonsbane": {
+        "name": "Über Dragonsbane",
+        "description": "Greatly increases damage inflicted on monsters from the dragon family and somewhat lowers all resistances."
+    },
     "uber_beastsbane": {
         "name": "Über Beastsbane",
         "description": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+    },
+    "uber_naturesbane": {
+        "name": "Über Naturesbane",
+        "description": "Greatly increases damage inflicted on monsters from the nature family and somewhat lowers all resistances."
+    },
+    "uber_demonsbane": {
+        "name": "Über Demonsbane",
+        "description": "Greatly increases damage inflicted on monsters from the demon family and somewhat lowers all resistances."
+    },
+    "uber_zombiesbane": {
+        "name": "Über Zombiesbane",
+        "description": "Greatly increases damage inflicted on monsters from the undead family and somewhat lowers all resistances."
+    },
+    "uber_matterbane": {
+        "name": "Über Matterbane",
+        "description": "Greatly increases damage inflicted on monsters from the material family and somewhat lowers all resistances."
     },
     "poisonous_touch": {
         "name": "Poisonous Touch",
@@ -251,6 +327,10 @@
         "name": "Insult to Injury",
         "description": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused or paralysed."
     },
+    "intimidating": {
+        "name": "Intimidating",
+        "description": "Sometimes stuns the enemy during battle for 1 turn."
+    },
     "strangely_alluring": {
         "name": "Strangely Alluring",
         "description": "Sometimes stuns the enemy during battle for 1 turn."
@@ -274,6 +354,10 @@
     "detox": {
         "name": "Detox",
         "description": "Sometimes cures allies of poison, severe poison and paralysis during battle."
+    },
+    "decontaminate": {
+        "name": "Decontaminate",
+        "description": "Sometimes cures allies of sleep, confusion, poison, severe poison and paralysis during battle."
     },
     "heaven_sent": {
         "name": "Heaven-Sent",
@@ -347,6 +431,34 @@
         "name": "Personal Grudge",
         "description": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
     },
+    "echonomist": {
+        "name": "Echonomist",
+        "description": "Sometimes casts the same spell twice. Consumes slightly more MP than usual."
+    },
+    "adrenaline_rush": {
+        "name": "Adrenaline Rush",
+        "description": "Greatly increases attack after inflicting a critical hit."
+    },
+    "trance_state": {
+        "name": "Trance State",
+        "description": "Greatly increases wisdom after casting a critical spell."
+    },
+    "iota_of_experience": {
+        "name": "Iota of Experience",
+        "description": "Slightly increases the amount of experience points earned after battle."
+    },
+    "gold_planner": {
+        "name": "Gold Planner",
+        "description": "Slightly increases the amount of gold coins acquired from battle."
+    },
+    "rummager": {
+        "name": "Rummager",
+        "description": "Slightly increases the likelihood of acquiring an item from battle."
+    },
+    "scavenger": {
+        "name": "Scavenger",
+        "description": "Somewhat increases the likelihood of acquiring an item from battle."
+    },
     "ultra_crafty_frizzer": {
         "name": "Ultra Crafty Frizzer",
         "description": "Greatly increases the damage inflicted by fire-elemental attacks."
@@ -359,9 +471,17 @@
         "name": "Ultra Crafty Woosher",
         "description": "Greatly increases the damage inflicted by wind-elemental attacks."
     },
+    "ultra_crafty_cragger": {
+        "name": "Ultra Crafty Cragger",
+        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
+    },
     "ultra_crafty_banger": {
         "name": "Ultra Crafty Banger",
         "description": "Greatly increases the damage inflicted by explosive attacks."
+    },
+    "crafty_cracker": {
+        "name": "Crafty Cracker",
+        "description": "Slightly increases the damage inflicted by ice-elemental attacks."
     },
     "ultra_crafty_cracker": {
         "name": "Ultra Crafty Cracker",
@@ -390,6 +510,10 @@
     "ultra_crafty_spellbinder": {
         "name": "Ultra Crafty Spellbinder",
         "description": "Makes it much easier to prevent spellcasting"
+    },
+    "ultra_crafty_magic_drainer": {
+        "name": "Ultra Crafty Magic Drainer",
+        "description": "Makes it much easier to absorb MP."
     },
     "ultra_crafty_confuser": {
         "name": "Ultra Crafty Confuser",
@@ -431,6 +555,14 @@
         "name": "Max. HP +12",
         "description": "Raises max. HP by 12."
     },
+    "max_hp_16": {
+        "name": "Max. HP +16",
+        "description": "Raises max. HP by 16."
+    },
+    "max_hp_48": {
+        "name": "Max. HP +48",
+        "description": "Raises max. HP by 48."
+    },
     "max_mp_4": {
         "name": "Max. MP +4",
         "description": "Raises max. MP by 4."
@@ -446,6 +578,18 @@
     "max_mp_24": {
         "name": "Max. MP +24",
         "description": "Raises max. MP by 24."
+    },
+    "max_mp_32": {
+        "name": "Max. MP +32",
+        "description": "Raises max. MP by 32."
+    },
+    "max_mp_40": {
+        "name": "Max. MP +40",
+        "description": "Raises max. MP by 40."
+    },
+    "max_mp_48": {
+        "name": "Max. MP +48",
+        "description": "Raises max. MP by 48."
     },
     "attack_4": {
         "name": "Attack +4",
@@ -463,6 +607,26 @@
         "name": "Attack +16",
         "description": "Raises attack by 16."
     },
+    "attack_20": {
+        "name": "Attack +20",
+        "description": "Raises attack by 20."
+    },
+    "attack_24": {
+        "name": "Attack +24",
+        "description": "Raises attack by 24."
+    },
+    "attack_30": {
+        "name": "Attack +30",
+        "description": "Raises attack by 30."
+    },
+    "attack_36": {
+        "name": "Attack +36",
+        "description": "Raises attack by 36."
+    },
+    "attack_48": {
+        "name": "Attack +48",
+        "description": "Raises attack by 48."
+    },
     "defence_4": {
         "name": "Defence +4",
         "description": "Raises defence by 4."
@@ -478,6 +642,14 @@
     "defence_24": {
         "name": "Defence +24",
         "description": "Raises defence by 24."
+    },
+    "defence_32": {
+        "name": "Defence +32",
+        "description": "Raises defence by 32."
+    },
+    "defence_40": {
+        "name": "Defence +40",
+        "description": "Raises defence by 40."
     },
     "agility_4": {
         "name": "Agility +4",
@@ -495,6 +667,14 @@
         "name": "Agility +16",
         "description": "Raises agility by 16."
     },
+    "agility_20": {
+        "name": "Agility +20",
+        "description": "Raises agility by 20."
+    },
+    "agility_24": {
+        "name": "Agility +24",
+        "description": "Raises agility by 24."
+    },
     "wisdom_4": {
         "name": "Wisdom +4",
         "description": "Raises wisdom by 4."
@@ -511,41 +691,93 @@
         "name": "Wisdom +24",
         "description": "Raises wisdom by 24."
     },
+    "wisdom_32": {
+        "name": "Wisdom +32",
+        "description": "Raises wisdom by 32."
+    },
+    "frizz_ward": {
+        "name": "Frizz Ward",
+        "description": "Slightly increases resistance to fire-elemental attacks."
+    },
     "ultra_frizz_ward": {
         "name": "Ultra Frizz Ward",
         "description": "Greatly increases resistance to fire-elemental attacks."
+    },
+    "splish_ward": {
+        "name": "Splish Ward",
+        "description": "Slightly increases resistance to water-elemental attacks."
+    },
+    "ultra_splish_ward": {
+        "name": "Ultra Splish Ward",
+        "description": "Greatly increases resistance to water-elemental attacks."
+    },
+    "woosh_ward": {
+        "name": "Woosh Ward",
+        "description": "Slightly increases resistance to wind-elemental attacks."
     },
     "ultra_woosh_ward": {
         "name": "Ultra Woosh Ward",
         "description": "Greatly increases resistance to wind-elemental attacks."
     },
+    "crag_ward": {
+        "name": "Crag Ward",
+        "description": "Slightly increases resistance to earth-elemental attacks."
+    },
     "ultra_crag_ward": {
         "name": "Ultra Crag Ward",
         "description": "Greatly increases resistance to earth-elemental attacks."
+    },
+    "bang_ward": {
+        "name": "Bang Ward",
+        "description": "Slightly increases resistance to explosive attacks."
     },
     "ultra_bang_ward": {
         "name": "Ultra Bang Ward",
         "description": "Greatly increases resistance to explosive attacks."
     },
+    "crack_ward": {
+        "name": "Crack Ward",
+        "description": "Slightly increases resistance to ice-elemental attacks."
+    },
     "ultra_crack_ward": {
         "name": "Ultra Crack Ward",
         "description": "Greatly increases resistance to ice-elemental attacks."
+    },
+    "zap_ward": {
+        "name": "Zap Ward",
+        "description": "Slightly increases resistance to electrical attacks."
     },
     "ultra_zap_ward": {
         "name": "Ultra Zap Ward",
         "description": "Greatly increases resistance to electrical attacks."
     },
+    "sizz_ward": {
+        "name": "Sizz Ward",
+        "description": "Slightly increases resistance to light-elemental attacks."
+    },
     "ultra_sizz_ward": {
         "name": "Ultra Sizz Ward",
         "description": "Greatly increases resistance to light-elemental attacks."
+    },
+    "zam_ward": {
+        "name": "Zam Ward",
+        "description": "Slightly increases resistance to dark-elemental attacks."
     },
     "ultra_zam_ward": {
         "name": "Ultra Zam Ward",
         "description": "Greatly increases resistance to dark-elemental attacks."
     },
+    "antitoxidant": {
+        "name": "Antitoxidant",
+        "description": "Slightly increases resistance to poison and severe poison."
+    },
     "ultra_antitoxidant": {
         "name": "Ultra Antitoxidant",
         "description": "Greatly increases resistance to poison and severe poison."
+    },
+    "granite_chin": {
+        "name": "Granite Chin",
+        "description": "Slightly increases resistance to being stunned."
     },
     "ultra_granite_chin": {
         "name": "Ultra Granite Chin",
@@ -555,9 +787,25 @@
         "name": "Ultra Clear Thinker",
         "description": "Greatly increases resistance to confusion."
     },
+    "insomniac": {
+        "name": "Insomniac",
+        "description": "Slightly increases resistance to being put to sleep."
+    },
+    "ultra_insomniac": {
+        "name": "Ultra Insomniac",
+        "description": "Greatly increases resistance to being put to sleep."
+    },
+    "ultra_fidget": {
+        "name": "Ultra Fidget",
+        "description": "Greatly increases resistance to paralysis."
+    },
     "ultra_death_defier": {
         "name": "Ultra Death Defier",
         "description": "Greatly increases resistance to instant death."
+    },
+    "ultra_tough_customer": {
+        "name": "Ultra Tough Customer",
+        "description": "Greatly increases resistance to debilitation."
     },
     "ultra_visionary": {
         "name": "Ultra Visionary",
@@ -570,25 +818,5 @@
     "ultra_drain_blocker": {
         "name": "Ultra Drain Blocker",
         "description": "Greatly increases resistance to MP absorption."
-    },
-    "crackmeister": {
-        "name": "Crackmeister",
-        "description": "Increases the potency of ice-elemental attacks and decreases their MP consumption."
-    },
-    "intimidating": {
-        "name": "Intimidating",
-        "description": "Sometimes stuns the enemy during battle for 1 turn."
-    },
-    "trance_state": {
-        "name": "Trance State",
-        "description": "Greatly increases wisdom after casting a critical spell."
-    },
-    "ultra_crafty_cragger": {
-        "name": "Ultra Crafty Cragger",
-        "description": "Greatly increases the damage inflicted by earth-elemental attacks."
-    },
-    "ultra_crafty_magic_drainer": {
-        "name": "Ultra Crafty Magic Drainer",
-        "description": "Makes it much easier to absorb MP."
     }
 }

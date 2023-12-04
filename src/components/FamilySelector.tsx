@@ -25,13 +25,16 @@ const FamilySelector: FC<FamilySelectorProps> = ({ updateFilter }) => {
   return (
     <div className='icon-container'>
       {familyIcons.map((family, index) => (
-        <img
-          key={index}
-          className='family-icon'
-          src={`families/${family.family}_icon.png`}
-          alt={family.alt}
-          onClick={() => handleFamilyClick(family.family)}
-        />
+        <div key={index} className='family-icon-container'>
+          <img
+            key={index}
+            className='family-icon'
+            src={`families/${family.family}_icon.png`}
+            alt={family.alt}
+            onClick={() => handleFamilyClick(family.family)}
+          />
+          {family.name}
+        </div>
       ))}
     </div>
   );

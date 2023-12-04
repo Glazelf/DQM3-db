@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    assignees: ["glazelf"]
+    schedule:
+      interval: "monthly"
