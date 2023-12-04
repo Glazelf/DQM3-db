@@ -10289,12 +10289,55 @@
         "number": 328,
         "rank": "C",
         "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Curious creatures made from columns of crockery. They're understandably nervous about getting chipped or cracked, but apparently they can operate at full strength even if they're one saucer short of a dinnerware set.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "seed_of_agility"
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 1,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "doomsayer"
+        ],
+        "traits": {
+            "small": {
+                "wooshmeister": 1,
+                "ace_evader": 20,
+                "ultra_crafty_whacker": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "ultra_crafty_confuser": 1,
+                "ultra_crafty_spellbinder": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 25,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": 50,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 0,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 75
+        },
         "synthesis": [
             [
                 "_material",

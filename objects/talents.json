@@ -1564,6 +1564,25 @@
             ]
         }
     },
+    "doomsayer": {
+        "name": "Doomsayer",
+        "skills": {
+            "sandstorm": 3,
+            "heart_breaker": 10,
+            "sweet_breath": 20,
+            "dazzle": 30,
+            "assassins_stab": 50,
+            "burning_breath": 70,
+            "sandy_sigh": 85,
+            "death_dance": 100,
+            "kamikazee": 150
+        },
+        "traits": {
+            "ultra_death_defier": [
+                120
+            ]
+        }
+    },
     "mouth_guard": {
         "name": "Mouth Guard",
         "skills": {
