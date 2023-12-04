@@ -14452,12 +14452,55 @@
         "number": 459,
         "rank": "D",
         "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "A cluster of spirits compromised of the souls of assorted killers and crooks. They assail adventurers hoping to add more souls to their cruel community.",
+        "drops": {
+            "normal": "manky_meat",
+            "rare": "pickpockets_poncho"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 1,
+            "def": 4,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "doomsayer"
+        ],
+        "traits": {
+            "small": {
+                "confusing_touch": 1,
+                "tit_for_tat": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "dodge_denier": 1,
+                "snappy_comeback": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 50,
+            "electricity": -25,
+            "light": 0,
+            "dark": 50,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 50
+        },
         "synthesis": [
             [
                 "_demon",
