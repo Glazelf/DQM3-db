@@ -1384,12 +1384,55 @@
         "number": 29,
         "rank": "E",
         "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Despite being made of metal, when these monsters' mettle is tested, it is often found wanting, prone as they are to scurrying away at the slightest of sounds. Still, in the field of swift exists, their skills are second to none.",
+        "drops": {
+            "normal": "pinball",
+            "rare": "ring_of_protection"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 4,
+            "atk": 3,
+            "def": 5,
+            "agi": 5,
+            "wis": 3
+        },
+        "talents": [
+            "frizz_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "metal_skin": 1,
+                "strong_starter": 20,
+                "ace_evader": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "frizzmeister": 1,
+                "ultra_crafty_zapper": 60
+            }
+        },
+        "resistances": {
+            "fire": 100,
+            "water": 100,
+            "wind": 100,
+            "earth": 100,
+            "explosions": 100,
+            "ice": 100,
+            "electricity": 100,
+            "light": 100,
+            "dark": 100,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 100,
+            "sleep": -75,
+            "paralysis": 100,
+            "stun": -75,
+            "poison": 100,
+            "instant_death": 100
+        },
         "synthesis": null
     },
     "behemoth_slime": {
