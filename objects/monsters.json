@@ -12338,12 +12338,55 @@
         "number": 383,
         "rank": "E",
         "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Determined to become more formidable than regular drackies, these blood-red bats undergo protracted and punishing training in spell-craft.",
+        "drops": {
+            "normal": "bad_medicine",
+            "rare": "blast_proof_earrings"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "sleep_counsellor"
+        ],
+        "traits": {
+            "small": {
+                "rando_ping": 1,
+                "insta_ping": 20,
+                "ultra_crafty_zammer": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "critical_mastermind": 1,
+                "wizardly_wind": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 25,
+            "electricity": -25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 25,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "dracky",
