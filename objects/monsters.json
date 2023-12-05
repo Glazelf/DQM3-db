@@ -1173,6 +1173,28 @@
         "resistances": null,
         "synthesis": null
     },
+    "angel_slime": {
+        "name": "Angel Slime",
+        "number": 22,
+        "rank": "E",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "mitey_oak",
+                "healslime"
+            ],
+            [
+                "_nature",
+                "_slime"
+            ]
+        ]
+    },
     "sugarstar_slime": {
         "name": "Sugarstar Slime",
         "number": 23,
@@ -2066,6 +2088,24 @@
             ]
         ]
     },
+    "flutter_slime": {
+        "name": "Flutter Slime",
+        "number": 44,
+        "rank": "C",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_nature"
+            ]
+        ]
+    },
     "cyber_slime": {
         "name": "Cyber Slime",
         "number": 46,
@@ -2253,6 +2293,128 @@
         "traits": null,
         "resistances": null,
         "synthesis": null
+    },
+    "slionheart": {
+        "name": "Slionheart",
+        "number": 60,
+        "rank": "A",
+        "family": "_slime",
+        "description": "These supreme slimes boast near-supernatural strength. As they have so thoroughly surpassed their squishy siblings, they do not deign to even include 'slime' in their name.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 3,
+            "atk": 4,
+            "def": 4,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "rainmaker"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "health_professional": 20,
+                "late_bloomer": 40
+            },
+            "large": {
+                "insta_oomph": 1,
+                "high_heal": 1,
+                "critical_sensation": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 75,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 25,
+            "mp_absorption": -25,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "shogum",
+                "superior_slime"
+            ]
+        ]
+    },
+    "superior_slime": {
+        "name": "Superior Slime",
+        "number": 62,
+        "rank": "A",
+        "family": "_slime",
+        "description": "Towering titans of the slime world who are said to possess powers beyond normal comprehension. Their shiny gold horns serve as proud proof of their esteemed position.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "cleric"
+        ],
+        "traits": {
+            "small": {
+                "critical_triumph": 1,
+                "late_bloomer": 20,
+                "rando_accel": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "insta_oomph": 1,
+                "last_gasp": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 50,
+            "dark": -25,
+            "debilitation": 50,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "wild_slime",
+                "mohawker"
+            ]
+        ]
     },
     "dragonthorn": {
         "name": "Dragonthorn",
@@ -8353,6 +8515,67 @@
         "resistances": null,
         "synthesis": null
     },
+    "mohawker": {
+        "name": "Mohawker",
+        "number": null,
+        "rank": "B",
+        "family": "_beast",
+        "description": "Though their silver hue isn't as bright as it might be, their mighty mohawks are simply magnificent. They never miss their daily training sessions with their buffalogre buddies.",
+        "drops": {
+            "normal": "mega_medicine",
+            "rare": "seed_of_strength"
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 1,
+            "atk": 3,
+            "def": 3,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "super_naturalist"
+        ],
+        "traits": {
+            "small": {
+                "health_professional": 1,
+                "critical_moment": 20,
+                "defensive_impulse": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "high_heal": 1,
+                "critical_sensation": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 50,
+            "ice": -25,
+            "electricity": 0,
+            "light": 0,
+            "dark": 25,
+            "debilitation": 50,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 100,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_material"
+            ]
+        ]
+    },
     "macho_picchu": {
         "name": "Macho Picchu",
         "number": 276,
@@ -10412,6 +10635,67 @@
         "traits": null,
         "resistances": null,
         "synthesis": null
+    },
+    "bag_o_sweets": {
+        "name": "Bag o' Sweets",
+        "number": 327,
+        "rank": "C",
+        "family": "_material",
+        "description": "Baggy beasties brought to life by a witch with a seriously sweet tooth so that her supply of confectionary would never run out.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "devils_advocate"
+        ],
+        "traits": {
+            "small": {
+                "hothead": 1,
+                "health_professional": 20,
+                "late_bloomer": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "detox": 1,
+                "collective_punishment": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 0,
+            "wind": -25,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 50,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 50,
+            "sleep": -25,
+            "paralysis": 50,
+            "stun": 25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "bag_o_tricks",
+                "sugar_baddie"
+            ]
+        ]
     },
     "flying_saucers": {
         "name": "Flying Saucers",
@@ -16095,28 +16379,6 @@
             ]
         ]
     },
-    "angel_slime": {
-        "name": "Angel Slime",
-        "number": null,
-        "rank": "E",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "mitey_oak",
-                "healslime"
-            ],
-            [
-                "_nature",
-                "_slime"
-            ]
-        ]
-    },
     "rotten_cotton": {
         "name": "Rotten Cotton",
         "number": null,
@@ -16722,24 +16984,6 @@
             [
                 "_slime",
                 "_material"
-            ]
-        ]
-    },
-    "flutter_slime": {
-        "name": "Flutter Slime",
-        "number": null,
-        "rank": "C",
-        "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_slime",
-                "_nature"
             ]
         ]
     },
@@ -17409,24 +17653,6 @@
             ]
         ]
     },
-    "mohawker": {
-        "name": "Mohawker",
-        "number": null,
-        "rank": "B",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_beast",
-                "_material"
-            ]
-        ]
-    },
     "dark_sabrecat": {
         "name": "Dark Sabrecat",
         "number": null,
@@ -17590,24 +17816,6 @@
             [
                 "tantamount",
                 "black_dragon"
-            ]
-        ]
-    },
-    "bag_o_sweets": {
-        "name": "Bag o' Sweets",
-        "number": null,
-        "rank": "C",
-        "family": "_material",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "bag_o_tricks",
-                "sugar_baddie"
             ]
         ]
     }
