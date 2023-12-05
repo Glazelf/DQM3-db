@@ -6515,6 +6515,67 @@
             ]
         ]
     },
+    "cosmic_chimaera": {
+        "name": "Cosmic Chimaera",
+        "number": 191,
+        "rank": "B",
+        "family": "_nature",
+        "description": "These chimaera are the toughest of their kind. They are highly-valued for their loyalty by the potentates of monsterkind and are often offered high-flying roles in monster management.",
+        "drops": {
+            "normal": "yggdrasil_leaf",
+            "rare": "blast_proof_belt"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "vaudevillian"
+        ],
+        "traits": {
+            "small": {
+                "rando_accel": 1,
+                "magical_moment": 20,
+                "ace_evader": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "uber_matterbane": 1,
+                "tit_for_tat": 60
+            }
+        },
+        "resistances": {
+            "fire": 0,
+            "water": 50,
+            "wind": 75,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 0,
+            "electricity": 0,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 25,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 50,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_nature",
+                "_demon"
+            ]
+        ]
+    },
     "fowl_beast": {
         "name": "Fowl Beast",
         "number": 194,
@@ -17527,24 +17588,6 @@
             ]
         ]
     },
-    "cosmic_chimaera": {
-        "name": "Cosmic Chimaera",
-        "number": null,
-        "rank": "B",
-        "family": "_nature",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_nature",
-                "_demon"
-            ]
-        ]
-    },
     "belisha_beakon": {
         "name": "Belisha Beakon",
         "number": null,
@@ -17816,6 +17859,42 @@
             [
                 "tantamount",
                 "black_dragon"
+            ]
+        ]
+    },
+    "knight_abhorrent": {
+        "name": "Knight Abhorrent",
+        "number": null,
+        "rank": "A",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "knight_errant",
+                "bone_baron"
+            ]
+        ]
+    },
+    "the_dragonlord": {
+        "name": "The Dragonlord",
+        "number": null,
+        "rank": "A",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "knight_abhorrent",
+                "cosmic_chimaera"
             ]
         ]
     }
