@@ -1200,12 +1200,55 @@
         "number": 23,
         "rank": "E",
         "family": "_slime",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "These sparkly, spikey slimes are said to hail from beyond the stars. Said to always be snacking on sugar, even their skin is sweet.",
+        "drops": {
+            "normal": "amor_seco_essence",
+            "rare": "seasoning"
+        },
+        "growth": {
+            "hp": 1,
+            "mp": 2,
+            "atk": 2,
+            "def": 2,
+            "agi": 4,
+            "wis": 3
+        },
+        "talents": [
+            "cupid"
+        ],
+        "traits": {
+            "small": {
+                "spiky_skin": 1,
+                "trance_state": 20,
+                "metal_medley": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "uber_bossesbane": 1,
+                "heaven_sent": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 25,
+            "wind": 0,
+            "earth": -25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 50,
+            "light": 50,
+            "dark": -25,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 25,
+            "sleep": 25,
+            "paralysis": 75,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "fromage_fray",
@@ -2105,6 +2148,19 @@
                 "_nature"
             ]
         ]
+    },
+    "creme_caraslime": {
+        "name": "Crème Caraslime",
+        "number": 45,
+        "rank": "C",
+        "family": "_slime",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": null
     },
     "cyber_slime": {
         "name": "Cyber Slime",
@@ -3014,8 +3070,11 @@
         "number": 75,
         "rank": "F",
         "family": "_dragon",
-        "description": null,
-        "drops": null,
+        "description": "They toot their surprisingly spiffy marching tuen loud and proud in lock step with their crocodilian chums, inevitably bringing traffic to a standstill as they leisurely stride through the streets.",
+        "drops": {
+            "normal": "smelling_salts",
+            "rare": "seed_of_resilience"
+        },
         "growth": {
             "hp": 2,
             "mp": 4,
@@ -3033,7 +3092,11 @@
                 "bigger_upper": 20,
                 "rando_accel": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "decontaminate": 1,
+                "late_bloomer": 60
+            }
         },
         "resistances": {
             "fire": 50,
@@ -3518,6 +3581,75 @@
             ]
         ]
     },
+    "cauldragon": {
+        "name": "Cauldragon",
+        "number": 86,
+        "rank": "E",
+        "family": "_dragon",
+        "description": "Poisonous creatures who have ingested all manner of toxicants to keep predators at bay, their venom varying in effect depending on what they eat. Their diet is so unhealthy that a glass of pure spring water will actually upset their stomachs.",
+        "drops": {
+            "normal": "antidotal_herb",
+            "rare": "seed_of_life"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 4,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "stinker"
+        ],
+        "traits": {
+            "small": {
+                "infected_skin": 1,
+                "sleep_twitch": 20,
+                "poisonous_touch": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "high_heal": 1,
+                "collective_punishment": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 25,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": -25,
+            "light": 25,
+            "dark": 50,
+            "debilitation": 25,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": -25,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "killer_gila",
+                "jargon"
+            ],
+            [
+                "croc_a_bugle_doo",
+                "_undead"
+            ],
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
     "green_dragon": {
         "name": "Green Dragon",
         "number": 87,
@@ -3854,6 +3986,19 @@
             ]
         ]
     },
+    "dragon_rider": {
+        "name": "Dragon Rider",
+        "number": 96,
+        "rank": "D",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": null
+    },
     "metal_dragon": {
         "name": "Metal Dragon",
         "number": 98,
@@ -3964,6 +4109,24 @@
             ]
         ]
     },
+    "flapdragon": {
+        "name": "Flapdragon",
+        "number": 103,
+        "rank": "C",
+        "family": "_dragon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_undead"
+            ]
+        ]
+    },
     "noble_gasbagon": {
         "name": "Noble Gasbagon",
         "number": 106,
@@ -4025,8 +4188,8 @@
             ]
         ]
     },
-    "helligator": {
-        "name": "Helligator",
+    "heligator": {
+        "name": "Heligator",
         "number": 108,
         "rank": "C",
         "family": "_dragon",
@@ -4036,7 +4199,12 @@
         "talents": null,
         "traits": null,
         "resistances": null,
-        "synthesis": null
+        "synthesis": [
+            [
+                "_nature",
+                "_dragon"
+            ]
+        ]
     },
     "dread_dragooner": {
         "name": "Dread Dragooner",
@@ -4161,6 +4329,67 @@
             [
                 "_dragon",
                 "_material"
+            ]
+        ]
+    },
+    "the_dragonlord": {
+        "name": "The Dragonlord",
+        "number": 127,
+        "rank": "A",
+        "family": "_dragon",
+        "description": "The humanoid guise of the would-be world-ruling Dragonlord. Though less imposing, he still packs plenty of punch in this form.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 3,
+            "atk": 2,
+            "def": 2,
+            "agi": 3,
+            "wis": 4
+        },
+        "talents": [
+            "sovereign"
+        ],
+        "traits": {
+            "small": {
+                "intimidating": 1,
+                "ultra_crafty_spellbinder": 20,
+                "ultra_crafty_confuser": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "insult_to_injury": 1,
+                "magical_moment": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 25,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": 25,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": 0,
+            "sleep": 25,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": -25,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "knight_abhorrent",
+                "cosmic_chimaera"
             ]
         ]
     },
@@ -4995,8 +5224,11 @@
         "number": 149,
         "rank": "F",
         "family": "_nature",
-        "description": null,
-        "drops": null,
+        "description": "Though these huge hunting hawks deal horrific damage with their terrible talons, finding one of their feathers is said to bring fortune on your travels.",
+        "drops": {
+            "normal": "mystery_meat",
+            "rare": "quick_ring"
+        },
         "growth": {
             "hp": 1,
             "mp": 2,
@@ -5014,7 +5246,11 @@
                 "last_legs": 20,
                 "ultra_crafty_sizzer": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "critical_moment": 1,
+                "collective_punishment": 60
+            }
         },
         "resistances": {
             "fire": 25,
@@ -6594,6 +6830,75 @@
             ]
         ]
     },
+    "baleen_mage": {
+        "name": "Baleen Mage",
+        "number": 196,
+        "rank": "B",
+        "family": "_nature",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": null
+    },
+    "snowbird": {
+        "name": "Snowbird",
+        "number": 197,
+        "rank": "B",
+        "family": "_nature",
+        "description": "Frosty fowl which appear from bitingly brisk blizzards. A single flap of their wings is eough to summon winter, transforming their surroundings into snowy landscapes.",
+        "drops": {
+            "normal": "sages_elixir",
+            "rare": "all_weather_earrings"
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 3,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "cold_snapper"
+        ],
+        "traits": {
+            "small": {
+                "crackmeister": 1,
+                "ultra_crafty_cracker": 20,
+                "close_scraper": 40
+            },
+            "large": {
+                "tactical_trooper": 1,
+                "sleepy_touch": 1,
+                "supreme_sidestepper": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 50,
+            "wind": 25,
+            "earth": 50,
+            "explosions": -25,
+            "ice": 150,
+            "electricity": -25,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 25,
+            "confusion": 0,
+            "sleep": 50,
+            "paralysis": 50,
+            "stun": -25,
+            "poison": 25,
+            "instant_death": 25
+        },
+        "synthesis": null
+    },
     "antguzzler": {
         "name": "Antguzzler",
         "number": 205,
@@ -7805,8 +8110,11 @@
         "number": 229,
         "rank": "E",
         "family": "_beast",
-        "description": null,
-        "drops": null,
+        "description": "These beastmen's blades blitz any and all who blunder into their path, but perhaps their greatest skill is evenly slicing whole loaves of bread.",
+        "drops": {
+            "normal": "rarified_steak",
+            "rare": "aerofoil_belt"
+        },
         "growth": {
             "hp": 2,
             "mp": 1,
@@ -7824,7 +8132,11 @@
                 "ace_evader": 20,
                 "critical_triumph": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "insta_accel": 1,
+                "dodge_denier": 60
+            }
         },
         "resistances": {
             "fire": 50,
@@ -8037,6 +8349,67 @@
             [
                 "_nature",
                 "_beast"
+            ]
+        ]
+    },
+    "cross_eye": {
+        "name": "Cross Eye",
+        "number": 235,
+        "rank": "E",
+        "family": "_beast",
+        "description": "These gentle giants are fully fledged nature lovers. Misunderstood in the main, they often seek the companionship of adventurers, only to be struck down in the attempt.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 3,
+            "agi": 1,
+            "wis": 2
+        },
+        "talents": [
+            "crack_afficionado"
+        ],
+        "traits": {
+            "small": {
+                "intimidating": 1,
+                "insta_buff": 20,
+                "defensive_impulse": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "high_heal": 1,
+                "desperate_measures": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 0,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 50,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "see_urchin"
             ]
         ]
     },
@@ -8355,9 +8728,101 @@
             ]
         ]
     },
+    "cheater_cheetah": {
+        "name": "Cheater Cheetah",
+        "number": 247,
+        "rank": "D",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
+    "rhinoceraxe": {
+        "name": "Rhinoceraxe",
+        "number": 250,
+        "rank": "D",
+        "family": "_beast",
+        "description": "Elite warriors among the rhino tribe. Those who can stop a fellow rhino's axe with their own horn in training are considered the crème de la crème.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 3,
+            "atk": 3,
+            "def": 4,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "duelist"
+        ],
+        "traits": {
+            "small": {
+                "close_scraper": 1,
+                "hothead": 20,
+                "rando_buff": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "desperate_measures": 1,
+                "strong_starter": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": -25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 25,
+            "antimagic": 25,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "ursa_major",
+                "_material"
+            ]
+        ]
+    },
     "hyperborean": {
         "name": "Hyperborean",
         "number": 252,
+        "rank": "C",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": null
+    },
+    "orc_king": {
+        "name": "Orc King",
+        "number": 253,
         "rank": "C",
         "family": "_beast",
         "description": null,
@@ -8563,6 +9028,85 @@
         },
         "synthesis": null
     },
+    "draguar": {
+        "name": "Draguar",
+        "number": 261,
+        "rank": "B",
+        "family": "_beast",
+        "description": "Legendary beasts said to have lived since times of yore. Those terrible teeth have claimed the life of many an unfortunate would-be hero.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "snow_drifter"
+        ],
+        "traits": {
+            "small": {
+                "wooshmeister": 1,
+                "dodge_denier": 20,
+                "ultra_crafty_woosher": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "agent_of_chaos": 1,
+                "somnolent_skin": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 25,
+            "explosions": 25,
+            "ice": -25,
+            "electricity": 0,
+            "light": 25,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 50,
+            "antimagic": 0,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 25,
+            "stun": 50,
+            "poison": 0,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_nature"
+            ]
+        ]
+    },
+    "mogus": {
+        "name": "Mogus",
+        "number": 263,
+        "rank": "B",
+        "family": "_beast",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_slime",
+                "_beast"
+            ]
+        ]
+    },
     "buffalogre": {
         "name": "Buffalogre",
         "number": 267,
@@ -8578,7 +9122,7 @@
     },
     "mohawker": {
         "name": "Mohawker",
-        "number": null,
+        "number": 269,
         "rank": "B",
         "family": "_beast",
         "description": "Though their silver hue isn't as bright as it might be, their mighty mohawks are simply magnificent. They never miss their daily training sessions with their buffalogre buddies.",
@@ -8634,6 +9178,67 @@
             [
                 "_beast",
                 "_material"
+            ]
+        ]
+    },
+    "tantamount": {
+        "name": "Tantamount",
+        "number": 270,
+        "rank": "B",
+        "family": "_beast",
+        "description": "These searing supernatural steeds hail from a region somewhere between heaven and hell. They are saddled with cleansing the souls of the sinful by inflicting serious suffering.",
+        "drops": {
+            "normal": "yggdrasil_dew",
+            "rare": "meteorite_bracer"
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 3,
+            "def": 3,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "lightning_rod"
+        ],
+        "traits": {
+            "small": {
+                "zapmeister": 1,
+                "magical_moment": 20,
+                "ultra_crafty_spellbinder": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "rando_muster": 1,
+                "rando_accel": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": 0,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": -25,
+            "electricity": 50,
+            "light": 50,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 50,
+            "mp_absorption": 0,
+            "confusion": -25,
+            "sleep": 50,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 25,
+            "instant_death": 0
+        },
+        "synthesis": [
+            [
+                "_dragon",
+                "_beast"
             ]
         ]
     },
@@ -12356,6 +12961,71 @@
             ]
         ]
     },
+    "ogre": {
+        "name": "Ogre",
+        "number": 374,
+        "rank": "E",
+        "family": "_demon",
+        "description": "Grim giants who brandish a pair of spiked iron balls. They bristle with rage at all times, as evidenced by their hair, which is always standing on end.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 3,
+            "def": 2,
+            "agi": 2,
+            "wis": 2
+        },
+        "talents": [
+            "fighter"
+        ],
+        "traits": {
+            "small": {
+                "rando_muster": 1,
+                "metal_medley": 20,
+                "critical_moment": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "dodge_denier": 1,
+                "big_bully": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 50,
+            "ice": 0,
+            "electricity": -25,
+            "light": 0,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 0,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 25,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "hood",
+                "cannonbrawler"
+            ],
+            [
+                "brownie",
+                "_demon"
+            ]
+        ]
+    },
     "cyclops": {
         "name": "Cyclops",
         "number": 376,
@@ -12525,6 +13195,24 @@
             "instant_death": 25
         },
         "synthesis": null
+    },
+    "peeper": {
+        "name": "Peeper",
+        "number": 379,
+        "rank": "E",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "pocus_poppet",
+                "winky"
+            ]
+        ]
     },
     "bodkin_fletcher": {
         "name": "Bodkin Fletcher",
@@ -12961,12 +13649,55 @@
         "number": 392,
         "rank": "D",
         "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "These rock-solid shock-troopers sport their supremely sturdy armour from cradle to grave, not even disrobing when they go to bed.",
+        "drops": {
+            "normal": "sages_elixir",
+            "rare": "seed_of_resilience"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 4,
+            "agi": 2,
+            "wis": 3
+        },
+        "talents": [
+            "good_knight"
+        ],
+        "traits": {
+            "small": {
+                "ultra_crafty_spellbinder": 1,
+                "sleep_twitch": 20,
+                "rando_oomph": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "naked_ambition": 1,
+                "desperate_measures": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 50,
+            "dark": 0,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 25,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 25,
+            "poison": 0,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_demon",
@@ -13257,6 +13988,24 @@
         "resistances": null,
         "synthesis": null
     },
+    "archdemon": {
+        "name": "Archdemon",
+        "number": 405,
+        "rank": "B",
+        "family": "_demon",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
+        "synthesis": [
+            [
+                "_dragon",
+                "_demon"
+            ]
+        ]
+    },
     "hocus_poker": {
         "name": "Hocus-Poker",
         "number": 406,
@@ -13401,6 +14150,67 @@
             ]
         ]
     },
+    "knight_abhorrent": {
+        "name": "Knight Abhorrent",
+        "number": 420,
+        "rank": "A",
+        "family": "_demon",
+        "description": "These knights clad in crimson steel carry the cruel stench of death around with them. They have made the solemn vow to take the heads of a thousand foes.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 4,
+            "mp": 1,
+            "atk": 3,
+            "def": 4,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "pest_controller"
+        ],
+        "traits": {
+            "small": {
+                "sizzmeister": 1,
+                "health_professional": 20,
+                "tit_for_tat": 40
+            },
+            "large": {
+                "tactical_commander": 1,
+                "close_scraper": 1,
+                "rando_oomph": 60
+            }
+        },
+        "resistances": {
+            "fire": 25,
+            "water": 50,
+            "wind": 50,
+            "earth": 0,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": -25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": 0,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 50,
+            "sleep": 25,
+            "paralysis": -25,
+            "stun": 0,
+            "poison": 0,
+            "instant_death": 50
+        },
+        "synthesis": [
+            [
+                "knight_errant",
+                "bone_baron"
+            ]
+        ]
+    },
     "putrefido": {
         "name": "Putrefido",
         "number": 428,
@@ -13528,8 +14338,11 @@
         "number": 430,
         "rank": "G",
         "family": "_undead",
-        "description": null,
-        "drops": null,
+        "description": "Once humble candles decorating the walls of dark castles, a wicked sorcerer breathed monstrous new life into these tallowy tough guys.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
         "growth": {
             "hp": 1,
             "mp": 2,
@@ -13547,7 +14360,11 @@
                 "agent_of_chaos": 20,
                 "close_scraper": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "ultra_crafty_debilitator": 1,
+                "ultra_crafty_frizzer": 60
+            }
         },
         "resistances": {
             "fire": 0,
@@ -14503,8 +15320,11 @@
         "number": 447,
         "rank": "F",
         "family": "_undead",
-        "description": null,
-        "drops": null,
+        "description": "Despite their regal nature, they love nothing more than gathering the gang to belt out bawdy ballads. Always singing from the heart, it's no wonder they're so cherished by their subjects.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
         "growth": {
             "hp": 1,
             "mp": 3,
@@ -14522,7 +15342,11 @@
                 "big_bully": 20,
                 "rando_ping": 40
             },
-            "large": null
+            "large": {
+                "tactical_genius": 1,
+                "detox": 1,
+                "collective_punishment": 60
+            }
         },
         "resistances": {
             "fire": -25,
@@ -14557,12 +15381,55 @@
         "number": 448,
         "rank": "E",
         "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
+        "description": "Monsters that gather up the souls of the dead. Though they might look like hot stuff, their flames are powered by pure spirit and are in fact cool to the touch. They attack with the fireballs that encircle their face.",
+        "drops": {
+            "normal": "magic_water",
+            "rare": "asbestos_earrings"
+        },
+        "growth": {
+            "hp": 2,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 3,
+            "wis": 2
+        },
+        "talents": [
+            "blazer"
+        ],
+        "traits": {
+            "small": {
+                "frizzmeister": 1,
+                "rando_mister": 20,
+                "benefaction": 40
+            },
+            "large": {
+                "tactical_genius": 1,
+                "wizardly_wind": 1,
+                "ultra_crafty_frizzer": 60
+            }
+        },
+        "resistances": {
+            "fire": 50,
+            "water": -25,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 0,
+            "ice": 0,
+            "electricity": 25,
+            "light": 25,
+            "dark": 25,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 50,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 25,
+            "stun": 0,
+            "poison": 50,
+            "instant_death": 0
+        },
         "synthesis": [
             [
                 "_dragon",
@@ -15408,6 +16275,80 @@
             "poison": 50,
             "instant_death": 25
         },
+        "synthesis": null
+    },
+    "bone_baron": {
+        "name": "Bone Baron",
+        "number": 481,
+        "rank": "B",
+        "family": "_undead",
+        "description": "The phantom of a nobleman sent to the guillotine long ago. When there is a new moon, he dons blood-red ceremonial attire and celebrates the glory of the grim reaper with a danse macabre.",
+        "drops": {
+            "normal": null,
+            "rare": null
+        },
+        "growth": {
+            "hp": 3,
+            "mp": 2,
+            "atk": 2,
+            "def": 3,
+            "agi": 3,
+            "wis": 3
+        },
+        "talents": [
+            "dark_horse"
+        ],
+        "traits": {
+            "small": {
+                "tactical_trooper": 1,
+                "ultra_crafty_cracker": 20,
+                "adrenaline_rush": 40
+            },
+            "large": {
+                "deadly_touch": 1,
+                "attacking_impulse": 1,
+                "high_heal": 60
+            }
+        },
+        "resistances": {
+            "fire": -25,
+            "water": 0,
+            "wind": 0,
+            "earth": 50,
+            "explosions": 25,
+            "ice": 50,
+            "electricity": 0,
+            "light": 0,
+            "dark": 100,
+            "debilitation": 0,
+            "bedazzlement": -25,
+            "antimagic": 0,
+            "mp_absorption": 50,
+            "confusion": 0,
+            "sleep": 0,
+            "paralysis": 0,
+            "stun": 50,
+            "poison": 50,
+            "instant_death": 25
+        },
+        "synthesis": [
+            [
+                "_beast",
+                "_undead"
+            ]
+        ]
+    },
+    "skelegon": {
+        "name": "Skelegon",
+        "number": 482,
+        "rank": "B",
+        "family": "_undead",
+        "description": null,
+        "drops": null,
+        "growth": null,
+        "talents": null,
+        "traits": null,
+        "resistances": null,
         "synthesis": null
     },
     "drooling_ghoul": {
@@ -16374,32 +17315,6 @@
             ]
         ]
     },
-    "cauldragon": {
-        "name": "Cauldragon",
-        "number": null,
-        "rank": "E",
-        "family": null,
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "killer_gila",
-                "jargon"
-            ],
-            [
-                "croc_a_bugle_doo",
-                "_undead"
-            ],
-            [
-                "_dragon",
-                "_undead"
-            ]
-        ]
-    },
     "beanie_meanie": {
         "name": "Beanie Meanie",
         "number": null,
@@ -16455,24 +17370,6 @@
             [
                 "feralball",
                 "powie_yowie"
-            ]
-        ]
-    },
-    "cross_eye": {
-        "name": "Cross Eye",
-        "number": null,
-        "rank": "E",
-        "family": null,
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_beast",
-                "see_urchin"
             ]
         ]
     },
@@ -16650,24 +17547,6 @@
             ]
         ]
     },
-    "peeper": {
-        "name": "Peeper",
-        "number": null,
-        "rank": "E",
-        "family": null,
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "pocus_poppet",
-                "winky"
-            ]
-        ]
-    },
     "lump_shaman": {
         "name": "Lump Shaman",
         "number": null,
@@ -16687,28 +17566,6 @@
             [
                 "_demon",
                 "_undead"
-            ]
-        ]
-    },
-    "ogre": {
-        "name": "Ogre",
-        "number": null,
-        "rank": "E",
-        "family": null,
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "hood",
-                "cannonbrawler"
-            ],
-            [
-                "brownie",
-                "_demon"
             ]
         ]
     },
@@ -16940,24 +17797,6 @@
             ]
         ]
     },
-    "cheater_cheetah": {
-        "name": "Cheater Cheetah",
-        "number": null,
-        "rank": "D",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_slime",
-                "_beast"
-            ]
-        ]
-    },
     "giruffian": {
         "name": "Giruffian",
         "number": null,
@@ -17120,24 +17959,6 @@
             ]
         ]
     },
-    "heligator": {
-        "name": "Heligator",
-        "number": null,
-        "rank": "C",
-        "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_nature",
-                "_dragon"
-            ]
-        ]
-    },
     "tyrannoceratops": {
         "name": "Tyrannoceratops",
         "number": null,
@@ -17189,24 +18010,6 @@
             [
                 "_dragon",
                 "_beast"
-            ]
-        ]
-    },
-    "flapdragon": {
-        "name": "Flapdragon",
-        "number": null,
-        "rank": "C",
-        "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_dragon",
-                "_undead"
             ]
         ]
     },
@@ -17372,24 +18175,6 @@
             ]
         ]
     },
-    "mogus": {
-        "name": "Mogus",
-        "number": null,
-        "rank": "B",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_slime",
-                "_beast"
-            ]
-        ]
-    },
     "goomulonimbus": {
         "name": "Goomulonimbus",
         "number": null,
@@ -17449,24 +18234,6 @@
         "number": null,
         "rank": "B",
         "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_dragon",
-                "_demon"
-            ]
-        ]
-    },
-    "archdemon": {
-        "name": "Archdemon",
-        "number": null,
-        "rank": "B",
-        "family": "_demon",
         "description": null,
         "drops": null,
         "growth": null,
@@ -17552,24 +18319,6 @@
             ]
         ]
     },
-    "tantamount": {
-        "name": "Tantamount",
-        "number": null,
-        "rank": "B",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_dragon",
-                "_beast"
-            ]
-        ]
-    },
     "gigantes": {
         "name": "Gigantes",
         "number": null,
@@ -17642,24 +18391,6 @@
             ]
         ]
     },
-    "draguar": {
-        "name": "Draguar",
-        "number": null,
-        "rank": "B",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_beast",
-                "_nature"
-            ]
-        ]
-    },
     "headless_horseman": {
         "name": "Headless Horseman",
         "number": null,
@@ -17729,24 +18460,6 @@
             [
                 "_demon",
                 "_beast"
-            ]
-        ]
-    },
-    "bone_baron": {
-        "name": "Bone Baron",
-        "number": null,
-        "rank": "B",
-        "family": "_undead",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "_beast",
-                "_undead"
             ]
         ]
     },
@@ -17826,24 +18539,6 @@
             ]
         ]
     },
-    "rhinoceraxe": {
-        "name": "Rhinoceraxe",
-        "number": null,
-        "rank": "D",
-        "family": "_beast",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "ursa_major",
-                "_material"
-            ]
-        ]
-    },
     "equinox": {
         "name": "Equinox",
         "number": null,
@@ -17859,42 +18554,6 @@
             [
                 "tantamount",
                 "black_dragon"
-            ]
-        ]
-    },
-    "knight_abhorrent": {
-        "name": "Knight Abhorrent",
-        "number": null,
-        "rank": "A",
-        "family": "_demon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "knight_errant",
-                "bone_baron"
-            ]
-        ]
-    },
-    "the_dragonlord": {
-        "name": "The Dragonlord",
-        "number": null,
-        "rank": "A",
-        "family": "_dragon",
-        "description": null,
-        "drops": null,
-        "growth": null,
-        "talents": null,
-        "traits": null,
-        "resistances": null,
-        "synthesis": [
-            [
-                "knight_abhorrent",
-                "cosmic_chimaera"
             ]
         ]
     }
