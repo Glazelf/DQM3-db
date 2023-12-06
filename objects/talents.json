@@ -37,6 +37,25 @@
             ]
         }
     },
+    "splash_virtuoso": {
+        "name": "Splash Virtuoso",
+        "skills": {
+            "splash": 3,
+            "midheal": 10,
+            "kasplash": 40,
+            "right_as_rain": 60,
+            "kablunt": 80,
+            "kasplashle": 150
+        },
+        "traits": {
+            "max_mp_16": [
+                20
+            ],
+            "max_mp_24": [
+                110
+            ]
+        }
+    },
     "woosh_afficionado": {
         "name": "Woosh Afficonado",
         "skills": {
@@ -264,6 +283,22 @@
                 70
             ]
         }
+    },
+    "deep_breather": {
+        "name": "Deep Breather",
+        "skills": {
+            "flame_breath": 3,
+            "chilly_breath": 10,
+            "deep_breath": 20,
+            "inferno": 40,
+            "freezing_blizzard": 60,
+            "blessed_breath": 80,
+            "black_breath": 100,
+            "sandy_sigh": 130,
+            "scorch": 160,
+            "c_c_cold_breath": 200
+        },
+        "traits": null
     },
     "dancer": {
         "name": "Dancer",
@@ -674,6 +709,23 @@
             "knuckle_sandwich": 100
         },
         "traits": null
+    },
+    "martial_maven": {
+        "name": "Martial Maven",
+        "skills": {
+            "helm_splitter": 3,
+            "seethe": 10,
+            "roundhouse_kick": 30,
+            "knuckle_sandwich": 50,
+            "anchorman": 70,
+            "meditation": 85,
+            "multifists": 100
+        },
+        "traits": {
+            "max_hp_8": [
+                20
+            ]
+        }
     },
     "magic_maven": {
         "name": "Magic Maven",
@@ -1217,6 +1269,25 @@
             ]
         }
     },
+    "cold_snapper": {
+        "name": "Cold Snap",
+        "skills": {
+            "kacrackle_slash": 3,
+            "snooze": 10,
+            "chilly_breath": 20,
+            "numb": 30,
+            "kasnooze": 50,
+            "freezing_blizzard": 70,
+            "assassins_stab": 85,
+            "c_c_cold_breath": 100,
+            "ice_age": 150
+        },
+        "traits": {
+            "ultra_crack_ward": [
+                120
+            ]
+        }
+    },
     "firebrand": {
         "name": "Firebrand",
         "skills": {
@@ -1293,6 +1364,27 @@
         "traits": {
             "max_mp_24": [
                 85
+            ],
+            "ultra_zam_ward": [
+                120
+            ]
+        }
+    },
+    "dark_horse": {
+        "name": "Dark Horse",
+        "skills": {
+            "mercurial_thrust": 3,
+            "acceleratle": 10,
+            "zammle": 20,
+            "sandstorm": 30,
+            "black_breath": 50,
+            "kazam": 85,
+            "assassins_stab": 100,
+            "bad_hand": 150
+        },
+        "traits": {
+            "agility_12": [
+                70
             ],
             "ultra_zam_ward": [
                 120
@@ -1395,6 +1487,44 @@
                 120
             ]
         }
+    },
+    "lightning_rod": {
+        "name": "Lightning Rod",
+        "skills": {
+            "lightning_slash": 3,
+            "sizzle": 20,
+            "brightsplitter": 30,
+            "lightning": 50,
+            "kasizzle": 70,
+            "gigagash": 100,
+            "lightning_storm": 150
+        },
+        "traits": {
+            "max_hp_8": [
+                10
+            ],
+            "agility_30": [
+                85
+            ],
+            "ultra_zap_ward": [
+                120
+            ]
+        }
+    },
+    "snow_drifter": {
+        "name": "Snow Drifter",
+        "skills": {
+            "thin_air": 3,
+            "magic_pop": 10,
+            "insulatle": 20,
+            "blessed_breath": 30,
+            "kaswoosh": 50,
+            "brake_wind": 70,
+            "multiheal": 85,
+            "c_c_cold_breath": 100,
+            "kaswooshle": 120
+        },
+        "traits": null
     },
     "bombshell": {
         "name": "Bombshell",
@@ -1560,6 +1690,44 @@
             ]
         }
     },
+    "cleric": {
+        "name": "Cleric",
+        "skills": {
+            "oomph": 3,
+            "brightsplitter": 20,
+            "zing": 30,
+            "multiheal": 50,
+            "starfall": 70,
+            "pearly_gates": 85,
+            "gigaslash": 100,
+            "omniheal": 120,
+            "gigagash": 150
+        },
+        "traits": {
+            "attack_4": [
+                10
+            ]
+        }
+    },
+    "devils_advocate": {
+        "name": "Devil's Advocate",
+        "skills": {
+            "sandstorm": 3,
+            "poison_breath": 10,
+            "sleep_attack": 20,
+            "blightsplitter": 30,
+            "burning_breath": 50,
+            "sandy_sigh": 70,
+            "katoxle": 85,
+            "withering_look": 100,
+            "hellish_howl": 150
+        },
+        "traits": {
+            "ultra_fidget": [
+                120
+            ]
+        }
+    },
     "nuisance": {
         "name": "Nuisance",
         "skills": {
@@ -1671,6 +1839,34 @@
             "assassins_stab": 120,
             "multi_victimiser": 150,
             "multi_persecutter": 200
+        },
+        "traits": null
+    },
+    "rainmaker": {
+        "name": "Rainmaker",
+        "skills": {
+            "blessed_breath": 10,
+            "moreheal": 20,
+            "zing": 30,
+            "starfall": 50,
+            "multiheal": 75,
+            "mist_me": 100,
+            "right_as_rain": 150,
+            "wave_of_relief": 200
+        },
+        "traits": null
+    },
+    "sovereign": {
+        "name": "Sovereign",
+        "skills": {
+            "kazap": 10,
+            "miracle_slash": 20,
+            "brightsplitter": 30,
+            "multiheal": 50,
+            "scorch": 75,
+            "pearly_gates": 100,
+            "c_c_cold_breath": 150,
+            "kazapple": 200
         },
         "traits": null
     },
@@ -2489,6 +2685,30 @@
                 120
             ],
             "ultra_clear_thinker": [
+                60
+            ],
+            "auto_restora": [
+                150
+            ]
+        }
+    },
+    "paralysis_protector": {
+        "name": "Paralysis Protector",
+        "skills": null,
+        "traits": {
+            "max_hp_8": [
+                5,
+                40,
+                120
+            ],
+            "defence_16": [
+                10,
+                90
+            ],
+            "agility_8": [
+                20
+            ],
+            "ultra_fidget": [
                 60
             ],
             "auto_restora": [
