@@ -35,6 +35,12 @@
         "description": "Inflicts major water-elemental spell damage on a single enemy.",
         "mp_cost": 11
     },
+    "kasplashle": {
+        "name": "Kasplashle",
+        "type": "Attack",
+        "description": "Inflicts extreme water-elemental spell damage on a single enemy.",
+        "mp_cost": 29
+    },
     "woosh": {
         "name": "Woosh",
         "type": "Attack",
@@ -46,6 +52,18 @@
         "type": "Attack",
         "description": "Inflicts medium wind-elemental spell damage on all enemies.",
         "mp_cost": 11
+    },
+    "kaswoosh": {
+        "name": "Kaswoosh",
+        "type": "Attack",
+        "description": "Inflicts major wind-elemental spell damage on all enemies.",
+        "mp_cost": 22
+    },
+    "kaswooshle": {
+        "name": "Kaswooshle",
+        "type": "Attack",
+        "description": "Inflicts extreme wind-elemental spell damage on all enemies.",
+        "mp_cost": 54
     },
     "crag": {
         "name": "Crag",
@@ -88,6 +106,12 @@
         "type": "Attack",
         "description": "Inflicts major explosive spell damage on all enemies.",
         "mp_cost": 24
+    },
+    "kaboomle": {
+        "name": "Kaboomle",
+        "type": "Attack",
+        "description": "Inflicts extreme explosive spell damage on all enemies.",
+        "mp_cost": 60
     },
     "crack": {
         "name": "Crack",
@@ -136,6 +160,12 @@
         "type": "Attack",
         "description": "Inflicts medium light-elemental spell damage on all enemies.",
         "mp_cost": 11
+    },
+    "kasizz": {
+        "name": "Kasizz",
+        "type": "Attack",
+        "description": "Inflicts major light-elemental spell damage on all enemies.",
+        "mp_cost": 22
     },
     "kasizzle": {
         "name": "Kasizzle",
@@ -209,6 +239,12 @@
         "description": "Restores 76 or more HP to all allies.",
         "mp_cost": 26
     },
+    "omniheal": {
+        "name": "Omniheal",
+        "type": "Healing",
+        "description": "Restores 237 or more HP to all allies.",
+        "mp_cost": 80
+    },
     "zing": {
         "name": "Zing",
         "type": "Healing",
@@ -268,6 +304,12 @@
         "type": "Status",
         "description": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 6
+    },
+    "kablunt": {
+        "name": "Kablunt",
+        "type": "Status",
+        "description": "Decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 10
     },
     "buff": {
         "name": "Buff",
@@ -383,11 +425,23 @@
         "description": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 5
     },
+    "kafuddle": {
+        "name": "Kafuddle",
+        "type": "Status",
+        "description": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 10
+    },
     "snooze": {
         "name": "Snooze",
         "type": "Status",
         "description": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
         "mp_cost": 3
+    },
+    "kasnooze": {
+        "name": "Kasnooze",
+        "type": "Status",
+        "description": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+        "mp_cost": 8
     },
     "numb": {
         "name": "Numb",
@@ -753,6 +807,12 @@
         "description": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
         "mp_cost": 12
     },
+    "bad_hand": {
+        "name": "Bad Hand",
+        "type": "Attack",
+        "description": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+        "mp_cost": 52
+    },
     "withering_look": {
         "name": "Withering Look",
         "type": "Attack",
@@ -873,6 +933,12 @@
         "description": "Inflicts medium fire-elemental breath damage on all enemies.",
         "mp_cost": 6
     },
+    "inferno": {
+        "name": "Inferno",
+        "type": "Attack",
+        "description": "Inflicts major fire-elemental breath damage on all enemies.",
+        "mp_cost": 15
+    },
     "scorch": {
         "name": "Scorch",
         "type": "Attack",
@@ -903,10 +969,28 @@
         "description": "Inflicts major ice-elemental breath damage on all enemies.",
         "mp_cost": 15
     },
+    "c_c_cold_breath": {
+        "name": "C-C-Cold Breath",
+        "type": "Attack",
+        "description": "Inflicts extreme ice-elemental breath damage on all enemies.",
+        "mp_cost": 30
+    },
+    "ice_age": {
+        "name": "Ice Age",
+        "type": "Attack",
+        "description": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+        "mp_cost": 64
+    },
     "sandy_sigh": {
         "name": "Sandy Sigh",
         "type": "Attack",
         "description": "Whips up a cloud of dust that inflicts major earth-elemenntal breath damage on all enemies and lowers their accuracy for 2 to 5 turns.",
+        "mp_cost": 22
+    },
+    "blessed_breath": {
+        "name": "Blessed Breath",
+        "type": "Attack",
+        "description": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns.",
         "mp_cost": 22
     },
     "black_breath": {
