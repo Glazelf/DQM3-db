@@ -1866,8 +1866,8 @@ typed-array-length@^1.0.4:
     is-typed-array "^1.1.9"
 
 typescript@latest:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.3.tgz#5c6fedd4c87bee01cd7a528a30145521f8e0feff"
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
