@@ -1,5 +1,6 @@
-const monstersJSON = require('../objects/monsters.json');
-module.exports = async ({ parents = [], target }) => {
+import monstersJSON from "../objects/monsters.json" with { type: "json" };
+
+export default async ({ parents = [], target }) => {
     // Behaviour:
     // 1. All 3 --> check if parents synthesize into target
     // 2. parent1 & parent 2 --> return results

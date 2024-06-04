@@ -1,6 +1,7 @@
-async function synthesisTests() {
-    const synthesis = require('../util/synthesis');
-    const monsters = require('../objects/monsters.json');
+import synthesis from "../util/synthesis.js";
+// import monsters from "../objects/monsters.json" with { type: "json" };
+
+export default async () => {
     // Variables
     let parent1 = "she_slime";
     let parent2 = "lampling";
@@ -34,4 +35,3 @@ async function synthesisTests() {
     console.log("Family Synths:");
     console.log(targetOnlyResult.familySynthesis);
 };
-synthesisTests();
