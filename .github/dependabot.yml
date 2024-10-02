@@ -5,3 +5,7 @@ updates:
     assignees: ["glazelf"]
     schedule:
       interval: "monthly"
+    groups: 
+      next:
+        patterns:
+          - "*next"
