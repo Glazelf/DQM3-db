@@ -9,3 +9,6 @@ updates:
       next:
         patterns:
           - "*next"
+      types:
+        patterns:
+          - "@types/*"
