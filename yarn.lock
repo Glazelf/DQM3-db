@@ -175,8 +175,8 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@latest":
-  version "18.3.5"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.5.tgz#5f524c2ad2089c0ff372bbdabc77ca2c4dbadf8f"
+  version "18.3.10"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.10.tgz#6edc26dc22ff8c9c226d3c7bf8357b013c842219"
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
